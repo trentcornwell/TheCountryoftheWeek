@@ -1,0 +1,38 @@
+{
+    "name": "Estonia",
+    "excerpt": "After centuries of Danish, Swedish, German, and Russian rule, Estonia attained independence in 1918.",
+    "quick_facts": {
+        "capital": "Tallinn",
+        "population": "1,340,478 (2025 est.)",
+        "area": "45,228 sq km",
+        "government": "parliamentary republic",
+        "languages": "Estonian (official) 67.2%, Russian 28.5%, other 3.7%, unspecified 0.6% (2021est.)",
+        "religions": "Orthodox 16.5%, Protestant 9.2% (Lutheran 7.7%, other Protestant 1.5%), other 3% (includes Roman Catholic, Muslim, Jehovah's Witness, Pentecostal, Buddhist, and Taara Believer), none 58.4%, unspecified 12.9% (2021 est.)",
+        "ethnic_groups": "Estonian 69.1%, Russian 23.7%, Ukrainian 2.1%, other 4.6%, unspecified 0.5% (2021 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "78.4 years (2024 est.)",
+        "internet_tld": ".ee",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "maritime; wet, moderate winters, cool summers",
+        "terrain": "marshy, lowlands; flat in the north, hilly in the south",
+        "natural_resources": "oil shale, peat, rare earth elements, phosphorite, clay, limestone, sand, dolomite, arable land, sea mud",
+        "major_exports": "cars, wood, broadcasting equipment, refined petroleum, prefabricated buildings (2023)"
+    },
+    "summaries": {
+        "geography_summary": "the mainland terrain is flat, boggy, and partly wooded; over 1,500 islands lie offshore",
+        "history_summary": "After centuries of Danish, Swedish, German, and Russian rule, Estonia attained independence in 1918. Forcibly incorporated into the USSR in 1940 -- an action never recognized by the US and many other countries -- it regained its freedom in 1991 with the collapse of the Soviet Union. Since the last Russian troops left in 1994, Estonia has been free to promote economic and political ties with the West. It joined both NATO and the EU in 2004, formally joined the OECD in 2010, and adopted the euro as its official currency in 2011.",
+        "government_summary": "parliamentary republic. Independence: 24 February 1918 (from Soviet Russia); 20 August 1991 (declared from the Soviet Union); 6 September 1991 (recognized by the Soviet Union)",
+        "economy_summary": "high-income, service-based EU and eurozone economy; rebound in exports playing a role in economic recovery; rising food prices contributing to inflation; decrease in labor force participation and rising unemployment rate; recovery depends on boosting private investment and productivity rates",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

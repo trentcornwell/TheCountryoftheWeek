@@ -1,0 +1,38 @@
+{
+    "name": "Canada",
+    "excerpt": "A land of vast distances and rich natural resources, Canada became a self-governing dominion in 1867, while retaining ties to the British crown.",
+    "quick_facts": {
+        "capital": "Ottawa",
+        "population": "39,187,155 (2025 est.)",
+        "area": "9,984,670 sq km",
+        "government": "federal parliamentary democracy (Parliament of Canada) under a constitutional monarchy; a Commonwealth realm; federal and state authorities and responsibilities regulated in constitution",
+        "languages": "",
+        "religions": "Christian 53.3%, Muslim 4.9%, Hindu 2.3%, Sikh 2.1%, Buddhist 1%, Jewish 0.9%, Traditional (North American Indigenous) 0.2%, other religions and traditional spirituality 0.6%, none 34.6% (2021 est.)",
+        "ethnic_groups": "Canadian 15.6%, English 14.7%, Scottish 12.1%, French 11%, Irish 12.1%, German 8.1%, Chinese 4.7%, Italian 4.3%, First Nations 1.7%, Indian 3.7%, Ukrainian 3.5%, Metis 1.5% (2021 est.)",
+        "currency": "Canadian dollars (CAD)",
+        "life_expectancy": "84.2 years (2024 est.)",
+        "internet_tld": ".ca",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "varies from temperate in south to subarctic and arctic in north",
+        "terrain": "mostly plains with mountains in west, lowlands in southeast",
+        "natural_resources": "bauxite, iron ore, nickel, zinc, copper, gold, lead, uranium, rare earth elements, molybdenum, potash, diamonds, silver, fish, timber, wildlife, coal, petroleum, natural gas, hydropower",
+        "major_exports": "crude petroleum, cars, gold, natural gas, refined petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: second-largest country in the world (after Russia) and largest in the Americas; strategic location between Russia and US via north polar route; approximately 90% of the population is concentrated within 160 km (100 mi) of the US border note 2: Canada has more fresh water than any other country, and almost 9% of Canadian territory is water; Canada has at least 2 million and possibly over 3 million lakes, more than all other countries combined",
+        "history_summary": "A land of vast distances and rich natural resources, Canada became a self-governing dominion in 1867, while retaining ties to the British crown. Canada gained legislative independence from Britain in 1931 and formalized its constitutional independence from the UK when it passed the Canada Act in 1982. Economically and technologically, the nation has developed in parallel with the US, its neighbor to the south across the world's longest international border. Canada faces the political challenges of meeting public demands for quality improvements in health care, education, social services, and economic competitiveness, as well as responding to the particular concerns of predominantly francophone Quebec. Canada also aims to develop its diverse energy resources while maintaining its commitment to the environment.",
+        "government_summary": "federal parliamentary democracy (Parliament of Canada) under a constitutional monarchy; a Commonwealth realm; federal and state authorities and responsibilities regulated in constitution. Independence: 1 July 1867 (union of British North American colonies); 11 December 1931 (recognized by UK per Statute of Westminster)",
+        "economy_summary": "high-income economy and second-largest US trading partner; key timber, oil, and gas industries; trade uncertainties and weak business investments contributing to economic slowdown; high and growing public debt; inflation moderating but remains above target range",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

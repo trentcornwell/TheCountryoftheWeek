@@ -1,0 +1,38 @@
+{
+    "name": "Ethiopia",
+    "excerpt": "The area that is modern-day Ethiopia is rich in cultural and religious diversity with more than 80 ethnic groups. The oldest hominid yet found comes from Ethiopia, and Ethiopia was the second country to officially adopt Christianity in the 4th century A.D.",
+    "quick_facts": {
+        "capital": "Addis Ababa",
+        "population": "121,372,632 (2025 est.)",
+        "area": "1,104,300 sq km",
+        "government": "federal parliamentary republic",
+        "languages": "",
+        "religions": "Ethiopian Orthodox 43.8%, Muslim 31.3%, Protestant 22.8%, Catholic 0.7%, traditional 0.6%, other 0.8% (2016 est.)",
+        "ethnic_groups": "Oromo 35.8%, Amhara 24.1%, Somali 7.2%, Tigray 5.7%, Sidama 4.1%, Guragie 2.6%, Welaita 2.3%, Afar 2.2%, Silte 1.3%, Kefficho 1.2%, other 13.5% (2022 est.)",
+        "currency": "birr (ETB)",
+        "life_expectancy": "67.7 years (2024 est.)",
+        "internet_tld": ".et",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical monsoon with wide topographic-induced variation",
+        "terrain": "high plateau with central mountain range divided by Great Rift Valley",
+        "natural_resources": "small reserves of gold, platinum, copper, potash, natural gas, hydropower",
+        "major_exports": "coffee, garments, dried legumes, cut flowers, oil seeds (2023)"
+    },
+    "summaries": {
+        "geography_summary": "the most populous landlocked country in the world; the Blue Nile, the chief headstream of the Nile by water volume, rises in T'ana Hayk (Lake Tana) in northwest Ethiopia",
+        "history_summary": "The area that is modern-day Ethiopia is rich in cultural and religious diversity with more than 80 ethnic groups. The oldest hominid yet found comes from Ethiopia, and Ethiopia was the second country to officially adopt Christianity in the 4th century A.D. A series of monarchies ruled the area that is now Ethiopia from 980 B.C. to 1855, when the Amhara kingdoms of northern Ethiopia united in an empire under Tewodros II. Many Ethiopians still speak reverently about the Battle of Adwa in 1896, when they defeated Italian forces and won their freedom from colonial rule. Emperor Haile SELASSIE became an internationally renowned figure in 1935, when he unsuccessfully appealed to the League of Nations to prevent Italy from occupying Ethiopia from 1936 to 1941. SELASSIE survived an attempted coup in 1960, annexed modern-day Eritrea in 1962, and played a leading role in establishing the Organization of African Unity in 1963. However, in 1974, a military junta called the Derg deposed him and established a socialist state. Torn by bloody coups, uprisings, drought, and massive displacement, the Derg regime was toppled in 1991 by a coalition of opposing forces, the Ethiopian People's Revolutionary Democratic Front (EPRDF). The EPRDF became an ethno-federalist political coalition that ruled Ethiopia from 1991 until its dissolution in 2019. Ethiopia adopted its constitution in 1994 and held its first multiparty elections in 1995. A two-and-a-half-year border war with Eritrea in the late 1990s ended with a peace treaty in 2000. Ethiopia subsequently rejected the 2007 Eritrea-Ethiopia Boundary Commission demarcation. This resulted in more than a decade of a tense “no peace, no war” stalemate between the two countries. In 2012, longtime Prime Minister MELES Zenawi died in office and was replaced by his Deputy Prime Minister HAILEMARIAM Desalegn, marking the first peaceful transition of power in decades. Following a wave of popular dissent and anti-government protest that began in 2015, HAILEMARIAM resigned in 2018, and ABIY Ahmed Ali took office the same year as Ethiopia's first ethnic Oromo prime minister. In 2018, ABIY promoted a rapprochement between Ethiopia and Eritrea that was marked with a peace agreement and a reopening of their shared border. In 2019, Ethiopia's nearly 30-year ethnic-based ruling coalition, the EPRDF, merged into a single unity party called the Prosperity Party; however, the lead coalition party, the Tigray People’s Liberation Front (TPLF), declined to join. In 2020, a military conflict erupted between forces aligned with the TPLF and the Ethiopian military. The conflict -- which was marked by atrocities committed by all parties -- ended in 2022 with a cessation of hostilities agreement between the TPLF and the Ethiopian Government. However, Ethiopia continues to experience ethnic-based violence as other groups -- including the Oromo Liberation Army (OLA) and Amhara militia Fano -- seek concessions from the Ethiopian Government.",
+        "government_summary": "federal parliamentary republic. Independence: oldest independent country in Africa and one of the oldest in the world, at least 2,000 years; may be traced to the Aksumite Kingdom, which appeared in the first century B.C.",
+        "economy_summary": "low-income, fast-growing Horn of Africa economy; widespread poverty and food insecurity worsened by conflict and environmental factors; landlocked with tensions over seaport access; development aid supporting reforms to boost private-sector growth and financial stability; challenge of creating jobs for growing labor force",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

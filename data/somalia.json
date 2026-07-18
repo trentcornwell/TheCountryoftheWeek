@@ -1,0 +1,38 @@
+{
+    "name": "Somalia",
+    "excerpt": "Between A.D. 800 and 1100, immigrant Muslim Arabs and Persians set up coastal trading posts along the Gulf of Aden and the Indian Ocean, solidifying present-day Somalia’s close trading relationship with the Arab Peninsula.",
+    "quick_facts": {
+        "capital": "Mogadishu",
+        "population": "20,324,160 (2025 est.)",
+        "area": "637,657 sq km",
+        "government": "federal parliamentary republic",
+        "languages": "",
+        "religions": "Muslim 99.9% (Sunni Muslim 98.1%, Shia Muslim 1.2%, Islamic schismatic 0.6%), ethnic religionist 0.1% (2020 est.)",
+        "ethnic_groups": "predominantly Somali with lesser numbers of Arabs, Bantus, and others",
+        "currency": "Somali shillings (SOS)",
+        "life_expectancy": "56.5 years (2024 est.)",
+        "internet_tld": ".so",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "principally desert; northeast monsoon (December to February), moderate temperatures in north and hot in south; southwest monsoon (May to October), torrid in the north and hot in the south, irregular rainfall, hot and humid periods (tangambili) between monsoons",
+        "terrain": "mostly flat to undulating plateau rising to hills in north",
+        "natural_resources": "uranium and largely unexploited reserves of iron ore, tin, gypsum, bauxite, copper, salt, natural gas, likely oil reserves",
+        "major_exports": "sheep and goats, gold, postage stamps/documents, other animals, cattle (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location on Horn of Africa along southern approaches to Bab el Mandeb and route through Red Sea and Suez Canal",
+        "history_summary": "Between A.D. 800 and 1100, immigrant Muslim Arabs and Persians set up coastal trading posts along the Gulf of Aden and the Indian Ocean, solidifying present-day Somalia’s close trading relationship with the Arab Peninsula. In the late 19th century, Britain, France, and Italy established colonies in the Somali Peninsula that lasted until 1960, when British Somaliland gained independence and joined with Italian Somaliland to form the Republic of Somalia. The country functioned as a parliamentary democracy until 1969, when General Mohamed SIAD Barre took control in a coup, beginning a 22-year socialist dictatorship. In an effort to centralize power, SIAD called for the eradication of the clan, the key cultural and social organizing principle in Somali society. Resistance to SIAD’s socialist leadership, which was causing a rapid deterioration of the country, prompted allied clan militias to overthrow SIAD in 1991, resulting in state collapse. Subsequent fighting between rival clans for resources and territory overwhelmed the country, causing a manmade famine and prompting international intervention. Beginning in 1993, the UN spearheaded an international humanitarian mission, but the international community largely withdrew by 1995 after an incident that became known as Black Hawk Down, in which two US military helicopters were shot down in Mogadishu. The fighting and subsequent siege and rescue resulted in 21 deaths and 82 wounded among the international forces.International peace conferences in the 2000s resulted in a number of transitional governments that operated outside Somalia. Left largely to themselves, Somalis in the country established alternative governance structures; some areas formed their own administrations, such as Somaliland and Puntland, while others developed localized institutions. Many local populations turned to sharia courts, an Islamic judicial system that implements religious law. Several of these courts came together in 2006 to form the Islamic Courts Union (ICU). The ICU established order in many areas of central and southern Somalia, including Mogadishu, but was forced out when Ethiopia intervened militarily in 2006 on behalf of the Somali Transitional Federal Government (TFG). As the TFG settled in the capital, the ICU fled to rural areas or left Somalia altogether, but the organization reemerged less than a year later as the Islamic insurgent and terrorist movement al-Shabaab, which is still active today. In 2007, the African Union (AU) established a peacekeeping force, took over security responsibility for the country, and gave the TFG space to develop Somalia’s new government. By 2012, Somali powerbrokers agreed on a provisional constitution with a loose federal structure and established a central government in Mogadishu called the Somali Federal Government (SFG). Since then, the country has seen several interim regional administrations and three presidential elections, but significant governance and security problems remain because al-Shabaab still controls large portions of the country.",
+        "government_summary": "federal parliamentary republic. Independence: 1 July 1960 (from a merger of British Somaliland, which became independent from the UK on 26 June 1960, and Italian Somaliland, which became independent from the Italian-administered UN trusteeship on 1 July 1960 to form the Somali Republic)",
+        "economy_summary": "low-income African Horn economy; 30 years of war and instability crippled economic potential; high remittances for basic survival; new fiscal federalism approach; cleared some unsustainable debt; environmentally fragile; digitally driven urbanization efforts",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

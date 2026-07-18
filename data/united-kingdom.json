@@ -1,0 +1,38 @@
+{
+    "name": "United Kingdom",
+    "excerpt": "The United Kingdom of Great Britain and Northern Ireland was created when the Kingdoms of England and Scotland -- which previously had been distinct states under a single monarchy -- were joined under the 1707 Acts of Union.",
+    "quick_facts": {
+        "capital": "London",
+        "population": "68,751,311 (2025 est.)",
+        "area": "243,610 sq km",
+        "government": "parliamentary constitutional monarchy; a Commonwealth realm",
+        "languages": "English",
+        "religions": "Christian (includes Anglican, Roman Catholic, Presbyterian, Methodist) 59.5%, Muslim 4.4%, Hindu 1.3%, other 2%, unspecified 7.2%, none 25.7% (2011 est.)",
+        "ethnic_groups": "White 87.2%, Black/African/Caribbean/black British 3%, Asian/Asian British: Indian 2.3%, Asian/Asian British: Pakistani 1.9%, mixed 2%, other 3.7% (2011 est.)",
+        "currency": "British pounds (GBP)",
+        "life_expectancy": "82.2 years (2024 est.)",
+        "internet_tld": ".uk",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; moderated by prevailing southwest winds over the North Atlantic Current; more than one-half of the days are overcast",
+        "terrain": "mostly rugged hills and low mountains; level to rolling plains in east and southeast",
+        "natural_resources": "coal, petroleum, natural gas, iron ore, lead, zinc, gold, tin, limestone, salt, clay, chalk, gypsum, potash, silica sand, slate, arable land",
+        "major_exports": "cars, gold, gas turbines, packaged medicine, crude petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "lies near vital North Atlantic sea lanes; only 35 km (22 mi) from France and linked by tunnel under the English Channel (the Channel Tunnel or Chunnel); because of heavily indented coastline, no location is more than 125 km (78 mi) from tidal waters",
+        "history_summary": "The United Kingdom of Great Britain and Northern Ireland was created when the Kingdoms of England and Scotland -- which previously had been distinct states under a single monarchy -- were joined under the 1707 Acts of Union. The island of Ireland was incorporated under the 1800 Acts of Union, while Wales had been part of the Kingdom of England since the 16th century. The United Kingdom has historically played a leading role in developing parliamentary democracy and in advancing literature and science. The 18th and 19th centuries saw the rapid expansion of the British Empire despite the loss of the Thirteen Colonies, and at its zenith in the early 20th century, the British Empire stretched over one fourth of the earth's surface. The first half of the 20th century saw two World Wars seriously deplete the UK's strength and the Irish Republic withdraw from the union. The second half witnessed the dismantling of the Empire and the UK rebuilding itself into a modern and prosperous European nation. As one of five permanent members of the UN Security Council and a founding member of NATO and the Commonwealth of Nations, the UK pursues a global approach to foreign policy. The devolved Scottish Parliament, the National Assembly for Wales, and the Northern Ireland Assembly were established in 1998. The UK was an active member of the EU after its accession in 1973, although it chose to remain outside the Economic and Monetary Union. However, motivated in part by frustration at a remote bureaucracy in Brussels and massive migration into the country, UK citizens in 2016 voted by 52 to 48 percent to leave the EU. On 31 January 2020, the UK became the only country to depart the EU -- a move known as \"Brexit\" -- after prolonged negotiations on EU-UK economic and security relationships.",
+        "government_summary": "parliamentary constitutional monarchy; a Commonwealth realm. Independence: no official date of independence: 927 (minor English kingdoms unite); 3 March 1284 (enactment of the Statute of Rhuddlan uniting England and Wales); 1536 (Act of Union incorporates England and Wales); 1 May 1707 (Acts of Union unite England, Scotland, and Wales as Great Britain); 1 January 1801 (Acts of Union unite Great Britain and Ireland as the United Kingdom of Great Britain and Ireland); 6 December 1921 (Anglo-Irish Treaty formalizes partition of Ireland; six counties become Northern Ireland and remain part of the UK); 12 April 1927 (Royal and Parliamentary Titles Act establishes current name of the United Kingdom of Great Britain and Northern Ireland)",
+        "economy_summary": "high-income, non-EU European economy; global financial center and dominant service sector; sluggish growth from stringent monetary policy, reduced business investment, low productivity and participation rates; fiscal austerity in face of high public debt",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

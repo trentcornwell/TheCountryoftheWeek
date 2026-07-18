@@ -1,0 +1,38 @@
+{
+    "name": "Andorra",
+    "excerpt": "The landlocked Principality of Andorra -- one of the smallest states in Europe and nestled high in the Pyrenees between the French and Spanish borders -- is the last independent survivor of the Hispanic March states created by Frankish King Charlemagne in 795 after he halted the…",
+    "quick_facts": {
+        "capital": "Andorra la Vella",
+        "population": "85,370 (2024 est.)",
+        "area": "468 sq km",
+        "government": "parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality; the two princes are the President of France and Bishop of Seu d'Urgell, Spain",
+        "languages": "Catalan (official) 44.1%, Castilian 40.3%, Portuguese 13.5%, French 10%, English 3%, other 6.8% (2022 est.)",
+        "religions": "Christian (predominantly Roman Catholic) 89.5, other 8.8%, unaffiliated 1.7% (2020 est.)",
+        "ethnic_groups": "Spanish 34.3%, Andorran 32.1%, Portuguese 10%, French 5.6%, other 18% (2024 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "83.8 years (2024 est.)",
+        "internet_tld": ".ad",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; snowy, cold winters and warm, dry summers",
+        "terrain": "rugged mountains dissected by narrow valleys",
+        "natural_resources": "hydropower, mineral water, timber, iron ore, lead",
+        "major_exports": "paintings, integrated circuits, cars, orthopedic appliances, garments (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked; straddles a number of important crossroads in the Pyrenees",
+        "history_summary": "The landlocked Principality of Andorra -- one of the smallest states in Europe and nestled high in the Pyrenees between the French and Spanish borders -- is the last independent survivor of the Hispanic March states created by Frankish King Charlemagne in 795 after he halted the Moorish invasion of Spain. The March states were a series of buffer states to keep the Muslim Moors from advancing into Christian France. For 715 years, from 1278 to 1993, Andorrans lived under a unique co-principality, ruled by French and Spanish leaders (from 1607 onward, the French chief of state and the Bishop of Urgell). In 1993, this feudal system was modified with the introduction of a modern constitution; the co-princes remained as titular heads of state, but the government transformed into a parliamentary democracy. Andorra's winter sports, summer climate, and duty-free shopping attract approximately 8 million people each year. Andorra has also become a wealthy international commercial center because of its mature banking sector and low taxes. As part of the effort to modernize its economy, Andorra has opened to foreign investment and engaged in other reforms, such as tax initiatives aimed at supporting broader infrastructure. Although not a member of the EU, Andorra enjoys a special relationship with the bloc that is governed by various customs and cooperation agreements, and Andorra uses the euro as its national currency.",
+        "government_summary": "parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality; the two princes are the President of France and Bishop of Seu d'Urgell, Spain. Independence: 1278 (formed under the joint sovereignty of the French Count of Foix and the Spanish Bishop of Urgell)",
+        "economy_summary": "high GDP; low unemployment; non-EU Euro user; co-principality duty-free area between Spain and France; tourist hub but hit hard by COVID-19; modern, non-tax haven financial sector; looking for big tech investments; new member of SEPA and IMF",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

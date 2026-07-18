@@ -1,0 +1,38 @@
+{
+    "name": "Egypt",
+    "excerpt": "The regularity and richness of the annual Nile River flood, coupled with semi-isolation provided by deserts to the east and west, allowed for the development of one of the world's great civilizations in Egypt.",
+    "quick_facts": {
+        "capital": "Cairo",
+        "population": "112,870,457 (2025 est.)",
+        "area": "1,001,450 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Muslim (predominantly Sunni) 90%, Christian (majority Coptic Orthodox, other Christians include Armenian Apostolic, Catholic, Maronite, Orthodox, and Anglican) 10%",
+        "ethnic_groups": "Egyptian 99.7%, other 0.3% (2006 est.)",
+        "currency": "Egyptian pounds (EGP)",
+        "life_expectancy": "75 years (2024 est.)",
+        "internet_tld": ".eg",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "desert; hot, dry summers with moderate winters",
+        "terrain": "vast desert plateau interrupted by Nile valley and delta",
+        "natural_resources": "petroleum, natural gas, iron ore, phosphates, manganese, limestone, gypsum, talc, asbestos, lead, rare earth elements, zinc",
+        "major_exports": "refined petroleum, natural gas, fertilizers, garments, crude petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "controls Sinai Peninsula, the only land bridge between Africa and remainder of Eastern Hemisphere; controls Suez Canal, a sea link between Indian Ocean and Mediterranean Sea",
+        "history_summary": "The regularity and richness of the annual Nile River flood, coupled with semi-isolation provided by deserts to the east and west, allowed for the development of one of the world's great civilizations in Egypt. A unified kingdom arose circa 3200 B.C., and a series of dynasties ruled in Egypt for the next three millennia. The last native dynasty fell to the Persians in 341 B.C., who in turn were replaced by the Greeks, Romans, and Byzantines. Arab conquerors introduced Islam and the Arabic language in the 7th century and ruled for the next six centuries. The Mamluks, a local military caste, took control around 1250 and continued to govern after the Ottoman Turks conquered Egypt in 1517.Completion of the Suez Canal in 1869 elevated Egypt as an important world transportation hub. Ostensibly to protect its investments, Britain seized control of Egypt's government in 1882, but the country's nominal allegiance to the Ottoman Empire continued until 1914. Egypt gained partial independence from the UK in 1922 and full sovereignty in 1952. British forces evacuated the Suez Canal Zone in 1956. The completion of the Aswan High Dam in 1971 and the resultant Lake Nasser have reaffirmed the time-honored place of the Nile River in the agriculture and ecology of Egypt. A rapidly growing population (the largest in the Arab world), limited arable land, and dependence on the Nile all continue to overtax resources and stress society. The government has struggled to meet the demands of Egypt's fast-growing population as it implements large-scale infrastructure projects, energy cooperation, and foreign direct investment appeals. Inspired by the 2010 Tunisian revolution, Egyptian opposition groups led demonstrations and labor strikes countrywide, culminating in President Hosni MUBARAK's ouster in 2011. Egypt's military assumed national leadership until a new legislature was in place in early 2012; later that same year, Muslim Brotherhood candidate Mohamed MORSI won the presidential election. Following protests throughout the spring of 2013 against MORSI's government and the Muslim Brotherhood, the Egyptian Armed Forces intervened and removed MORSI from power in July 2013 and replaced him with interim president Adly MANSOUR. Simultaneously, the government began enacting laws to limit freedoms of assembly and expression. In 2014, voters approved a new constitution by referendum and then elected former defense minister Abdel Fattah EL-SISI president. EL-SISI was reelected to a second four-year term in 2018 and a third term in December 2023.",
+        "government_summary": "presidential republic. Independence: 28 February 1922 (from UK protectorate status; the military-led revolution that began on 23 July 1952 led to a republic being declared on 18 June 1953 and all British troops withdrawn on 18 June 1956)",
+        "economy_summary": "Africa’s second-largest economy; 2030 Vision to diversify markets and energy infrastructure; improving fiscal, external, and current accounts; underperforming private sector; poor labor force participation; expanded credit access",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

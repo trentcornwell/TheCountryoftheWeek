@@ -1,0 +1,38 @@
+{
+    "name": "Netherlands",
+    "excerpt": "The Dutch United Provinces declared their independence from Spain in 1581; during the 17th century, they became a leading seafaring and commercial power, with settlements and colonies around the world.",
+    "quick_facts": {
+        "capital": "Amsterdam",
+        "population": "17,833,885 (2025 est.)",
+        "area": "41,543 sq km",
+        "government": "parliamentary constitutional monarchy; part of the Kingdom of the Netherlands",
+        "languages": "",
+        "religions": "Roman Catholic 20.1%, Protestant 14.8% (includes Dutch Reformed, Protestant Church of The Netherlands, Calvinist), Muslim 5%, other 5.9% (includes Hindu, Buddhist, Jewish), none 54.1% (2019 est.)",
+        "ethnic_groups": "Dutch 75.4%, EU (excluding Dutch) 6.4%, Turkish 2.4%, Moroccan 2.4%, Surinamese 2.1%, Indonesian 2%, other 9.3% (2021 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "81.9 years (2024 est.)",
+        "internet_tld": ".nl",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; marine; cool summers and mild winters",
+        "terrain": "mostly coastal lowland and reclaimed land (polders); some hills in southeast",
+        "natural_resources": "natural gas, petroleum, peat, limestone, salt, sand and gravel, arable land",
+        "major_exports": "refined petroleum, vaccines, machinery, crude petroleum, broadcasting equipment (2023)"
+    },
+    "summaries": {
+        "geography_summary": "located at mouths of three major European rivers (Rhine (Rijn), Meuse (Maas), and Scheldt (Schelde)); about a quarter of the country lies below sea level and only about half of the land exceeds one meter above sea level",
+        "history_summary": "The Dutch United Provinces declared their independence from Spain in 1581; during the 17th century, they became a leading seafaring and commercial power, with settlements and colonies around the world. After 18 years of French domination, the Netherlands regained its independence in 1813. In 1830, Belgium seceded and formed a separate kingdom. The Netherlands remained neutral in World War I but suffered German invasion and occupation in World War II. A modern, industrialized nation, the Netherlands is also a large exporter of agricultural products. The country was a founding member of NATO and the EEC (now the EU) and participated in the introduction of the euro in 1999. In 2010, the former Netherlands Antilles was dissolved and the three smallest islands -- Bonaire, Sint Eustatius, and Saba -- became special municipalities in the Netherlands administrative structure. The larger islands of Sint Maarten and Curacao joined the Netherlands and Aruba as constituent countries forming the Kingdom of the Netherlands. In 2018, the Sint Eustatius island council (governing body) was dissolved and replaced by a government commissioner to restore the integrity of public administration. According to the Dutch Government, the intervention will be as \"short as possible and as long as needed.\"",
+        "government_summary": "parliamentary constitutional monarchy; part of the Kingdom of the Netherlands. Independence: 26 July 1581",
+        "economy_summary": "high-income, core EU- and eurozone-member economy; strong services, logistics, and tech sectors; strongly trade-oriented with heightened risks from global tensions; declining inflation aided by easing energy prices and wage growth; rising but manageable deficits and public debt; strong ratings for innovation, competitiveness, and business climate",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

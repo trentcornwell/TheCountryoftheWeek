@@ -1,0 +1,38 @@
+{
+    "name": "Bulgaria",
+    "excerpt": "The Bulgars, a Central Asian Turkic tribe, merged with the local Slavic inhabitants in the late 7th century to form the first Bulgarian state.",
+    "quick_facts": {
+        "capital": "Sofia",
+        "population": "6,737,997 (2025 est.)",
+        "area": "110,879 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Christian 64.7%, Muslim 9.8%, other 0.1%, none 4.7%, unspecified 20.7% (2021 est.)",
+        "ethnic_groups": "Bulgarian 78.5%, Turkish 7.8%, Roma 4.1%, other 1.2%, unspecified 9.4% (2021 est.)",
+        "currency": "leva (BGN)",
+        "life_expectancy": "76.1 years (2024 est.)",
+        "internet_tld": ".bg",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; cold, damp winters; hot, dry summers",
+        "terrain": "mostly mountains with lowlands in north and southeast",
+        "natural_resources": "bauxite, copper, lead, zinc, coal, timber, arable land",
+        "major_exports": "refined petroleum, garments, refined copper, wheat, natural gas (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location near Turkish Straits; controls key land routes from Europe to Middle East and Asia",
+        "history_summary": "The Bulgars, a Central Asian Turkic tribe, merged with the local Slavic inhabitants in the late 7th century to form the first Bulgarian state. In succeeding centuries, Bulgaria struggled with the Byzantine Empire to assert its place in the Balkans, but by the end of the 14th century, the Ottoman Turks overran the country. Northern Bulgaria attained autonomy in 1878, and all of Bulgaria became independent from the Ottoman Empire in 1908. Having fought on the losing side in both World Wars, Bulgaria fell within the Soviet sphere of influence and became a People's Republic in 1946. Communist domination ended in 1990, when Bulgaria held its first multiparty election since World War II and began the contentious process of moving toward political democracy and a market economy while combating inflation, unemployment, corruption, and crime. The country joined NATO in 2004, the EU in 2007, and the Schengen Area for air and sea travel in 2024.",
+        "government_summary": "parliamentary republic. Independence: 3 March 1878 (as an autonomous principality within the Ottoman Empire); 22 September 1908 (complete independence from the Ottoman Empire)",
+        "economy_summary": "upper-middle-income EU economy; currency pegged to the euro, with eurozone accession pending; declining energy prices helping lower inflation rate; EU structural funds contributing to investment recovery; skilled labor shortage driven by emigration and aging population",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Nicaragua",
+    "excerpt": "The Pacific coast of Nicaragua was settled as a Spanish colony in the early 16th century. Independence from Spain was declared in 1821, and the country became an independent republic in 1838.",
+    "quick_facts": {
+        "capital": "Managua",
+        "population": "6,739,380 (2025 est.)",
+        "area": "130,370 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Roman Catholic 44.9%, Protestant 38.7% (Evangelical 38.2, Adventist 0.5%), other 1.2%, (includes Jehovah's Witness and Church of Jesus Christ), believer but not belonging to a church 1%, agnostic or atheist 0.4%, none 13.7%, unspecified 0.2% (2020 est.)",
+        "ethnic_groups": "Mestizo (mixed Indigenous and White) 69%, White 17%, Black 9%, Indigenous 5%",
+        "currency": "cordobas (NIO)",
+        "life_expectancy": "74.7 years (2024 est.)",
+        "internet_tld": ".ni",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical in lowlands, cooler in highlands",
+        "terrain": "extensive Atlantic coastal plains rising to central interior mountains; narrow Pacific coastal plain interrupted by volcanoes",
+        "natural_resources": "gold, silver, copper, tungsten, lead, zinc, timber, fish",
+        "major_exports": "garments, gold, insulated wire, coffee, beef (2023)"
+    },
+    "summaries": {
+        "geography_summary": "largest country in Central America; contains the largest freshwater body in Central America, Lago de Nicaragua",
+        "history_summary": "The Pacific coast of Nicaragua was settled as a Spanish colony in the early 16th century. Independence from Spain was declared in 1821, and the country became an independent republic in 1838. Britain occupied the Caribbean Coast in the first half of the 19th century, but gradually ceded control of the region in subsequent decades. By 1978, violent opposition to governmental manipulation and corruption resulted in a short-lived civil war that brought a civil-military coalition to power in 1979, spearheaded by Marxist Sandinista guerrillas led by Daniel ORTEGA Saavedra. Nicaraguan aid to leftist rebels in El Salvador prompted the US to sponsor anti-Sandinista Contra guerrillas through much of the 1980s. After losing free and fair elections in 1990, 1996, and 2001, ORTEGA was elected president in 2006, 2011, 2016, and most recently in 2021. Municipal, regional, and national-level elections since 2008 have been marred by widespread irregularities. Democratic institutions have lost their independence under the ORTEGA regime as the president has assumed full control over all branches of government, as well as cracking down on a nationwide pro-democracy protest movement in 2018 and shuttering over 3,300 civil society organizations between 2018 and 2024. In the lead-up to the 2021 presidential election, authorities arrested over 40 individuals linked to the opposition, including presidential candidates, private sector leaders, NGO workers, human rights defenders, and journalists. Only five lesser-known presidential candidates from mostly small parties allied to ORTEGA's Sandinistas were allowed to run against ORTEGA. He then awarded the Sandinistas control of all 153 of Nicaraguan municipalities in the 2022 municipal elections, consolidating one-party rule.",
+        "government_summary": "presidential republic. Independence: 15 September 1821 (from Spain)",
+        "economy_summary": "low-income Central American economy; until 2018, nearly 20 years of sustained GDP growth; recent struggles due to COVID-19, political instability, and hurricanes; significant remittances; increasing poverty and food scarcity since 2005; sanctions limit investment",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

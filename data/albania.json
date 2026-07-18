@@ -1,0 +1,38 @@
+{
+    "name": "Albania",
+    "excerpt": "After declaring independence from the Ottoman Empire in 1912, Albania experienced a period of political upheaval that led to a short-lived monarchy, which ended in 1939 when Italy conquered the country.",
+    "quick_facts": {
+        "capital": "Tirana (Tirane)",
+        "population": "2,551,837 (2025 est.)",
+        "area": "28,748 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Muslim 56.7%, Roman Catholic 10%, Orthodox 6.8%, atheist 2.5%, Bektashi (a Sufi order) 2.1%, other 5.7%, unspecified 16.2% (2011 est.)",
+        "ethnic_groups": "Albanian 82.6%, Greek 0.9%, other 1% (including Vlach, Romani, Macedonian, Montenegrin, and Egyptian), unspecified 15.5% (2011 est.)",
+        "currency": "leke (ALL)",
+        "life_expectancy": "79.9 years (2024 est.)",
+        "internet_tld": ".al",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "mild temperate; cool, cloudy, wet winters; hot, clear, dry summers; interior is cooler and wetter",
+        "terrain": "mostly mountains and hills; small plains along coast",
+        "natural_resources": "petroleum, natural gas, coal, bauxite, chromite, copper, iron ore, nickel, salt, timber, hydropower, arable land",
+        "major_exports": "garments, footwear, electricity, crude petroleum, iron alloys (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location along Strait of Otranto (links Adriatic Sea to Ionian Sea and Mediterranean Sea)",
+        "history_summary": "After declaring independence from the Ottoman Empire in 1912, Albania experienced a period of political upheaval that led to a short-lived monarchy, which ended in 1939 when Italy conquered the country. Germany then occupied Albania in 1943, and communist partisans took over the country in 1944. Albania allied itself first with the USSR (until 1960) and then with China (until 1978). In the early 1990s, Albania ended communist rule and established a multiparty democracy. Government-endorsed pyramid schemes in 1997 led to economic collapse and civil disorder, which only ended when UN peacekeeping troops intervened. In 1999, some 450,000 ethnic Albanians fled from Kosovo to Albania to escape the war with the Serbs. Albania joined NATO in 2009 and became an official candidate for EU membership in 2014.",
+        "government_summary": "parliamentary republic. Independence: 28 November 1912 (from the Ottoman Empire)",
+        "economy_summary": "upper-middle-income Balkan economy; EU accession candidate; growth bolstered by tourism, agriculture, mining, construction, and private consumption; fiscal consolidation through revenue collection and tax compliance enhancements to address public debt; challenges include weak governance, corruption, and high emigration rates",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

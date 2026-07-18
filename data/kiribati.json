@@ -1,0 +1,38 @@
+{
+    "name": "Kiribati",
+    "excerpt": "Kiribati is made up of three distinct island groups -- the Gilbert Islands, the Line Islands, and the Phoenix Islands. The first Austronesian voyagers arrived in the Gilbert Islands as early as 3000 B.C., but these islands were not widely settled until about A.D.",
+    "quick_facts": {
+        "capital": "Tarawa",
+        "population": "116,545 (2024 est.)",
+        "area": "811 sq km",
+        "government": "presidential republic",
+        "languages": "Gilbertese, English (official)",
+        "religions": "Roman Catholic 58.9%, Kiribati Uniting Church 21.2%, Kiribati Protestant Church 8.4%, Church of Jesus Christ 5.6%, Seventh Day Adventist 2.1%, Baha'i 2.1%, other 1.7% (2020 est.)",
+        "ethnic_groups": "I-Kiribati 95.78%, I-Kiribati/mixed 3.8%, Tuvaluan 0.2%, other 1.7% (2020 est.)",
+        "currency": "Australian dollars (AUD)",
+        "life_expectancy": "68.5 years (2024 est.)",
+        "internet_tld": ".ki",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; marine, hot and humid, moderated by trade winds",
+        "terrain": "mostly low-lying coral atolls surrounded by extensive reefs",
+        "natural_resources": "phosphate (production discontinued in 1979), coconuts (copra), fish",
+        "major_exports": "fish, coconut oil (2023)"
+    },
+    "summaries": {
+        "geography_summary": "21 of the 33 islands are inhabited; Banaba (Ocean Island) in Kiribati is one of the three great phosphate rock islands in the Pacific Ocean -- the others are Makatea in French Polynesia, and Nauru; Kiribati is the only country in the world to fall into all four hemispheres (northern, southern, eastern, and western)",
+        "history_summary": "Kiribati is made up of three distinct island groups -- the Gilbert Islands, the Line Islands, and the Phoenix Islands. The first Austronesian voyagers arrived in the Gilbert Islands as early as 3000 B.C., but these islands were not widely settled until about A.D. 200 by Micronesians. Around 1300, Samoans and Tongans invaded the southern Gilbert Islands, then known as Tungaru, bringing Polynesian cultural elements with them. Later arrivals of Fijians brought Melanesian elements to the Gilbert Islands, and extensive intermarriage between the Micronesian, Polynesian, and Melanesian people led to the creation of what would become Gilbertese cultural traditions by the time Europeans spotted the islands in the 1600s. The Phoenix Islands and Line Islands were both visited by various Melanesian and Polynesian peoples, but their isolation and lack of natural resources meant that long-term settlements were not possible. Both island groups were uninhabited by the time of European contact. Kiribati experienced sustained European contact by the 1760s; all three island groups were named and charted by 1826. American whaling ships frequently passed through the islands, and the UK declared a protectorate over the Gilbert and nearby Ellice Islands in 1892, in an attempt to block growing US influence. Phosphate-rich Banaba Island was annexed to the protectorate in 1900. In 1916, the protectorate became a colony, and some Line Islands were added in 1916 and 1919, with the final ones added in 1972. The Phoenix Islands were added to the colony in 1937, and the UK agreed to share jurisdiction of some with the US because of their strategic location for aviation. During World War II, the islands were occupied by Japanese forces but were ejected by US amphibious assaults. The Ellice Islands became its own colony in 1974 and was renamed Tuvalu for “eight standing together” in 1975. The Gilbert Islands became fully self-governing in 1977 and independent in 1979 under the new name of Kiribati, the Gilbertese spelling of Gilberts. The US relinquished all claims to the sparsely inhabited Phoenix and Line Islands in a 1979 treaty of friendship.In 2012, Kiribati purchased a 22 sq km (8.5 sq mi) plot of land in Fiji for potential eventual resettlement of its population because of climate change, and in 2014 Fijian Prime Minister Voreqe BAINIMARAMA said residents of Kiribati would be welcome to relocate to Fiji if their country is swamped by rising sea levels.",
+        "government_summary": "presidential republic. Independence: 12 July 1979 (from the UK)",
+        "economy_summary": "lower-middle income, Pacific island economy; environmentally fragile; sizable remittances; key phosphate mining fund; tourism and fishing industries; public sector-dominated economy; recent withdrawal from Pacific Islands Forum; ongoing constitutional crisis",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

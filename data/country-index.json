@@ -1,0 +1,1189 @@
+{
+    "$schema": "./countries.schema.json",
+    "manifest_version": 1,
+    "description": "The immutable, versioned country manifest. This is the sole source of truth for rotation ORDER - Country_Repository resolves posts by the frozen key field (stored as each posts manifest_key meta), never by live post_title, so an editorial rename can never silently reorder the schedule (see docs/decisions/0001-deterministic-weekly-schedule.md). Countries are listed alphabetically by CIA World Factbook name; this file must not be reordered after it reaches production without a new manifest_version and an explicit migration ADR.",
+    "anchor": {
+        "country_key": "kiribati",
+        "local_date": "2026-07-19",
+        "time": "00:00:00",
+        "timezone": "America/New_York"
+    },
+    "countries": [
+        {
+            "key": "afghanistan",
+            "name": "Afghanistan",
+            "continent": "Asia",
+            "region": "South Asia"
+        },
+        {
+            "key": "albania",
+            "name": "Albania",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "algeria",
+            "name": "Algeria",
+            "continent": "Africa",
+            "region": "North Africa"
+        },
+        {
+            "key": "andorra",
+            "name": "Andorra",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "angola",
+            "name": "Angola",
+            "continent": "Africa",
+            "region": "Southern Africa"
+        },
+        {
+            "key": "antigua-and-barbuda",
+            "name": "Antigua and Barbuda",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "argentina",
+            "name": "Argentina",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "armenia",
+            "name": "Armenia",
+            "continent": "Asia",
+            "region": "Caucasus"
+        },
+        {
+            "key": "australia",
+            "name": "Australia",
+            "continent": "Oceania",
+            "region": "Australia and Pacific"
+        },
+        {
+            "key": "austria",
+            "name": "Austria",
+            "continent": "Europe",
+            "region": "Central Europe"
+        },
+        {
+            "key": "azerbaijan",
+            "name": "Azerbaijan",
+            "continent": "Asia",
+            "region": "Caucasus"
+        },
+        {
+            "key": "bahamas-the",
+            "name": "Bahamas, The",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "bahrain",
+            "name": "Bahrain",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "bangladesh",
+            "name": "Bangladesh",
+            "continent": "Asia",
+            "region": "South Asia"
+        },
+        {
+            "key": "barbados",
+            "name": "Barbados",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "belarus",
+            "name": "Belarus",
+            "continent": "Europe",
+            "region": "Eastern Europe"
+        },
+        {
+            "key": "belgium",
+            "name": "Belgium",
+            "continent": "Europe",
+            "region": "Western Europe"
+        },
+        {
+            "key": "belize",
+            "name": "Belize",
+            "continent": "North America",
+            "region": "Central America"
+        },
+        {
+            "key": "benin",
+            "name": "Benin",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "bhutan",
+            "name": "Bhutan",
+            "continent": "Asia",
+            "region": "South Asia"
+        },
+        {
+            "key": "bolivia",
+            "name": "Bolivia",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "bosnia-and-herzegovina",
+            "name": "Bosnia and Herzegovina",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "botswana",
+            "name": "Botswana",
+            "continent": "Africa",
+            "region": "Southern Africa"
+        },
+        {
+            "key": "brazil",
+            "name": "Brazil",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "brunei",
+            "name": "Brunei",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "bulgaria",
+            "name": "Bulgaria",
+            "continent": "Europe",
+            "region": "Eastern Europe"
+        },
+        {
+            "key": "burkina-faso",
+            "name": "Burkina Faso",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "burma",
+            "name": "Burma",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "burundi",
+            "name": "Burundi",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "cabo-verde",
+            "name": "Cabo Verde",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "cambodia",
+            "name": "Cambodia",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "cameroon",
+            "name": "Cameroon",
+            "continent": "Africa",
+            "region": "Central Africa"
+        },
+        {
+            "key": "canada",
+            "name": "Canada",
+            "continent": "North America",
+            "region": "North America"
+        },
+        {
+            "key": "central-african-republic",
+            "name": "Central African Republic",
+            "continent": "Africa",
+            "region": "Central Africa"
+        },
+        {
+            "key": "chad",
+            "name": "Chad",
+            "continent": "Africa",
+            "region": "Central Africa"
+        },
+        {
+            "key": "chile",
+            "name": "Chile",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "china",
+            "name": "China",
+            "continent": "Asia",
+            "region": "East Asia"
+        },
+        {
+            "key": "colombia",
+            "name": "Colombia",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "comoros",
+            "name": "Comoros",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "congo-democratic-republic-of-the",
+            "name": "Congo, Democratic Republic of the",
+            "continent": "Africa",
+            "region": "Central Africa"
+        },
+        {
+            "key": "congo-republic-of-the",
+            "name": "Congo, Republic of the",
+            "continent": "Africa",
+            "region": "Central Africa"
+        },
+        {
+            "key": "costa-rica",
+            "name": "Costa Rica",
+            "continent": "North America",
+            "region": "Central America"
+        },
+        {
+            "key": "cote-d-ivoire",
+            "name": "Cote d'Ivoire",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "croatia",
+            "name": "Croatia",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "cuba",
+            "name": "Cuba",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "cyprus",
+            "name": "Cyprus",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "czechia",
+            "name": "Czechia",
+            "continent": "Europe",
+            "region": "Central Europe"
+        },
+        {
+            "key": "denmark",
+            "name": "Denmark",
+            "continent": "Europe",
+            "region": "Northern Europe"
+        },
+        {
+            "key": "djibouti",
+            "name": "Djibouti",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "dominica",
+            "name": "Dominica",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "dominican-republic",
+            "name": "Dominican Republic",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "ecuador",
+            "name": "Ecuador",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "egypt",
+            "name": "Egypt",
+            "continent": "Africa",
+            "region": "North Africa"
+        },
+        {
+            "key": "el-salvador",
+            "name": "El Salvador",
+            "continent": "North America",
+            "region": "Central America"
+        },
+        {
+            "key": "equatorial-guinea",
+            "name": "Equatorial Guinea",
+            "continent": "Africa",
+            "region": "Central Africa"
+        },
+        {
+            "key": "eritrea",
+            "name": "Eritrea",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "estonia",
+            "name": "Estonia",
+            "continent": "Europe",
+            "region": "Northern Europe"
+        },
+        {
+            "key": "eswatini",
+            "name": "Eswatini",
+            "continent": "Africa",
+            "region": "Southern Africa"
+        },
+        {
+            "key": "ethiopia",
+            "name": "Ethiopia",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "fiji",
+            "name": "Fiji",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "finland",
+            "name": "Finland",
+            "continent": "Europe",
+            "region": "Northern Europe"
+        },
+        {
+            "key": "france",
+            "name": "France",
+            "continent": "Europe",
+            "region": "Western Europe"
+        },
+        {
+            "key": "gabon",
+            "name": "Gabon",
+            "continent": "Africa",
+            "region": "Central Africa"
+        },
+        {
+            "key": "gambia-the",
+            "name": "Gambia, The",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "georgia",
+            "name": "Georgia",
+            "continent": "Asia",
+            "region": "Caucasus"
+        },
+        {
+            "key": "germany",
+            "name": "Germany",
+            "continent": "Europe",
+            "region": "Western Europe"
+        },
+        {
+            "key": "ghana",
+            "name": "Ghana",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "greece",
+            "name": "Greece",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "grenada",
+            "name": "Grenada",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "guatemala",
+            "name": "Guatemala",
+            "continent": "North America",
+            "region": "Central America"
+        },
+        {
+            "key": "guinea",
+            "name": "Guinea",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "guinea-bissau",
+            "name": "Guinea-Bissau",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "guyana",
+            "name": "Guyana",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "haiti",
+            "name": "Haiti",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "holy-see-vatican-city",
+            "name": "Holy See (Vatican City)",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "honduras",
+            "name": "Honduras",
+            "continent": "North America",
+            "region": "Central America"
+        },
+        {
+            "key": "hungary",
+            "name": "Hungary",
+            "continent": "Europe",
+            "region": "Central Europe"
+        },
+        {
+            "key": "iceland",
+            "name": "Iceland",
+            "continent": "Europe",
+            "region": "Northern Europe"
+        },
+        {
+            "key": "india",
+            "name": "India",
+            "continent": "Asia",
+            "region": "South Asia"
+        },
+        {
+            "key": "indonesia",
+            "name": "Indonesia",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "iran",
+            "name": "Iran",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "iraq",
+            "name": "Iraq",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "ireland",
+            "name": "Ireland",
+            "continent": "Europe",
+            "region": "Western Europe"
+        },
+        {
+            "key": "israel",
+            "name": "Israel",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "italy",
+            "name": "Italy",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "jamaica",
+            "name": "Jamaica",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "japan",
+            "name": "Japan",
+            "continent": "Asia",
+            "region": "East Asia"
+        },
+        {
+            "key": "jordan",
+            "name": "Jordan",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "kazakhstan",
+            "name": "Kazakhstan",
+            "continent": "Asia",
+            "region": "Central Asia"
+        },
+        {
+            "key": "kenya",
+            "name": "Kenya",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "kiribati",
+            "name": "Kiribati",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "korea-north",
+            "name": "Korea, North",
+            "continent": "Asia",
+            "region": "East Asia"
+        },
+        {
+            "key": "korea-south",
+            "name": "Korea, South",
+            "continent": "Asia",
+            "region": "East Asia"
+        },
+        {
+            "key": "kosovo",
+            "name": "Kosovo",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "kuwait",
+            "name": "Kuwait",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "kyrgyzstan",
+            "name": "Kyrgyzstan",
+            "continent": "Asia",
+            "region": "Central Asia"
+        },
+        {
+            "key": "laos",
+            "name": "Laos",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "latvia",
+            "name": "Latvia",
+            "continent": "Europe",
+            "region": "Northern Europe"
+        },
+        {
+            "key": "lebanon",
+            "name": "Lebanon",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "lesotho",
+            "name": "Lesotho",
+            "continent": "Africa",
+            "region": "Southern Africa"
+        },
+        {
+            "key": "liberia",
+            "name": "Liberia",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "libya",
+            "name": "Libya",
+            "continent": "Africa",
+            "region": "North Africa"
+        },
+        {
+            "key": "liechtenstein",
+            "name": "Liechtenstein",
+            "continent": "Europe",
+            "region": "Central Europe"
+        },
+        {
+            "key": "lithuania",
+            "name": "Lithuania",
+            "continent": "Europe",
+            "region": "Northern Europe"
+        },
+        {
+            "key": "luxembourg",
+            "name": "Luxembourg",
+            "continent": "Europe",
+            "region": "Western Europe"
+        },
+        {
+            "key": "madagascar",
+            "name": "Madagascar",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "malawi",
+            "name": "Malawi",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "malaysia",
+            "name": "Malaysia",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "maldives",
+            "name": "Maldives",
+            "continent": "Asia",
+            "region": "South Asia"
+        },
+        {
+            "key": "mali",
+            "name": "Mali",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "malta",
+            "name": "Malta",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "marshall-islands",
+            "name": "Marshall Islands",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "mauritania",
+            "name": "Mauritania",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "mauritius",
+            "name": "Mauritius",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "mexico",
+            "name": "Mexico",
+            "continent": "North America",
+            "region": "North America"
+        },
+        {
+            "key": "micronesia-federated-states-of",
+            "name": "Micronesia, Federated States of",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "moldova",
+            "name": "Moldova",
+            "continent": "Europe",
+            "region": "Eastern Europe"
+        },
+        {
+            "key": "monaco",
+            "name": "Monaco",
+            "continent": "Europe",
+            "region": "Western Europe"
+        },
+        {
+            "key": "mongolia",
+            "name": "Mongolia",
+            "continent": "Asia",
+            "region": "East Asia"
+        },
+        {
+            "key": "montenegro",
+            "name": "Montenegro",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "morocco",
+            "name": "Morocco",
+            "continent": "Africa",
+            "region": "North Africa"
+        },
+        {
+            "key": "mozambique",
+            "name": "Mozambique",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "namibia",
+            "name": "Namibia",
+            "continent": "Africa",
+            "region": "Southern Africa"
+        },
+        {
+            "key": "nauru",
+            "name": "Nauru",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "nepal",
+            "name": "Nepal",
+            "continent": "Asia",
+            "region": "South Asia"
+        },
+        {
+            "key": "netherlands",
+            "name": "Netherlands",
+            "continent": "Europe",
+            "region": "Western Europe"
+        },
+        {
+            "key": "new-zealand",
+            "name": "New Zealand",
+            "continent": "Oceania",
+            "region": "Australia and Pacific"
+        },
+        {
+            "key": "nicaragua",
+            "name": "Nicaragua",
+            "continent": "North America",
+            "region": "Central America"
+        },
+        {
+            "key": "niger",
+            "name": "Niger",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "nigeria",
+            "name": "Nigeria",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "north-macedonia",
+            "name": "North Macedonia",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "norway",
+            "name": "Norway",
+            "continent": "Europe",
+            "region": "Northern Europe"
+        },
+        {
+            "key": "oman",
+            "name": "Oman",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "pakistan",
+            "name": "Pakistan",
+            "continent": "Asia",
+            "region": "South Asia"
+        },
+        {
+            "key": "palau",
+            "name": "Palau",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "panama",
+            "name": "Panama",
+            "continent": "North America",
+            "region": "Central America"
+        },
+        {
+            "key": "papua-new-guinea",
+            "name": "Papua New Guinea",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "paraguay",
+            "name": "Paraguay",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "peru",
+            "name": "Peru",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "philippines",
+            "name": "Philippines",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "poland",
+            "name": "Poland",
+            "continent": "Europe",
+            "region": "Central Europe"
+        },
+        {
+            "key": "portugal",
+            "name": "Portugal",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "qatar",
+            "name": "Qatar",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "romania",
+            "name": "Romania",
+            "continent": "Europe",
+            "region": "Eastern Europe"
+        },
+        {
+            "key": "russia",
+            "name": "Russia",
+            "continent": "Europe",
+            "region": "Eastern Europe"
+        },
+        {
+            "key": "rwanda",
+            "name": "Rwanda",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "saint-kitts-and-nevis",
+            "name": "Saint Kitts and Nevis",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "saint-lucia",
+            "name": "Saint Lucia",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "saint-vincent-and-the-grenadines",
+            "name": "Saint Vincent and the Grenadines",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "samoa",
+            "name": "Samoa",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "san-marino",
+            "name": "San Marino",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "sao-tome-and-principe",
+            "name": "Sao Tome and Principe",
+            "continent": "Africa",
+            "region": "Central Africa"
+        },
+        {
+            "key": "saudi-arabia",
+            "name": "Saudi Arabia",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "senegal",
+            "name": "Senegal",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "serbia",
+            "name": "Serbia",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "seychelles",
+            "name": "Seychelles",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "sierra-leone",
+            "name": "Sierra Leone",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "singapore",
+            "name": "Singapore",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "slovakia",
+            "name": "Slovakia",
+            "continent": "Europe",
+            "region": "Central Europe"
+        },
+        {
+            "key": "slovenia",
+            "name": "Slovenia",
+            "continent": "Europe",
+            "region": "Central Europe"
+        },
+        {
+            "key": "solomon-islands",
+            "name": "Solomon Islands",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "somalia",
+            "name": "Somalia",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "south-africa",
+            "name": "South Africa",
+            "continent": "Africa",
+            "region": "Southern Africa"
+        },
+        {
+            "key": "south-sudan",
+            "name": "South Sudan",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "spain",
+            "name": "Spain",
+            "continent": "Europe",
+            "region": "Southern Europe"
+        },
+        {
+            "key": "sri-lanka",
+            "name": "Sri Lanka",
+            "continent": "Asia",
+            "region": "South Asia"
+        },
+        {
+            "key": "sudan",
+            "name": "Sudan",
+            "continent": "Africa",
+            "region": "North Africa"
+        },
+        {
+            "key": "suriname",
+            "name": "Suriname",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "sweden",
+            "name": "Sweden",
+            "continent": "Europe",
+            "region": "Northern Europe"
+        },
+        {
+            "key": "switzerland",
+            "name": "Switzerland",
+            "continent": "Europe",
+            "region": "Central Europe"
+        },
+        {
+            "key": "syria",
+            "name": "Syria",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "taiwan",
+            "name": "Taiwan",
+            "continent": "Asia",
+            "region": "East Asia"
+        },
+        {
+            "key": "tajikistan",
+            "name": "Tajikistan",
+            "continent": "Asia",
+            "region": "Central Asia"
+        },
+        {
+            "key": "tanzania",
+            "name": "Tanzania",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "thailand",
+            "name": "Thailand",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "timor-leste",
+            "name": "Timor-Leste",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "togo",
+            "name": "Togo",
+            "continent": "Africa",
+            "region": "West Africa"
+        },
+        {
+            "key": "tonga",
+            "name": "Tonga",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "trinidad-and-tobago",
+            "name": "Trinidad and Tobago",
+            "continent": "North America",
+            "region": "Caribbean"
+        },
+        {
+            "key": "tunisia",
+            "name": "Tunisia",
+            "continent": "Africa",
+            "region": "North Africa"
+        },
+        {
+            "key": "turkiye",
+            "name": "Turkiye",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "turkmenistan",
+            "name": "Turkmenistan",
+            "continent": "Asia",
+            "region": "Central Asia"
+        },
+        {
+            "key": "tuvalu",
+            "name": "Tuvalu",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "uganda",
+            "name": "Uganda",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "ukraine",
+            "name": "Ukraine",
+            "continent": "Europe",
+            "region": "Eastern Europe"
+        },
+        {
+            "key": "united-arab-emirates",
+            "name": "United Arab Emirates",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "united-kingdom",
+            "name": "United Kingdom",
+            "continent": "Europe",
+            "region": "Western Europe"
+        },
+        {
+            "key": "united-states",
+            "name": "United States",
+            "continent": "North America",
+            "region": "North America"
+        },
+        {
+            "key": "uruguay",
+            "name": "Uruguay",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "uzbekistan",
+            "name": "Uzbekistan",
+            "continent": "Asia",
+            "region": "Central Asia"
+        },
+        {
+            "key": "vanuatu",
+            "name": "Vanuatu",
+            "continent": "Oceania",
+            "region": "Pacific Islands"
+        },
+        {
+            "key": "venezuela",
+            "name": "Venezuela",
+            "continent": "South America",
+            "region": "South America"
+        },
+        {
+            "key": "vietnam",
+            "name": "Vietnam",
+            "continent": "Asia",
+            "region": "Southeast Asia"
+        },
+        {
+            "key": "yemen",
+            "name": "Yemen",
+            "continent": "Asia",
+            "region": "Middle East"
+        },
+        {
+            "key": "zambia",
+            "name": "Zambia",
+            "continent": "Africa",
+            "region": "East Africa"
+        },
+        {
+            "key": "zimbabwe",
+            "name": "Zimbabwe",
+            "continent": "Africa",
+            "region": "East Africa"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Trinidad and Tobago",
+    "excerpt": "First colonized by the Spanish, Trinidad and Tobago came under British control in the early 19th century. The emancipation of enslaved people in 1834 disrupted the twin islands' sugar industry.",
+    "quick_facts": {
+        "capital": "Port of Spain",
+        "population": "1,410,170 (2025 est.)",
+        "area": "5,128 sq km",
+        "government": "parliamentary republic",
+        "languages": "English (official), Trinidadian Creole English, Tobagonian Creole English, Caribbean Hindustani (a dialect of Hindi), Trinidadian Creole French, Spanish, Chinese",
+        "religions": "Protestant 32.1% (Pentecostal/Evangelical/Full Gospel 12%, Baptist 6.9%, Anglican 5.7%, Seventh Day Adventist 4.1%, Presbyterian/Congregational 2.5%, other Protestant 0.9%), Roman Catholic 21.6%, Hindu 18.2%, Muslim 5%, Jehovah's Witness 1.5%, other 8.4%, none 2.2%, unspecified 11.1% (2011 est.)",
+        "ethnic_groups": "East Indian 35.4%, African descent 34.2%, mixed - other 15.3%, mixed - African/East Indian 7.7%, other 1.3%, unspecified 6.2% (2011 est.)",
+        "currency": "Trinidad and Tobago dollars (TTD)",
+        "life_expectancy": "76.5 years (2024 est.)",
+        "internet_tld": ".tt",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; rainy season (June to December)",
+        "terrain": "mostly plains with some hills and low mountains",
+        "natural_resources": "petroleum, natural gas, asphalt",
+        "major_exports": "natural gas, alcohols, ammonia, crude petroleum, iron reductions (2023)"
+    },
+    "summaries": {
+        "geography_summary": "Pitch Lake, on Trinidad's southwestern coast, is the world's largest natural reservoir of asphalt",
+        "history_summary": "First colonized by the Spanish, Trinidad and Tobago came under British control in the early 19th century. The emancipation of enslaved people in 1834 disrupted the twin islands' sugar industry. Contract workers arriving from India between 1845 and 1917 augmented the labor force, which boosted sugar production as well as the cocoa industry. The discovery of oil on Trinidad in 1910 added another important export that remains the country's dominant industry. Trinidad and Tobago attained independence in 1962. The country is one of the most prosperous in the Caribbean, thanks largely to petroleum and natural gas production and processing. The government is struggling to reverse a surge in violent crime.",
+        "government_summary": "parliamentary republic. Independence: 31 August 1962 (from the UK)",
+        "economy_summary": "high-income Caribbean economy; major hydrocarbon exporter; key tourism and finance sectors; high inflation and growing public debt; long foreign currency access delays; large foreign reserves and sovereign wealth fund",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

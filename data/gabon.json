@@ -1,0 +1,38 @@
+{
+    "name": "Gabon",
+    "excerpt": "Gabon, a sparsely populated country known for its dense rainforests and vast petroleum reserves, is one of the most prosperous and stable countries in central Africa.",
+    "quick_facts": {
+        "capital": "Libreville",
+        "population": "2,513,738 (2025 est.)",
+        "area": "267,667 sq km",
+        "government": "presidential republic",
+        "languages": "French (official), Fang, Myene, Nzebi, Bapounou/Eschira, Bandjabi",
+        "religions": "Protestant 46.4% (Revival Church 37%, other Protestant 9.4%), Roman Catholic 29.8%, other Christian 4%, Muslim 10.8%, traditional/animist 1.1%, other 0.9%, none 7% (2019-21 est.)",
+        "ethnic_groups": "Fang 23.5%, Shira-Punu'Vii 20.6%, Nzabi-Duma 11.2%, Mbede-Teke 5.6%, Myene 4.4%, Kota-Kele 4.3%, Okande-Tsogho 1.6%, other 12.6%, foreigner 16.2% (2021 est.)",
+        "currency": "Coopération Financière en Afrique Centrale francs (XAF)",
+        "life_expectancy": "70.4 years (2024 est.)",
+        "internet_tld": ".ga",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; always hot, humid",
+        "terrain": "narrow coastal plain; hilly interior; savanna in east and south",
+        "natural_resources": "petroleum, natural gas, diamond, niobium, manganese, uranium, gold, timber, iron ore, hydropower",
+        "major_exports": "crude petroleum, ships, manganese ore, refined petroleum, wood (2023)"
+    },
+    "summaries": {
+        "geography_summary": "the country has maintained its pristine rain forest and rich biodiversity",
+        "history_summary": "Gabon, a sparsely populated country known for its dense rainforests and vast petroleum reserves, is one of the most prosperous and stable countries in central Africa. Approximately 40 ethnic groups are represented, the largest of which is the Fang, a group that covers the northern third of Gabon and expands north into Equatorial Guinea and Cameroon. From about the early 1300s, various kingdoms emerged in present-day Gabon and the surrounding area, including the Kingdoms of Loango and Orungu. Because most early Bantu languages spoken in these kingdoms did not have a written form, much of Gabon's early history was lost over time. Portuguese traders who arrived in the mid-1400s gave the area its name of Gabon. At that time, indigenous trade networks began to engage with European traders, exchanging goods such as ivory and wood. For a century beginning in the 1760s, trade came to focus mostly on enslaved people. While many groups in Gabon participated in the slave trade, the Fang were a notable exception. As the slave trade declined in the late 1800s, France colonized the country and directed a widespread extraction of Gabonese resources. Anti-colonial rhetoric by Gabon’s educated elites increased significantly in the early 1900s, but no widespread rebellion materialized. French decolonization after World War II led to the country’s independence in 1960. Within a year of independence, the government changed from a parliamentary to a presidential system, and Leon M’BA won the first presidential election in 1961. El Hadj Omar BONGO Ondimba was M’BA’s vice president and assumed the presidency after M’BA’s death in 1967. BONGO went on to dominate the country's political scene for four decades (1967-2009). In 1968, he declared Gabon a single-party state and created the still-dominant Parti Democratique Gabonais (PDG). In the early 1990s, he reintroduced a multiparty system under a new constitution in response to growing political opposition. He was reelected by wide margins in 1995, 1998, 2002, and 2005 against a divided opposition and amidst allegations of fraud. After BONGO's death in 2009, a new election brought his son, Ali BONGO Ondimba, to power, and he was reelected in 2016. He won a third term in the August 2023 election but was overthrown in a military coup a few days later. Gen. Brice OLIGUI Nguema led a military group called the Committee for the Transition and Restoration of Institutions that arrested BONGO, canceled the election results, and dissolved state institutions. In September 2023, OLIGUI was sworn in as transitional president of Gabon.",
+        "government_summary": "presidential republic. Independence: 17 August 1960 (from France)",
+        "economy_summary": "natural-resource-rich, upper-middle-income, Central African economy; significant reliance on oil and mineral exports; highly urbanized population; high levels of poverty and unemployment; uncertainty on institutional and development reform progress following 2023 military coup",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

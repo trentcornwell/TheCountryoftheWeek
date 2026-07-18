@@ -1,0 +1,38 @@
+{
+    "name": "South Africa",
+    "excerpt": "Some of the earliest human remains in the fossil record were found in South Africa. By about A.D. 500, Bantu-speaking groups began settling into what is now northeastern South Africa, displacing Khoisan-speaking groups to the southwest.",
+    "quick_facts": {
+        "capital": "Pretoria (administrative capital); Cape Town (legislative capital); Bloemfontein (judicial capital)",
+        "population": "61,089,926 (2025 est.)",
+        "area": "1,219,090 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Christian 86%, ancestral, tribal, animist, or other traditional African religions 5.4%, Muslim 1.9%, other 1.5%, nothing in particular 5.2% (2015 est.)",
+        "ethnic_groups": "Black African 80.9%, Colored 8.8%, White 7.8%, Indian/Asian 2.6% (2021 est.)",
+        "currency": "rand (ZAR)",
+        "life_expectancy": "71.9 years (2024 est.)",
+        "internet_tld": ".za",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "mostly semiarid; subtropical along east coast; sunny days, cool nights",
+        "terrain": "vast interior plateau rimmed by rugged hills and narrow coastal plain",
+        "natural_resources": "gold, chromium, antimony, coal, iron ore, manganese, nickel, phosphates, tin, rare earth elements, uranium, gem diamonds, platinum, copper, vanadium, salt, natural gas",
+        "major_exports": "gold, platinum, coal, cars, iron ore (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: South Africa completely surrounds Lesotho and almost completely surrounds Eswatininote 2: sometimes mistaken for the southernmost point of Africa, the Cape of Good Hope is more accurately described as the southwestern-most point of the African continent; Cape Agulhas, the meeting point of the Atlantic and Indian Oceans, is the southernmost point of the African continent",
+        "history_summary": "Some of the earliest human remains in the fossil record were found in South Africa. By about A.D. 500, Bantu-speaking groups began settling into what is now northeastern South Africa, displacing Khoisan-speaking groups to the southwest. Dutch traders landed at the southern tip of present-day South Africa in 1652 and established a stopover point on the spice route between the Netherlands and the Far East, founding the city of Cape Town. After the British seized the Cape of Good Hope area in 1806, many settlers of Dutch descent -- known then as \"Boers,\" or farmers, but later called Afrikaners -- trekked north to found their own republics, Transvaal and Orange Free State. In the 1820s, several decades of wars began as the Zulus expanded their territory, moving out of what is today southeastern South Africa and clashing with other indigenous peoples and the growing European settlements. The discovery of diamonds (1867) and gold (1886) spurred mass immigration, predominantly from Europe.The Zulu kingdom's territory was incorporated into the British Empire after the Anglo-Zulu War in 1879, and the Afrikaner republics were incorporated after their defeat in the Second South African War (1899-1902). Beginning in 1910, the British and the Afrikaners ruled together under the Union of South Africa, which left the British Commonwealth to become a fully self-governing republic in 1961 after a Whites-only referendum. In 1948, the National Party was voted into power and instituted a policy of apartheid -– billed as \"separate development\" of the races -- which favored the White minority and suppressed the Black majority and other non-White groups. The African National Congress (ANC) led the resistance to apartheid, and many top ANC leaders such as Nelson MANDELA spent decades in South Africa's prisons. Internal protests and insurgency, as well as boycotts from some Western nations and institutions, led to the regime's eventual willingness to unban the ANC and negotiate a peaceful transition to majority rule. The first multi-racial elections in 1994 ushered in majority rule under an ANC-led government. South Africa has since struggled to address apartheid-era imbalances in wealth, housing, education, and health care under successive administrations. President Cyril RAMAPHOSA, who was reelected as the ANC leader in 2022, has made some progress in reigning in corruption.",
+        "government_summary": "parliamentary republic. Independence: 31 May 1910 (Union of South Africa formed from four British colonies: Cape Colony, Natal, Transvaal, and Orange Free State); 22 August 1934 (Status of the Union Act); 31 May 1961 (republic declared); 27 April 1994 (majority rule)",
+        "economy_summary": "upper-middle-income, largest southern African economy; Government of National Unity facing slow growth, fiscal gaps, and structural challenges; high income inequality, unemployment, and poverty; reforms to address electricity generation, transport, and logistics; leading producer and exporter of critical minerals",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

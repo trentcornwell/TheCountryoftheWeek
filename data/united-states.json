@@ -1,0 +1,38 @@
+{
+    "name": "United States",
+    "excerpt": "Thirteen of Britain's American colonies broke with the mother country in 1776 and were recognized as the new nation of the United States of America following the Treaty of Paris in 1783.",
+    "quick_facts": {
+        "capital": "Washington, D.C.",
+        "population": "338,016,259 (2025 est.)",
+        "area": "9,833,517 sq km",
+        "government": "constitutional federal republic",
+        "languages": "English only (official) 78.2%, Spanish 13.4%, Chinese 1.1%, other 7.3% (2017 est.)",
+        "religions": "Protestant 46.5%, Roman Catholic 20.8%, Jewish 1.9%, Church of Jesus Christ 1.6%, other Christian 0.9%, Muslim 0.9%, Jehovah's Witness 0.8%, Buddhist 0.7%, Hindu 0.7%, other 1.8%, unaffiliated 22.8%, don't know/refused 0.6% (2014 est.)",
+        "ethnic_groups": "White 61.6%, Black or African American 12.4%, Asian 6%, Indigenous and Alaska native 1.1%, Native Hawaiian and Other Pacific Islander 0.2%, other 8.4%, two or more races 10.2% (2020 est.)",
+        "currency": "",
+        "life_expectancy": "80.9 years (2024 est.)",
+        "internet_tld": ".us",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "mostly temperate, but tropical in Hawaii and Florida, arctic in Alaska, semiarid in the great plains west of the Mississippi River, and arid in the Great Basin of the southwest; low winter temperatures in the northwest are ameliorated occasionally in January and February by warm chinook winds from the eastern slopes of the Rocky Mountains",
+        "terrain": "vast central plain, mountains in west, hills and low mountains in east; rugged mountains and broad river valleys in Alaska; rugged, volcanic topography in Hawaii",
+        "natural_resources": "coal, copper, lead, molybdenum, phosphates, rare earth elements, uranium, bauxite, gold, iron, mercury, nickel, potash, silver, tungsten, zinc, petroleum, natural gas, timber, arable land",
+        "major_exports": "crude petroleum, refined petroleum, natural gas, gas turbines, cars (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: world's third-largest country by size (after Russia and Canada) and by population (after China and India); Mt. McKinley is the highest point (6,190 m; 20,308 ft) in North America, and Death Valley is the lowest point (-86 m; -282 ft) note 2: the western US coast and the southern coast of Alaska lie along the Ring of Fire, which is a belt bordering the Pacific Ocean that contains about 75% of the world's volcanoes and up to 90% of the world's earthquakesnote 3: the Aleutian Islands are a chain of volcanic islands that divide the Bering Sea (north) from the main Pacific Ocean (south); they extend about 1,800 km (1,118 mi) westward from the Alaskan Peninsula; the archipelago consists of 14 larger islands, 55 smaller islands, and hundreds of islets; there are 41 active volcanoes on the islands, which together form a large northern section of the Ring of Firenote 4: Mammoth Cave, in west-central Kentucky, is the world's longest known cave system with more than 650 km (405 miles) of surveyed passageways, which is nearly twice as long as the second-longest cave system, the Sac Actun underwater cave in Mexico (see \"Geography - note\" under Mexico)note 5: Kazumura Cave on the island of Hawaii is the world's longest and deepest lava-tube cave; it has been surveyed at 66 km (41 mi) long and 1,102 m (3,614 ft) deep note 6: Bracken Cave outside San Antonio, Texas is the world's largest bat cave and the summer home to the largest colony of bats in the world; an estimated 20 million Mexican free-tailed bats roost in the cave from March to October, making it the world's largest known concentration of mammals",
+        "history_summary": "Thirteen of Britain's American colonies broke with the mother country in 1776 and were recognized as the new nation of the United States of America following the Treaty of Paris in 1783. During the 19th and 20th centuries, 37 new states were added as the nation expanded across the North American continent and acquired a number of overseas possessions. Two of the most traumatic experiences in the nation's history were the Civil War (1861-65), in which a northern Union of states defeated a secessionist Confederacy of 11 southern slave states, and the Great Depression of the 1930s, an economic downturn during which about a quarter of the labor force lost its jobs. Buoyed by victories in World Wars I and II and the end of the Cold War in 1991, the US remains the world's most powerful nation state. Since the end of World War II, the economy has achieved relatively steady growth, low unemployment, and rapid advances in technology.",
+        "government_summary": "constitutional federal republic. Independence: 4 July 1776 (declared independence from Great Britain); 3 September 1783 (recognized by Great Britain)",
+        "economy_summary": "world’s largest economy by nominal GDP; largest importer and second-largest exporter; home to leading financial exchanges and global reserve currency; high and growing public debt; inflation moderating but remains above pre-pandemic levels",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

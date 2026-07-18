@@ -1,0 +1,38 @@
+{
+    "name": "Bolivia",
+    "excerpt": "Bolivia, named after independence fighter Simón BOLÍVAR, broke away from Spanish rule in 1825. Much of its subsequent history has consisted of a series of coups and countercoups, with the last coup occurring in 1980.",
+    "quick_facts": {
+        "capital": "La Paz (administrative capital); Sucre (constitutional [legislative and judicial] capital)",
+        "population": "12,436,103 (2025 est.)",
+        "area": "1,098,581 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Roman Catholic 65%, Protestant 19.6% (Evangelical (non-specific) 11.9%, Evangelical Baptist 2.1%, Evangelical Pentecostal 1.8%, Evangelical Methodist 0.7%, Adventist 2.8%, Protestant (non-specific) 0.3%), Believer (not belonging to the church) 0.9%, other 4.8%, atheist 1.7%, agnostic 0.6%, none 6.1%, unspecified 1.3% (2023 est.)",
+        "ethnic_groups": "Mestizo (mixed White and Indigenous ancestry) 68%, Indigenous 20%, White 5%, Cholo/Chola 2%, African descent 1%, other 1%, unspecified 3%; 44% other Indigenous group, predominantly Quechua or Aymara (2009 est.)",
+        "currency": "bolivianos (BOB)",
+        "life_expectancy": "72.5 years (2024 est.)",
+        "internet_tld": ".bo",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "varies with altitude; humid and tropical to cold and semiarid",
+        "terrain": "rugged Andes Mountains with a highland plateau (Altiplano), hills, lowland plains of the Amazon Basin",
+        "natural_resources": "lithium, tin, natural gas, petroleum, zinc, tungsten, antimony, silver, iron, lead, gold, timber, hydropower",
+        "major_exports": "gold, natural gas, precious metal ore, zinc ore, soybean meal (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked; shares control of Lago Titicaca, world's highest navigable lake (elevation 3,805 m), with Peru",
+        "history_summary": "Bolivia, named after independence fighter Simón BOLÍVAR, broke away from Spanish rule in 1825. Much of its subsequent history has consisted of a series of coups and countercoups, with the last coup occurring in 1980. Democratic civilian rule was established in 1982, but leaders have faced problems of deep-seated poverty, social unrest, and illegal drug production. In 2005, Bolivians elected Movement Toward Socialism leader Evo MORALES as president -- by the widest margin of any leader since 1982 -- after he ran on a promise to change the country's traditional political class and empower the poor and indigenous majority. In 2009 and 2014, MORALES easily won reelection, and his party maintained control of the legislative branch. In 2016, MORALES narrowly lost a referendum to approve a constitutional amendment that would have allowed him to compete in the 2019 presidential election. A subsequent Supreme Court ruling stating that term limits violate human rights provided the justification for MORALES to run despite the referendum, but rising violence, pressure from the military, and widespread allegations of electoral fraud ultimately forced him to flee the country. An interim government, led by President Jeanine AÑEZ Chávez, held new elections in 2020, and Luis Alberto ARCE Catacora was elected president.",
+        "government_summary": "presidential republic. Independence: 6 August 1825 (from Spain)",
+        "economy_summary": "resource-rich economy benefits during commodity booms; has bestowed juridical rights to Mother Earth, impacting extraction industries; increasing Chinese lithium mining trade relations; hard hit by COVID-19; increased fiscal spending amid poverty increases; rampant banking and finance corruption",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

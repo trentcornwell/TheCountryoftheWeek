@@ -1,0 +1,38 @@
+{
+    "name": "Bangladesh",
+    "excerpt": "The huge delta region at the confluence of the Ganges and Brahmaputra River systems -- now referred to as Bangladesh -- was a loosely incorporated outpost of various empires for much of the first millennium A.D.",
+    "quick_facts": {
+        "capital": "Dhaka",
+        "population": "174,370,536 (2025 est.)",
+        "area": "148,460 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Muslim 91%, Hindu 8%, other 1% (2022 est.)",
+        "ethnic_groups": "Bengali at least 99%, other indigenous ethnic groups 1% (2022 est.)",
+        "currency": "taka (BDT)",
+        "life_expectancy": "75.2 years (2024 est.)",
+        "internet_tld": ".bd",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; mild winter (October to March); hot, humid summer (March to June); humid, warm rainy monsoon (June to October)",
+        "terrain": "mostly flat alluvial plain; hilly in southeast",
+        "natural_resources": "natural gas, arable land, timber, coal",
+        "major_exports": "garments, footwear, fabric, textiles, trunks and cases (2023)"
+    },
+    "summaries": {
+        "geography_summary": "most of the country is situated on deltas of large rivers flowing from the Himalayas: the Ganges unites with the Jamuna (main channel of the Brahmaputra) and later joins the Meghna to eventually empty into the Bay of Bengal",
+        "history_summary": "The huge delta region at the confluence of the Ganges and Brahmaputra River systems -- now referred to as Bangladesh -- was a loosely incorporated outpost of various empires for much of the first millennium A.D. Muslim conversions and settlement in the region began in the 10th century, primarily from Arab and Persian traders and preachers. Europeans established trading posts in the area in the 16th century. Eventually the area known as Bengal, which is primarily Hindu in the western section and mostly Muslim in the eastern half, became part of British India. After the partition of India in 1947, the Muslim-majority area became East Pakistan. Calls for greater autonomy and animosity between the eastern and western areas of Pakistan led to a Bengali independence movement. That movement, led by the Awami League (AL) and supported by India, won the independence war for Bangladesh in 1971. The military overthrew the post-independence AL government in 1975, the first of a series of military coups that resulted in a military-backed government and the subsequent creation of the Bangladesh Nationalist Party (BNP) that took power in 1979. That government also ended in a coup in 1981, followed by military-backed rule until democratic elections were held in 1991. The BNP and AL alternated in power from 1991 to 2008, with the exception of a military-backed, emergency caretaker regime in 2007. The country returned to fully democratic rule in 2008 with the election of the AL and Prime Minister Sheikh HASINA. With the help of international development assistance, Bangladesh is on track to graduate from the UN’s Least Developed Countries (LDC) list in 2026. The economy has grown at an annual average of about 6.25% for the last two decades. Poverty declined from 11.8 percent in 2010 to 5.0 percent in 2022, based on the international poverty line of $2.15 a day (using 2017 Purchasing Power Parity exchange rate). The country made a rapid recovery from the COVID-19 pandemic, but still faces economic challenges.",
+        "government_summary": "parliamentary republic. Independence: 16 December 1971 (from Pakistan)",
+        "economy_summary": "one of the fastest growing emerging market economies; strong economic rebound following COVID-19; significant poverty reduction; exports dominated by textile industry; weakened exports and remittances resulted in declining foreign exchange reserves and 2022 IMF loan request",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

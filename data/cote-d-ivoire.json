@@ -1,0 +1,38 @@
+{
+    "name": "Cote d'Ivoire",
+    "excerpt": "Various small kingdoms ruled the area of Cote d'Ivoire between the 15th and 19th centuries, when European explorers arrived and then began to expand their presence. In 1844, France established a protectorate.",
+    "quick_facts": {
+        "capital": "Yamoussoukro (legislative capital), Abidjan (administrative and economic capital); note - the US Embassy is in Abidjan",
+        "population": "31,855,971 (2025 est.)",
+        "area": "322,463 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Muslim 42.9%, Catholic 17.2%, Evangelical 11.8%, Methodist 1.7%, other Christian 3.2%, animist 3.6%, other religion 0.5%, none 19.1% (2014 est.)",
+        "ethnic_groups": "Akan 38%, Voltaique or Gur 22%, Northern Mande 22%, Kru 9.1%, Southern Mande 8.6%, other 0.3% (2021 est.)",
+        "currency": "Communaute Financiere Africaine francs (XOF)",
+        "life_expectancy": "63.2 years (2024 est.)",
+        "internet_tld": ".ci",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical along coast, semiarid in far north; three seasons - warm and dry (November to March), hot and dry (March to May), hot and wet (June to October)",
+        "terrain": "mostly flat to undulating plains; mountains in northwest",
+        "natural_resources": "petroleum, natural gas, diamonds, manganese, iron ore, cobalt, bauxite, copper, gold, nickel, tantalum, silica sand, clay, cocoa beans, coffee, palm oil, hydropower",
+        "major_exports": "gold, cocoa beans, rubber, refined petroleum, coconuts/brazil nuts/cashews (2023)"
+    },
+    "summaries": {
+        "geography_summary": "most of the inhabitants live along the sandy coastal region; apart from the capital area, the forested interior is sparsely populated",
+        "history_summary": "Various small kingdoms ruled the area of Cote d'Ivoire between the 15th and 19th centuries, when European explorers arrived and then began to expand their presence. In 1844, France established a protectorate. During this period, many of these kingdoms and tribes fought to maintain their cultural identities -- some well into the 20th century. For example, the Sanwi kingdom -- originally founded in the 17th century -- tried to break away from Cote d’Ivoire and establish an independent state in 1969. Cote d’Ivoire achieved independence from France in 1960 but has maintained close ties. Foreign investment and the export and production of cocoa drove economic growth that led Cote d’Ivoire to become one of the most prosperous states in West Africa. Then in 1999, a military coup overthrew the government, and a year later, junta leader Robert GUEI held rigged elections and declared himself the winner. Popular protests forced him to step aside, and Laurent GBAGBO was elected. Ivoirian dissidents and members of the military launched a failed coup in 2002 that developed into a civil war. In 2003, a cease-fire resulted in rebels holding the north, the government holding the south, and peacekeeping forces occupying a buffer zone in the middle. In 2007, President GBAGBO and former rebel leader Guillaume SORO signed an agreement in which SORO joined GBAGBO's government as prime minister. The two agreed to reunite the country by dismantling the buffer zone, integrating rebel forces into the national armed forces, and holding elections. In 2010, Alassane Dramane OUATTARA won the presidential election, but GBAGBO refused to hand over power, resulting in five months of violent conflict. Armed OUATTARA supporters and UN and French troops eventually forced GBAGBO to step down in 2011. OUATTARA won a second term in 2015 and a controversial third term in 2020 -- despite the two-term limit in the Ivoirian constitution -- in an election boycotted by the opposition. Through political compromise with OUATTARA, the opposition participated peacefully in 2021 legislative elections and won a substantial minority of seats. Also in 2021, the International Criminal Court in The Hague ruled on a final acquittal for GBAGBO, who was on trial for crimes against humanity, paving the way for GBAGBO’s return to Abidjan the same year. GBAGBO has publicly met with OUATTARA since his return as a demonstration of political reconciliation.",
+        "government_summary": "presidential republic. Independence: 7 August 1960 (from France)",
+        "economy_summary": "one of West Africa’s most influential, stable, and rapidly developing economies; poverty declines in urban but increases in rural areas; strong construction sector and increasingly diverse economic portfolio; increasing but manageable public debt; large labor force in agriculture",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

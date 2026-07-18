@@ -1,0 +1,38 @@
+{
+    "name": "Dominican Republic",
+    "excerpt": "The Taino -- indigenous inhabitants of Hispaniola prior to the arrival of Europeans -- divided the island now known as the Dominican Republic and Haiti into five chiefdoms and territories.",
+    "quick_facts": {
+        "capital": "Santo Domingo",
+        "population": "10,899,292 (2025 est.)",
+        "area": "48,670 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Evangelical 50.2%, Roman Catholic 30.1%, none 18.5%, unspecified 1.2% (2023 est.)",
+        "ethnic_groups": "mixed 70.4% (Mestizo/Indio 58%, Mulatto 12.4%), Black 15.8%, White 13.5%, other 0.3% (2014 est.)",
+        "currency": "Dominican pesos (DOP)",
+        "life_expectancy": "72.6 years (2024 est.)",
+        "internet_tld": ".do",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical maritime; little seasonal temperature variation; seasonal variation in rainfall",
+        "terrain": "rugged highlands and mountains interspersed with fertile valleys",
+        "natural_resources": "nickel, bauxite, gold, silver, arable land",
+        "major_exports": "medical instruments, tobacco, gold, garments, power equipment (2023)"
+    },
+    "summaries": {
+        "geography_summary": "shares island of Hispaniola with Haiti (eastern two-thirds makes up the Dominican Republic, western one-third is Haiti); the second largest country in the Antilles (after Cuba); geographically diverse with the Caribbean's tallest mountain, Pico Duarte, and lowest elevation and largest lake, Lago Enriquillo",
+        "history_summary": "The Taino -- indigenous inhabitants of Hispaniola prior to the arrival of Europeans -- divided the island now known as the Dominican Republic and Haiti into five chiefdoms and territories. Christopher COLUMBUS explored and claimed the island on his first voyage in 1492; it became a springboard for Spanish conquest of the Caribbean and the American mainland. In 1697, Spain recognized French dominion over the western third of the island, which in 1804 became Haiti. The remainder of the island, by then known as Santo Domingo, sought to gain its own independence in 1821, but the Haitians conquered and ruled it for 22 years; it finally attained independence as the Dominican Republic in 1844. In 1861, the Dominicans voluntarily returned to the Spanish Empire, but two years later, they launched a war that restored independence in 1865. A legacy of unsettled and mostly non-representative rule followed, capped by the dictatorship of Rafael Leonidas TRUJILLO from 1930 to 1961. Juan BOSCH was elected president in 1962 but was deposed in a military coup in 1963. In 1965, the US led an intervention in the midst of a civil war sparked by an uprising to restore BOSCH. In 1966, Joaquin BALAGUER defeated BOSCH in the presidential election. BALAGUER maintained a tight grip on power for most of the next 30 years, until international reaction to flawed elections forced him to curtail his term in 1996. Since then, regular competitive elections have been held.",
+        "government_summary": "presidential republic. Independence: 27 February 1844 (from Haiti)",
+        "economy_summary": "surging middle-income tourism, construction, mining, and telecommunications OECS economy; major foreign US direct investment and free-trade zones; developing local financial markets; improving debt management; declining poverty",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

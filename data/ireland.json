@@ -1,0 +1,38 @@
+{
+    "name": "Ireland",
+    "excerpt": "Celtic tribes arrived in Ireland between 600 and 150 B.C. Norse invasions that began in the late 8th century finally ended when King Brian BORU defeated the Danes in 1014.",
+    "quick_facts": {
+        "capital": "Dublin",
+        "population": "5,233,461 (2024 est.)",
+        "area": "70,273 sq km",
+        "government": "parliamentary republic",
+        "languages": "English (official, the language generally used), Irish (Gaelic or Gaeilge) (official, spoken by approximately 37.7% of the population)",
+        "religions": "Roman Catholic 69.2% (includes lapsed), Protestant 3.7% (Church of Ireland/England/Anglican/Episcopalian 2.5%, other Protestant 1.2%), Orthodox 2%, other Christian 0.9%, Muslim 1.6%, other 1.4%, agnostic/atheist 0.1%, none 14.5%, unspecified 6.7% (2022 est.)",
+        "ethnic_groups": "Irish 76.6%, Irish travelers 0.6%, other White 9.9%, Asian 3.3%, Black 1.5%, other (includes Arab, Roma, and persons of mixed backgrounds) 2%, unspecified 2.6% (2022 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "82 years (2024 est.)",
+        "internet_tld": ".ie",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate maritime; modified by North Atlantic Current; mild winters, cool summers; consistently humid; overcast about half the time",
+        "terrain": "mostly flat to rolling interior plain surrounded by rugged hills and low mountains; sea cliffs on west coast",
+        "natural_resources": "natural gas, peat, copper, lead, zinc, silver, barite, gypsum, limestone, dolomite",
+        "major_exports": "vaccines, packaged medicine, nitrogen compounds, integrated circuits, hormones (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location on major air and sea routes between North America and northern Europe; over 40% of the population resides within 100 km of Dublin",
+        "history_summary": "Celtic tribes arrived in Ireland between 600 and 150 B.C. Norse invasions that began in the late 8th century finally ended when King Brian BORU defeated the Danes in 1014. Norman invasions began in the 12th century and set off more than seven centuries of Anglo-Irish struggle marked by fierce rebellions and harsh repressions. The Irish famine of the mid-19th century caused an almost 25-percent decline in the island's population through starvation, disease, and emigration. The population of the island continued to fall until the 1960s, but over the last 50 years, Ireland's high birthrate has made it demographically one of the youngest populations in the EU. The modern Irish state traces its origins to the failed 1916 Easter Monday Uprising that galvanized nationalist sentiment. The ensuing guerrilla war led to independence from the UK in 1921 with the signing of the Anglo-Irish Treaty and the creation of the Irish Free State. The treaty was deeply controversial in Ireland, in part because it helped solidify the country's partition, with six of the 32 counties remaining in the UK as Northern Ireland. The split between pro-Treaty and anti-Treaty partisans led to the Irish Civil War (1922-23). The traditionally dominant political parties in Ireland, Fine Gael and Fianna Fail, are de facto descendants of the opposing sides of the treaty debate. Ireland declared itself a republic in 1949 and formally left the British Dominion.Beginning in the 1960s, deep sectarian divides between the Catholic and Protestant populations and systemic discrimination in Northern Ireland erupted into years of violence known as the Troubles. In 1998, the governments of Ireland and the UK, along with most political parties in Northern Ireland, reached the Belfast/Good Friday Agreement with the support of the US. This agreement helped end the Troubles and initiated a new phase of cooperation between the Irish and British Governments. Ireland was neutral in World War II and continues its policy of military neutrality. Ireland joined the European Community in 1973 and the euro-zone currency union in 1999. The economic boom years of the Celtic Tiger (1995-2007) saw rapid economic growth that came to an abrupt end in 2008 with the meltdown of the Irish banking system. As a small, open economy, Ireland has excelled at courting foreign direct investment, especially from US multi-nationals, which has helped the economy recover from the financial crisis and insulated it somewhat from the economic shocks of the COVID-19 pandemic.",
+        "government_summary": "parliamentary republic. Independence: 6 December 1921 (from the UK); 6 December 1922 (Irish Free State established); 18 April 1949 (Republic of Ireland Act enabled)",
+        "economy_summary": "high-income, export-oriented EU economy; large multinational business sector contributes to growth and tax revenues but poses volatility risks; high living standards; strong labor market challenged by skill shortages and aging workforce",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Turkiye",
+    "excerpt": "Modern Turkey was founded in 1923 from the remnants of the Ottoman Empire by reformer and national hero Mustafa KEMAL, known as Ataturk or \"Father of the Turks.\" One-party rule ended in 1950, and periods of instability and military coups have since fractured the multiparty…",
+    "quick_facts": {
+        "capital": "Ankara",
+        "population": "84,625,585 (2025 est.)",
+        "area": "783,562 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Muslim 99.8% (mostly Sunni), other 0.2% (mostly Christians and Jews)",
+        "ethnic_groups": "Turkish 70-75%, Kurdish 19%, other minorities 6-11% (2016 est.)",
+        "currency": "Turkish liras (TRY)",
+        "life_expectancy": "76.7 years (2024 est.)",
+        "internet_tld": ".tr",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; hot, dry summers with mild, wet winters; harsher in interior",
+        "terrain": "high central plateau (Anatolia); narrow coastal plain; several mountain ranges",
+        "natural_resources": "coal, iron ore, copper, chromium, antimony, mercury, gold, barite, borate, celestite (strontium), emery, feldspar, limestone, magnesite, marble, perlite, pumice, pyrites (sulfur), clay, arable land, hydropower",
+        "major_exports": "garments, cars, gold, refined petroleum, vehicle parts/accessories (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location controlling the Turkish Straits (Bosporus, Sea of Marmara, Dardanelles) that link the Black and Aegean Seas; the 3% of Turkish territory north of the Straits lies in Europe and goes by the names of European Turkey, Eastern Thrace, or Turkish Thrace; the 97% of the country in Asia is referred to as Anatolia; Istanbul, which straddles the Bosporus, is the only metropolis in the world located on two continents; Mount Ararat, reputed to be the landing place of Noah's ark, is in the far-eastern part of the country",
+        "history_summary": "Modern Turkey was founded in 1923 from the remnants of the Ottoman Empire by reformer and national hero Mustafa KEMAL, known as Ataturk or \"Father of the Turks.\" One-party rule ended in 1950, and periods of instability and military coups have since fractured the multiparty democracy, in 1960, 1971, 1980, 1997, and 2016. Turkey joined the UN in 1945 and NATO in 1952. In 1963, Turkey became an associate member of the European Community; it began accession talks with the EU in 2005. Turkey intervened militarily on Cyprus in 1974 to prevent a Greek takeover of the island and has since acted as patron state to the \"Turkish Republic of Northern Cyprus,\" which only Turkey recognizes. The Kurdistan Workers' Party (PKK), a US-designated terrorist organization, began a separatist insurgency in Turkey in 1984, and the struggle has long dominated the attention of Turkish security forces. In 2013, the Turkish Government and the PKK conducted negotiations aimed at ending the violence, but intense fighting resumed in 2015. The Turkish Government conducted a referendum in 2017 in which voters approved constitutional amendments changing Turkey from a parliamentary to a presidential system.",
+        "government_summary": "presidential republic. Independence: 29 October 1923 (republic proclaimed, succeeding the Ottoman Empire)",
+        "economy_summary": "upper-middle-income, diversified Middle Eastern economy; industrializing economy that maintains large agricultural base; key energy, tourism, and construction sectors; high inflation, interest rates, and foreign debt pose risk to financial stability",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

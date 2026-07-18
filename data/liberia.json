@@ -1,0 +1,38 @@
+{
+    "name": "Liberia",
+    "excerpt": "With 28 ethnic groups and languages, Liberia is one of the most ethnically diverse countries in the world. For hundreds of years, the Mali and Songhai Empires claimed most of Liberia.",
+    "quick_facts": {
+        "capital": "Monrovia",
+        "population": "5,563,541 (2025 est.)",
+        "area": "111,369 sq km",
+        "government": "presidential republic",
+        "languages": "English 20% (official) and 27 indigenous languages, including Liberian English variants",
+        "religions": "Christian 84.9%, Muslim 12%, Traditional 0.5%, other 0.1%, none 2.6% (2022 est.)",
+        "ethnic_groups": "Kpelle 20.2%, Bassa 13.6%, Grebo 9.9%, Gio 7.9%, Mano 7.2%, Kru 5.5%, Lorma 4.8%, Krahn 4.5%, Kissi, 4.3%, Mandingo 4.2%, Vai 3.8%, Gola 3.8%, Gbandi 2.9%, Mende 1.7%, Sapo 1%, Belle 0.7%, Dey 0.3%, other Liberian ethnic group 0.4%, other African 3%, non-African 0.2% (2022 est.)",
+        "currency": "Liberian dollars (LRD)",
+        "life_expectancy": "61.6 years (2024 est.)",
+        "internet_tld": ".lr",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; hot, humid; dry winters with hot days and cool to cold nights; wet, cloudy summers with frequent heavy showers",
+        "terrain": "mostly flat to rolling coastal plains rising to rolling plateau and low mountains in northeast",
+        "natural_resources": "iron ore, timber, diamonds, gold, hydropower",
+        "major_exports": "gold, ships, iron ore, rubber, refined petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "facing the Atlantic Ocean, the coastline is characterized by lagoons, mangrove swamps, and river-deposited sandbars; the inland grassy plateau supports limited agriculture",
+        "history_summary": "With 28 ethnic groups and languages, Liberia is one of the most ethnically diverse countries in the world. For hundreds of years, the Mali and Songhai Empires claimed most of Liberia. Beginning in the 15th century, European traders began establishing outposts along the Liberian coast. Unlike its neighbors, however, Liberia did not fall under European colonial rule. In the early 19th century, the US began sending freed enslaved people and other people of color to Liberia to establish settlements. In 1847, these settlers declared independence from the US, writing their own constitution and establishing Africa’s first republic. Early in Liberia’s history, tensions arose between the Americo-Liberian settlers and the indigenous population. In 1980, Samuel DOE, who was from the indigenous population, led a military coup and ushered in a decade of authoritarian rule. In 1989, Charles TAYLOR launched a rebellion that led to a prolonged civil war in which DOE was killed. A period of relative peace in 1997 permitted an election that brought TAYLOR to power. In 2000, fighting resumed. A 2003 peace agreement ended the war and prompted TAYLOR’s resignation. He was later convicted by the UN-backed Special Court for Sierra Leone in The Hague for his involvement in Sierra Leone's civil war. In 2005, Ellen JOHNSON SIRLEAF became president after two years of transitional governments; she was the first female head of state in Africa. In 2011, JOHNSON SIRLEAF won reelection but struggled to rebuild Liberia's economy -- particularly after the 2014-15 Ebola epidemic -- and to reconcile a nation still recovering from 14 years of fighting. In 2017, former soccer star George WEAH won the presidential runoff election, marking the first successful transfer of power from one democratically elected government to another since the end of Liberia’s civil wars. Like his predecessor, WEAH struggled to improve the country’s economy. In 2023, former Vice President Joseph BOAKAI was elected president, edging out WEAH by a thin margin, the first time since 1927 that an incumbent was not re-elected after one term.",
+        "government_summary": "presidential republic. Independence: 26 July 1847",
+        "economy_summary": "low-income West African economy; food scarcity, especially in rural areas; high poverty and inflation; bad recession prior to COVID-19 due to Ebola crisis; growing government debt; longest continuously operated rubber plantation; large informal economy",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Luxembourg",
+    "excerpt": "Founded in 963, Luxembourg became a grand duchy in 1815 and a constituent part of the Kingdom of the Netherlands after the Congress of Vienna.",
+    "quick_facts": {
+        "capital": "Luxembourg",
+        "population": "671,254 (2024 est.)",
+        "area": "2,586 sq km",
+        "government": "constitutional monarchy",
+        "languages": "Luxembourgish (official administrative, judicial, and national language) 48.9%, Portuguese 15.4%, French (official administrative, judicial, and legislative language) 14.9%, Italian 3.6%, English 3.6%, German (official administrative and judicial language) 2.9%, other 10.8% (2021 est.)",
+        "religions": "Christian (predominantly Roman Catholic) 70.6%, Muslim 2.3%, other (includes Buddhist, folk religions, Hindu, Jewish) 0.4%, unaffiliated 26.7% (2020 est.)",
+        "ethnic_groups": "Luxembourger 52.9%, Portuguese 14.5%, French 7.6%, Italian 3.7%, Belgian 3%, German 2%, Spanish 1.3%, Romania 1%, other 14% (2022 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "83.4 years (2024 est.)",
+        "internet_tld": ".lu",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "modified continental with mild winters, cool summers",
+        "terrain": "mostly gently rolling uplands with broad, shallow valleys; uplands to slightly mountainous in the north; steep slope down to Moselle flood plain in the southeast",
+        "natural_resources": "iron ore (no longer exploited), arable land",
+        "major_exports": "iron blocks, gas turbines, plastic products, rubber tires, plastics (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked",
+        "history_summary": "Founded in 963, Luxembourg became a grand duchy in 1815 and a constituent part of the Kingdom of the Netherlands after the Congress of Vienna. When Belgium declared independence from the Netherlands in 1839, Luxembourg lost more than half of its territory to Belgium but gained a larger measure of autonomy within the Kingdom of the Netherlands. Luxembourg gained full independence in 1867 by promising to remain permanently neutral. Overrun by Germany in both world wars, its neutrality ended in 1948 when it entered into the Benelux Customs Union and joined NATO the following year. In 1957, Luxembourg became one of the six founding countries of the EEC (later the EU), and in 1999 it joined the euro currency zone.",
+        "government_summary": "constitutional monarchy. Independence: 1839 (from the Netherlands)",
+        "economy_summary": "high-income EU and eurozone economy; global, highly capitalized banking sector; one of highest GDP-per-capita countries; strengthened domestic demand and lower interest rates contributing to economic growth; challenges include pension-system sustainability, labor-market dynamics, and energy price volatility",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

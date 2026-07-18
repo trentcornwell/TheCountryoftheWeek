@@ -1,0 +1,38 @@
+{
+    "name": "Latvia",
+    "excerpt": "Several eastern Baltic tribes merged in medieval times to form the ethnic core of the Latvian people (ca. 8th-12th centuries A.D.). The region subsequently came under the control of Germans, Poles, Swedes, and finally Russians.",
+    "quick_facts": {
+        "capital": "Riga",
+        "population": "1,888,439 (2025 est.)",
+        "area": "64,589 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Lutheran 36.2%, Roman Catholic 19.5%, Orthodox 19.1%, other Christian 1.6%, other 0.1%, unspecified/none 23.5% (2017 est.)",
+        "ethnic_groups": "Latvian 62.7%, Russian 24.5%, Belarusian 3.1%, Ukrainian 2.2%, Polish 2%, Lithuanian 1.1%, other 1.8%, unspecified 2.6% (2021 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "76.4 years (2024 est.)",
+        "internet_tld": ".lv",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "maritime; wet, moderate winters",
+        "terrain": "low plain",
+        "natural_resources": "peat, limestone, dolomite, amber, hydropower, timber, arable land",
+        "major_exports": "wood, wheat, broadcasting equipment, packaged medicine, natural gas (2023)"
+    },
+    "summaries": {
+        "geography_summary": "most of the country is composed of fertile low-lying plains with some hills in the east",
+        "history_summary": "Several eastern Baltic tribes merged in medieval times to form the ethnic core of the Latvian people (ca. 8th-12th centuries A.D.). The region subsequently came under the control of Germans, Poles, Swedes, and finally Russians. A Latvian republic emerged following World War I, but the USSR annexed it in 1940 -- an action never recognized by the US and many other countries. Latvia reestablished its independence in 1991 after the breakup of the Soviet Union. Although the last Russian troops left in 1994, the status of the Russian minority (some 25% of the population) remains of concern to Moscow. Latvia joined both NATO and the EU in 2004; it joined the euro zone in 2014 and the OECD in 2016.",
+        "government_summary": "parliamentary republic. Independence: 18 November 1918 (from Soviet Russia); 4 May 1990 (declared from the Soviet Union); 6 September 1991 (recognized by the Soviet Union)",
+        "economy_summary": "high-income EU and eurozone member; weak recovery following economic contraction, with slight increase in private consumption and uncertain trade environment; challenges from skilled-labor shortages, capital market access, large informal sector, and green and digital transitions",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

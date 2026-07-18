@@ -1,0 +1,38 @@
+{
+    "name": "Iraq",
+    "excerpt": "Formerly part of the Ottoman Empire, Iraq was occupied by the United Kingdom during World War I and was declared a League of Nations mandate under UK administration in 1920. Iraq attained its independence as a kingdom in 1932.",
+    "quick_facts": {
+        "capital": "Baghdad",
+        "population": "42,917,742 (2025 est.)",
+        "area": "438,317 sq km",
+        "government": "federal parliamentary republic",
+        "languages": "",
+        "religions": "Muslim (official) 95-98% (Shia 61-64%, Sunni 29-34%), Christian 1% (includes Catholic, Orthodox, Protestant, Assyrian Church of the East), other 1-4% (2015 est.)",
+        "ethnic_groups": "Arab 75-80%, Kurdish 15-20%, other 5% (includes Turkmen, Yezidi, Shabak, Kaka'i, Bedouin, Romani, Assyrian, Circassian, Sabaean-Mandaean, Persian)",
+        "currency": "Iraqi dinars (IQD)",
+        "life_expectancy": "73.7 years (2024 est.)",
+        "internet_tld": ".iq",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "mostly desert; mild to cool winters with dry, hot, cloudless summers; northern mountainous regions along Iranian and Turkish borders experience cold winters with occasionally heavy snows that melt in early spring, sometimes causing extensive flooding in central and southern Iraq",
+        "terrain": "mostly broad plains; reedy marshes along Iranian border in south with large flooded areas; mountains along borders with Iran and Turkey",
+        "natural_resources": "petroleum, natural gas, phosphates, sulfur",
+        "major_exports": "crude petroleum, refined petroleum, petroleum coke, gold, natural gas (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location on Shatt al Arab waterway and at the head of the Persian Gulf",
+        "history_summary": "Formerly part of the Ottoman Empire, Iraq was occupied by the United Kingdom during World War I and was declared a League of Nations mandate under UK administration in 1920. Iraq attained its independence as a kingdom in 1932. It was proclaimed a republic in 1958 after a coup overthrew the monarchy, but in actuality, a series of strongmen ruled the country until 2003. The last was SADDAM Hussein, from 1979 to 2003. Territorial disputes with Iran led to an inconclusive and costly war from 1980 to 1988. In 1990, Iraq seized Kuwait but was expelled by US-led UN coalition forces during the two-month-long Gulf War of 1991. After Iraq's expulsion, the UN Security Council (UNSC) required Iraq to scrap all weapons of mass destruction and long-range missiles and to allow UN verification inspections. Continued Iraqi noncompliance with UNSC resolutions led to the Second Gulf War in 2003, when US-led forces ousted the SADDAM regime. In 2005, Iraqis approved a constitution in a national referendum and elected a 275-member Council of Representatives (COR). The COR approved most of the cabinet ministers, marking the transition to Iraq's first constitutional government in nearly a half-century. Iraq's constitution also established the Kurdistan Regional Government (KRG), a semi-autonomous region that administers the governorates of Erbil, Dahuk, and As Sulaymaniyah. Iraq has held four national legislative elections since 2006, most recently in 2021. The COR approved Mohammad Shia' al-SUDANI as prime minister in 2022. Iraq has repeatedly postponed elections for provincial councils -- last held in 2013 -- and since 2019, the prime minister has had the authority to appoint governors rather than provincial councils. Between 2014 and 2017, Iraq fought a military campaign against the Islamic State of Iraq and ash-Sham (ISIS) to recapture territory the group seized in 2014. In 2017, then-Prime Minister Haydar al-ABADI publicly declared victory against ISIS, although military operations against the group continue in rural areas. Also in 2017, Baghdad forcefully seized disputed territories across central and northern Iraq from the KRG, after a non-binding Kurdish independence referendum.",
+        "government_summary": "federal parliamentary republic. Independence: 3 October 1932 (from League of Nations mandate under British administration)",
+        "economy_summary": "highly oil-dependent Middle Eastern economy; fiscal sustainability subject to fluctuation in oil prices; rising public confidence in economic conditions; import-dependent for most sectors; persistent challenges of corruption, informal markets, banking access, and political fragility",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

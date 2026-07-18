@@ -1,0 +1,38 @@
+{
+    "name": "Jamaica",
+    "excerpt": "Europeans first saw Jamaica when Christopher COLUMBUS arrived in 1494, and the Spanish settled the island early in the 16th century. The Native Taino, who had inhabited Jamaica for centuries, were gradually exterminated and replaced with African slaves.",
+    "quick_facts": {
+        "capital": "Kingston",
+        "population": "2,938,503 (2025 est.)",
+        "area": "10,991 sq km",
+        "government": "parliamentary democracy (Parliament) under a constitutional monarchy; a Commonwealth realm",
+        "languages": "English, Jamaican patois",
+        "religions": "Protestant 64.8% (includes Seventh Day Adventist 12.0%, Pentecostal 11.0%, Other Church of God 9.2%, New Testament Church of God 7.2%, Baptist 6.7%, Church of God in Jamaica 4.8%, Church of God of Prophecy 4.5%, Anglican 2.8%, United Church 2.1%, Methodist 1.6%, Revived 1.4%, Brethren 0.9%, and Moravian 0.7%), Roman Catholic 2.2%, Jehovah's Witness 1.9%, Rastafarian 1.1%, other 6.5%, none 21.3%, unspecified 2.3% (2011 est.)",
+        "ethnic_groups": "Black 92.1%, mixed 6.1%, East Indian 0.8%, other 0.4%, unspecified 0.7% (2011 est.)",
+        "currency": "Jamaican dollars (JMD)",
+        "life_expectancy": "76.3 years (2024 est.)",
+        "internet_tld": ".jm",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; hot, humid; temperate interior",
+        "terrain": "mostly mountains, with narrow, discontinuous coastal plain",
+        "natural_resources": "bauxite, alumina, gypsum, limestone",
+        "major_exports": "aluminum oxide, refined petroleum, natural gas, liquor, processed fruits and nuts (2023)"
+    },
+    "summaries": {
+        "geography_summary": "third largest island in the Caribbean (after Cuba and Hispaniola); strategic location between Cayman Trench and Jamaica Channel, the main sea lanes for the Panama Canal",
+        "history_summary": "Europeans first saw Jamaica when Christopher COLUMBUS arrived in 1494, and the Spanish settled the island early in the 16th century. The Native Taino, who had inhabited Jamaica for centuries, were gradually exterminated and replaced with African slaves. England seized the island in 1655 and established a plantation economy based on sugar, cocoa, and coffee. The abolition of slavery in 1834 freed a quarter-million slaves, many of whom became small farmers. Jamaica gradually increased its independence from Britain. In 1958, it joined other British Caribbean colonies in forming the Federation of the West Indies. Jamaica withdrew from the Federation in 1961 and gained full independence in 1962. Deteriorating economic conditions during the 1970s led to recurring violence as rival gangs affiliated with the major political parties evolved into powerful organized crime networks involved in international drug smuggling and money laundering. Violent crime, drug trafficking, corruption, and poverty pose significant challenges to the government today. Nonetheless, many rural and resort areas remain relatively safe and contribute substantially to the economy.",
+        "government_summary": "parliamentary democracy (Parliament) under a constitutional monarchy; a Commonwealth realm. Independence: 6 August 1962 (from the UK)",
+        "economy_summary": "upper-middle-income Caribbean island economy; key agriculture and tourism sectors; high crime, youth unemployment, and poverty; susceptible to natural disasters and global commodity price shocks; progress in reducing public debt and moderating inflation within target range",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

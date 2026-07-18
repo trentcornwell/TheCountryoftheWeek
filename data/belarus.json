@@ -1,0 +1,38 @@
+{
+    "name": "Belarus",
+    "excerpt": "After seven decades as a constituent republic of the USSR, Belarus attained its independence in 1991. It has retained closer political and economic ties to Russia than any of the other former Soviet republics.",
+    "quick_facts": {
+        "capital": "Minsk",
+        "population": "9,460,972 (2025 est.)",
+        "area": "207,600 sq km",
+        "government": "presidential republic in name, although in fact a dictatorship",
+        "languages": "",
+        "religions": "Orthodox 48.3%, Catholic 7.1%, other 3.5%, non-believers 41.1% (2011 est.)",
+        "ethnic_groups": "Belarusian 83.7%, Russian 8.3%, Polish 3.1%, Ukrainian 1.7%, other 2.4%, unspecified 0.9% (2009 est.)",
+        "currency": "Belarusian rubles (BYB/BYR)",
+        "life_expectancy": "74.7 years (2024 est.)",
+        "internet_tld": ".by",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "cold winters, cool and moist summers; transitional between continental and maritime",
+        "terrain": "generally flat with much marshland",
+        "natural_resources": "timber, peat deposits, small quantities of oil and natural gas, granite, dolomitic limestone, marl, chalk, sand, gravel, clay",
+        "major_exports": "fertilizers, rapeseed oil, wood, poultry, beef (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked; glacial scouring accounts for the flatness of Belarusian terrain and for its 11,000 lakes",
+        "history_summary": "After seven decades as a constituent republic of the USSR, Belarus attained its independence in 1991. It has retained closer political and economic ties to Russia than any of the other former Soviet republics. In 1999, Belarus and Russia signed a treaty on a two-state union, envisioning greater political and economic integration. Although Belarus agreed to a framework to carry out the accord, serious implementation has yet to take place and negotiations on further integration have been contentious. Since taking office in 1994 as the country's first and only directly elected president, Alyaksandr LUKASHENKA has steadily consolidated his power through authoritarian means and a centralized economic system. Government restrictions on political and civil freedoms, freedom of speech and the press, peaceful assembly, and religion have remained in place. Restrictions on political freedoms have tightened in the wake of the disputed presidential election in 2020. The election results sparked large-scale protests as members of the opposition and civil society criticized the election’s validity. LUKASHENKA has remained in power as the disputed winner of the presidential election after quelling protests in 2020. Since 2022, Belarus has facilitated Russia's war in Ukraine, which was launched in part from Belarusian territory.",
+        "government_summary": "presidential republic in name, although in fact a dictatorship. Independence: 25 August 1991 (from the Soviet Union)",
+        "economy_summary": "declining Russian energy subsidies will end in 2024; growing public debt; strong currency pressures have led to higher inflation; recent price controls on basic food and drugs; public sector wage increases and fragile private sector threaten household income gains and economic growth",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

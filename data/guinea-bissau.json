@@ -1,0 +1,38 @@
+{
+    "name": "Guinea-Bissau",
+    "excerpt": "For much of its history, Guinea-Bissau was under the control of the Mali Empire and the Kaabu Kingdom. In the 16th century, Portugal began establishing trading posts along Guinea-Bissau’s shoreline. Initially, the Portuguese were restricted to the coastline and islands.",
+    "quick_facts": {
+        "capital": "Bissau",
+        "population": "2,132,325 (2024 est.)",
+        "area": "36,125 sq km",
+        "government": "semi-presidential republic",
+        "languages": "Portuguese-based Creole, Portuguese (official; largely used as a second or third language), Pular (a Fula language), Mandingo",
+        "religions": "Muslim 46.1%, folk religions 30.6%, Christian 18.9%, other or unaffiliated 4.4% (2020 est.)",
+        "ethnic_groups": "Balanta 30%, Fulani 30%, Manjaco 14%, Mandinga 13%, Papel 7%, unspecified smaller ethnic groups 6% (2015 est.)",
+        "currency": "Communaute Financiere Africaine francs (XOF)",
+        "life_expectancy": "64.5 years (2024 est.)",
+        "internet_tld": ".gw",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; generally hot and humid; monsoonal-type rainy season (June to November) with southwesterly winds; dry season (December to May) with northeasterly harmattan winds",
+        "terrain": "mostly low-lying coastal plain with a deeply indented estuarine coastline rising to savanna in east; numerous off-shore islands including the Arquipelago Dos Bijagos consisting of 18 main islands and many small islets",
+        "natural_resources": "fish, timber, phosphates, bauxite, clay, granite, limestone, unexploited deposits of petroleum",
+        "major_exports": "coconuts/brazil nuts/cashews, fish, fish oil, processed crustaceans, malt extract (2023)"
+    },
+    "summaries": {
+        "geography_summary": "this small country is swampy along its western coast and is low-lying inland",
+        "history_summary": "For much of its history, Guinea-Bissau was under the control of the Mali Empire and the Kaabu Kingdom. In the 16th century, Portugal began establishing trading posts along Guinea-Bissau’s shoreline. Initially, the Portuguese were restricted to the coastline and islands. However, the slave and gold trades were lucrative to local African leaders, and the Portuguese were slowly able to expand their power and influence inland. Starting in the 18th century, the Mali Empire and Kingdom of Kaabu slowly disintegrated into smaller local entities. By the 19th century, Portugal had fully incorporated Guinea-Bissau into its empire.Since gaining independence in 1974, Guinea-Bissau has experienced considerable political and military upheaval. In 1980, a military coup established General Joao Bernardo 'Nino' VIEIRA as president. VIEIRA's regime suppressed political opposition and purged political rivals. Several coup attempts through the 1980s and early 1990s failed to unseat him, but a military mutiny and civil war in 1999 led to VIEIRA's ouster. In 2000, a transitional government turned over power to opposition leader Kumba YALA. In 2003, a bloodless military coup overthrew YALA and installed businessman Henrique ROSA as interim president. In 2005, VIEIRA was reelected, pledging to pursue economic development and national reconciliation; he was assassinated in 2009. Malam Bacai SANHA was then elected president, but he passed away in 2012 from a long-term illness. A military coup blocked the second round of the election to replace him, but after mediation from the Economic Community of Western African States, a civilian transitional government assumed power. In 2014, Jose Mario VAZ was elected president in a free and fair election, and in 2019, he became the first president in Guinea-Bissau’s history to complete a full term. Umaro Sissoco EMBALO was elected president in 2019, but he did not take office until 2020 because of a prolonged challenge to the election results.",
+        "government_summary": "semi-presidential republic. Independence: 24 September 1973 (declared); 10 September 1974 (from Portugal)",
+        "economy_summary": "extremely poor West African economy; ethnically diverse labor force; increasing government expenditures; slight inflation due to food supply disruptions; major cashew exporter; systemic banking instabilities and corruption; vulnerable to oil price shocks",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

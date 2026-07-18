@@ -1,0 +1,38 @@
+{
+    "name": "Sweden",
+    "excerpt": "A military power during the 17th century, Sweden maintained a policy of military non-alignment until it applied to join NATO in 2022. Sweden has not participated in any war for two centuries. Stockholm preserved an armed neutrality in both World Wars.",
+    "quick_facts": {
+        "capital": "Stockholm",
+        "population": "10,643,745 (2025 est.)",
+        "area": "450,295 sq km",
+        "government": "parliamentary constitutional monarchy",
+        "languages": "",
+        "religions": "Church of Sweden (Lutheran) 53.9%, other (includes Roman Catholic, Orthodox, Baptist, Muslim, Jewish, and Buddhist) 8.9%, none or unspecified 37.2% (2021 est.)",
+        "ethnic_groups": "Swedish 79.6%, Syrian 1.9%, Iraqi 1.4%, Finnish 1.3%, other 15.8% (2022 est.)",
+        "currency": "Swedish kronor (SEK)",
+        "life_expectancy": "82.9 years (2024 est.)",
+        "internet_tld": ".se",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate in south with cold, cloudy winters and cool, partly cloudy summers; subarctic in north",
+        "terrain": "mostly flat or gently rolling lowlands; mountains in west",
+        "natural_resources": "iron ore, copper, lead, zinc, gold, silver, tungsten, uranium, arsenic, feldspar, timber, hydropower",
+        "major_exports": "cars, refined petroleum, packaged medicine, paper, vehicle parts/accessories (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location along Danish Straits linking Baltic and North Seas; Sweden has almost 100,000 lakes, the largest of which, Vanern, is the third-largest in Europe",
+        "history_summary": "A military power during the 17th century, Sweden maintained a policy of military non-alignment until it applied to join NATO in 2022. Sweden has not participated in any war for two centuries. Stockholm preserved an armed neutrality in both World Wars. Since then, Sweden has pursued a successful economic formula consisting of a capitalist system intermixed with substantial welfare elements. Sweden joined the EU in 1995, but the public rejected the introduction of the euro in a 2003 referendum. The share of Sweden’s population born abroad increased from 11.3% in 2000 to 20% in 2022.",
+        "government_summary": "parliamentary constitutional monarchy. Independence: 6 June 1523 (Gustav VASA elected king of Sweden, marking the abolishment of the Kalmar Union of Denmark, Norway, and Sweden)",
+        "economy_summary": "high-income, largest Nordic economy; EU member but does not use the euro; export-oriented, led by automotive, electronics, machinery, and pharmaceuticals; highly ranked for competitiveness, R&D investments and governance; recovery, with falling inflation and real wage growth balanced by risks from trade uncertainty",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

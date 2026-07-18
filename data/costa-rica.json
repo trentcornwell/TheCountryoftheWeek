@@ -1,0 +1,38 @@
+{
+    "name": "Costa Rica",
+    "excerpt": "Although explored by the Spanish early in the 16th century, initial attempts at colonizing Costa Rica proved unsuccessful due to a combination of factors, including disease from mosquito-infested swamps, brutal heat, resistance from Indigenous populations, and pirate raids.",
+    "quick_facts": {
+        "capital": "San José",
+        "population": "5,304,932 (2025 est.)",
+        "area": "51,100 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Roman Catholic 47.5%, Evangelical and Pentecostal 19.8%, Jehovah's Witness 1.4%, other Protestant 1.2%, other 3.1%, none 27% (2021 est.)",
+        "ethnic_groups": "White or Mestizo 83.6%, Mulatto 6.7%, Indigenous 2.4%, Black or African descent 1.1%, other 1.1%, none 2.9%, unspecified 2.2% (2011 est.)",
+        "currency": "Costa Rican colones (CRC)",
+        "life_expectancy": "80.3 years (2024 est.)",
+        "internet_tld": ".cr",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical and subtropical; dry season (December to April); rainy season (May to November); cooler in highlands",
+        "terrain": "coastal plains separated by rugged mountains including over 100 volcanic cones, of which several are major active volcanoes",
+        "natural_resources": "hydropower",
+        "major_exports": "medical instruments, integrated circuits, orthopedic appliances, bananas, tropical fruits (2023)"
+    },
+    "summaries": {
+        "geography_summary": "four volcanoes, two of them active, rise near the capital of San Jose in the center of the country; one of the volcanoes, Irazu, erupted destructively in 1963-65",
+        "history_summary": "Although explored by the Spanish early in the 16th century, initial attempts at colonizing Costa Rica proved unsuccessful due to a combination of factors, including disease from mosquito-infested swamps, brutal heat, resistance from Indigenous populations, and pirate raids. It was not until 1563 that a permanent settlement of Cartago was established in the cooler, fertile central highlands. The area remained a colony for some two-and-a-half centuries. In 1821, Costa Rica was one of several Central American provinces that jointly declared independence from Spain. Two years later it joined the United Provinces of Central America, but this federation disintegrated in 1838, at which time Costa Rica proclaimed its sovereignty and independence. Since the late 19th century, only two brief periods of violence have marred the country's democratic development. General Federico TINOCO Granados led a coup in 1917, but the threat of US intervention pushed him to resign in 1919. In 1948, landowner Jose FIGUERES Ferrer raised his own army and rebelled against the government. The brief civil war ended with an agreement to allow FIGUERES to remain in power for 18 months, then step down in favor of the previously elected Otilio ULATE. FIGUERES was later elected twice in his own right, in 1953 and 1970. Costa Rica experienced destabilizing waves of refugees from Central American civil wars in the 1970s and 1980s, but peace in the region has since helped the economy rebound. Although it still maintains a large agricultural sector, Costa Rica has expanded its economy to include strong technology and tourism industries.",
+        "government_summary": "presidential republic. Independence: 15 September 1821 (from Spain)",
+        "economy_summary": "trade-based upper middle-income economy; green economy leader, having reversed deforestation; investing in blue economy infrastructure; declining poverty until hard impacts of COVID-19; lingering inequality and growing government debts have prompted a liquidity crisis",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

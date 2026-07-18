@@ -1,0 +1,38 @@
+{
+    "name": "Namibia",
+    "excerpt": "Various ethnic groups occupied southwestern Africa prior to Germany establishing a colony over most of the territory in 1884.",
+    "quick_facts": {
+        "capital": "Windhoek",
+        "population": "2,852,777 (2025 est.)",
+        "area": "824,292 sq km",
+        "government": "presidential republic",
+        "languages": "Oshiwambo languages 49.7%, Nama/Damara 11%, Kavango languages 10.4%, Afrikaans 9.4%, Herero languages 9.2%, Zambezi languages 4.9%, English (official) 2.3%, other African languages 1.5%, other European languages 0.7%, other 1% (2016 est.)",
+        "religions": "Christian 97.5%, other 0.6% (includes Muslim, Baha'i, Jewish, Buddhist), unaffiliated 1.9% (2020 est.)",
+        "ethnic_groups": "Ovambo 50%, Kavangos 9%, Herero 7%, Damara 7%, mixed European and African ancestry 6.5%, European 6%, Nama 5%, Caprivian 4%, San 3%, Baster 2%, Tswana 0.5%",
+        "currency": "Namibian dollars (NAD)",
+        "life_expectancy": "65.9 years (2024 est.)",
+        "internet_tld": ".na",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "desert; hot, dry; rainfall sparse and erratic",
+        "terrain": "mostly high plateau; Namib Desert along coast; Kalahari Desert in east",
+        "natural_resources": "diamonds, copper, uranium, gold, silver, lead, tin, lithium, cadmium, tungsten, zinc, salt, hydropower, fish",
+        "major_exports": "gold, diamonds, radioactive chemicals, fish, refined petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "the Namib Desert, after which the country is named, is considered to be the oldest desert in the world; some 14% of the land is protected, including virtually the entire Namib Desert coastal strip",
+        "history_summary": "Various ethnic groups occupied southwestern Africa prior to Germany establishing a colony over most of the territory in 1884. South Africa occupied the colony, then known as German South West Africa, in 1915 during World War I and administered it as a mandate until after World War II, when it annexed the territory. In 1966, the Marxist South-West Africa People's Organization (SWAPO) guerrilla group launched a war of independence for the area that became Namibia, but it was not until 1988 that South Africa agreed to end its administration in accordance with a UN peace plan for the entire region. Namibia gained independence in 1990, and SWAPO has governed it since, although the party has dropped much of its Marxist ideology. President Hage GEINGOB was elected in 2014 in a landslide victory, replacing Hifikepunye POHAMBA, who stepped down after serving two terms. SWAPO retained its parliamentary super majority in the 2014 elections. In 2019 elections, GEINGOB was reelected but by a substantially reduced majority, and SWAPO narrowly lost its super majority in parliament.",
+        "government_summary": "presidential republic. Independence: 21 March 1990 (from South African mandate)",
+        "economy_summary": "upper middle-income, export-driven Sub-Saharan economy; natural resource rich; Walvis Bay port expansion for trade; high potential for renewable power generation and energy independence; major nature-based tourist locale; natural resource rich; shortage of skilled labor",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

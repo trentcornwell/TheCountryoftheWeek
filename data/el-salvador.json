@@ -1,0 +1,38 @@
+{
+    "name": "El Salvador",
+    "excerpt": "El Salvador achieved independence from Spain in 1821 and from the Central American Federation in 1839.",
+    "quick_facts": {
+        "capital": "San Salvador",
+        "population": "6,334,723 (2025 est.)",
+        "area": "21,041 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Roman Catholic 43.9%, Protestant 39.6% (Evangelical - unspecified 38.2%, Evangelical - Methodist 1.3%, Evangelical - Baptist 0.1%), none 16.3%, unspecified 0.2% (2023 est.)",
+        "ethnic_groups": "Mestizo 86.3%, White 12.7%, Indigenous 0.2% (includes Lenca, Kakawira, Nahua-Pipil), Black 0.1%, other 0.6% (2007 est.)",
+        "currency": "",
+        "life_expectancy": "75.9 years (2024 est.)",
+        "internet_tld": ".sv",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; rainy season (May to October); dry season (November to April); tropical on coast; temperate in uplands",
+        "terrain": "mostly mountains with narrow coastal belt and central plateau",
+        "natural_resources": "hydropower, geothermal power, petroleum, arable land",
+        "major_exports": "garments, plastic products, electrical capacitors, raw sugar, toilet paper (2023)"
+    },
+    "summaries": {
+        "geography_summary": "smallest Central American country and only one without a coastline on the Caribbean Sea",
+        "history_summary": "El Salvador achieved independence from Spain in 1821 and from the Central American Federation in 1839. A 12-year civil war, which cost about 75,000 lives, was brought to a close in 1992 when the government and leftist rebels signed a treaty that provided for military and political reforms. El Salvador is beset by one of the world's highest homicide rates and pervasive criminal gangs.",
+        "government_summary": "presidential republic. Independence: 15 September 1821 (from Spain)",
+        "economy_summary": "upper-middle-income, dollarized Central American economy; reliant on remittances from US; recent growth linked to infrastructure investment, consumption, and crime reduction; $1.3 billion IMF loan to address fiscal imbalances; Bitcoin adopted as legal tender; persistent poverty and large informal sector",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

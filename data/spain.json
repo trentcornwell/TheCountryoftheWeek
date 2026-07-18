@@ -1,0 +1,38 @@
+{
+    "name": "Spain",
+    "excerpt": "Spain's powerful world empire of the 16th and 17th centuries ultimately yielded command of the seas to England. Spain remained neutral during both World Wars but suffered through a devastating civil war (1936-39) resulting in a dictatorship.",
+    "quick_facts": {
+        "capital": "Madrid",
+        "population": "47,280,433 (2024 est.)",
+        "area": "505,370 sq km",
+        "government": "parliamentary constitutional monarchy",
+        "languages": "",
+        "religions": "Roman Catholic 58.2%, atheist 16.2%, agnostic 10.8%, other 2.7%, non-believer 10.5%, unspecified 1.7% (2021 est.)",
+        "ethnic_groups": "Spanish 84.8%, Moroccan 1.7%, Romanian 1.2%, other 12.3% (2021 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "83 years (2024 est.)",
+        "internet_tld": ".es",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; clear, hot summers in interior, more moderate and cloudy along coast; cloudy, cold winters in interior, partly cloudy and cool along coast",
+        "terrain": "large, flat to dissected plateau surrounded by rugged hills; Pyrenees Mountains in north",
+        "natural_resources": "coal, lignite, iron ore, copper, lead, zinc, uranium, tungsten, mercury, pyrites, magnesite, fluorspar, gypsum, sepiolite, kaolin, potash, hydropower, arable land",
+        "major_exports": "cars, packaged medicine, refined petroleum, vehicle parts/accessories, garments (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location along approaches to Strait of Gibraltar; Spain controls a number of territories in northern Morocco, including the enclaves of Ceuta and Melilla and the islands of Penon de Velez de la Gomera, Penon de Alhucemas, and Islas Chafarinas; Spain's Canary Islands are one of four North Atlantic archipelagos that make up Macaronesia; the others are the Azores (Portugal), Madeira (Portugal), and Cabo Verde",
+        "history_summary": "Spain's powerful world empire of the 16th and 17th centuries ultimately yielded command of the seas to England. Spain remained neutral during both World Wars but suffered through a devastating civil war (1936-39) resulting in a dictatorship. A peaceful transition to democracy after the death of dictator Francisco FRANCO in 1975 and rapid economic modernization after Spain joined the EU in 1986 gave Spain a dynamic and rapidly growing economy. After a severe recession in the wake of the global financial crisis in 2008, Spain has posted solid years of GDP growth above the EU average. Unemployment has fallen but remains high, especially among youth. Spain is the euro-zone's fourth-largest economy. The country has faced increased domestic turmoil in recent years due to the independence movement in its restive Catalonia region.",
+        "government_summary": "parliamentary constitutional monarchy. Independence: 1492",
+        "economy_summary": "high-income, core-EU and eurozone economy; strong growth driven by public consumption, tourism, and other service exports; tight labor market despite high structural unemployment; efforts to narrow persistent fiscal deficits through tax and spending measures; high but declining unemployment supported by job growth and immigration",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

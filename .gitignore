@@ -1,0 +1,51 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.code-workspace
+.idea/
+.vscode/*.local.json
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+wp-config.php
+auth.json
+*.pem
+*.key
+
+# WordPress runtime content
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+*.sql
+*.sql.gz
+
+# Dependencies and build output
+vendor/
+node_modules/
+coverage/
+dist/
+build/
+*.log
+
+# Local verification-only WordPress install (see docs/SETUP.md)
+.wp-local/
+*.phar
+.phpunit.result.cache
+
+# Scratch cache used when re-importing CIA Factbook data (see scripts/)
+.import-tmp/
+
+# Generated exports (retain documentation)
+exports/*
+!exports/README.md
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+~*
+

@@ -1,0 +1,38 @@
+{
+    "name": "China",
+    "excerpt": "China's historical civilization dates to at least the 13th century B.C., first under the Shang (to 1046 B.C.) and then the Zhou (1046-221 B.C.) dynasties. The imperial era of China began in 221 B.C. under the Qin Dynasty and lasted until the fall of the Qing Dynasty in 1912.",
+    "quick_facts": {
+        "capital": "Beijing",
+        "population": "1,407,181,209 (2025 est.)",
+        "area": "9,596,960 sq km",
+        "government": "communist party-led state",
+        "languages": "",
+        "religions": "folk religion 21.9%, Buddhist 18.2%, Christian 5.1%, Muslim 1.8%, Hindu < 0.1%, Jewish < 0.1%, other 0.7% (includes Daoist (Taoist)), unaffiliated 52.1% (2021 est.)",
+        "ethnic_groups": "Han Chinese 91.1%, ethnic minorities 8.9% (includes Zhang, Hui, Manchu, Uighur, Miao, Yi, Tujia, Tibetan, Mongol, Dong, Buyei, Yao, Bai, Korean, Hani, Li, Kazakh, Dai, and other nationalities) (2021 est.)",
+        "currency": "Renminbi yuan (RMB)",
+        "life_expectancy": "78.7 years (2024 est.)",
+        "internet_tld": ".cn",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "extremely diverse; tropical in south to subarctic in north",
+        "terrain": "mostly mountains, high plateaus, deserts in west; plains, deltas, and hills in east",
+        "natural_resources": "coal, iron ore, helium, petroleum, natural gas, arsenic, bismuth, cobalt, cadmium, ferrosilicon, gallium, germanium, hafnium, indium, lithium, mercury, tantalum, tellurium, tin, titanium, tungsten, antimony, manganese, magnesium, molybdenum, selenium, strontium, vanadium, magnetite, aluminum, lead, zinc, rare earth elements, uranium, hydropower potential (world's largest), arable land",
+        "major_exports": "broadcasting equipment, computers, integrated circuits, garments, machine parts (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: world's fourth largest country (after Russia, Canada, and the US) and largest country situated entirely in Asia; Mount Everest, on the border with Nepal, is the world's tallest peak above sea levelnote 2: the largest cave chamber in the world is the Miao Room, in the Gebihe cave system at China's Ziyun Getu He Chuandong National Park, which encloses about 10.78 million cu m (380.7 million cu ft); the world's largest sinkhole is the Xiaoxhai Tiankeng sinkhole in Chongqing Municipality, which is 660 m deep, with a volume of 130 million cu m",
+        "history_summary": "China's historical civilization dates to at least the 13th century B.C., first under the Shang (to 1046 B.C.) and then the Zhou (1046-221 B.C.) dynasties. The imperial era of China began in 221 B.C. under the Qin Dynasty and lasted until the fall of the Qing Dynasty in 1912. During this period, China alternated between periods of unity and disunity under a succession of imperial dynasties. In the 19th century, the Qing Dynasty suffered heavily from overextension by territorial conquest, insolvency, civil war, imperialism, military defeats, and foreign expropriation of ports and infrastructure. It collapsed following the Revolution of 1911, and China became a republic under SUN Yat-sen of the Kuomintang (KMT or Nationalist) Party. However, the republic was beset by division, warlordism, and continued foreign intervention. In the late 1920s, a civil war erupted between the ruling KMT-controlled government, led by CHIANG Kai-shek, and the Chinese Communist Party (CCP). Japan occupied much of northeastern China in the early 1930s, and then launched a full-scale invasion of the country in 1937. The resulting eight years of warfare devastated the country and cost up to 20 million Chinese lives by the time of Japan’s defeat in 1945. The Nationalist-Communist civil war continued with renewed intensity after the end of World War II and culminated with a CCP victory in 1949, under the leadership of MAO Zedong.MAO and the CCP established an autocratic socialist system that, while ensuring the PRC's sovereignty, imposed strict controls over everyday life and launched agricultural, economic, political, and social policies -- such as the Great Leap Forward (1958-1962) and the Cultural Revolution (1966-1976) -- that cost the lives of millions of people. MAO died in 1976. Beginning in 1978, leaders DENG Xiaoping, JIANG Zemin, and HU Jintao focused on market-oriented economic development and opening up the country to foreign trade, while maintaining the rule of the CCP. Since the change, China has been among the world’s fastest growing economies, with real gross domestic product averaging over 9% growth annually through 2021, lifting an estimated 800 million people out of poverty and dramatically improving overall living standards. By 2011, the PRC’s economy was the second largest in the world. Current leader XI Jinping has continued these policies but has also maintained tight political controls. Over the past decade, China has increased its global outreach, including military deployments, participation in international organizations, and a global connectivity plan in 2013 called the \"Belt and Road Initiative\" (BRI). Many nations have signed on to BRI agreements to attract PRC investment, but others have expressed concerns about such issues as the opaque nature of the projects, financing, and potentially unsustainable debt obligations. XI Jinping assumed the positions of General Secretary of the Chinese Communist Party and Chairman of the Central Military Commission in 2012 and President in 2013. In 2018, the PRC’s National People’s Congress passed an amendment abolishing presidential term limits, which allowed XI to gain a third five-year term in 2023.",
+        "government_summary": "communist party-led state. Independence: 1 October 1949 (People's Republic of China established); notable earlier dates: 221 B.C. (unification under the Qin Dynasty); 1 January 1912 (Qing Dynasty replaced by the Republic of China)",
+        "economy_summary": "world’s second-largest economy by nominal GDP; global leader in exports and manufacturing; historically strong growth slowing; challenges of aging workforce, weak productivity, rising youth unemployment, struggling property sector, and public debt; state-sponsored economic controls and infrastructure investments",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

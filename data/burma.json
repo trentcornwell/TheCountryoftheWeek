@@ -1,0 +1,38 @@
+{
+    "name": "Burma",
+    "excerpt": "Burma is home to ethnic Burmans and scores of other ethnic and religious minority groups that have resisted external efforts to consolidate control of the country throughout its history.",
+    "quick_facts": {
+        "capital": "Rangoon (aka Yangon, continues to be recognized as the primary Burmese capital by the US Government); Nay Pyi Taw is the administrative capital",
+        "population": "57,931,718 (2025 est.)",
+        "area": "676,578 sq km",
+        "government": "military regime",
+        "languages": "",
+        "religions": "Buddhist 87.9%, Christian 6.2%, Muslim 4.3%, Animist 0.8%, Hindu 0.5%, other 0.2%, none 0.1% (2014 est.)",
+        "ethnic_groups": "Burman (Bamar) 68%, Shan 9%, Karen 7%, Rakhine 4%, Chinese 3%, Indian 2%, Mon 2%, other 5%",
+        "currency": "kyats (MMK)",
+        "life_expectancy": "70.3 years (2024 est.)",
+        "internet_tld": ".mm",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical monsoon; cloudy, rainy, hot, humid summers (southwest monsoon, June to September); less cloudy, scant rainfall, mild temperatures, lower humidity during winter (northeast monsoon, December to April)",
+        "terrain": "central lowlands ringed by steep, rugged highlands",
+        "natural_resources": "petroleum, timber, tin, antimony, zinc, copper, tungsten, lead, coal, marble, limestone, precious stones, natural gas, hydropower, arable land",
+        "major_exports": "garments, natural gas, dried legumes, rare-earth metal compounds, precious stones (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location near major Indian Ocean shipping lanes; the north-south flowing Irrawaddy River is the country's largest and most important commercial waterway",
+        "history_summary": "Burma is home to ethnic Burmans and scores of other ethnic and religious minority groups that have resisted external efforts to consolidate control of the country throughout its history. Britain conquered Burma over a period extending from the 1820s to the 1880s and administered it as a province of India until 1937, when Burma became a self-governing colony. Burma gained full independence in 1948. In 1962, General NE WIN seized power and ruled the country until 1988 when a new military regime took control. In 1990, the military regime permitted an election but then rejected the results after the main opposition National League for Democracy (NLD) and its leader AUNG SAN SUU KYI (ASSK) won in a landslide. The military regime placed ASSK under house arrest until 2010. In 2007, rising fuel prices in Burma led pro-democracy activists and Buddhist monks to launch a \"Saffron Revolution\" consisting of large protests against the regime, which violently suppressed the movement. The regime prevented new elections until it had drafted a constitution designed to preserve the military's political control; it passed the new constitution in its 2008 referendum. The regime conducted an election in 2010, but the NLD boycotted the vote, and the military’s political proxy, the Union Solidarity and Development Party, easily won; international observers denounced the election as flawed. Burma nonetheless began a halting process of political and economic reforms. ASSK's return to government in 2012 eventually led to the NLD's sweeping victory in the 2015 election. With ASSK as the de facto head of state, Burma’s first credibly elected civilian government drew international criticism for blocking investigations into Burma’s military operations -- which the US Department of State determined constituted genocide -- against its ethnic Rohingya population. When the 2020 elections resulted in further NLD gains, the military denounced the vote as fraudulent. In 2021, the military's senior leader General MIN AUNG HLAING launched a coup that returned Burma to authoritarian rule, with military crackdowns that undid reforms and resulted in the detention of ASSK and thousands of pro-democracy actors.Pro-democracy organizations have formed in the wake of the coup, including the National Unity Government (NUG). Members of the NUG include representatives from the NLD, ethnic minority groups, and civil society. In 2021, the NUG announced the formation of armed militias called the People's Defense Forces (PDF) and an insurgency against the military junta. As of 2024, PDF units across the country continued to fight the regime with varying levels of support from and cooperation with the NUG and other anti-regime organizations, including armed ethnic groups that have been fighting the central government for decades.",
+        "government_summary": "military regime. Independence: 4 January 1948 (from the UK)",
+        "economy_summary": "slowly recovering Southeast Asian economy; household incomes weaken domestic consumption; growing trade deficit; declining employment; high inflation and reduced currency power; agriculture sector remains most stable",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

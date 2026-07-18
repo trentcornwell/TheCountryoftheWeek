@@ -1,0 +1,38 @@
+{
+    "name": "Czechia",
+    "excerpt": "At the close of World War I, the Czechs and Slovaks of the former Austro-Hungarian Empire merged to form Czechoslovakia, a parliamentarian democracy.",
+    "quick_facts": {
+        "capital": "Prague",
+        "population": "10,838,703 (2025 est.)",
+        "area": "78,867 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Roman Catholic 7%, other believers belonging to a church or religious society 6% (includes Evangelical United Brethren Church and Czechoslovak Hussite Church), believers unaffiliated with a religious society 9.1%, none 47.8%, unspecified 30.1% (2021 est.)",
+        "ethnic_groups": "Czech 57.3%, Moravian 3.4%, other 7.7%, unspecified 31.6% (2021 est.)",
+        "currency": "koruny (CZK)",
+        "life_expectancy": "78.6 years (2024 est.)",
+        "internet_tld": ".cz",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; cool summers; cold, cloudy, humid winters",
+        "terrain": "Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains; Moravia in the east consists of very hilly country",
+        "natural_resources": "hard coal, soft coal, kaolin, clay, graphite, timber, arable land",
+        "major_exports": "cars, vehicle parts/accessories, broadcasting equipment, computers, plastic products (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: landlocked; strategically located on some of oldest and most significant land routes in Europe; Moravian Gate is a traditional military corridor between the North European Plain and the Danube in central Europenote 2: the Hranice Abyss in Czechia is the world's deepest surveyed freshwater cave at 519 m (1,703 ft); its survey is not complete, and it may be up to 800-1,200 m (2,625-3,937 ft) deep",
+        "history_summary": "At the close of World War I, the Czechs and Slovaks of the former Austro-Hungarian Empire merged to form Czechoslovakia, a parliamentarian democracy. During the interwar years, having rejected a federal system, the new country's predominantly Czech leaders were frequently preoccupied with meeting the increasingly strident demands of other ethnic minorities within the republic, most notably the Slovaks, the Sudeten Germans, and the Ruthenians (Ukrainians). On the eve of World War II, Nazi Germany occupied the territory that today comprises Czechia, and Slovakia became an independent state allied with Germany. After the war, a reunited but truncated Czechoslovakia (less Ruthenia) fell within the Soviet sphere of influence when the pro-Soviet Communist party staged a coup in February 1948. In 1968, an invasion by fellow Warsaw Pact troops ended the efforts of the country's leaders to liberalize communist rule and create \"socialism with a human face,\" ushering in a period of repression known as \"normalization.\" The peaceful \"Velvet Revolution\" swept the Communist Party from power at the end of 1989 and inaugurated a return to democratic rule and a market economy. On 1 January 1993, the country underwent a nonviolent \"velvet divorce\" into its two national components, the Czech Republic and Slovakia. The Czech Republic joined NATO in 1999 and the European Union in 2004. The country formally added the short-form name Czechia in 2016, while also continuing to use the full form name, the Czech Republic.",
+        "government_summary": "parliamentary republic. Independence: 1 January 1993 (Czechoslovakia split into the Czech Republic and Slovakia)",
+        "economy_summary": "high-income, diversified EU economy; manufacturing-oriented exporter led by automotive industry; moderate growth driven by household consumption and investments, despite negative contribution from net exports; tight labor market with low unemployment; gained energy independence from Russian oil in April 2025",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

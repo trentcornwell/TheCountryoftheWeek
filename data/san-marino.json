@@ -1,0 +1,38 @@
+{
+    "name": "San Marino",
+    "excerpt": "Geographically the third-smallest state in Europe (after the Holy See and Monaco), San Marino also claims to be the world's oldest republic. According to tradition, it was founded by a Christian stonemason named MARINUS in A.D. 301.",
+    "quick_facts": {
+        "capital": "San Marino (city)",
+        "population": "35,291 (2025 est.)",
+        "area": "61 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Roman Catholic",
+        "ethnic_groups": "Sammarinese, Italian",
+        "currency": "euros (EUR)",
+        "life_expectancy": "84.2 years (2024 est.)",
+        "internet_tld": ".sm",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "Mediterranean; mild to cool winters; warm, sunny summers",
+        "terrain": "rugged mountains",
+        "natural_resources": "building stone",
+        "major_exports": "washing and bottling machines, other foods, packaged medicine, woodworking machines, aircraft (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked; an enclave of (completely surrounded by) Italy; smallest independent state in Europe after the Holy See and Monaco; dominated by the Apennine Mountains",
+        "history_summary": "Geographically the third-smallest state in Europe (after the Holy See and Monaco), San Marino also claims to be the world's oldest republic. According to tradition, it was founded by a Christian stonemason named MARINUS in A.D. 301. San Marino's foreign policy is aligned with that of the EU, although it is not a member. San Marino is negotiating an Association Agreement that is expected to allow participation in the EU’s internal market and cooperation in other policy areas by late 2024. Social and political trends in the republic track closely with those of its larger neighbor, Italy.",
+        "government_summary": "parliamentary republic. Independence: 3 September 301 (traditional founding date)",
+        "economy_summary": "high-income, non-EU European economy; surrounded by Italy, which is the dominant importer and exporter; open border to EU and a euro user; strong financial sector; high foreign investments; low taxation; increasingly high and risky debt",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

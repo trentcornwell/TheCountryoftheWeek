@@ -1,0 +1,48 @@
+{
+    "$comment": "Documents the shape of data/country-index.json and per-country content files like data/kiribati.json. Not machine-enforced — scripts/import-countries.php reads these files directly — but kept here as the single reference for anyone adding new country content files.",
+    "country_index_entry": {
+        "name": "string — official CIA World Factbook name, using Factbook's own alphabetization convention (e.g. 'Bahamas, The', 'Korea, North'). This becomes the WordPress post_title verbatim.",
+        "continent": "string — one of: Africa, Asia, Europe, North America, South America, Oceania.",
+        "region": "string — a Factbook-style sub-region, e.g. 'Southeast Asia', 'Caribbean'."
+    },
+    "country_content_file": {
+        "name": "string — must exactly match a 'name' in country-index.json.",
+        "excerpt": "string — one or two sentence summary used as the meta description fallback and archive card blurb.",
+        "quick_facts": {
+            "capital": "string",
+            "population": "string — kept as Factbook-formatted text (e.g. '119,940 (2023 est.)'), not a bare number.",
+            "area": "string",
+            "government": "string",
+            "languages": "string",
+            "religions": "string",
+            "ethnic_groups": "string",
+            "currency": "string",
+            "life_expectancy": "string",
+            "internet_tld": "string",
+            "calling_code": "string",
+            "driving_side": "string",
+            "climate": "string",
+            "terrain": "string",
+            "natural_resources": "string",
+            "major_exports": "string"
+        },
+        "summaries": {
+            "economy_summary": "string (paragraphs separated by \\n\\n)",
+            "history_summary": "string",
+            "geography_summary": "string",
+            "government_summary": "string",
+            "people_summary": "string",
+            "culture_section": "string"
+        },
+        "facts_and_lists": {
+            "interesting_facts": "string[] — one fact per array item, joined with \\n on import.",
+            "did_you_know": "string[]",
+            "suggested_reading": "string[] — each item formatted 'Title | https://example.com'."
+        },
+        "prayer_and_mission": {
+            "prayer_intro": "string — original or licensed content only, never copied from Operation World or similar copyrighted sources.",
+            "prayer_points": "string[]",
+            "mission_emphasis": "string"
+        }
+    }
+}

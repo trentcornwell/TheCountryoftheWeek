@@ -1,0 +1,38 @@
+{
+    "name": "Denmark",
+    "excerpt": "Once the seat of Viking raiders and later a major north European power, Denmark has evolved into a modern, prosperous nation that is part of the general political and economic integration of Europe. It joined NATO in 1949 and the EEC (now the EU) in 1973.",
+    "quick_facts": {
+        "capital": "Copenhagen",
+        "population": "6,051,491 (2025 est.)",
+        "area": "43,094 sq km",
+        "government": "parliamentary constitutional monarchy",
+        "languages": "",
+        "religions": "Evangelical Lutheran (official) 71.4%, Muslim 4.3%, other/none/unspecified (denominations include Roman Catholic, Jehovah's Witness, Serbian Orthodox Christian, Jewish, Baptist, Buddhist, Church of Jesus Christ, Pentecostal, and nondenominational Christian) 24.3% (2024 est.)",
+        "ethnic_groups": "Danish (includes Greenlandic (who are predominantly Inuit) and Faroese) 84.2%, Turkish 1.1%, other 14.7% (largest groups are Polish, Romanian, Syrian, Ukrainian, German, and Iraqi) (2023 est.)",
+        "currency": "Danish kroner (DKK)",
+        "life_expectancy": "82.1 years (2024 est.)",
+        "internet_tld": ".dk",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; humid and overcast; mild, windy winters and cool summers",
+        "terrain": "low and flat to gently rolling plains",
+        "natural_resources": "petroleum, natural gas, fish, arable land, salt, limestone, chalk, stone, gravel and sand",
+        "major_exports": "packaged medicine, fish, vaccines, refined petroleum, pork (2023)"
+    },
+    "summaries": {
+        "geography_summary": "composed of the Jutland Peninsula and a group of more than 400 islands (Danish Archipelago); controls Danish Straits (Skagerrak and Kattegat) linking Baltic and North Seas; about one-quarter of the population lives in greater Copenhagen",
+        "history_summary": "Once the seat of Viking raiders and later a major north European power, Denmark has evolved into a modern, prosperous nation that is part of the general political and economic integration of Europe. It joined NATO in 1949 and the EEC (now the EU) in 1973. The country has opted out of certain elements of the EU's Maastricht Treaty, including the European Economic and Monetary Union and justice and home affairs issues. a 2022 referendum resulted in the removal of Denmark's 30-year opt-out on defense issues, now allowing Denmark to participate fully in the EU's Common Security and Defense Policy.",
+        "government_summary": "parliamentary constitutional monarchy. Independence: ca. 965 (unified and Christianized under Harald I GORMSSON); 5 June 1849 (became a parliamentary constitutional monarchy)",
+        "economy_summary": "high-income, EU-member, trade-oriented Nordic economy; growth driven by pharmaceuticals, energy, and services; large share of employment in public sector; fixed exchange rate pegged to euro; strong fiscal position and declining public debt; tight labor market mitigated by migrant workers and higher retirement age",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

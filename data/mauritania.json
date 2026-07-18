@@ -1,0 +1,38 @@
+{
+    "name": "Mauritania",
+    "excerpt": "The Amazigh and Bafour people were among the earliest settlers in what is now Mauritania and among the first in recorded history to convert from a nomadic to agricultural lifestyle. These groups account for roughly one third of Mauritania’s ethnic makeup.",
+    "quick_facts": {
+        "capital": "Nouakchott",
+        "population": "5,202,109 (2025 est.)",
+        "area": "1,030,700 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Muslim (official) 100%",
+        "ethnic_groups": "Black Moors (Haratines - Arabic-speaking descendants of African origin who are or were enslaved by White Moors) 40%, White Moors (of Arab-Amazigh descent, known as Beydane) 30%, Sub-Saharan Mauritanians (non-Arabic speaking, largely resident in or originating from the Senegal River Valley, including Halpulaar, Fulani, Soninke, Wolof, and Bambara ethnic groups) 30%",
+        "currency": "ouguiyas (MRO)",
+        "life_expectancy": "65.9 years (2024 est.)",
+        "internet_tld": ".mr",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "desert; constantly hot, dry, dusty",
+        "terrain": "mostly barren, flat plains of the Sahara; some central hills",
+        "natural_resources": "iron ore, gypsum, copper, phosphate, diamonds, gold, oil, fish",
+        "major_exports": "gold, iron ore, fish, processed crustaceans, copper ore (2023)"
+    },
+    "summaries": {
+        "geography_summary": "Mauritania is considered part of both North Africa's Maghreb region and West Africa's Sahel region; most of the population is concentrated in the cities of Nouakchott and Nouadhibou and along the Senegal River in the southern part of the country",
+        "history_summary": "The Amazigh and Bafour people were among the earliest settlers in what is now Mauritania and among the first in recorded history to convert from a nomadic to agricultural lifestyle. These groups account for roughly one third of Mauritania’s ethnic makeup. The remainder of Mauritania’s ethnic groups derive from Sub-Saharan ethnic groups originating mainly from the Senegal River Valley, including descendants of former enslaved peoples. These three groups are organized according to a strict caste system with deep ethnic divides that impact access to resources and power dynamics.A former French colony, Mauritania achieved independence from France in 1960. Mauritania initially began as a single-party, authoritarian regime and experienced 49 years of dictatorships, flawed elections, failed attempts at democracy, and military coups. Ould Abdel AZIZ led the last coup in 2008, was elected president in 2009, and was reelected in 2014. Mohamed Ould Cheikh GHAZOUANI was elected president in 2019, and his inauguration marked the first peaceful transition of power from one democratically elected president to another, solidifying the country's status as an emerging democracy. International observers recognized the elections as relatively free and fair. GHAZOUANI is seeking re-election in June 2024 for a second, and final, five-year term. The country is working to address vestigial practices of slavery and its hereditary impacts. Mauritania officially abolished slavery in 1981, but the practice was not criminalized until 2007. Between 2005 and 2011, Al-Qaeda in the Islamic Maghreb (AQIM) launched a series of attacks killing western tourists and aid workers, attacking diplomatic and government facilities, and ambushing Mauritanian soldiers and gendarmes. Although Mauritania has not seen an attack since 2011, AQIM and similar groups remain active in the Sahel region.",
+        "government_summary": "presidential republic. Independence: 28 November 1960 (from France)",
+        "economy_summary": "lower middle-income West African economy; primarily agrarian; rising urbanization; poor property rights; systemic corruption; endemic social and workforce tensions; wide-scale terrorism; foreign over-fishing; environmentally fragile",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

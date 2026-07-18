@@ -1,0 +1,38 @@
+{
+    "name": "Algeria",
+    "excerpt": "Algeria has known many empires and dynasties, including the ancient Numidians (3rd century B.C.), Phoenicians, Carthaginians, Romans, Vandals, Byzantines, over a dozen different Arab and Amazigh dynasties, Spaniards, and Ottoman Turks.",
+    "quick_facts": {
+        "capital": "Algiers",
+        "population": "47,735,685 (2025 est.)",
+        "area": "2,381,740 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Muslim (official; predominantly Sunni) 99%, other (includes Christian, Jewish, Ahmadi Muslim, Shia Muslim, Ibadi Muslim) <1% (2012 est.)",
+        "ethnic_groups": "Arab-Amazigh 99%, European less than 1%",
+        "currency": "Algerian dinars (DZD)",
+        "life_expectancy": "77.9 years (2024 est.)",
+        "internet_tld": ".dz",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "arid to semiarid; mild, wet winters with hot, dry summers along coast; drier with cold winters and hot summers on high plateau; sirocco is a hot, dust/sand-laden wind especially common in summer",
+        "terrain": "mostly high plateau and desert; Atlas Mountains in the far north and Hoggar Mountains in the south; narrow, discontinuous coastal plain",
+        "natural_resources": "petroleum, natural gas, iron ore, phosphates, uranium, lead, zinc",
+        "major_exports": "natural gas, crude petroleum, refined petroleum, fertilizers, iron bars (2023)"
+    },
+    "summaries": {
+        "geography_summary": "largest country in Africa but 80% desert; canyons and caves in the southern Hoggar Mountains and in the barren Tassili n'Ajjer area in the southeast of the country contain numerous examples of prehistoric art -- rock paintings and carvings depicting human activities and wild and domestic animals (elephants, giraffes, cattle) -- that date to the African Humid Period, roughly 5,000 to 11,000 years ago, when the region was completely vegetated",
+        "history_summary": "Algeria has known many empires and dynasties, including the ancient Numidians (3rd century B.C.), Phoenicians, Carthaginians, Romans, Vandals, Byzantines, over a dozen different Arab and Amazigh dynasties, Spaniards, and Ottoman Turks. Under the Turks, the Barbary pirates operated from North Africa and preyed on shipping, from about 1500 until the French captured Algiers in 1830. The French southward conquest of Algeria proceeded throughout the 19th century and was marked by many atrocities. A bloody eight-year struggle culminated in Algerian independence in 1962. Algeria's long-dominant political party, the National Liberation Front (FLN), was established in 1954 as part of the struggle for independence and has since played a large role in politics, though it is falling out of favor with the youth and current President Abdelmadjid TEBBOUNE. The Government of Algeria in 1988 instituted a multi-party system in response to public unrest, but the surprising first-round success of the Islamic Salvation Front (FIS) in the 1991 legislative election led the Algerian military to intervene and postpone the second round of elections to prevent what the secular elite feared would be an extremist-led government from assuming power. An army crackdown on the FIS escalated into an FIS insurgency and intense violence from 1992-98 that resulted in over 100,000 deaths, many of which were attributed to extremist groups massacring villagers. The government gained the upper hand by the late 1990s, and FIS’s armed wing, the Islamic Salvation Army, disbanded in 2000. FIS membership is now illegal. In 1999, Abdelaziz BOUTEFLIKA won the presidency with the backing of the military, in an election that was boycotted by several candidates protesting alleged fraud. He won subsequent elections in 2004, 2009, and 2014. Widespread protests against his decision to seek a fifth term broke out in early 2019. BOUTEFLIKA resigned in April 2019, and in December 2019, Algerians elected former Prime Minister Abdelmadjid TEBBOUNE as the country’s new president. A longtime FLN member, TEBBOUNE ran for president as an independent. In 2020, Algeria held a constitutional referendum on governmental reforms, which TEBBOUNE enacted in 2021. Subsequent reforms to the national electoral law introduced open-list voting to curb corruption. The new law also eliminated gender quotas in Parliament, and the 2021 legislative elections saw female representation plummet. The referendum, parliamentary elections, and local elections saw record-low voter turnout.",
+        "government_summary": "presidential republic. Independence: 5 July 1962 (from France)",
+        "economy_summary": "suffering oil and gas economy; lack of sector and market diversification; political instability chilling domestic consumption; poor credit access and declines in business confidence; COVID-19 austerity policies; delayed promised socio-economic reforms",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

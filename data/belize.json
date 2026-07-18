@@ -1,0 +1,38 @@
+{
+    "name": "Belize",
+    "excerpt": "Belize was the site of several Mayan city states until their decline at the end of the first millennium A.D. The British and Spanish disputed the region in the 17th and 18th centuries; it formally became the colony of British Honduras in 1862.",
+    "quick_facts": {
+        "capital": "Belmopan",
+        "population": "421,960 (2025 est.)",
+        "area": "22,966 sq km",
+        "government": "parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm",
+        "languages": "",
+        "religions": "Roman Catholic 40.1%, Protestant 31.5% (includes Pentecostal 8.4%, Seventh Day Adventist 5.4%, Anglican 4.7%, Mennonite 3.7%, Baptist 3.6%, Methodist 2.9%, Nazarene 2.8%), Jehovah's Witness 1.7%, other 10.5% (includes Baha'i, Buddhist, Hindu, Church of Jesus Christ, Muslim, Rastafarian, Salvation Army), unspecified 0.6%, none 15.5% (2010 est.)",
+        "ethnic_groups": "Mestizo 52.9%, Creole 25.9%, Maya 11.3%, Garifuna 6.1%, East Indian 3.9%, Mennonite 3.6%, White 1.2%, Asian 1%, other 1.2%, unknown 0.3% (2010 est.)",
+        "currency": "Belizean dollars (BZD)",
+        "life_expectancy": "74.3 years (2024 est.)",
+        "internet_tld": ".bz",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; very hot and humid; rainy season (May to November); dry season (February to May)",
+        "terrain": "flat, swampy coastal plain; low mountains in south",
+        "natural_resources": "arable land potential, timber, fish, hydropower",
+        "major_exports": "raw sugar, bananas, fish, shellfish, refined petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "only country in Central America without a coastline on the North Pacific Ocean",
+        "history_summary": "Belize was the site of several Mayan city states until their decline at the end of the first millennium A.D. The British and Spanish disputed the region in the 17th and 18th centuries; it formally became the colony of British Honduras in 1862. Territorial disputes between the UK and Guatemala delayed the independence of Belize until 1981. Guatemala refused to recognize the new nation until 1992, and the two countries are still involved in an ongoing border dispute. Tourism has become the mainstay of the economy. Current concerns include the country's heavy foreign debt burden, high crime rates, high unemployment combined with a majority youth population, growing involvement in the Mexican and South American drug trade, and one of the highest HIV/AIDS prevalence rates in Central America.",
+        "government_summary": "parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm. Independence: 21 September 1981 (from the UK)",
+        "economy_summary": "tourism- and agriculture-driven economy; strong post-pandemic rebound; innovative and ecological bond restructuring that significantly lowered public debt and expanded marine protections; central bank offering USD-denominated treasury notes; high mobility across borders",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

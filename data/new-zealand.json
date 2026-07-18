@@ -1,0 +1,38 @@
+{
+    "name": "New Zealand",
+    "excerpt": "Polynesians settled New Zealand between the late 1200s and the mid-1300s.",
+    "quick_facts": {
+        "capital": "Wellington",
+        "population": "5,161,211 (2024 est.)",
+        "area": "268,838 sq km",
+        "government": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+        "languages": "English (de facto official) 95.4%, Maori (de jure official) 4%, Samoan 2.2%, Northern Chinese 2%, Hindi 1.5%, French 1.2%, Yue 1.1%, New Zealand Sign Language (de jure official) 0.5%, other or not stated 17.2% (2018 est.)",
+        "religions": "Christian 37.3% (Catholic 10.1%, Anglican 6.8%, Presbyterian and Congregational 5.2%, Pentecostal 1.8%, Methodist 1.6%, Church of Jesus Christ 1.2%, other 10.7%), Hindu 2.7%, Maori 1.3%, Muslim, 1.3%, Buddhist 1.1%, other religion 1.6% (includes Judaism, Spiritualism and New Age religions, Baha'i, Asian religions other than Buddhism), no religion 48.6%, objected to answering 6.7% (2018 est.)",
+        "ethnic_groups": "European 64.1%, Maori 16.5%, Chinese 4.9%, Indian 4.7%, Samoan 3.9%, Tongan 1.8%, Cook Islands Maori 1.7%, English 1.5%, Filipino 1.5%, New Zealander 1%, other 13.7% (2018 est.)",
+        "currency": "New Zealand dollars (NZD)",
+        "life_expectancy": "82.9 years (2024 est.)",
+        "internet_tld": ".nz",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate with sharp regional contrasts",
+        "terrain": "predominately mountainous with large coastal plains",
+        "natural_resources": "natural gas, iron ore, sand, coal, timber, hydropower, gold, limestone",
+        "major_exports": "milk, wood, beef, butter, sheep and goat meat (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: consists of two main islands and a number of smaller islands; South Island, the larger main island, is the 12th-largest island in the world and is divided along its length by the Southern Alps; North Island is the 14th-largest island in the world and is not as mountainous, but it is marked by volcanism note 2: New Zealand lies along the Ring of Fire, which is a belt bordering the Pacific Ocean that contains about 75% of the world's volcanoes and up to 90% of the world's earthquakesnote 3: almost 90% of the population lives in cities and over three-quarters on North Island; Wellington is the southernmost national capital in the world",
+        "history_summary": "Polynesians settled New Zealand between the late 1200s and the mid-1300s. They called the land Aotearoa, which legend holds is the name of the canoe that Kupe, the first Polynesian in New Zealand, used to sail to the country; the name Aotearoa is now in widespread use as the local Maori name for the country. By the 1500s, competition for land and resources led to intermittent fighting between different Maori tribes as large game became extinct. Dutch explorer Abel TASMAN was the first European to see the islands in 1642 but left after an encounter with local Maori. British sea captain James COOK arrived in 1769, followed by whalers, sealers, and traders. The UK only nominally claimed New Zealand and included it as part of New South Wales in Australia. Concerns about increasing lawlessness led the UK to appoint its first British Resident in New Zealand in 1832, although the position had few legal powers. In 1835, some Maori tribes from the North Island declared independence. Fearing an impending French settlement and takeover, the majority of Maori chiefs signed the Treaty of Waitangi with the British in 1840. Land tenure issues stemming from the treaty are still being actively negotiated in New Zealand.The UK declared New Zealand a separate colony in 1841 and granted limited self-government in 1852. Different traditions of authority and land use led to a series of wars between Europeans and various Maori tribes from the 1840s to the 1870s. Along with disease, these conflicts halved the Maori population. In the 1890s, New Zealand initially expressed interest in joining independence talks with Australia but ultimately opted against it and changed its status to an independent dominion in 1907. New Zealand provided more than 100,000 troops during each World War, many of whom fought as part of the Australia and New Zealand Army Corps (ANZAC). New Zealand reaffirmed its independence in 1947 and signed the Australia, New Zealand, and US (ANZUS) Treaty in 1951. Beginning in 1984, New Zealand began to adopt nuclear-free policies, contributing to a dispute with the US over naval ship visits that led the US to suspend its defense obligations to New Zealand in 1986, but bilateral relations and military ties have been revitalized since the 2010s with new security agreements. A key challenge for Auckland that has emerged over the past decade is balancing concerns over China’s growing influence in the Pacific region with its role as New Zealand's largest export destination. New Zealand has close ties with Australia based to a large extent on the two nations’ common origins as British colonies and their shared military history.",
+        "government_summary": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm. Independence: 26 September 1907 (from the UK)",
+        "economy_summary": "high-income, globally integrated Pacific island economy; strong agriculture, manufacturing, and tourism sectors; reliant on Chinese market for exports; recovery trajectory following deep post-pandemic recession; challenges of fiscal deficits, below-average productivity, cost of living, and drop in net migration",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

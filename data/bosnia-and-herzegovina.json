@@ -1,0 +1,38 @@
+{
+    "name": "Bosnia and Herzegovina",
+    "excerpt": "After four centuries of Ottoman rule over Bosnia and Herzegovina, Austria-Hungary took control in 1878 and held the region until 1918, when it was incorporated into the newly created Kingdom of Serbs, Croats, and Slovenes.",
+    "quick_facts": {
+        "capital": "Sarajevo",
+        "population": "3,653,499 (2025 est.)",
+        "area": "51,197 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Muslim 50.7%, Orthodox 30.7%, Roman Catholic 15.2%, atheist 0.8%, agnostic 0.3%, other 1.2%, undeclared/no answer 1.1% (2013 est.)",
+        "ethnic_groups": "Bosniak 50.1%, Serb 30.8%, Croat 15.4%, other 2.7%, not declared/no answer 1% (2013 est.)",
+        "currency": "konvertibilna markas (BAM)",
+        "life_expectancy": "78.5 years (2024 est.)",
+        "internet_tld": ".ba",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "hot summers and cold winters; areas of high elevation have short, cool summers and long, severe winters; mild, rainy winters along coast",
+        "terrain": "mountains and valleys",
+        "natural_resources": "coal, iron ore, antimony, bauxite, copper, lead, zinc, chromite, cobalt, manganese, nickel, clay, gypsum, salt, sand, timber, hydropower",
+        "major_exports": "footwear, electricity, garments, plastic products, insulated wire (2023)"
+    },
+    "summaries": {
+        "geography_summary": "within Bosnia and Herzegovina's recognized borders, the country is divided into a joint Bosniak/Croat Federation (about 51% of the territory) and the Bosnian Serb-led Republika Srpska or RS (about 49% of the territory); the region called Herzegovina is contiguous to Croatia and Montenegro",
+        "history_summary": "After four centuries of Ottoman rule over Bosnia and Herzegovina, Austria-Hungary took control in 1878 and held the region until 1918, when it was incorporated into the newly created Kingdom of Serbs, Croats, and Slovenes. After World War II, Bosnia and Herzegovina joined the Socialist Federal Republic of Yugoslavia (SFRY). Bosnia and Herzegovina declared sovereignty in October 1991 and independence from the SFRY on 3 March 1992 after a referendum boycotted by ethnic Serbs. Bosnian Serb militias, with the support of Serbia and Croatia, then tried to take control of territories they claimed as their own. From 1992 to 1995, ethnic cleansing campaigns killed thousands and displaced more than two million people. On 21 November 1995, in Dayton, Ohio, the warring parties initialed a peace agreement, and the final agreement was signed in Paris on 14 December 1995. The Dayton Accords retained Bosnia and Herzegovina's international boundaries and created a multiethnic and democratic government composed of two entities roughly equal in size: the predominantly Bosniak-Bosnian Croat Federation of Bosnia and Herzegovina and the predominantly Bosnian Serb-led Republika Srpska (RS). The Dayton Accords also established the Office of the High Representative to oversee the agreement's implementation. In 1996, the NATO-led Stabilization Force (SFOR) took over responsibility for enforcing the peace. In 2004, European Union peacekeeping troops (EUFOR) replaced SFOR. As of 2022, EUFOR deploys around 1,600 troops in Bosnia in a peacekeeping capacity. Bosnia and Herzegovina became an official candidate for EU membership in 2022.",
+        "government_summary": "parliamentary republic. Independence: 1 March 1992 (from Yugoslavia)",
+        "economy_summary": "import-dominated economy; remains consumption-heavy; lack of private sector investments and diversification; jointly addressing structural economic challenges; Chinese energy infrastructure investments; high unemployment; tourism industry impacted by COVID-19",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

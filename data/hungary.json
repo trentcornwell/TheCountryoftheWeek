@@ -1,0 +1,38 @@
+{
+    "name": "Hungary",
+    "excerpt": "Hungary became a Christian kingdom in A.D. 1000 and for many centuries served as a bulwark against Ottoman Turkish expansion in Europe. The kingdom eventually became part of the Austro-Hungarian Empire, which collapsed during World War I.",
+    "quick_facts": {
+        "capital": "Budapest",
+        "population": "9,855,745 (2024 est.)",
+        "area": "93,028 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Catholic 30.1% (Roman Catholic 27.5%, Greek Catholic 1.7%, other Catholic 0.9%), Calvinist 9.8%, Lutheran 1.8%, other Christian (includes Orthodox) 1.6%, other 0.4%, none 16.1%, no answer 40.1% (2022 est.)",
+        "ethnic_groups": "Hungarian 84.3%, Romani 2.1%, German 1%, other 1.2%, unspecified 13.7% (2022 est.)",
+        "currency": "forints (HUF)",
+        "life_expectancy": "76 years (2024 est.)",
+        "internet_tld": ".hu",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; cold, cloudy, humid winters; warm summers",
+        "terrain": "mostly flat to rolling plains; hills and low mountains on the Slovakian border",
+        "natural_resources": "bauxite, coal, natural gas, fertile soils, arable land",
+        "major_exports": "cars, vehicle parts/accessories, electric batteries, packaged medicine, computers (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked; strategic location on main land routes between Western Europe and Balkan Peninsula, as well as between Ukraine and the Mediterranean basin; the Duna (Danube) and Tisza Rivers divide the country into three large regions",
+        "history_summary": "Hungary became a Christian kingdom in A.D. 1000 and for many centuries served as a bulwark against Ottoman Turkish expansion in Europe. The kingdom eventually became part of the Austro-Hungarian Empire, which collapsed during World War I. The country fell under communist rule after World War II. In 1956, Moscow responded to a Hungarian revolt and announcement of its withdrawal from the Warsaw Pact with a massive military intervention. Under the leadership of Janos KADAR in 1968, Hungary began liberalizing its economy, introducing so-called \"Goulash Communism.\" Hungary held its first multiparty elections in 1990 and initiated a free market economy. It joined NATO in 1999 and the EU five years later.",
+        "government_summary": "parliamentary republic. Independence: 16 November 1918 (republic proclaimed); notable earlier dates: 25 December 1000 (crowning of King STEPHEN I, traditional founding date); 30 March 1867 (Austro-Hungarian dual monarchy established)",
+        "economy_summary": "high-income EU and OECD economy; modest recovery from 2024 recession driven by private consumption and moderated inflation; challenges include high fiscal deficits, frozen access to EU funds, and risks from export reliance; implementing tax exemptions, price controls, and mortgage interest caps ahead of 2026 elections",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

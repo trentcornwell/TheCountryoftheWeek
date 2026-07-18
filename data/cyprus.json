@@ -1,0 +1,38 @@
+{
+    "name": "Cyprus",
+    "excerpt": "A former British colony, Cyprus became independent in 1960 after years of resistance to British rule. Tensions between the Greek Cypriot majority and Turkish Cypriot minority came to a head in December 1963, when violence broke out in the capital of Nicosia.",
+    "quick_facts": {
+        "capital": "Nicosia (Lefkosia/Lefkosa)",
+        "population": "1,332,293 (2025 est.)",
+        "area": "9,251 sq km (of which 3,355 sq km are in north Cyprus)",
+        "government": "Republic of Cyprus - presidential republic; self-declared \"Turkish Republic of Northern Cyprus\" (TRNC) - parliamentary republic with enhanced presidency",
+        "languages": "",
+        "religions": "Eastern Orthodox Christian 89.1%, Roman Catholic 2.9%, Protestant/Anglican 2%, Muslim 1.8%, Buddhist 1%, other (includes Maronite Catholic, Armenian Apostolic, Hindu) 1.4%, unknown 1.1%, none/atheist 0.6% (2011 est.)",
+        "ethnic_groups": "Greek 98.8%, other 1% (includes Maronite, Armenian, Turkish-Cypriot), unspecified 0.2% (2011 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "80.2 years (2024 est.)",
+        "internet_tld": ".cy",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; Mediterranean with hot, dry summers and cool winters",
+        "terrain": "central plain with mountains to north and south; scattered but significant plains along southern coast",
+        "natural_resources": "copper, pyrites, asbestos, gypsum, timber, salt, marble, clay earth pigment",
+        "major_exports": "ships, refined petroleum, packaged medicine, cheese, scented mixtures (2023)"
+    },
+    "summaries": {
+        "geography_summary": "the third largest island in the Mediterranean Sea (after Sicily and Sardinia)",
+        "history_summary": "A former British colony, Cyprus became independent in 1960 after years of resistance to British rule. Tensions between the Greek Cypriot majority and Turkish Cypriot minority came to a head in December 1963, when violence broke out in the capital of Nicosia. Despite the deployment of UN peacekeepers in 1964, sporadic intercommunal violence continued and forced most Turkish Cypriots into enclaves throughout the island. In 1974, a Greek Government-sponsored attempt to overthrow the elected president of Cyprus was met by military intervention from Turkey, which soon controlled more than a third of the island. In 1983, the Turkish Cypriot administered area declared itself the \"Turkish Republic of Northern Cyprus\" (TRNC), but it is recognized only by Turkey. A UN-mediated agreement to reunite Cyprus, the Annan Plan, failed to win approval from both communities in 2004. The most recent round of reunification negotiations was suspended in 2017 after failure to achieve a breakthrough. The entire island joined the EU in 2004, although the EU acquis -- the body of common rights and obligations -- applies only to the areas under the internationally recognized government and is suspended in the TRNC. However, individual Turkish Cypriots able to document their eligibility for Republic of Cyprus citizenship have the same legal rights accorded to citizens of other EU states.",
+        "government_summary": "Republic of Cyprus - presidential republic; self-declared \"Turkish Republic of Northern Cyprus\" (TRNC) - parliamentary republic with enhanced presidency. Independence: 16 August 1960 (from the UK)",
+        "economy_summary": "services-based, high-income EU island economy; heavy tourism; sustained growth between recovery of national banking system and COVID-19 trade restrictions; high living standards; a known financial hub, its stock exchange functions as an investment bridge between EU-and EEU-member countries",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

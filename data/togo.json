@@ -1,0 +1,38 @@
+{
+    "name": "Togo",
+    "excerpt": "From the 11th to the 16th centuries, various ethnic groups settled the Togo region.",
+    "quick_facts": {
+        "capital": "Lome",
+        "population": "9,143,439 (2025 est.)",
+        "area": "56,785 sq km",
+        "government": "presidential republic",
+        "languages": "French (official, language of commerce), Ewe and Mina (in the south), Kabye (sometimes spelled Kabiye) and Dagomba (in the north)",
+        "religions": "Christian 42.3%, folk religion 36.9%, Muslim 14%, Hindu <1%, Buddhist <1%, Jewish <1%, other <1%, none 6.2% (2020 est.)",
+        "ethnic_groups": "Adja-Ewe/Mina 42.4%, Kabye/Tem 25.9%, Para-Gourma/Akan 17.1%, Akposso/Akebu 4.1%, Ana-Ife 3.2%, other Togolese 1.7%, foreigners 5.2%, no response 0.4% (2013-14 est.)",
+        "currency": "Communaute Financiere Africaine francs (XOF)",
+        "life_expectancy": "72.1 years (2024 est.)",
+        "internet_tld": ".tg",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; hot, humid in south; semiarid in north",
+        "terrain": "gently rolling savanna in north; central hills; southern plateau; low coastal plain with extensive lagoons and marshes",
+        "natural_resources": "phosphates, limestone, marble, arable land",
+        "major_exports": "gold, refined petroleum, soybeans, phosphates, coconuts/brazil nuts/cashews (2023)"
+    },
+    "summaries": {
+        "geography_summary": "stretches through six distinct geographic regions; climate varies from tropical to savanna",
+        "history_summary": "From the 11th to the 16th centuries, various ethnic groups settled the Togo region. From the 16th to the 18th centuries, the coastal region became a major trading center for enslaved people, and the surrounding region took on the name of \"The Slave Coast.\" In 1884, Germany declared the area a protectorate called Togoland, which included present-day Togo. After World War I, colonial rule over Togo was transferred to France. French Togoland became Togo upon independence in 1960. Gen. Gnassingbe EYADEMA, installed as military ruler in 1967, ruled Togo with a heavy hand for almost four decades. Despite the facade of multi-party elections instituted in the early 1990s, EYADEMA largely dominated the government. His Rally of the Togolese People (RPT) party has been in power almost continually since 1967, with its successor, the Union for the Republic, maintaining a majority of seats in today's legislature. Upon EYADEMA's death in 2005, the military installed his son, Faure GNASSINGBE, as president and then engineered his formal election two months later. Togo held its first relatively free and fair legislative elections in 2007. Since then, GNASSINGBE has started the country along a gradual path to democratic reform. Togo has held multiple presidential and legislative elections, and in 2019, the country held its first local elections in 32 years. Despite those positive moves, political reconciliation has moved slowly, and the country experiences periodic outbursts of protests from frustrated citizens, leading to violence between security forces and protesters. Constitutional changes in 2019 to institute a runoff system in presidential elections and to establish term limits have done little to reduce the resentment many Togolese feel after more than 50 years of one-family rule. GNASSINGBE became eligible for his current fourth term and one additional fifth term under the new rules. The next presidential election is set for 2025.",
+        "government_summary": "presidential republic. Independence: 27 April 1960 (from French-administered UN trusteeship)",
+        "economy_summary": "low-income West African economy; primarily agrarian economy; has a deep-water port; growing international shipping locale; improving privatization and public budgeting transparency; key phosphate mining industry; extremely high rural poverty",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

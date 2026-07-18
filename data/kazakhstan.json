@@ -1,0 +1,38 @@
+{
+    "name": "Kazakhstan",
+    "excerpt": "Ethnic Kazakhs derive from a mix of Turkic nomadic tribes that migrated to the region in the 15th century. The Russian Empire conquered the Kazakh steppe in the 18th and 19th centuries, and Kazakhstan became a Soviet Republic in 1925.",
+    "quick_facts": {
+        "capital": "Astana",
+        "population": "20,432,662 (2025 est.)",
+        "area": "2,724,900 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Muslim 69.3%, Christian 17.2% (Orthodox 17%, other 0.2%), Buddhism 0.1%, other 0.1%, non-believers 2.3%, unspecified 11% (2021 est.)",
+        "ethnic_groups": "Kazakh 71%, Russian 14.9%, Uzbek 3.3%, Ukrainian 1.9%, Uyghurs 1.5%, German 1.1%, Tatar 1.1%, other 4.9%, unspecified 0.3% (2023 est.)",
+        "currency": "tenge (KZT)",
+        "life_expectancy": "73.3 years (2024 est.)",
+        "internet_tld": ".kz",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "continental, cold winters and hot summers, arid and semiarid",
+        "terrain": "vast flat steppe extending from the Volga in the west to the Altai Mountains in the east and from the plains of western Siberia in the north to oases and deserts of Central Asia in the south",
+        "natural_resources": "major deposits of petroleum, natural gas, coal, iron ore, manganese, chrome ore, nickel, cobalt, copper, molybdenum, lead, zinc, bauxite, gold, uranium",
+        "major_exports": "crude petroleum, gold, radioactive chemicals, refined copper, copper ore (2023)"
+    },
+    "summaries": {
+        "geography_summary": "world's largest landlocked country and one of only two landlocked countries in the world that extends into two continents (the other is Azerbaijan); Russia leases approximately 6,000 sq km (2,317 sq mi) of territory enclosing the Baikonur Cosmodrome",
+        "history_summary": "Ethnic Kazakhs derive from a mix of Turkic nomadic tribes that migrated to the region in the 15th century. The Russian Empire conquered the Kazakh steppe in the 18th and 19th centuries, and Kazakhstan became a Soviet Republic in 1925. Forced agricultural collectivization led to repression and starvation, resulting in more than a million deaths in the early 1930s. During the 1950s and 1960s, the agricultural \"Virgin Lands\" program generated an influx of settlers -- mostly ethnic Russians, but also other nationalities -- and by the time of Kazakhstan’s independence in 1991, ethnic Kazakhs were a minority. However, non-Muslim ethnic minorities departed Kazakhstan in large numbers from the mid-1990s through the mid-2000s, and a national program has repatriated about a million ethnic Kazakhs (from Uzbekistan, Tajikistan, Mongolia, and the Xinjiang region of China) to Kazakhstan. As a result of this shift, the ethnic Kazakh share of the population now exceeds two-thirds.Kazakhstan's economy is the largest in Central Asia, mainly due to the country's vast natural resources. Current issues include diversifying the economy, attracting foreign direct investment, enhancing Kazakhstan's economic competitiveness, and strengthening economic relations with neighboring states and foreign powers.",
+        "government_summary": "presidential republic. Independence: 16 December 1991 (from the Soviet Union)",
+        "economy_summary": "upper-middle-income Central Asian economy; robust growth due to rising oil production, expansion in manufacturing and services, rising domestic demand, and infrastructure investments; however, rapid growth contributing to high inflation rate; declining unemployment and poverty rates",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Belgium",
+    "excerpt": "Belgium became independent from the Netherlands in 1830; it was occupied by Germany during World Wars I and II. The country prospered as a modern, technologically advanced European state and member of NATO and the EU.",
+    "quick_facts": {
+        "capital": "Brussels",
+        "population": "11,960,170 (2025 est.)",
+        "area": "30,528 sq km",
+        "government": "federal parliamentary democracy under a constitutional monarchy",
+        "languages": "",
+        "religions": "Roman Catholic 57.1%, Protestant 2.3%, other Christian, 2.8%, Muslim 6.8%, other 1.7%, atheist 9.1%, nonbeliever/agnostic 20.2% (2018 est.)",
+        "ethnic_groups": "Belgian 75.2%, Italian 4.1%, Moroccan 3.7%, French 2.4%, Turkish 2%, Dutch 2%, other 10.6% (2012 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "82.3 years (2024 est.)",
+        "internet_tld": ".be",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; mild winters, cool summers; rainy, humid, cloudy",
+        "terrain": "flat coastal plains in northwest, central rolling hills, rugged mountains of Ardennes Forest in southeast",
+        "natural_resources": "construction materials, silica sand, carbonates, arable land",
+        "major_exports": "refined petroleum, natural gas, vaccines, cars, packaged medicine (2023)"
+    },
+    "summaries": {
+        "geography_summary": "crossroads of Western Europe; most West European capitals are within 1,000 km of Brussels, the seat of both the EU and NATO",
+        "history_summary": "Belgium became independent from the Netherlands in 1830; it was occupied by Germany during World Wars I and II. The country prospered as a modern, technologically advanced European state and member of NATO and the EU. In recent years, longstanding tensions between the Dutch-speaking Flemish of the north and the French-speaking Walloons of the south have led to constitutional amendments granting these regions formal recognition and autonomy. The capital city of Brussels is home to numerous international organizations, including the EU and NATO.",
+        "government_summary": "federal parliamentary democracy under a constitutional monarchy. Independence: 4 October 1830 (a provisional government declared independence from the Netherlands); 21 July 1831 (King LEOPOLD I ascended to the throne)",
+        "economy_summary": "high-income, core EU and eurozone economy; slow growth with weakened domestic consumption and export demand; high public debt and structural deficits linked to social spending; aging workforce with weak productivity growth and participation rates",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

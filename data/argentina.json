@@ -1,0 +1,38 @@
+{
+    "name": "Argentina",
+    "excerpt": "In 1816, the United Provinces of the Río de la Plata declared their independence from Spain. After Bolivia, Paraguay, and Uruguay went their separate ways, the area that remained became Argentina.",
+    "quick_facts": {
+        "capital": "Buenos Aires",
+        "population": "45,418,098 (2025 est.)",
+        "area": "2,780,400 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Roman Catholic 62.9%, Evangelical 15.3% (Pentecostal 13%, other Evangelical 2.3%), Jehovah's Witness and Church of Jesus Christ 1.4%, other 1.2% (includes Muslim, Jewish), none 18.9% (includes agnostic and atheist), unspecified 0.3% (2019 est.)",
+        "ethnic_groups": "European (mostly Spanish and Italian descent) and Mestizo (mixed European and Indigenous ancestry) 97.2%, Indigenous 2.4%, African descent 0.4% (2010 est.)",
+        "currency": "Argentine pesos (ARS)",
+        "life_expectancy": "78.8 years (2024 est.)",
+        "internet_tld": ".ar",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "mostly temperate; arid in southeast; subantarctic in southwest",
+        "terrain": "rich plains of the Pampas in northern half, flat to rolling plateau of Patagonia in south, rugged Andes along western border",
+        "natural_resources": "fertile plains of the pampas, lead, zinc, tin, copper, iron ore, manganese, petroleum, uranium, arable land",
+        "major_exports": "soybean meal, corn, trucks, soybean oil, crude petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "second-largest country in South America (after Brazil); strategic location relative to sea lanes between the South Atlantic and the South Pacific Oceans (Strait of Magellan, Beagle Channel, Drake Passage); diverse geophysical landscapes range from tropical climates in the north to tundra in the far south; Cerro Aconcagua is the Western Hemisphere's tallest mountain, while Laguna del Carbón is the lowest point in the Western Hemisphere; shares Iguazú Falls, the world's largest waterfalls system, with Brazil",
+        "history_summary": "In 1816, the United Provinces of the Río de la Plata declared their independence from Spain. After Bolivia, Paraguay, and Uruguay went their separate ways, the area that remained became Argentina. European immigrants heavily shaped the country's population and culture, with Italy and Spain providing the largest percentage of newcomers from 1860 to 1930. Until about the mid-20th century, much of Argentina's history was dominated by periods of internal political unrest and conflict between civilian and military factions. After World War II, former President Juan Domingo PERÓN -- the founder of the Peronist political movement -- introduced an era of populism, serving three non-consecutive terms in office until his death in 1974. Direct and indirect military interference in government throughout the PERÓN years led to a military junta taking power in 1976. In 1982, the junta failed in its bid to seize the Falkland Islands (Islas Malvinas) by force from the United Kingdom. Democracy was reinstated in 1983 and has persisted despite numerous challenges, the most formidable of which was a severe economic crisis in 2001-02 that led to violent public protests and the successive resignations of several presidents. The years 2003-15 saw Peronist rule by Néstor KIRCHNER (2003-07) and his spouse Cristina FERNÁNDEZ DE KIRCHNER (2007-15), who oversaw several years of strong economic growth (2003-11) followed by a gradual deterioration in the government’s fiscal situation and eventual economic stagnation and isolation. Argentina underwent a brief period of economic reform and international reintegration under Mauricio MACRI (2015-19), but a recession in 2018-19 and frustration with MACRI’s economic policies ushered in a new Peronist government in 2019 led by President Alberto FERNÁNDEZ and Vice President Cristina FERNÁNDEZ DE KIRCHNER. Argentina's high public debts, its pandemic-related inflationary pressures, and systemic monetary woes served as the catalyst for the 2023 elections, culminating with President Javier MILEI's electoral success. Argentina has since eliminated half of its government agencies and is seeking shock therapy to amend taxation and monetary policies.",
+        "government_summary": "presidential republic. Independence: 9 July 1816 (from Spain)",
+        "economy_summary": "large diversified economy; financial risks from debt obligations, rapid inflation, and reduced investor appetites; resource-rich, export-led growth model; increasing trade relations with China; G20 and OAS leader; tendency to nationalize businesses and under-report inflation",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

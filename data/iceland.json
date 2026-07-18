@@ -1,0 +1,38 @@
+{
+    "name": "Iceland",
+    "excerpt": "Settled by Norwegian and Celtic (Scottish and Irish) immigrants during the late 9th and 10th centuries A.D., Iceland boasts the world's oldest functioning legislative assembly, the Althingi, which was established in 930.",
+    "quick_facts": {
+        "capital": "Reykjavik",
+        "population": "364,036 (2024 est.)",
+        "area": "103,000 sq km",
+        "government": "unitary parliamentary republic",
+        "languages": "Icelandic, English, Polish, Nordic languages, German",
+        "religions": "Evangelical Lutheran Church of Iceland (official) 58.6% Roman Catholic 3.8%, Independent Congregation of Reykjavik 2.6%, Independent Congregation of Hafnarfjordur 1.9%, pagan worship 1.5%, Icelandic Ethical Humanist Association 1.4%, other (includes Zuist and Pentecostal) or unspecified 18.7%, none 7.7% (2024 est.)",
+        "ethnic_groups": "Icelandic 78.7%, Polish 5.8%, Danish 1%, Ukrainian 1%, other 13.5% (2024 est.)",
+        "currency": "Icelandic kronur (ISK)",
+        "life_expectancy": "84 years (2024 est.)",
+        "internet_tld": ".is",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; moderated by North Atlantic Current; mild, windy winters; damp, cool summers",
+        "terrain": "mostly plateau interspersed with mountain peaks, icefields; coast deeply indented by bays and fiords",
+        "natural_resources": "fish, hydropower, geothermal power, diatomite",
+        "major_exports": "aluminum, fish, orthopedic appliances, animal meal, iron alloys (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location between Greenland and Europe; westernmost European country; Reykjavik is the northernmost national capital in the world; more land covered by glaciers than in all of continental Europe",
+        "history_summary": "Settled by Norwegian and Celtic (Scottish and Irish) immigrants during the late 9th and 10th centuries A.D., Iceland boasts the world's oldest functioning legislative assembly, the Althingi, which was established in 930. Independent for over 300 years, Iceland was subsequently ruled by Norway and Denmark. Fallout from the Askja volcano of 1875 devastated the Icelandic economy and caused widespread famine. Over the next quarter-century, 20% of the island's population emigrated, mostly to Canada and the US. Denmark granted limited home rule in 1874 and complete independence in 1944. The second half of the 20th century saw substantial economic growth driven primarily by the fishing industry. The economy diversified greatly after the country joined the European Economic Area in 1994, but the global financial crisis hit Iceland especially hard in the years after 2008. The economy is now on an upward trajectory, primarily thanks to a tourism and construction boom. Literacy, longevity, and social cohesion are first-rate by world standards.",
+        "government_summary": "unitary parliamentary republic. Independence: 1 December 1918 (became a sovereign state under the Danish Crown); 17 June 1944 (from Denmark; birthday of Jon SIGURDSSON, leader of Iceland's 19th-century independence movement)",
+        "economy_summary": "high-income North Atlantic island economy; not an EU member but market integration via European Economic Area (EEA); dominant tourism, fishing, and aluminum industries vulnerable to demand swings and disruption from volcanic activity; inflation remains above target rate; barriers to foreign business access and economic diversification",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

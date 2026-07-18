@@ -1,0 +1,38 @@
+{
+    "name": "Ghana",
+    "excerpt": "Ghana is a multiethnic country rich in natural resources and is one of the most stable and democratic countries in West Africa. Ghana has been inhabited for at least several thousand years, but little is known about its early inhabitants.",
+    "quick_facts": {
+        "capital": "Accra",
+        "population": "35,336,133 (2025 est.)",
+        "area": "238,533 sq km",
+        "government": "presidential republic",
+        "languages": "Asante 16%, Ewe 14%, Fante 11.6%, Boron (Brong) 4.9%, Dagomba 4.4%, Dangme 4.2%, Dagarte (Dagaba) 3.9%, Kokomba 3.5%, Akyem 3.2%, Ga 3.1%, other 31.2% (2010 est.)",
+        "religions": "Christian 71.3% (Pentecostal/Charismatic 31.6%, Protestant 17.4%, Catholic 10%, other 12.3%), Muslim 19.9%, traditionalist 3.2%, other 4.5%, none 1.1% (2021 est.)",
+        "ethnic_groups": "Akan 45.7%, Mole-Dagbani 18.5%, Ewe 12.8%, Ga-Dangme 7.1%, Gurma 6.4%, Guan 3.2%, Grusi 2.7%, Mande 2%, other 1.6% (2021 est.)",
+        "currency": "cedis (GHC)",
+        "life_expectancy": "70.1 years (2024 est.)",
+        "internet_tld": ".gh",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; warm and comparatively dry along southeast coast; hot and humid in southwest; hot and dry in north",
+        "terrain": "mostly low plains with dissected plateau in south-central area",
+        "natural_resources": "gold, timber, industrial diamonds, bauxite, manganese, fish, rubber, hydropower, petroleum, silver, salt, limestone",
+        "major_exports": "gold, crude petroleum, cocoa beans, manganese ore, cocoa paste (2023)"
+    },
+    "summaries": {
+        "geography_summary": "Lake Volta is the world's largest artificial lake (manmade reservoir) by surface area (8,482 sq km; 3,275 sq mi); the lake was created after the Akosombo Dam was completed in 1965",
+        "history_summary": "Ghana is a multiethnic country rich in natural resources and is one of the most stable and democratic countries in West Africa. Ghana has been inhabited for at least several thousand years, but little is known about its early inhabitants. By the 12th century, the gold trade started to boom in Bono (Bonoman) state in what is today southern Ghana, and it became the genesis of the Akan people's power and wealth in the region. Beginning in the 15th century, the Portuguese, followed by other European powers, arrived and competed for trading rights. Numerous kingdoms and empires emerged in the area, among the most powerful were the Kingdom of Dagbon in the north and the Asante (Ashanti) Empire in the south. By the mid-18th century, Asante was a highly organized state with immense wealth; it provided enslaved people for the Atlantic slave trade, and in return received firearms that facilitated its territorial expansion. The Asante resisted increasing British influence in the coastal areas, engaging in a series of wars during the 19th century before ultimately falling under British control. Formed from the merger of the British colony of the Gold Coast and the Togoland trust territory, Ghana in 1957 became the first Sub-Saharan country in colonial Africa to gain its independence, with Kwame NKRUMAH as its first leader.Ghana endured a series of coups before Lt. Jerry RAWLINGS took power in 1981 and banned political parties. After approving a new constitution and restoring multiparty politics in 1992, RAWLINGS won presidential elections in 1992 and 1996 but was constitutionally prevented from running for a third term in 2000. John KUFUOR of the opposition New Patriotic Party (NPP) succeeded him and was reelected in 2004. John Atta MILLS of the National Democratic Congress won the 2008 presidential election and took over as head of state. MILLS died in 2012 and was constitutionally succeeded by his vice president, John Dramani MAHAMA, who subsequently won the 2012 presidential election. In 2016, Nana Addo Dankwa AKUFO-ADDO of the NPP defeated MAHAMA, marking the third time that Ghana’s presidency had changed parties since the return to democracy. AKUFO-ADDO was reelected in 2020. In recent years, Ghana has taken an active role in promoting regional stability and is highly integrated in international affairs.",
+        "government_summary": "presidential republic. Independence: 6 March 1957 (from the UK)",
+        "economy_summary": "West African lower-middle income economy; major gold, oil and cocoa exporter; macroeconomic challenges following nearly four decades of sustained growth; recent progress in debt restructuring, fiscal reforms, financial stability, and curbing runaway inflation under 2023-26 IMF credit facility program",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

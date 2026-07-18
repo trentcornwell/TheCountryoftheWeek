@@ -1,0 +1,38 @@
+{
+    "name": "Comoros",
+    "excerpt": "For centuries prior to colonization in the 19th century, the Comoros archipelago in the Indian Ocean served as a key node in maritime trade networks that connected the Middle East, India, and eastern African regions.",
+    "quick_facts": {
+        "capital": "Moroni",
+        "population": "911,707 (2025 est.)",
+        "area": "2,235 sq km",
+        "government": "federal presidential republic",
+        "languages": "Arabic (official), French (official), Shikomoro (official; similar to Swahili), Comorian",
+        "religions": "Muslim 98.1% (overwhelmingly Sunni Muslim, small Shia Muslim and Ahmadiyya Muslim populations), ethnic religionist 1.1%, Christian 0.6%, other 0.3% (2020 est.)",
+        "ethnic_groups": "Antalote, Cafre, Makoa, Oimatsaha, Sakalava",
+        "currency": "Comoran francs (KMF)",
+        "life_expectancy": "67.8 years (2024 est.)",
+        "internet_tld": ".km",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical marine; rainy season (November to May)",
+        "terrain": "volcanic islands, interiors vary from steep mountains to low hills",
+        "natural_resources": "fish",
+        "major_exports": "cloves, ships, essential oils, vanilla, scrap iron (2023)"
+    },
+    "summaries": {
+        "geography_summary": "important location at northern end of Mozambique Channel; the only Arab League country that lies entirely in the Southern Hemisphere",
+        "history_summary": "For centuries prior to colonization in the 19th century, the Comoros archipelago in the Indian Ocean served as a key node in maritime trade networks that connected the Middle East, India, and eastern African regions. Composed of the islands of Anjouan, Mayotte, Moheli, and Grande Comore, Comoros spent most of the 20th century as a colonial outpost until it declared independence from France on 6 July 1975. Residents of Mayotte, however, voted to remain in France, and the French Government has since classified it as a French Overseas Department. Since independence, Comoros has weathered approximately 20 successful and attempted coups, mostly between 1975 and 2000, resulting in prolonged political instability and stunted economic development. In 2002, President AZALI Assoumani became the first elected president following the completion of the Fomboni Accords, in which the islands of Grande Comore, Anjouan, and Moheli agreed to rotate the presidency among the islands every five years. This power-sharing agreement also included provisions allowing each island to maintain its local government. In 2007, Mohamed BACAR effected Anjouan's de-facto secession from the Union of the Comoros, refusing to step down when Comoros' other islands held legitimate elections. The African Union (AU) initially attempted to resolve the political crisis with sanctions and a naval blockade of Anjouan, but in 2008, the AU and Comoran soldiers seized the island. The island's inhabitants generally welcomed the move. In 2011, Ikililou DHOININE won the presidency in peaceful elections widely deemed to be free and fair. In closely contested elections in 2016, AZALI won a second term, when the rotating presidency returned to Grande Comore. In 2018, a referendum -- which the opposition parties boycotted -- approved a new constitution that extended presidential term limits and abolished the requirement for the presidency to rotate between the three main islands. AZALI formed a new government later that year, and he subsequently ran and was reelected in 2019. AZALI was reelected again in January 2024 in an election that the opposition disputed but the Supreme Court validated.",
+        "government_summary": "federal presidential republic. Independence: 6 July 1975 (from France)",
+        "economy_summary": "small trade-based island economy; declining remittances; new structural and fiscal reforms; adverse cyclone and COVID-19 impacts; manageable debts; fragile liquidity environment; large foreign direct investment; state-owned enterprises suffering",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

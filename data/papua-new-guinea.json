@@ -1,0 +1,38 @@
+{
+    "name": "Papua New Guinea",
+    "excerpt": "Papua New Guinea (PNG) occupies the eastern half of the island of New Guinea; the western half is part of Indonesia. PNG was first settled between 50,000 and 60,000 years ago.",
+    "quick_facts": {
+        "capital": "Port Moresby",
+        "population": "10,273,996 (2025 est.)",
+        "area": "462,840 sq km",
+        "government": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+        "languages": "Tok Pisin (official), English (official), Hiri Motu (official), some 839 living indigenous languages are spoken (about 12% of the world's total)",
+        "religions": "Protestant 64.3% (Evangelical Lutheran 18.4%, Seventh Day Adventist 12.9%, Pentecostal 10.4%, United Church 10.3%, Evangelical Alliance 5.9%, Anglican 3.2%, Baptist 2.8%, Salvation Army 0.4%), Roman Catholic 26%, other Christian 5.3%, non-Christian 1.4%, unspecified 3.1% (2011 est.)",
+        "ethnic_groups": "Melanesian, Papuan, Negrito, Micronesian, Polynesian",
+        "currency": "kina (PGK)",
+        "life_expectancy": "70.1 years (2024 est.)",
+        "internet_tld": ".pg",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; northwest monsoon (December to March), southeast monsoon (May to October); slight seasonal temperature variation",
+        "terrain": "mostly mountains with coastal lowlands and rolling foothills",
+        "natural_resources": "gold, copper, silver, natural gas, timber, oil, fisheries",
+        "major_exports": "natural gas, gold, copper ore, palm oil, nickel (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: shares island of New Guinea with Indonesia; highlands that trend from east to west break up New Guinea into diverse ecoregions; one of world's largest swamps lies along the southwest coast note 2: Papua New Guinea is one of the countries along the Ring of Fire, which is a belt bordering the Pacific Ocean that contains about 75% of the world's volcanoes and up to 90% of the world's earthquakes",
+        "history_summary": "Papua New Guinea (PNG) occupies the eastern half of the island of New Guinea; the western half is part of Indonesia. PNG was first settled between 50,000 and 60,000 years ago. Its harsh geography of mountains, jungles, and numerous river valleys kept many of the arriving groups isolated, giving rise to PNG’s ethnic and linguistic diversity. Around 500 B.C., Austronesian voyagers settled along the coast. Spanish and Portuguese explorers periodically visited the island starting in the 1500s, but none made it into the country’s interior. American and British whaling ships frequented the islands off the coast of New Guinea in the mid-1800s. In 1884, Germany declared a protectorate -- and eventually a colony -- over the northern part of what would become PNG and named it German New Guinea; days later the UK followed suit on the southern part and nearby islands and called it Papua. Most of their focus was on the coastal regions, leaving the highlands largely unexplored.The UK put its colony under Australian administration in 1902 and formalized the act in 1906. At the outbreak of World War I, Australia occupied German New Guinea and continued to rule it after the war as a League of Nations Mandate. The discovery of gold along the Bulolo River in the 1920s led prospectors to venture into the highlands, where they found about 1 million people living in isolated communities. The New Guinea campaign of World War II lasted from January 1942 to the Japanese surrender in August 1945. After the war, Australia combined the two territories and administered PNG as a UN trusteeship. In 1975, PNG gained independence and became a member of the Commonwealth. Between 1988-1997, a secessionist movement on the island province of Bougainville, located off the eastern PNG coast, fought the PNG Government, resulting in 15,000-20,000 deaths. In 1997, the PNG Government and Bougainville leaders reached a cease-fire and subsequently signed a peace agreement in 2001. The Autonomous Bougainville Government was formally established in 2005. Bougainvilleans voted in favor of independence in a 2019 non-binding referendum. The Bougainville and PNG governments are in the process of negotiating a roadmap for independence, which requires approval by the PNG parliament.",
+        "government_summary": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm. Independence: 16 September 1975 (from the Australia-administered UN trusteeship)",
+        "economy_summary": "lower-middle-income Pacific island economy; primarily informal agrarian sector; natural-resource-rich and key exporter of liquified natural gas; collapse in betel nut prices, tighter monetary policy, and improved foreign-exchange availability contributing to declining inflation; challenges include lack of progress in infrastructure, agricultural reform, and corruption",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Tunisia",
+    "excerpt": "Many empires have controlled Tunisia, including the Phoenicians (as early as the 12 century B.C.), Carthaginians, Romans, Vandals, Byzantines, various Arab and Berber kingdoms, and Ottomans (16th to late-19th centuries).",
+    "quick_facts": {
+        "capital": "Tunis",
+        "population": "11,962,995 (2025 est.)",
+        "area": "163,610 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Muslim (official; Sunni) 99%, other (includes Christian, Jewish, Shia Muslim, and Baha'i) <1%",
+        "ethnic_groups": "Arab 98%, European 1%, Jewish and other 1%",
+        "currency": "Tunisian dinars (TND)",
+        "life_expectancy": "77.3 years (2024 est.)",
+        "internet_tld": ".tn",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate in north with mild, rainy winters and hot, dry summers; desert in south",
+        "terrain": "mountains in north; hot, dry central plain; semiarid south merges into the Sahara",
+        "natural_resources": "petroleum, phosphates, iron ore, lead, zinc, salt",
+        "major_exports": "garments, insulated wire, olive oil, refined petroleum, crude petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location in central Mediterranean",
+        "history_summary": "Many empires have controlled Tunisia, including the Phoenicians (as early as the 12 century B.C.), Carthaginians, Romans, Vandals, Byzantines, various Arab and Berber kingdoms, and Ottomans (16th to late-19th centuries). Rivalry between French and Italian interests in Tunisia culminated in a French invasion in 1881 and the creation of a protectorate. Agitation for independence in the decades after World War I finally convinced the French to recognize Tunisia as an independent state in 1956. The country's first president, Habib BOURGUIBA, established a strict one-party state. He dominated the country for 31 years, repressing Islamic fundamentalism and establishing rights for women. In 1987, Zine el Abidine BEN ALI replaced BOURGUIBA in a bloodless coup. Street protests that began in Tunis in 2010 over high unemployment, corruption, widespread poverty, and high food prices escalated in 2011, culminating in rioting that led to hundreds of deaths and later became known as the start of the regional Arab Spring uprising. BEN ALI dismissed the government and fled the country, and a \"national unity government\" was formed. Elections for the new Constituent Assembly were held later that year, and human rights activist Moncef MARZOUKI was elected as interim president. The Assembly began drafting a new constitution in 2012 and, after several iterations and a months-long political crisis that stalled the transition, ratified the document in 2014. Parliamentary and presidential elections for a permanent government were held at the end of 2014. Beji CAID ESSEBSI was elected as the first president under the country's new constitution. After ESSEBSI’s death in office in 2019, Kais SAIED was elected. SAIED's term, as well as that of Tunisia's 217-member parliament, was set to expire in 2024. However, in 2021, SAIED used the exceptional powers allowed under Tunisia's constitution to dismiss the prime minister and suspend the legislature. Tunisians approved a new constitution through public referendum in 2022, expanding presidential powers and creating a new bicameral legislature.",
+        "government_summary": "parliamentary republic. Independence: 20 March 1956 (from France)",
+        "economy_summary": "lower middle-income North African economy; drafting reforms for foreign lenders; high unemployment, especially for youth and women; hit hard by COVID-19; high public sector wages; high public debt; protectionist austerity measures; key EU trade partner",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

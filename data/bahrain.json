@@ -1,0 +1,38 @@
+{
+    "name": "Bahrain",
+    "excerpt": "In 1783, the Sunni AL-KHALIFA family took power in Bahrain. In order to secure these holdings, it entered into a series of treaties with the UK during the 19th century that made Bahrain a British protectorate. The archipelago attained its independence in 1971.",
+    "quick_facts": {
+        "capital": "Manama",
+        "population": "1,566,888 (2024 est.)",
+        "area": "760 sq km",
+        "government": "constitutional monarchy",
+        "languages": "",
+        "religions": "Muslim 74.2%, other 25.9% (2020 est)",
+        "ethnic_groups": "Bahraini 47.4%, Asian 43.4%, other Arab 4.9%, African 1.4%, North American 1.1%, Gulf Co-operative countries 0.9%, European 0.8%, other 0.1% (2020 est.)",
+        "currency": "Bahraini dinars (BHD)",
+        "life_expectancy": "80.4 years (2024 est.)",
+        "internet_tld": ".bh",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "arid; mild, pleasant winters; very hot, humid summers",
+        "terrain": "mostly low desert plain rising gently to low central escarpment",
+        "natural_resources": "oil, associated and nonassociated natural gas, fish, pearls",
+        "major_exports": "refined petroleum, aluminum, iron ore, aluminum wire, jewelry (2023)"
+    },
+    "summaries": {
+        "geography_summary": "close to primary Middle Eastern petroleum sources; strategic location in Persian Gulf, through which much of the Western world's petroleum must transit to reach open ocean",
+        "history_summary": "In 1783, the Sunni AL-KHALIFA family took power in Bahrain. In order to secure these holdings, it entered into a series of treaties with the UK during the 19th century that made Bahrain a British protectorate. The archipelago attained its independence in 1971. A steady decline in oil production and reserves since 1970 prompted Bahrain to take steps to diversify its economy, in the process developing petroleum processing and refining, aluminum production, and hospitality and retail sectors. It has also endeavored to become a leading regional banking center, especially with respect to Islamic finance. Bahrain's small size, central location among Gulf countries, economic dependence on Saudi Arabia, and proximity to Iran require it to play a delicate balancing act in foreign affairs among its larger neighbors. Its foreign policy activities usually fall in line with Saudi Arabia and the UAE. In 2022, the United States designated Bahrain as a major non-NATO ally. The Sunni royal family has long struggled to manage relations with its Shia-majority population. In 2011, amid Arab uprisings elsewhere in the region, the Bahraini Government responded to similar pro-democracy and reform protests at home with police and military action, including deploying Gulf Cooperation Council security forces. Ongoing dissatisfaction with the political status quo continues to factor into sporadic clashes between demonstrators and security forces. In 2020, Bahrain and the United Arab Emirates signed the US-brokered Abraham Accords with Israel. In 2023, Bahrain and the United States signed the Comprehensive Security Integration and Prosperity Agreement to enhance cooperation across a wide range of areas, from defense and security to emerging technology, trade, and investment.",
+        "government_summary": "constitutional monarchy. Independence: 15 August 1971 (from the UK)",
+        "economy_summary": "high-income, growing Middle Eastern island economy; oil and aluminum exporter with diversification led by services, construction and manufacturing; regional finance and tourism hub; high public debt linked to oil revenue dependence and limited tax base; vulnerable to water reservoir depletion",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

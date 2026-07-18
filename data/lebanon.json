@@ -1,0 +1,38 @@
+{
+    "name": "Lebanon",
+    "excerpt": "As a result of its location at the crossroads of three continents, the area that is modern-day Lebanon is rich in cultural and religious diversity. This region was subject to various foreign conquerors for much of its history, including the Romans, Arabs, and Ottomans.",
+    "quick_facts": {
+        "capital": "Beirut",
+        "population": "5,364,482 (2024 est.)",
+        "area": "10,400 sq km",
+        "government": "parliamentary democratic republic",
+        "languages": "",
+        "religions": "Muslim 67.8% (31.9% Sunni, 31.2% Shia, smaller percentages of Alawites and Ismailis), Christian 32.4% (Maronite Catholics are the largest Christian group), Druze 4.5%, very small numbers of Jews, Baha'is, Buddhists, and Hindus (2020 est.)",
+        "ethnic_groups": "Arab 95%, Armenian 4%, other 1%",
+        "currency": "Lebanese pounds (LBP)",
+        "life_expectancy": "79.2 years (2024 est.)",
+        "internet_tld": ".lb",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "Mediterranean; mild to cool, wet winters with hot, dry summers; the Lebanon Mountains experience heavy winter snows",
+        "terrain": "narrow coastal plain; El Beqaa (Bekaa Valley) separates Lebanon and Anti-Lebanon Mountains",
+        "natural_resources": "limestone, iron ore, salt, water-surplus state in a water-deficit region, arable land",
+        "major_exports": "jewelry, cars, diamonds, scrap iron, gold (2023)"
+    },
+    "summaries": {
+        "geography_summary": "smallest country in continental Asia; Nahr el Litani is the only major river in Near East not crossing an international boundary",
+        "history_summary": "As a result of its location at the crossroads of three continents, the area that is modern-day Lebanon is rich in cultural and religious diversity. This region was subject to various foreign conquerors for much of its history, including the Romans, Arabs, and Ottomans. Following World War I, France acquired a mandate over the northern portion of the former Ottoman Empire province of Syria. From it the French demarcated the region of Lebanon in 1920, and it gained independence in 1943. Lebanon subsequently experienced periods of political turmoil interspersed with prosperity built on its position as a regional center for finance and trade.The country's 1975-90 civil war, which resulted in an estimated 120,000 fatalities, was followed by years of social and political instability, and sectarianism remains a key element of Lebanese political life. The Israeli defense forces, which occupied parts of Lebanon during the civil war, did not completely withdraw until 2000. Neighboring Syria influenced Lebanon's foreign and domestic policies while its military occupied Lebanon from 1976 until 2005, but its influence diminished significantly after 2005. Over 1.5 million Syrian refugees fled to Lebanon after the start of the Syrian conflict in 2011. Hizballah -- a major Lebanese political party, militia, and US-designated foreign terrorist organization -- and Israel continued attacks and counterattacks against each other after Syria's withdrawal and fought a brief war in 2006. After HAMAS attacked Israel on 7 October 2023, the intensity and frequency of these cross-border attacks increased substantially into a cycle of hostilities, mostly limited to the border areas as of January 2024. Lebanon's borders with Syria and Israel remain unresolved.Lebanon's prosperity has significantly diminished since the beginning of the country's economic crisis in 2019, which has crippled its economy, shut down its previously lucrative banking sector, reduced the value of its currency, and caused many Lebanese to emigrate in search of better prospects.",
+        "government_summary": "parliamentary democratic republic. Independence: 22 November 1943 (from League of Nations mandate under French administration)",
+        "economy_summary": "lower middle-income Middle Eastern economy; hyperinflation and sharp poverty increases; banks have ceased lending; economic contraction, destroyed infrastructure, and reduced consumer demand resulting from Israel-Hezbollah conflict",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

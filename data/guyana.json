@@ -1,0 +1,38 @@
+{
+    "name": "Guyana",
+    "excerpt": "Originally a Dutch colony in the 17th century, by 1815 Guyana had become a British possession. The abolition of slavery led to former slaves settling urban areas and indentured servants being imported from India to work the sugar plantations.",
+    "quick_facts": {
+        "capital": "Georgetown",
+        "population": "794,099 (2024 est.)",
+        "area": "214,969 sq km",
+        "government": "parliamentary republic",
+        "languages": "English (official), Guyanese Creole, Amerindian languages (including Caribbean and Arawak languages), Indian languages (including Caribbean Hindustani, a dialect of Hindi), Chinese (2014 est.)",
+        "religions": "Protestant 34.8% (Pentecostal 22.8%, Seventh Day Adventist 5.4%, Anglican 5.2%, Methodist 1.4%), Hindu 24.8%, other Christian 20.8%, Roman Catholic 7.1%, Muslim 6.8%, Jehovah's Witness 1.3%, Rastafarian 0.5%, other 0.9%, none 3.1% (2012 est.)",
+        "ethnic_groups": "East Indian 39.8%, African descent 29.3%, mixed 19.9%, Indigenous 10.5%, other 0.5% (includes Portuguese, Chinese, White) (2012 est.)",
+        "currency": "Guyanese dollars (GYD)",
+        "life_expectancy": "72.4 years (2024 est.)",
+        "internet_tld": ".gy",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; hot, humid, moderated by northeast trade winds; two rainy seasons (May to August, November to January)",
+        "terrain": "mostly rolling highlands; low coastal plain; savanna in south",
+        "natural_resources": "bauxite, gold, diamonds, hardwood timber, shrimp, fish",
+        "major_exports": "crude petroleum, railway cargo containers, gold, ships, rice (2023)"
+    },
+    "summaries": {
+        "geography_summary": "the third-smallest country in South America after Suriname and Uruguay; contains some of the largest unspoiled rainforests on the continent",
+        "history_summary": "Originally a Dutch colony in the 17th century, by 1815 Guyana had become a British possession. The abolition of slavery led to former slaves settling urban areas and indentured servants being imported from India to work the sugar plantations. The resulting ethnocultural divide has persisted and has led to turbulent politics. Guyana achieved independence from the UK in 1966, and since then primarily socialist-oriented governments have ruled the country. In 1992, Cheddi JAGAN was elected president in what is considered the country's first free and fair election since independence. After his death five years later, his wife, Janet JAGAN, became president but resigned in 1999 due to poor health. Her successor, Bharrat JAGDEO, was elected in 2001 and again in 2006. Donald RAMOTAR won in 2011, but early elections held in 2015 resulted in the first change in governing party, and David GRANGER took office. After a 2018 no-confidence vote against the GRANGER government, the administration ignored a constitutional requirement to hold elections and remained in place until the 2020 elections, when Irfaan ALI became president. The discovery of massive offshore oil reserves in 2015 has been Guyana's primary economic and political focus, with many hoping the reserves will transform one of the poorest countries in the region. Guyana is the only English-speaking country in South America and shares cultural and historical bonds with the Anglophone Caribbean.",
+        "government_summary": "parliamentary republic. Independence: 26 May 1966 (from the UK)",
+        "economy_summary": "small, hydrocarbon-driven South American export economy; major forest coverage being leveraged in carbon credit offsets to encourage preservation; strengthening financial sector; large bauxite and gold resources",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

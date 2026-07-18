@@ -1,0 +1,38 @@
+{
+    "name": "Croatia",
+    "excerpt": "The lands that today comprise Croatia were part of the Austro-Hungarian Empire until the end of World War I. In 1918, the Croats, Serbs, and Slovenes formed a kingdom known after 1929 as Yugoslavia.",
+    "quick_facts": {
+        "capital": "Zagreb",
+        "population": "4,071,208 (2025 est.)",
+        "area": "56,594 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Roman Catholic 79%, Orthodox 3.3%, Protestant 0.3%, other Christian 4.8%, Muslim 1.3%, other 1.1%, agnostic 1.7%, none or atheist 4.7%, unspecified 3.9% (2021 est.)",
+        "ethnic_groups": "Croat 91.6%, Serb 3.2%, other 3.9% (including Bosniak, Romani, Albanian, Italian, and Hungarian), unspecified 1.3% (2021 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "77.7 years (2024 est.)",
+        "internet_tld": ".hr",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "Mediterranean and continental; continental climate predominant with hot summers and cold winters; mild winters, dry summers along coast",
+        "terrain": "geographically diverse; flat plains along Hungarian border, low mountains and highlands near Adriatic coastline and islands",
+        "natural_resources": "oil, some coal, bauxite, low-grade iron ore, calcium, gypsum, natural asphalt, silica, mica, clays, salt, hydropower",
+        "major_exports": "ships, garments, electricity, packaged medicine, wood (2023)"
+    },
+    "summaries": {
+        "geography_summary": "controls most land routes from Western Europe to the Aegean Sea and Turkish Straits; most Adriatic Sea islands lie off the coast of Croatia -- some 1,200 islands, islets, ridges, and rocks",
+        "history_summary": "The lands that today comprise Croatia were part of the Austro-Hungarian Empire until the end of World War I. In 1918, the Croats, Serbs, and Slovenes formed a kingdom known after 1929 as Yugoslavia. Following World War II, Yugoslavia became a federal independent communist state consisting of six socialist republics, including Croatia, under the strong hand of Josip Broz, aka TITO. Although Croatia declared its independence from Yugoslavia in 1991, it took four years of sporadic, but often bitter, fighting before Yugoslav forces were cleared from Croatian lands, along with a majority of Croatia's ethnic Serb population. Under UN supervision, the last Serb-held enclave in eastern Slavonia was returned to Croatia in 1998. The country joined NATO in 2009 and the EU in 2013. In January 2023, Croatia further integrated into the EU by joining the Eurozone and the Schengen Area.",
+        "government_summary": "parliamentary republic. Independence: 25 June 1991 (from Yugoslavia); notable earlier dates: ca. 925 (Kingdom of Croatia established), 1 December 1918 (Kingdom of Serbs, Croats, and Slovenes established, later became Yugoslavia)",
+        "economy_summary": "upper-middle-income Balkan economy; newest euro user (introduced in 2023); increased investments from EU structural funds and tourism sector contributing to strong but moderating economic growth; declining energy prices and restrictive monetary policy easing inflation; historically low unemployment rate with labor shortages within services and manufacturing sectors",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

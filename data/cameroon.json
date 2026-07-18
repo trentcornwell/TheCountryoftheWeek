@@ -1,0 +1,38 @@
+{
+    "name": "Cameroon",
+    "excerpt": "Powerful chiefdoms ruled much of the area of present-day Cameroon before it became a German colony known as Kamerun in 1884. After World War I, the territory was divided between France and the UK as League of Nations mandates.",
+    "quick_facts": {
+        "capital": "Yaounde",
+        "population": "31,518,954 (2025 est.)",
+        "area": "475,440 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Roman Catholic 33.1%, Muslim 30.6%, Protestant 27.1% other Christian 6.1%, animist 1.3%, other 0.7%, none 1.2% (2022 est.)",
+        "ethnic_groups": "Bamileke-Bamu 22.2%, Biu-Mandara 16.4%, Arab-Choa/Hausa/Kanuri 13.5%, Beti/Bassa, Mbam 13.1%, Grassfields 9.9%, Adamawa-Ubangi, 9.8%, Cotier/Ngoe/Oroko 4.6%, Southwestern Bantu 4.3%, Kako/Meka 2.3%, foreign/other ethnic group 3.8% (2022 est.)",
+        "currency": "Cooperation Financiere en Afrique Centrale francs (XAF)",
+        "life_expectancy": "64.2 years (2024 est.)",
+        "internet_tld": ".cm",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "varies with terrain, from tropical along coast to semiarid and hot in north",
+        "terrain": "diverse, with coastal plain in southwest, dissected plateau in center, mountains in west, plains in north",
+        "natural_resources": "petroleum, bauxite, iron ore, timber, hydropower",
+        "major_exports": "crude petroleum, natural gas, gold, cocoa beans, wood (2023)"
+    },
+    "summaries": {
+        "geography_summary": "sometimes referred to as the hinge of Africa because of its central location on the continent and its position at the west-south juncture of the Gulf of Guinea; areas of thermal springs and indications of current or prior volcanic activity; Mount Cameroon, the highest mountain in Sub-Saharan west Africa, is an active volcano",
+        "history_summary": "Powerful chiefdoms ruled much of the area of present-day Cameroon before it became a German colony known as Kamerun in 1884. After World War I, the territory was divided between France and the UK as League of Nations mandates. French Cameroon became independent in 1960 as the Republic of Cameroon. The following year, the southern portion of neighboring British Cameroon voted to merge with the new country to form the Federal Republic of Cameroon. In 1972, a new constitution replaced the federation with a unitary state, the United Republic of Cameroon. The country has generally enjoyed stability, which has enabled the development of agriculture, roads, and railways, as well as a petroleum industry. Nonetheless, unrest and violence in the country's two western, English-speaking regions have persisted since 2016. Movement toward democratic reform is slow, and political power remains firmly in the hands of President Paul BIYA.",
+        "government_summary": "presidential republic. Independence: 1 January 1960 (from French-administered UN trusteeship)",
+        "economy_summary": "largest CEMAC economy with many natural resources; recent political instability and terrorism reducing economic output; systemic corruption; poor property rights enforcement; increasing poverty in northern regions",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

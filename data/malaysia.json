@@ -1,0 +1,38 @@
+{
+    "name": "Malaysia",
+    "excerpt": "Malaysia’s location has long made it an important cultural, economic, historical, social, and trade link between the islands of Southeast Asia and the mainland.",
+    "quick_facts": {
+        "capital": "Kuala Lumpur",
+        "population": "34,905,275 (2025 est.)",
+        "area": "329,847 sq km",
+        "government": "federal parliamentary constitutional monarchy",
+        "languages": "",
+        "religions": "Muslim (official) 63.5%, Buddhist 18.7%, Christian 9.1%, Hindu 6.1%, other (Confucianism, Taoism, other traditional Chinese religions) 0.9%, none/unspecified 1.8% (2020 est.)",
+        "ethnic_groups": "Bumiputera 63.8% (Malay 52.8% and indigenous peoples, including Orang Asli, Dayak, Anak Negeri, 11%), Chinese 20.6%, Indian 6%, other 0.6%, non-citizens 9% (2023 est.)",
+        "currency": "ringgits (MYR)",
+        "life_expectancy": "76.6 years (2024 est.)",
+        "internet_tld": ".my",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; annual southwest (April to October) and northeast (October to February) monsoons",
+        "terrain": "coastal plains rising to hills and mountains",
+        "natural_resources": "tin, petroleum, timber, copper, iron ore, natural gas, bauxite",
+        "major_exports": "integrated circuits, refined petroleum, crude petroleum, natural gas, palm oil (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location along Strait of Malacca and southern South China Sea",
+        "history_summary": "Malaysia’s location has long made it an important cultural, economic, historical, social, and trade link between the islands of Southeast Asia and the mainland. Through the Strait of Malacca, which separates the Malay Peninsula from the archipelago, flowed maritime trade and with it influences from China, India, the Middle East, and the east coast of Africa. Prior to the 14th century, several powerful maritime empires existed in what is modern-day Malaysia, including the Srivijayan, which controlled much of the southern part of the peninsula between the 7th and 13th centuries, and the Majapahit Empire, which took control over most of the peninsula and the Malay Archipelago between the 13th and 14th centuries. The adoption of Islam between the 13th and 17th centuries also saw the rise of a number of powerful maritime states and sultanates on the Malay Peninsula and the island of Borneo, such as the port city of Malacca (Melaka), which at its height in the 15th century had a navy and hosted thousands of Chinese, Arab, Persian, and Indian merchants.The Portuguese in the 16th century and the Dutch in the 17th century were the first European colonial powers to establish themselves on the Malay Peninsula and in Southeast Asia. However, it was the British who ultimately secured hegemony across the territory and during the late 18th and 19th centuries established colonies and protectorates in the area that is now Malaysia. Japan occupied these holdings from 1942 to 1945. In 1948, the British-ruled territories on the Malay Peninsula (except Singapore) formed the Federation of Malaya, which became independent in 1957. Malaysia was formed in 1963 when the former British colonies of Singapore, as well as Sabah and Sarawak on the northern coast of Borneo, joined the Federation. A communist insurgency, confrontations with Indonesia, Philippine claims to Sabah, and Singapore's expulsion in 1965 marred the first several years of the country's independence. During the 22-year term of Prime Minister MAHATHIR Mohamad (1981-2003), Malaysia was successful in diversifying its economy from dependence on exports of raw materials to the development of manufacturing, services, and tourism. Former Prime Minister MAHATHIR and a newly formed coalition of opposition parties defeated Prime Minister Mohamed NAJIB bin Abdul Razak's United Malays National Organization (UMNO) in 2018, ending over 60 years of uninterrupted UMNO rule. From 2018-2022, Malaysia underwent considerable political upheaval, with a succession of coalition governments holding power. Following legislative elections in 2022, ANWAR Ibrahim was appointed prime minister after more than 20 years in opposition. His political coalition, Pakatan Harapan (PH), joined its longtime UNMO rival to form a government, but the two groups have remained deeply divided on many issues.",
+        "government_summary": "federal parliamentary constitutional monarchy. Independence: 31 August 1957 (from the UK)",
+        "economy_summary": "upper middle-income Southeast Asian economy; implementing key anticorruption policies; major electronics, oil, and chemicals exporter; trade sector employs over 40% of jobs; key economic equity initiative; high labor productivity",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

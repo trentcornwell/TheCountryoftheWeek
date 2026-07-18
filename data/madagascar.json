@@ -1,0 +1,38 @@
+{
+    "name": "Madagascar",
+    "excerpt": "Madagascar was one of the last major habitable landmasses on earth to be settled by humans. While there is some evidence of human presence on the island in the millennia B.C., large-scale settlement began between A.D. 350 and 550 with settlers from present-day Indonesia.",
+    "quick_facts": {
+        "capital": "Antananarivo",
+        "population": "31,345,040 (2025 est.)",
+        "area": "587,041 sq km",
+        "government": "semi-presidential republic",
+        "languages": "Malagasy (official) 99.9%, French (official) 23.6%, English 8.2%, other 0.6% (2018 est.)",
+        "religions": "Church of Jesus Christ in Madagascar/Malagasy Lutheran Church/Anglican Church 34%, Roman Catholic 32.3%, other Christian 8.1%, traditional/Animist 1.7%, Muslim 1.4%, other 0.6%, none 21.9% (2021 est.)",
+        "ethnic_groups": "Malayo-Indonesian (Merina and related Betsileo), Cotiers (mixed African, Malayo-Indonesian, and Arab ancestry - Betsimisaraka, Tsimihety, Antaisaka, Sakalava), French, Indian, Creole, Comoran",
+        "currency": "Malagasy ariary (MGA)",
+        "life_expectancy": "68.8 years (2024 est.)",
+        "internet_tld": ".mg",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical along coast, temperate inland, arid in south",
+        "terrain": "narrow coastal plain, high plateau and mountains in center",
+        "natural_resources": "graphite, chromite, coal, bauxite, rare earth elements, salt, quartz, tar sands, semiprecious stones, mica, fish, hydropower",
+        "major_exports": "garments, nickel, vanilla, cloves, gold (2023)"
+    },
+    "summaries": {
+        "geography_summary": "world's fourth-largest island; strategic location along Mozambique Channel; despite Madagascar’s close proximity to the African continent, ocean currents isolate the island, resulting in high rates of endemic plant and animal species; approximately 90% of the flora and fauna on the island are found nowhere else",
+        "history_summary": "Madagascar was one of the last major habitable landmasses on earth to be settled by humans. While there is some evidence of human presence on the island in the millennia B.C., large-scale settlement began between A.D. 350 and 550 with settlers from present-day Indonesia. The island attracted Arab and Persian traders as early as the 7th century, and migrants from Africa arrived around A.D. 1000. Madagascar was a pirate stronghold during the late 17th and early 18th centuries and served as a slave trading center into the 19th century. From the 16th to the late 19th century, a native Merina Kingdom dominated much of Madagascar. The French conquered the island in 1896 and made it a colony; independence was regained in 1960. Free presidential and National Assembly elections were held in 1992-93, ending 17 years of single-party rule. In 1997, in the second presidential race, Didier RATSIRAKA, the leader during the 1970s and 1980s, returned to the presidency. The 2001 presidential election was contested between the followers of RATSIRAKA and Marc RAVALOMANANA, nearly causing half the country to secede. In 2002, the High Constitutional Court announced RAVALOMANANA the winner. He won a second term in 2006 but, following protests in 2009, handed over power to the military, which then conferred the presidency on the mayor of Antananarivo, Andry RAJOELINA, in what amounted to a coup d'etat. After a lengthy mediation process, Madagascar held UN-supported presidential and parliamentary elections in 2013. Former de facto finance minister Hery RAJAONARIMAMPIANINA won in a runoff and was inaugurated in 2014. In 2019, RAJOELINA was declared the winner against RAVALOMANANA. In 2023, RAJOELINA won another term in an election that most of the opposition boycotted, including RAJAONARIMAMPIANINA and RAVALOMANANA, who claimed it was rigged in favor of RAJOELINA. International observers, however, saw no evidence of systemic fraud, leading the international community to accept the election results.",
+        "government_summary": "semi-presidential republic. Independence: 26 June 1960 (from France)",
+        "economy_summary": "low-income East African island economy; natural resource rich; extreme poverty; return of political stability has helped growth; sharp tax revenue drop due to COVID-19; leading vanilla producer; environmentally fragile",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

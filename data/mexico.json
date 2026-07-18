@@ -1,0 +1,38 @@
+{
+    "name": "Mexico",
+    "excerpt": "Mexico was the site of several advanced Amerindian civilizations -- including the Olmec, Toltec, Teotihuacan, Zapotec, Maya, and Aztec -- until Spain conquered and colonized the area in the early 16th century.",
+    "quick_facts": {
+        "capital": "Mexico City (Ciudad de Mexico)",
+        "population": "130,739,927 (2024 est.)",
+        "area": "1,964,375 sq km",
+        "government": "federal presidential republic",
+        "languages": "",
+        "religions": "Catholic 77.7%, no religion 10.6%, other Evangelical Churches 7.5%, Jehovah Witness 1.2%; less than 1 percent: Pentecostal, Seventh Day Adventist, Historics, not specified, Latter Day Saints, other religions (2020 est.)",
+        "ethnic_groups": "Mestizo (Indigenous-Spanish) 62%, predominantly Indigenous 21%, Indigenous 7%, other 10% (mostly European) (2012 est.)",
+        "currency": "Mexican pesos (MXN)",
+        "life_expectancy": "74.6 years (2024 est.)",
+        "internet_tld": ".mx",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "varies from tropical to desert",
+        "terrain": "high, rugged mountains; low coastal plains; high plateaus; desert",
+        "natural_resources": "petroleum, silver, antimony, copper, gold, lead, zinc, natural gas, timber",
+        "major_exports": "cars, vehicle parts/accessories, crude petroleum, trucks, computers (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: strategic location on southern border of the US; Mexico is one of the countries along the Ring of Fire, which is a belt bordering the Pacific Ocean that contains about 75% of the world's volcanoes and up to 90% of the world's earthquakesnote 2: the Sac Actun cave system at 348 km (216 mi) is the longest underwater cave in the world and the second longest cave worldwide, after Mammoth Cave in the United States (see \"Geography - note\" under United States)note 3: the prominent Yucatán Peninsula that divides the Gulf of America from the Caribbean Sea is shared by Mexico, Guatemala, and Belize; on the northern coast of Yucatan near the town of Chicxulub lie the remnants of a massive asteroid or comet crater about 150 km (93 mi) in diameter and extending into the Gulf of America; the impact is believed to have initiated a worldwide climate disruption that caused a mass extinction of 75% of the earth's plant and animal species, including the non-avian dinosaurs",
+        "history_summary": "Mexico was the site of several advanced Amerindian civilizations -- including the Olmec, Toltec, Teotihuacan, Zapotec, Maya, and Aztec -- until Spain conquered and colonized the area in the early 16th century. Administered as the Viceroyalty of New Spain for three centuries, it achieved independence early in the 19th century. Elections held in 2000 marked the first time since Mexican Revolution in 1910 that an opposition candidate -- Vicente FOX of the National Action Party (PAN) -- defeated the party in government, the Institutional Revolutionary Party (PRI). He was succeeded in 2006 by another PAN candidate Felipe CALDERON, but Enrique PEÑA NIETO regained the presidency for the PRI in 2012. Left-leaning anti-establishment politician and former mayor of Mexico City (2000-05) Andrés Manuel LÓPEZ OBRADOR, from the National Regeneration Movement (MORENA), became president in 2018. The US-Mexico-Canada Agreement (USMCA, or T-MEC by its Spanish acronym) entered into force in 2020 and replaced its predecessor, the North American Free Trade Agreement (NAFTA). Mexico amended its constitution in 2019 to facilitate the implementation of the labor components of USMCA. Mexico is currently the US's second-largest goods trading partner, after Canada. Ongoing economic and social concerns include low real wages, high underemployment, inequitable income distribution, and few advancement opportunities, particularly for the largely indigenous population in the impoverished southern states. Since 2007, Mexico's powerful transnational criminal organizations have engaged in a struggle to control criminal markets, resulting in tens of thousands of drug-related homicides and forced disappearances.",
+        "government_summary": "federal presidential republic. Independence: 16 September 1810 (declared independence from Spain); 27 September 1821 (recognized by Spain)",
+        "economy_summary": "upper-middle-income economy; highly integrated with US via trade and nearshore manufacturing; weak domestic demand, fiscal consolidation, and trade uncertainty contributing to sluggish growth; low unemployment; challenges from income inequality, corruption, and cartel-based violence",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

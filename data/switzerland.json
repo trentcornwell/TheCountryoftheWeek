@@ -1,0 +1,38 @@
+{
+    "name": "Switzerland",
+    "excerpt": "The Swiss Confederation was founded in 1291 as a defensive alliance among three cantons. In succeeding years, other localities joined the original three. The Swiss Confederation secured its independence from the Holy Roman Empire in 1499.",
+    "quick_facts": {
+        "capital": "Bern",
+        "population": "8,925,741 (2025 est.)",
+        "area": "41,277 sq km",
+        "government": "federal republic (formally a confederation)",
+        "languages": "",
+        "religions": "Roman Catholic 34.4%, Protestant 22.5%, other Christian 5.7%, Muslim 5.4%, other 1.5%, none 29.4%, unspecified 1.1% (2020 est.)",
+        "ethnic_groups": "Swiss 69.2%, German 4.2%, Italian 3.2%, Portuguese 2.5%, French 2.1%, Kosovan 1.1%, Turkish 1%, other 16.7% (2020 est.)",
+        "currency": "Swiss francs (CHF)",
+        "life_expectancy": "83.9 years (2024 est.)",
+        "internet_tld": ".ch",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate, but varies with altitude; cold, cloudy, rainy/snowy winters; cool to warm, cloudy, humid summers with occasional showers",
+        "terrain": "mostly mountains (Alps in south, Jura in northwest) with a central plateau of rolling hills, plains, and large lakes",
+        "natural_resources": "hydropower potential, timber, salt",
+        "major_exports": "gold, packaged medicine, vaccines, nitrogen compounds, base metal watches (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked; crossroads of northern and southern Europe; along with southeastern France, northern Italy, and southwestern Austria, has the highest elevations in the Alps",
+        "history_summary": "The Swiss Confederation was founded in 1291 as a defensive alliance among three cantons. In succeeding years, other localities joined the original three. The Swiss Confederation secured its independence from the Holy Roman Empire in 1499. A constitution of 1848, which was modified in 1874 to allow voters to introduce referenda on proposed laws, replaced the confederation with a centralized federal government. The major European powers have long honored Switzerland's sovereignty and neutrality, and the country was not involved in either World War. The political and economic integration of Europe over the past half-century, as well as Switzerland's role in many UN and international organizations, has strengthened Switzerland's ties with its neighbors. However, the country did not officially become a UN member until 2002. Switzerland remains active in many UN and international organizations but retains a strong commitment to neutrality.",
+        "government_summary": "federal republic (formally a confederation). Independence: 1 August 1291 (founding of the Swiss Confederation)",
+        "economy_summary": "high-income, non-EU European economy; top ten in GDP per capita; renowned banking and financial hub; low unemployment and inflation; slowed GDP growth post-pandemic; highly skilled but aging workforce; key pharmaceutical and precision manufacturing exporter; leader in innovation and competitiveness indices",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

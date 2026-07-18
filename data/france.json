@@ -1,0 +1,38 @@
+{
+    "name": "France",
+    "excerpt": "France today is one of the most modern countries in the world and is a leader among European nations. It plays an influential global role as a permanent member of the United Nations Security Council, NATO, the G-7, the G-20, the EU, and other multilateral organizations.",
+    "quick_facts": {
+        "capital": "Paris",
+        "population": "68,512,806 (2025 est.)",
+        "area": "643,801 sq km ; 551,500 sq km (metropolitan France)",
+        "government": "semi-presidential republic",
+        "languages": "",
+        "religions": "Roman Catholic 47%, Muslim 4%, Protestant 2%, Buddhist 2%, Orthodox 1%, Jewish 1%, other 1%, none 33%, unspecified 9% (2021 est.)",
+        "ethnic_groups": "Celtic and Latin with Teutonic, Slavic, North African (Algerian, Moroccan, Tunisian), Indochinese, Basque minorities",
+        "currency": "euros (EUR)",
+        "life_expectancy": "82.6 years (2024 est.)",
+        "internet_tld": "metropolitan France - .fr; French Guiana - .gf; Guadeloupe - .gp; Martinique - .mq; Mayotte - .yt; Reunion - .re",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "metropolitan France: generally cool winters and mild summers, but mild winters and hot summers along the Mediterranean; occasional strong, cold, dry, north-to-northwesterly wind known as the mistral",
+        "terrain": "metropolitan France: mostly flat plains or gently rolling hills in north and west; remainder is mountainous, especially Pyrenees in south, Alps in eastFrench Guiana: low-lying coastal plains rising to hills and small mountainsGuadeloupe: Basse-Terre is volcanic in origin with interior mountains; Grande-Terre is low limestone formation; most of the seven other islands are volcanic in originMartinique: mountainous with indented coastline; dormant volcanoMayotte: generally undulating, with deep ravines and ancient volcanic peaksReunion: mostly rugged and mountainous; fertile lowlands along coast",
+        "natural_resources": "metropolitan France: coal, iron ore, bauxite, zinc, uranium, antimony, arsenic, potash, feldspar, fluorspar, gypsum, timber, arable land, fish; French Guiana: gold deposits, petroleum, kaolin, niobium, tantalum, clay",
+        "major_exports": "aircraft, cars, packaged medicine, gas turbines, vehicle parts/accessories (2023)"
+    },
+    "summaries": {
+        "geography_summary": "largest Western European nation; most major French rivers -- the Meuse, Seine, Loire, Charente, Dordogne, and Garonne -- flow northward or westward into the Atlantic Ocean, only the Rhone flows southward into the Mediterranean Sea",
+        "history_summary": "France today is one of the most modern countries in the world and is a leader among European nations. It plays an influential global role as a permanent member of the United Nations Security Council, NATO, the G-7, the G-20, the EU, and other multilateral organizations. France rejoined NATO's integrated military command structure in 2009, reversing then President Charles DE GAULLE's 1966 decision to withdraw French forces from NATO. Since 1958, it has constructed a hybrid presidential-parliamentary governing system resistant to the instabilities experienced in earlier, more purely parliamentary administrations. In recent decades, its reconciliation and cooperation with Germany have proved central to the economic integration of Europe, including the introduction of a common currency, the euro, in January 1999. In the early 21st century, five French overseas entities -- French Guiana, Guadeloupe, Martinique, Mayotte, and Reunion -- became French regions and were made part of France proper.",
+        "government_summary": "semi-presidential republic. Independence: no official date of independence: 486 (Frankish tribes unified under Merovingian kingship); 10 August 843 (Western Francia established from the division of the Carolingian Empire); 14 July 1789 (French monarchy overthrown); 22 September 1792 (First French Republic established); 4 October 1958 (Fifth French Republic established)",
+        "economy_summary": "high-income, advanced EU economy and eurozone member; strong tourism, aircraft manufacturing, pharmaceuticals, and industrial sectors; high public debt; ongoing pension reform efforts; transitioning to a green economy via \"France 2030\" strategy",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

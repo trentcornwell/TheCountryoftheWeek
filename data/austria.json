@@ -1,0 +1,38 @@
+{
+    "name": "Austria",
+    "excerpt": "Once the center of power for the large Austro-Hungarian Empire, Austria was reduced to a small republic after its defeat in World War I. Nazi Germany annexed Austria in 1938, and the victorious Allies then occupied the country in 1945.",
+    "quick_facts": {
+        "capital": "Vienna",
+        "population": "9,174,390 (2025 est.)",
+        "area": "83,871 sq km",
+        "government": "federal parliamentary republic",
+        "languages": "",
+        "religions": "Roman Catholic 55.2%, Muslim 8.3%, Orthodox 4.9%, Evangelical Christian 3.8%, Jewish 0.1%, other 5.4%, none 22.4% (2021 est.)",
+        "ethnic_groups": "Austrian 80.8%, German 2.6%, Bosnian and Herzegovinian 1.9%, Turkish 1.8%, Serbian 1.6%, Romanian 1.3%, other 10% (2018 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "82.7 years (2024 est.)",
+        "internet_tld": ".at",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; continental, cloudy; cold winters with frequent rain and some snow in lowlands and snow in mountains; moderate summers with occasional showers",
+        "terrain": "mostly mountains (Alps) in the west and south; mostly flat or gently sloping along the eastern and northern margins",
+        "natural_resources": "oil, coal, lignite, timber, iron ore, copper, zinc, antimony, magnesite, tungsten, graphite, salt, hydropower",
+        "major_exports": "cars, packaged medicine, vaccines, vehicle parts/accessories, nitrogen compounds (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: landlocked; strategic location at the crossroads of central Europe with many easily traversable Alpine passes and valleys; major river is the Danube; population is concentrated on eastern lowlands because of steep slopes, poor soils, and low temperatures elsewherenote 2: the world's largest and longest ice cave system at 42 km (26 mi) is the Eisriesenwelt (Ice Giants World) inside the Hochkogel mountain near Werfen, about 40 km south of Salzburg; ice caves are bedrock caves that contain year-round ice formations; they differ from glacial caves, which are transient and are formed by melting ice and flowing water within and under glaciers",
+        "history_summary": "Once the center of power for the large Austro-Hungarian Empire, Austria was reduced to a small republic after its defeat in World War I. Nazi Germany annexed Austria in 1938, and the victorious Allies then occupied the country in 1945. As a result, Austria's status remained unclear for a decade after World War II, until a State Treaty signed in 1955 ended the occupation, recognized Austria's independence, and forbade unification with Germany. A constitutional law that same year declared the country's \"perpetual neutrality\" as a condition for Soviet military withdrawal. Austria joined the EU in 1995, but the obligation to remain neutral kept it from joining NATO, although the country became a member of NATO's Partnership for Peace program in 1995. Austria entered the EU Economic and Monetary Union in 1999.",
+        "government_summary": "federal parliamentary republic. Independence: no official date of independence: 976 (Margravate of Austria established); 17 September 1156 (Duchy of Austria founded); 6 January 1453 (Archduchy of Austria acknowledged); 11 August 1804 (Austrian Empire proclaimed); 30 March 1867 (Austro-Hungarian dual monarchy established); 12 November 1918 (First Republic proclaimed); 27 April 1945 (Second Republic proclaimed)",
+        "economy_summary": "one of the strongest EU and euro economies; diversified trade portfolios and relations; enormous trade economy; Russian energy dependence, but investing in alternative energy; aging labor force but large refugee population; large government debt",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

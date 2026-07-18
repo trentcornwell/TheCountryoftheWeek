@@ -1,0 +1,38 @@
+{
+    "name": "Japan",
+    "excerpt": "In 1603, after decades of civil warfare, the Tokugawa shogunate (a military-led, dynastic government) ushered in a long period of relative political stability and isolation from foreign influence.",
+    "quick_facts": {
+        "capital": "Tokyo",
+        "population": "123,201,945 (2024 est.)",
+        "area": "377,915 sq km",
+        "government": "parliamentary constitutional monarchy",
+        "languages": "",
+        "religions": "Shintoism 48.6%, Buddhism 46.4%, Christianity 1.1%, other 4% (2021 est.)",
+        "ethnic_groups": "Japanese 97.5%, Chinese 0.6%, Vietnam 0.4%, South Korean 0.3%, other 1.2% (includes Filipino, Brazilian, Nepalese, Indonesian, American, and Taiwanese) (2022 est.)",
+        "currency": "yen (JPY)",
+        "life_expectancy": "85.2 years (2024 est.)",
+        "internet_tld": ".jp",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "varies from tropical in south to cool temperate in north",
+        "terrain": "mostly rugged and mountainous",
+        "natural_resources": "negligible mineral resources, fish",
+        "major_exports": "cars, integrated circuits, machinery, vehicle parts/accessories, construction vehicles (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: strategic location in northeast Asia; composed of four main islands (the \"Home Islands\") -- Hokkaido, Honshu (the largest, most populous, and site of Tokyo, the capital), Shikoku, and Kyushu note 2: a 2023 Geospatial Information Authority of Japan survey detected 100,000 islands and islets, but only the 14,125 islands with a circumference of at least 100 m (330 ft) were officially counted; about 260 of the islands are inhabited note 3: Japan annually records the most earthquakes in the world; it is one of the countries along the Ring of Fire, which is a belt bordering the Pacific Ocean that contains about 75% of the world's volcanoes and up to 90% of the world's earthquakes",
+        "history_summary": "In 1603, after decades of civil warfare, the Tokugawa shogunate (a military-led, dynastic government) ushered in a long period of relative political stability and isolation from foreign influence. For more than two centuries, this policy enabled Japan to enjoy a flowering of its indigenous culture. Japan opened its ports after signing the Treaty of Kanagawa with the US in 1854 and began to intensively modernize and industrialize. During the late 19th and early 20th centuries, Japan became a regional power that was able to defeat the forces of both China and Russia. It occupied Korea, Formosa (Taiwan), and southern Sakhalin Island. In 1931-32, Japan occupied Manchuria, and in 1937, it launched a full-scale invasion of China. Japan attacked US forces at Pearl Harbor, Hawaii, in 1941, triggering America's entry into World War II, and Japan soon occupied much of East and Southeast Asia. After its defeat in World War II, the country recovered to become an economic power and a US ally. While the emperor retains his throne as a symbol of national unity, elected politicians hold the decision-making power. After three decades of unprecedented growth, Japan's economy experienced a major slowdown starting in the 1990s, but the country remains an economic power. In 2011, Japan's strongest-ever earthquake and an accompanying tsunami devastated the northeast part of Honshu, killed thousands, and damaged several nuclear power plants. ABE Shinzo was reelected as prime minister in 2012, and he embarked on ambitious economic and security reforms to improve Japan's economy and bolster the country's international standing. In 2019, ABE became Japan's longest-serving post-war prime minister; he resigned in 2020 and was succeeded by SUGA Yoshihide. KISHIDA Fumio became prime minister in 2021.",
+        "government_summary": "parliamentary constitutional monarchy. Independence: 3 May 1947 (current constitution adopted as amendment to Meiji Constitution); notable earlier dates: 11 February 660 B.C. (mythological date of Emperor JIMMU founding the nation); 29 November 1890 (Meiji Constitution provides for constitutional monarchy)",
+        "economy_summary": "second-largest East Asian economy; trade-oriented and highly diversified; high public debt levels; following years of near-zero interest rates, gradual increases to address inflation and depreciation of yen; strong rebound in tourism; aging population poses challenges to labor force participation",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

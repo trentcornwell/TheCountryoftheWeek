@@ -1,0 +1,38 @@
+{
+    "name": "Korea, South",
+    "excerpt": "The first recorded kingdom (Choson) on the Korean Peninsula dates from approximately 2300 B.C. Over the subsequent centuries, three main kingdoms -- Kogoryo, Baekche, and Silla -- were established on the Peninsula.",
+    "quick_facts": {
+        "capital": "Seoul",
+        "population": "51,486,343 (2025 est.)",
+        "area": "99,720 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Protestant 17%, Buddhist 16%, Catholic 6%, none 60% (2021 est.)",
+        "ethnic_groups": "Korean",
+        "currency": "South Korean won (KRW)",
+        "life_expectancy": "83.4 years (2024 est.)",
+        "internet_tld": ".kr",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate, with rainfall heavier in summer than winter; cold winters",
+        "terrain": "mostly hills and mountains; wide coastal plains in west and south",
+        "natural_resources": "coal, tungsten, graphite, molybdenum, lead, hydropower potential",
+        "major_exports": "integrated circuits, cars, refined petroleum, plastics, machine parts (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location on Korea Strait; about 3,000 mostly small and uninhabited islands lie off the western and southern coasts",
+        "history_summary": "The first recorded kingdom (Choson) on the Korean Peninsula dates from approximately 2300 B.C. Over the subsequent centuries, three main kingdoms -- Kogoryo, Baekche, and Silla -- were established on the Peninsula. By the 5th century A.D., Kogoryo emerged as the most powerful, with control over much of the Peninsula and part of Manchuria (modern-day northeast China). However, Silla allied with the Chinese to create the first unified Korean state in 688. Following the collapse of Silla in the 9th century, Korea was unified under the Koryo (Goryeo; 918-1392) and the Chosen (Joseon; 1392-1910) dynasties. Korea became the object of intense imperialistic rivalry among the Chinese (its traditional benefactor), Japanese, and Russian empires in the latter half of the 19th and early 20th centuries. After the Sino-Japanese War (1894-95) and the Russo-Japanese War (1904-1905), Korea was occupied by Imperial Japan. In 1910, Japan formally annexed the entire Peninsula. Korea regained its independence after Japan's surrender to the US and its allies in 1945. A US-supported democratic government (Republic of Korea, ROK) was set up in the southern half of the Korean Peninsula, while a communist-style government backed by the Soviet Union was installed in the north (North Korea; aka Democratic People's Republic of Korea, DPRK). During the Korean War (1950-53), US troops and UN forces fought alongside ROK soldiers to defend South Korea from a North Korean invasion supported by communist China and the Soviet Union. After the 1953 armistice, the two Koreas were separated by a demilitarized zone.Syngman RHEE led the country as its first president from 1948 to 1960. PARK Chung-hee took over leadership of the country in a 1961 coup. During his controversial rule (1961-79), South Korea achieved rapid economic growth, with per capita income rising to roughly 17 times the level of North Korea by 1979. PARK was assassinated in 1979, and subsequent years were marked by political turmoil and continued military rule as the country's pro-democracy movement grew. South Korea held its first free presidential election under a revised democratic constitution in 1987, with former South Korean Army general ROH Tae-woo winning a close race. In 1993, KIM Young-sam became the first civilian president of South Korea's new democratic era. President KIM Dae-jung (1998-2003) won the Nobel Peace Prize in 2000 for his contributions to South Korean democracy and his \"Sunshine Policy\" of engagement with North Korea. President PARK Geun-hye, daughter of former South Korean President PARK Chung-hee, took office in 2013 as South Korea's first female leader. In 2016, the National Assembly passed an impeachment motion against PARK over her alleged involvement in a corruption and influence-peddling scandal, triggering an early presidential election in 2017 won by MOON Jae-in. In 2022, longtime prosecutor and political newcomer YOON Suk Yeol won the presidency by the slimmest margin in South Korean history. Discord and tensions with North Korea, punctuated by North Korean military provocations, missile launches, and nuclear tests, have permeated inter-Korean relations for years. Relations remained strained, despite a period of respite in 2018-2019 ushered in by North Korea's participation in the 2018 Winter Olympic and Paralympic Games in South Korea and high-level diplomatic meetings, including historic US-North Korea summits. In 2024, Pyongyang announced it was ending all economic cooperation with South Korea, a move that followed earlier proclamations that it was scrapping a 2018 military pact to de-escalate tensions along their militarized border, abandoning the country’s decades-long pursuit of peaceful unification with South Korea, and designating the South as North Korea’s “principal enemy.”",
+        "government_summary": "presidential republic. Independence: 15 August 1945 (from Japan)",
+        "economy_summary": "high-income, export- and technology-oriented East Asian economy; manufacturing led by semiconductor and automotive industries; slow growth amid declining construction investment, export risks, and recent political instability; aging workforce; increased restraint in fiscal policy while maintaining industry support initiatives",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

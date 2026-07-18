@@ -1,0 +1,38 @@
+{
+    "name": "Honduras",
+    "excerpt": "Once part of Spain's vast empire in the New World, Honduras became an independent nation in 1821. After two and a half decades of mostly military rule, a freely elected civilian government came to power in 1982.",
+    "quick_facts": {
+        "capital": "Tegucigalpa",
+        "population": "9,529,188 (2024 est.)",
+        "area": "112,090 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Evangelical 55%, Roman Catholic 33.4%, none 10.1%, unspecified 1.5% (2023 est.)",
+        "ethnic_groups": "Mestizo (mixed Indigenous and European) 90%, Indigenous 7%, African descent 2%, White 1%",
+        "currency": "lempiras (HNL)",
+        "life_expectancy": "73.1 years (2024 est.)",
+        "internet_tld": ".hn",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "subtropical in lowlands, temperate in mountains",
+        "terrain": "mostly mountains in interior, narrow coastal plains",
+        "natural_resources": "timber, gold, silver, copper, lead, zinc, iron ore, antimony, coal, fish, hydropower",
+        "major_exports": "garments, coffee, insulated wire, palm oil, shellfish (2023)"
+    },
+    "summaries": {
+        "geography_summary": "has only a short Pacific coast but a long Caribbean shoreline, including the virtually uninhabited eastern Mosquito Coast",
+        "history_summary": "Once part of Spain's vast empire in the New World, Honduras became an independent nation in 1821. After two and a half decades of mostly military rule, a freely elected civilian government came to power in 1982. During the 1980s, Honduras proved a haven for anti-Sandinista contras fighting the Marxist Nicaraguan Government and an ally to Salvadoran Government forces fighting leftist guerrillas. Hurricane Mitch devastated the country in 1998, killing about 5,600 people and causing approximately $2 billion in damage. Since then, the economy has slowly rebounded, despite COVID-19 and severe storm-related setbacks in 2020 and 2021.",
+        "government_summary": "presidential republic. Independence: 15 September 1821 (from Spain)",
+        "economy_summary": "second-fastest-growing Central American economy; COVID-19 and two hurricanes crippled activity; high poverty and inequality; declining-but-still-high violent crime disruption; systemic corruption; coffee and banana exporter; enormous remittances",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

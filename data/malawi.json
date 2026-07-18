@@ -1,0 +1,38 @@
+{
+    "name": "Malawi",
+    "excerpt": "Malawi shares its name with the Chewa word for flames and is linked to the Maravi people from whom the Chewa language originated. The Maravi settled in what is now Malawi around 1400, during one of the later waves of Bantu migration across central and southern Africa.",
+    "quick_facts": {
+        "capital": "Lilongwe",
+        "population": "21,763,309 (2024 est.)",
+        "area": "118,484 sq km",
+        "government": "presidential republic",
+        "languages": "English (official), Chewa (dominant), Lambya, Lomwe, Ngoni, Nkhonde, Nyakyusa, Nyanja, Sena, Tonga, Tumbuka, Yao",
+        "religions": "Protestant 33.5% (includes Church of Central Africa Presbyterian 14.2%, Seventh Day Adventist/Baptist 9.4%, Pentecostal 7.6%, Anglican 2.3%), Roman Catholic 17.2%, other Christian 26.6%, Muslim 13.8%, traditionalist 1.1%, other 5.6%, none 2.1% (2018 est.)",
+        "ethnic_groups": "Chewa 34.3%, Lomwe 18.8%, Yao 13.2%, Ngoni 10.4%, Tumbuka 9.2%, Sena 3.8%, Mang'anja 3.2%, Tonga 1.8%, Nyanja 1.8%, Nkhonde 1%, other 2.2%, foreign 0.3% (2018 est.)",
+        "currency": "Malawian kwachas (MWK)",
+        "life_expectancy": "73 years (2024 est.)",
+        "internet_tld": ".mw",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "sub-tropical; rainy season (November to May); dry season (May to November)",
+        "terrain": "narrow elongated plateau with rolling plains, rounded hills, some mountains",
+        "natural_resources": "limestone, arable land, hydropower, unexploited deposits of uranium, coal, and bauxite",
+        "major_exports": "tobacco, tea, dried legumes, soybean meal, raw sugar (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked; Lake Nyasa, about 580 km (360 mi) long, is the country's most prominent physical feature; it contains more fish species than any other lake on earth",
+        "history_summary": "Malawi shares its name with the Chewa word for flames and is linked to the Maravi people from whom the Chewa language originated. The Maravi settled in what is now Malawi around 1400, during one of the later waves of Bantu migration across central and southern Africa. A powerful Maravi kingdom established around 1500 reached its zenith around 1700, when it controlled what is now southern and central Malawi and portions of neighboring Mozambique and Zambia. The kingdom eventually declined because of destabilization from the escalating global trade in enslaved people. In the early 1800s, widespread conflict in southern Africa displaced various ethnic Ngoni groups, some of which moved into Malawi and further undermined the Maravi. Members of the Yao ethnic group -- which had long traded with Malawi from Mozambique -- introduced Islam and began to settle in Malawi in significant numbers in the mid-1800s, followed by members of the Lomwe ethnic group. British missionary and trading activity increased in the area around Lake Nyasa in the mid-1800s, and in 1891, Britain declared a protectorate called British Central Africa over what is now Malawi. The British renamed the territory Nyasaland in 1907, and it was part of the colonial Federation of Rhodesia and Nyasaland -- including present-day Zambia and Zimbabwe -- from 1953 to 1963 before gaining independence as Malawi in 1964. Hastings Kamuzu BANDA served as prime minister at independence and then as president when the country became a republic in 1966. He later instituted one-party rule under his Malawi Congress Party (MCP) and was declared president for life. After three decades of one-party rule, the country held multiparty presidential and parliamentary elections in 1994 under a provisional constitution that came into full effect the following year. Bakili MULUZI of the United Democratic Front party became the first freely elected president of Malawi when he defeated BANDA at the polls in 1994; he won reelection in 1999. President Bingu wa MUTHARIKA was elected in 2004 and reelected to a second term in 2009. He died abruptly in 2012 and was succeeded by Vice President Joyce BANDA. MUTHARIKA's brother, Peter MUTHARIKA, defeated BANDA in the election in 2014. Peter MUTHARIKA was reelected in a disputed election in 2019 that resulted in countrywide protests. The courts ordered a new election, and in 2020, Lazarus CHAKWERA of the MCP was elected president. Population growth, increasing pressure on agricultural lands, corruption, and HIV/AIDS pose major problems for Malawi.",
+        "government_summary": "presidential republic. Independence: 6 July 1964 (from the UK)",
+        "economy_summary": "low-income East African economy; primarily agrarian; investing in human capital; urban poverty increasing due to COVID-19; high public debt; endemic corruption and poor property rights; poor hydroelectric grid; localized pharmaceutical industry",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Slovakia",
+    "excerpt": "Slovakia traces its roots to the 9th century state of Great Moravia. The Slovaks then became part of the Hungarian Kingdom, where they remained for the next 1,000 years.",
+    "quick_facts": {
+        "capital": "Bratislava",
+        "population": "5,563,649 (2024 est.)",
+        "area": "49,035 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Roman Catholic 55.8%, Evangelical Church of the Augsburg Confession 5.3%, Greek Catholic 4%, Reformed Christian 1.6%, other 3%, none 23.8%, unspecified 6.5% (2021 est.)",
+        "ethnic_groups": "Slovak 83.8%, Hungarian 7.8%, Romani 1.2%, other 1.8% (includes Czech, Ruthenian, Ukrainian, Russian, German, Polish), unspecified 5.4% (2021 est.)",
+        "currency": "euros (EUR)",
+        "life_expectancy": "77.2 years (2024 est.)",
+        "internet_tld": ".sk",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "temperate; cool summers; cold, cloudy, humid winters",
+        "terrain": "rugged mountains in the central and northern part and lowlands in the south",
+        "natural_resources": "lignite, small amounts of iron ore, copper and manganese ore; salt; arable land",
+        "major_exports": "cars, vehicle parts/accessories, video displays, broadcasting equipment, refined petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked; most of the country is rugged and mountainous; the Tatra Mountains in the north are interspersed with many scenic lakes and valleys",
+        "history_summary": "Slovakia traces its roots to the 9th century state of Great Moravia. The Slovaks then became part of the Hungarian Kingdom, where they remained for the next 1,000 years. After the formation of the dual Austro-Hungarian monarchy in 1867, language and education policies favoring the use of Hungarian (known as \"Magyarization\") led to a public backlash that boosted Slovak nationalism and strengthened Slovak cultural ties with the closely related Czechs, who fell administratively under the Austrian half of the empire. When the Austro-Hungarian Empire dissolved at the end of World War I, the Slovaks joined the Czechs to form Czechoslovakia. During the interwar period, Slovak nationalist leaders pushed for autonomy within Czechoslovakia, and in 1939, in the wake of Germany's annexation of the Sudetenland, the newly established Slovak Republic became a German client state for the remainder of World War II. After World War II, Czechoslovakia was reconstituted and came under communist rule within Soviet-dominated Eastern Europe. In 1968, Warsaw Pact troops invaded and ended the efforts of Czechoslovakia's leaders to liberalize communist rule and create \"socialism with a human face,\" ushering in a period of repression known as \"normalization.\" The peaceful Velvet Revolution swept the Communist Party from power at the end of 1989 and inaugurated a return to democratic rule and a market economy. On 1 January 1993, Czechoslovakia underwent a nonviolent \"velvet divorce\" into its two national components, Slovakia and the Czech Republic. Slovakia joined both NATO and the EU in 2004 and the euro zone in 2009.",
+        "government_summary": "parliamentary republic. Independence: 1 January 1993 (Czechoslovakia split into the Czech Republic and Slovakia)",
+        "economy_summary": "high-income EU and eurozone economy; manufacturing and exports led by automotive sector; growth supported by private consumption and public investment from EU funds, tempered by trade risks; increased taxes and withdrawal of energy subsidies contributing to rising but manageable inflation; strong labor demand and influx of foreign labor offsets aging workforce",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Portugal",
+    "excerpt": "A global maritime power during the 15th and 16th centuries, Portugal lost much of its wealth and status with the destruction of Lisbon in a 1755 earthquake, occupation during the Napoleonic Wars, and the independence of Brazil, its wealthiest colony, in 1822.",
+    "quick_facts": {
+        "capital": "Lisbon",
+        "population": "10,194,277 (2025 est.)",
+        "area": "92,090 sq km",
+        "government": "semi-presidential republic",
+        "languages": "Portuguese (official), Mirandese (official, but locally used)",
+        "religions": "Catholic 68.1%, not applicable 12.9%, no religion 12.0%, no response 2.2%, Protestant 1.8%, other 1.0%; less than 1%: other Christians, Orthodox, Muslim (2021 est.)",
+        "ethnic_groups": "Portuguese 95%; citizens from Portugal’s former colonies in Africa, Asia (Han Chinese), and South America (Brazilian) and other foreign born 5%",
+        "currency": "euros (EUR)",
+        "life_expectancy": "81.9 years (2024 est.)",
+        "internet_tld": ".pt",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "maritime temperate; cool and rainy in north, warmer and drier in south",
+        "terrain": "the west-flowing Tagus River divides the country: the north is mountainous toward the interior, while the south is characterized by rolling plains",
+        "natural_resources": "fish, forests (cork), iron ore, copper, zinc, tin, tungsten, silver, gold, uranium, marble, clay, gypsum, salt, arable land, hydropower",
+        "major_exports": "cars, garments, vehicle parts/accessories, unpackaged medicine, refined petroleum (2023)"
+    },
+    "summaries": {
+        "geography_summary": "Azores and Madeira Islands occupy strategic locations along western sea approaches to Strait of Gibraltar; they are two of the four North Atlantic archipelagos that make up Macaronesia; the others are the Canary Islands (Spain) and Cabo Verde",
+        "history_summary": "A global maritime power during the 15th and 16th centuries, Portugal lost much of its wealth and status with the destruction of Lisbon in a 1755 earthquake, occupation during the Napoleonic Wars, and the independence of Brazil, its wealthiest colony, in 1822. A revolution deposed the monarchy in 1910, and for most of the next six decades, repressive governments ran the country. In 1974, a left-wing military coup ushered in broad democratic reforms. The following year, Portugal granted independence to all its African colonies. Portugal is a founding member of NATO and entered the EC (now the EU) in 1986.",
+        "government_summary": "semi-presidential republic. Independence: 1143 (Kingdom of Portugal recognized); 1 December 1640 (independence reestablished after 60 years of Spanish rule); 5 October 1910 (republic proclaimed)",
+        "economy_summary": "high-income EU and eurozone economy; strong services sector led by tourism and banking; tight labor market; growth driven by private consumption, trade surplus, and public investment from EU funds; declining public debt",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

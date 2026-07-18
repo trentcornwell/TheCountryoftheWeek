@@ -1,0 +1,38 @@
+{
+    "name": "Singapore",
+    "excerpt": "A Malay trading port known as Temasek existed on the island of Singapore by the 14th century. The settlement changed hands several times in the ensuing centuries and was eventually burned in the 17th century, falling into obscurity.",
+    "quick_facts": {
+        "capital": "Singapore",
+        "population": "6,080,545 (2025 est.)",
+        "area": "719 sq km",
+        "government": "parliamentary republic",
+        "languages": "",
+        "religions": "Buddhist 31.1%, Christian 18.9%, Muslim 15.6%, Taoist 8.8%, Hindu 5%, other 0.6%, none 20% (2020 est.)",
+        "ethnic_groups": "Chinese 74.2%, Malay 13.7%, Indian 8.9%, other 3.2% (2021 est.)",
+        "currency": "Singapore dollars (SGD)",
+        "life_expectancy": "86.7 years (2024 est.)",
+        "internet_tld": ".sg",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical; hot, humid, rainy; two distinct monsoon seasons - northeastern monsoon (December to March) and southwestern monsoon (June to September); inter-monsoon - frequent afternoon and early evening thunderstorms",
+        "terrain": "lowlying, gently undulating central plateau",
+        "natural_resources": "fish, deepwater ports",
+        "major_exports": "integrated circuits, refined petroleum, machinery, vaccines, gold (2023)"
+    },
+    "summaries": {
+        "geography_summary": "focal point for Southeast Asian sea routes; consists of about 60 islands, the largest of which by far is Pulau Ujong; land reclamation has removed many former islands and created a number of new ones",
+        "history_summary": "A Malay trading port known as Temasek existed on the island of Singapore by the 14th century. The settlement changed hands several times in the ensuing centuries and was eventually burned in the 17th century, falling into obscurity. In 1819, the British founded modern Singapore as a trading colony on the same site and granted it full internal self-government for all matters except defense and foreign affairs in 1959. Singapore joined the Malaysian Federation in 1963 but was ousted two years later and became independent. Singapore subsequently became one of the world's most prosperous countries, with strong international trading links and per capita GDP among the highest globally. The People’s Action Party has won every general election in Singapore since the end of the British colonial era, aided by its success in delivering consistent economic growth, as well as the city-state's fragmented opposition and electoral procedures that strongly favor the ruling party.",
+        "government_summary": "parliamentary republic. Independence: 9 August 1965 (from Malaysian Federation)",
+        "economy_summary": "high-income, service-based economy; global financial hub; business-friendly policies and open to investment and trade; inflation easing but persistent in services; public investments in education, healthcare, and infrastructure; strong human capital development challenged by aging population",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

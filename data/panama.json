@@ -1,0 +1,38 @@
+{
+    "name": "Panama",
+    "excerpt": "Explored and settled by the Spanish in the 16th century, Panama broke with Spain in 1821 and joined a union of Colombia, Ecuador, and Venezuela that was named the Republic of Gran Colombia. When the union dissolved in 1830, Panama remained part of Colombia.",
+    "quick_facts": {
+        "capital": "Panama City",
+        "population": "4,536,008 (2025 est.)",
+        "area": "75,420 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Evangelical 55%, Roman Catholic 33.4%, none 10.1%, unspecified 1.5% (2023 est.)",
+        "ethnic_groups": "Mestizo (mixed Indigenous and White) 65%, Indigenous 12.3% (Ngabe 7.6%, Kuna 2.4%, Embera 0.9%, Bugle 0.8%, other 0.4%, unspecified 0.2%), Black or African descent 9.2%, Mulatto 6.8%, White 6.7% (2010 est.)",
+        "currency": "balboas (PAB)",
+        "life_expectancy": "79.2 years (2024 est.)",
+        "internet_tld": ".pa",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "tropical maritime; hot, humid, cloudy; prolonged rainy season (May to January), short dry season (January to May)",
+        "terrain": "interior mostly steep, rugged mountains with dissected, upland plains; coastal plains with rolling hills",
+        "natural_resources": "copper, mahogany forests, shrimp, hydropower",
+        "major_exports": "copper ore, ships, refined petroleum, bananas, fish (2023)"
+    },
+    "summaries": {
+        "geography_summary": "strategic location on eastern end of isthmus forming land bridge that connects North and South America; controls the Panama Canal, which links the North Atlantic Ocean with the North Pacific Ocean via the Caribbean Sea",
+        "history_summary": "Explored and settled by the Spanish in the 16th century, Panama broke with Spain in 1821 and joined a union of Colombia, Ecuador, and Venezuela that was named the Republic of Gran Colombia. When the union dissolved in 1830, Panama remained part of Colombia. With US backing, Panama seceded from Colombia in 1903 and promptly signed a treaty with the US allowing for the construction of a canal and US sovereignty over a strip of land known as the Panama Canal Zone on either side of the structure. The US Army Corps of Engineers built the Panama Canal between 1904 and 1914. In 1977, an agreement was signed for the complete transfer of the Canal from the US to Panama by the end of the century. Certain portions of the Zone and increasing responsibility over the Canal were turned over in the subsequent decades. With US help, Panamanian dictator Manuel NORIEGA was deposed in 1989. The entire Panama Canal, the area supporting the Canal, and remaining US military bases were transferred to Panama by the end of 1999. An ambitious expansion project to more than double the Canal's capacity by allowing for more Canal transits and larger ships was carried out between 2007 and 2016.",
+        "government_summary": "presidential republic. Independence: 3 November 1903 (from Colombia); 28 November 1821 (from Spain)",
+        "economy_summary": "upper middle-income Central American economy; increasing Chinese trade; US dollar user; canal expansion fueling broader infrastructure investment; services sector dominates economy; historic money-laundering and illegal drug hub",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

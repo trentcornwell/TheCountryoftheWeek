@@ -1,0 +1,38 @@
+{
+    "name": "Uzbekistan",
+    "excerpt": "Uzbekistan is the geographic and population center of Central Asia, with a diverse economy and a relatively young population. Russia conquered and united the disparate territories of present-day Uzbekistan in the late 19th century.",
+    "quick_facts": {
+        "capital": "Tashkent (Toshkent)",
+        "population": "37,015,151 (2025 est.)",
+        "area": "447,400 sq km",
+        "government": "presidential republic; highly authoritarian",
+        "languages": "",
+        "religions": "Muslim 88% (mostly Sunni), Eastern Orthodox 9%, other 3%",
+        "ethnic_groups": "Uzbek 83.8%, Tajik 4.8%, Kazakh 2.5%, Russian 2.3%, Karakalpak 2.2%, Tatar 1.5%, other 2.9% (2017 est.)",
+        "currency": "Uzbekistani soum (UZS)",
+        "life_expectancy": "76.2 years (2024 est.)",
+        "internet_tld": ".uz",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "mostly mid-latitude desert, long, hot summers, mild winters; semiarid grassland in east",
+        "terrain": "mostly flat-to-rolling sandy desert with dunes; broad, flat intensely irrigated river valleys along course of Amu Darya, Syr Darya (Sirdaryo), and Zaravshan; Fergana Valley in east surrounded by mountainous Tajikistan and Kyrgyzstan; shrinking Aral Sea in west",
+        "natural_resources": "natural gas, petroleum, coal, gold, uranium, silver, copper, lead and zinc, tungsten, molybdenum",
+        "major_exports": "gold, cotton yarn, garments, fertilizers, fabric (2023)"
+    },
+    "summaries": {
+        "geography_summary": "along with Liechtenstein, one of the only two doubly landlocked countries in the world",
+        "history_summary": "Uzbekistan is the geographic and population center of Central Asia, with a diverse economy and a relatively young population. Russia conquered and united the disparate territories of present-day Uzbekistan in the late 19th century. Stiff resistance to the Red Army after the Bolshevik Revolution was eventually suppressed and a socialist republic established in 1924. During the Soviet era, intensive production of \"white gold\" (cotton) and grain led to the overuse of agrochemicals and the depletion of water supplies, leaving the land degraded and the Aral Sea and certain rivers half-dry. Independent since the Union of Soviet Socialist Republics (USSR) dissolved in 1991, the country has diversified agricultural production while developing its mineral and petroleum export capacity and increasing its manufacturing base, although cotton remains a major part of its economy. Uzbekistan’s first president, Islom KARIMOV, led Uzbekistan for 25 years until his death in 2016. His successor, former Prime Minister Shavkat MIRZIYOYEV, has improved relations with Uzbekistan’s neighbors and introduced wide-ranging economic, judicial, and social reforms. MIRZIYOYEV was reelected in 2021 with 80% of the vote and again following a 2023 constitutional referendum with 87% of the vote.",
+        "government_summary": "presidential republic; highly authoritarian. Independence: 1 September 1991 (from the Soviet Union)",
+        "economy_summary": "lower-middle income Central Asian economy; key exporter of natural gas, cotton, and gold; ongoing reform efforts to reduce state-owned sector dominance, attract foreign investment, and improve sustainability of cotton production",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

@@ -1,0 +1,1115 @@
+/*
+Theme Name: The Country of the Week
+Theme URI: https://thecountryoftheweek.com
+Author: Trent Cornwell
+Description: Custom WordPress theme for The Country of the Week — a new country featured every week, forever.
+Version: 1.1.0
+Text Domain: country-week
+*/
+
+/* ==========================================================================
+   1. Design tokens
+   ========================================================================== */
+
+:root {
+    --cw-color-text: #22252a;
+    --cw-color-text-muted: #6b6459;
+    --cw-color-bg: #fbfaf7;
+    --cw-color-bg-card: #ffffff;
+    --cw-color-bg-alt: #f3efe7;
+    --cw-color-border: #e7e0d3;
+    --cw-color-accent: #0e6e8c;
+    --cw-color-accent-dark: #094a5e;
+    --cw-color-accent-tint: #e6f2f5;
+    --cw-color-accent-contrast: #ffffff;
+    --cw-color-gold: #c1892f;
+    --cw-color-gold-tint: #faf1e2;
+
+    --cw-font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --cw-font-heading: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+
+    --cw-max-width: 1140px;
+    --cw-radius-sm: 8px;
+    --cw-radius: 14px;
+    --cw-radius-lg: 20px;
+    --cw-shadow-sm: 0 1px 2px rgba(30, 25, 15, 0.06), 0 1px 1px rgba(30, 25, 15, 0.04);
+    --cw-shadow: 0 6px 20px rgba(30, 25, 15, 0.08), 0 2px 6px rgba(30, 25, 15, 0.05);
+    --cw-shadow-lg: 0 20px 50px rgba(20, 20, 15, 0.16), 0 6px 16px rgba(20, 20, 15, 0.08);
+    --cw-transition: 180ms ease;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --cw-color-text: #edeae2;
+        --cw-color-text-muted: #b3aa9a;
+        --cw-color-bg: #17191c;
+        --cw-color-bg-card: #1f2226;
+        --cw-color-bg-alt: #24262a;
+        --cw-color-border: #34363b;
+        --cw-color-accent: #58b6d6;
+        --cw-color-accent-dark: #8fd0e8;
+        --cw-color-accent-tint: #1c333a;
+        --cw-color-accent-contrast: #0b1215;
+        --cw-color-gold: #e0ab5c;
+        --cw-color-gold-tint: #2c2519;
+        --cw-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+        --cw-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        --cw-shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* ==========================================================================
+   2. Reset / base
+   ========================================================================== */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    font-family: var(--cw-font-body);
+    line-height: 1.65;
+    color: var(--cw-color-text);
+    background: var(--cw-color-bg);
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a {
+    color: var(--cw-color-accent);
+    transition: color var(--cw-transition);
+}
+a:hover, a:focus { color: var(--cw-color-accent-dark); }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 2px solid var(--cw-color-accent);
+    outline-offset: 2px;
+}
+
+h1, h2, h3 {
+    font-family: var(--cw-font-heading);
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+h2 { font-size: 1.6rem; margin: 0 0 0.6em; }
+h3 { font-size: 1.15rem; }
+
+p { margin: 0 0 1em; }
+
+.screen-reader-text {
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+    padding: 10px 16px;
+    z-index: 100;
+    border-radius: 0 0 var(--cw-radius-sm) 0;
+}
+
+.skip-link:focus {
+    top: 0;
+    width: auto;
+    height: auto;
+    clip: auto;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   3. Layout
+   ========================================================================== */
+
+.site-header,
+.site-main,
+.site-footer {
+    width: min(var(--cw-max-width), 92%);
+    margin: 0 auto;
+}
+
+.site-main { padding: 32px 0 90px; }
+
+/* ==========================================================================
+   4. Header / navigation
+   ========================================================================== */
+
+.site-header {
+    padding: 22px 0;
+    background: var(--cw-color-bg);
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    border-bottom: 1px solid var(--cw-color-border);
+}
+
+.site-header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.site-header__brand {
+    font-family: var(--cw-font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--cw-color-text);
+    letter-spacing: -0.01em;
+}
+
+.site-header__brand:hover { color: var(--cw-color-accent); }
+
+.site-header__menu-toggle {
+    display: none;
+    background: var(--cw-color-bg-alt);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius-sm);
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.site-header__nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.primary-menu {
+    display: flex;
+    gap: 22px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.primary-menu a {
+    text-decoration: none;
+    color: var(--cw-color-text);
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 4px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color var(--cw-transition), color var(--cw-transition);
+}
+
+.primary-menu a:hover { color: var(--cw-color-accent); border-color: var(--cw-color-accent); }
+
+.site-header__search input {
+    padding: 9px 14px;
+    border: 1px solid var(--cw-color-border);
+    border-radius: 999px;
+    background: var(--cw-color-bg-alt);
+    color: var(--cw-color-text);
+    font-size: 0.9rem;
+    width: 190px;
+    transition: width var(--cw-transition);
+}
+
+.site-header__search input:focus { width: 230px; }
+
+.site-header__account { font-size: 0.88rem; }
+.site-header__account a { text-decoration: none; font-weight: 500; }
+
+@media (max-width: 720px) {
+    .site-header__menu-toggle { display: block; }
+
+    .site-header__nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 16px;
+    }
+
+    .site-header__nav.is-open { display: flex; }
+
+    .primary-menu { flex-direction: column; gap: 14px; width: 100%; }
+    .site-header__search { width: 100%; }
+    .site-header__search input { width: 100%; }
+}
+
+/* ==========================================================================
+   5. Country navigation arrows (top of homepage + every country page)
+   ========================================================================== */
+
+.country-nav-arrows {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 12px;
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius);
+    padding: 10px 14px;
+    margin-bottom: 24px;
+    box-shadow: var(--cw-shadow-sm);
+}
+
+.country-nav-arrows__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--cw-color-text);
+    padding: 8px 10px;
+    border-radius: var(--cw-radius-sm);
+    transition: background var(--cw-transition);
+    min-width: 0;
+}
+
+.country-nav-arrows__link:hover { background: var(--cw-color-bg-alt); }
+
+.country-nav-arrows__link--next { justify-content: flex-end; text-align: right; }
+
+.country-nav-arrows__arrow {
+    font-size: 1.3rem;
+    color: var(--cw-color-accent);
+    flex-shrink: 0;
+}
+
+.country-nav-arrows__label { min-width: 0; display: flex; flex-direction: column; }
+
+.country-nav-arrows__eyebrow {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--cw-color-text-muted);
+}
+
+.country-nav-arrows__name {
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.country-nav-arrows__week {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--cw-color-accent);
+    background: var(--cw-color-accent-tint);
+    padding: 6px 12px;
+    border-radius: 999px;
+    white-space: nowrap;
+    justify-self: center;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .country-nav-arrows__eyebrow { display: none; }
+    .country-nav-arrows { grid-template-columns: 1fr auto 1fr; padding: 8px; }
+    .country-nav-arrows__week { font-size: 0.68rem; padding: 5px 8px; white-space: normal; }
+}
+
+/* ==========================================================================
+   6. Hero
+   ========================================================================== */
+
+.site-main__tagline {
+    color: var(--cw-color-text-muted);
+    font-size: 0.95rem;
+    margin: 0 0 18px;
+}
+
+.country-hero { margin-bottom: 32px; }
+
+.country-hero__banner {
+    margin-bottom: 14px;
+}
+
+.country-hero__image {
+    border-radius: var(--cw-radius-lg);
+    overflow: hidden;
+    box-shadow: var(--cw-shadow-lg);
+    background: var(--cw-color-bg-alt);
+}
+
+.country-hero__image img {
+    width: 100%;
+    max-height: 460px;
+    object-fit: cover;
+}
+
+.country-hero__identity {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 8px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/* Only pull the identity block up to overlap the image when a hero
+   image actually precedes it — most countries don't have one yet
+   (stub content), and without this guard the negative margin would
+   pull the flag/name up into whatever comes before it instead. */
+.country-hero__image + .country-hero__identity {
+    margin-top: -40px;
+}
+
+.country-hero__flag {
+    width: 92px;
+    height: 62px;
+    object-fit: cover;
+    border: 3px solid var(--cw-color-bg-card);
+    border-radius: var(--cw-radius-sm);
+    box-shadow: var(--cw-shadow);
+    background: var(--cw-color-bg-card);
+}
+
+.country-hero__name {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin: 0;
+}
+
+.country-hero__image + .country-hero__identity .country-hero__name {
+    padding-top: 40px;
+}
+
+.country-hero__excerpt {
+    color: var(--cw-color-text-muted);
+    margin: 6px 0 0;
+    flex-basis: 100%;
+    font-size: 1.05rem;
+    max-width: 62ch;
+}
+
+.country-hero__status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--cw-color-gold-tint);
+    color: var(--cw-color-gold);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.country-hero__status--active {
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+}
+
+@media (max-width: 560px) {
+    .country-hero__image + .country-hero__identity { margin-top: -28px; }
+    .country-hero__flag { width: 70px; height: 48px; }
+    .country-hero__image + .country-hero__identity .country-hero__name { padding-top: 28px; }
+}
+
+/* ==========================================================================
+   7. Country page layout
+   ========================================================================== */
+
+.country-display__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+    gap: 48px;
+    margin-top: 32px;
+    align-items: start;
+}
+
+@media (max-width: 860px) {
+    .country-display__layout { grid-template-columns: 1fr; }
+}
+
+.country-display__primary section,
+.country-display__sidebar section {
+    margin-bottom: 32px;
+}
+
+.country-display__primary section:last-child { margin-bottom: 0; }
+
+.country-display__sidebar {
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius);
+    padding: 24px;
+    box-shadow: var(--cw-shadow-sm);
+    position: sticky;
+    top: 90px;
+}
+
+.country-display__sidebar section:last-child { margin-bottom: 0; }
+
+/* ==========================================================================
+   8. Quick facts
+   ========================================================================== */
+
+.quick-facts__list { margin: 0; }
+
+.quick-facts__row {
+    display: grid;
+    grid-template-columns: 42% 1fr;
+    gap: 8px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--cw-color-border);
+    font-size: 0.9rem;
+}
+
+.quick-facts__row:last-child { border-bottom: none; padding-bottom: 0; }
+
+.quick-facts__row dt { font-weight: 600; color: var(--cw-color-text-muted); margin: 0; }
+.quick-facts__row dd { margin: 0; }
+
+.quick-facts__source,
+.country-summary__source,
+.prayer-section__source {
+    font-size: 0.78rem;
+    color: var(--cw-color-text-muted);
+    margin: 10px 0 0;
+    font-style: italic;
+}
+
+/* ==========================================================================
+   9. Facts lists / summaries / prayer
+   ========================================================================== */
+
+.country-map {
+    margin-bottom: 32px;
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius);
+    padding: 20px;
+    box-shadow: var(--cw-shadow-sm);
+}
+
+.country-map__image {
+    margin: 0 auto;
+    border-radius: var(--cw-radius-sm);
+    max-width: 100%;
+}
+
+.country-map__source {
+    font-size: 0.78rem;
+    color: var(--cw-color-text-muted);
+    font-style: italic;
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.country-summary { scroll-margin-top: 100px; }
+.country-summary__body p:first-child { margin-top: 0; }
+.country-summary__body p:last-child { margin-bottom: 0; }
+
+.facts-list__items,
+.prayer-section__points {
+    padding-left: 1.3em;
+}
+
+.facts-list__items li,
+.prayer-section__points li {
+    margin-bottom: 0.5em;
+}
+
+.prayer-section {
+    background: var(--cw-color-gold-tint);
+    border-radius: var(--cw-radius);
+    padding: 28px;
+    border: 1px solid rgba(193, 137, 47, 0.25);
+}
+
+.prayer-section h2 { color: var(--cw-color-gold); }
+
+.prayer-section__mission { margin-top: 22px; padding-top: 18px; border-top: 1px solid rgba(193, 137, 47, 0.25); }
+.prayer-section__mission h3 { margin-top: 0; }
+
+/* ==========================================================================
+   10. Gallery / related countries
+   ========================================================================== */
+
+.photo-gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+}
+
+.photo-gallery__item {
+    border-radius: var(--cw-radius-sm);
+    overflow: hidden;
+    box-shadow: var(--cw-shadow-sm);
+    transition: transform var(--cw-transition), box-shadow var(--cw-transition);
+}
+
+.photo-gallery__item:hover { transform: translateY(-2px); box-shadow: var(--cw-shadow); }
+
+.photo-gallery__item img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.related-countries__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.related-countries__list a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--cw-color-text);
+    padding: 6px;
+    border-radius: var(--cw-radius-sm);
+    transition: background var(--cw-transition);
+}
+
+.related-countries__list a:hover { background: var(--cw-color-bg-alt); }
+
+.related-countries__list img { width: 30px; height: 20px; object-fit: cover; border-radius: 3px; }
+
+/* ==========================================================================
+   11. Actions: share / download / suggest edit
+   ========================================================================== */
+
+.country-display__actions,
+.country-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.country-actions__button {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--cw-color-border);
+    background: var(--cw-color-bg-card);
+    color: var(--cw-color-text);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+    transition: background var(--cw-transition), border-color var(--cw-transition), transform var(--cw-transition);
+}
+
+.country-actions__button:hover {
+    border-color: var(--cw-color-accent);
+    color: var(--cw-color-accent);
+    transform: translateY(-1px);
+}
+
+.country-actions__button--pdf {
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+    border-color: var(--cw-color-accent);
+    font-weight: 600;
+}
+
+.country-actions__button--pdf:hover {
+    background: var(--cw-color-accent-dark);
+    border-color: var(--cw-color-accent-dark);
+    color: var(--cw-color-accent-contrast);
+}
+
+.country-actions__lock { font-size: 0.75em; opacity: 0.8; }
+
+.account-form {
+    max-width: 420px;
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius);
+    padding: 28px;
+    box-shadow: var(--cw-shadow-sm);
+}
+
+.account-form__alt-link {
+    font-size: 0.9rem;
+    color: var(--cw-color-text-muted);
+    margin-top: 16px;
+}
+
+.account-form .login-username input,
+.account-form .login-password input {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius-sm);
+    background: var(--cw-color-bg);
+    color: var(--cw-color-text);
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+.account-form .login-username label,
+.account-form .login-password label,
+.account-form .login-remember {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 0.88rem;
+}
+
+.account-form .login-remember { display: flex; align-items: center; gap: 6px; font-weight: 400; margin-top: 10px; }
+
+.account-form .login-submit input[type="submit"] {
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+    border: none;
+    padding: 11px 22px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.account-form p { margin: 0 0 16px; }
+
+.suggest-edit-dialog {
+    border: none;
+    border-radius: var(--cw-radius);
+    padding: 30px;
+    max-width: 560px;
+    width: 92%;
+    color: var(--cw-color-text);
+    background: var(--cw-color-bg-card);
+    box-shadow: var(--cw-shadow-lg);
+}
+
+.suggest-edit-dialog::backdrop {
+    background: rgba(20, 20, 15, 0.55);
+    backdrop-filter: blur(2px);
+}
+
+.suggest-edit-dialog__close-form {
+    text-align: right;
+    margin: 0;
+}
+
+.suggest-edit-dialog__close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--cw-color-text-muted);
+}
+
+.suggest-edit-dialog__close:hover { color: var(--cw-color-text); }
+
+.suggest-edit__form p { margin: 0 0 16px; }
+
+.suggest-edit__form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 0.88rem;
+}
+
+.suggest-edit__form input,
+.suggest-edit__form select,
+.suggest-edit__form textarea {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius-sm);
+    background: var(--cw-color-bg);
+    color: var(--cw-color-text);
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+.suggest-edit__form button[type="submit"] {
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+    border: none;
+    padding: 11px 22px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background var(--cw-transition);
+}
+
+.suggest-edit__form button[type="submit"]:hover { background: var(--cw-color-accent-dark); }
+
+.suggest-edit__honeypot { position: absolute; left: -9999px; }
+
+.suggest-edit__hint {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--cw-color-text-muted);
+    margin-top: 4px;
+    font-weight: 400;
+}
+
+.suggest-edit__notice {
+    padding: 11px 16px;
+    border-radius: var(--cw-radius-sm);
+    margin-bottom: 18px;
+    font-size: 0.92rem;
+}
+
+.suggest-edit__notice--success { background: #dcf2e3; color: #14532d; }
+.suggest-edit__notice--error { background: #fbdbdb; color: #7f1d1d; }
+
+/* ==========================================================================
+   12. Archive grid + filters
+   ========================================================================== */
+
+.archive-header,
+.page-header,
+.schedule-header {
+    margin-bottom: 28px;
+}
+
+.archive-header h1,
+.page-header h1,
+.schedule-header h1 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    margin-bottom: 8px;
+}
+
+.archive-header p,
+.schedule-header p { color: var(--cw-color-text-muted); }
+
+.country-filters { margin: 0 0 28px; }
+
+.country-filters input[type="search"] {
+    width: 100%;
+    max-width: 420px;
+    padding: 11px 16px;
+    border: 1px solid var(--cw-color-border);
+    border-radius: 999px;
+    background: var(--cw-color-bg-card);
+    color: var(--cw-color-text);
+    font-size: 0.95rem;
+    box-shadow: var(--cw-shadow-sm);
+}
+
+.country-filters__continents,
+.country-filters__alpha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 16px 0;
+}
+
+.country-filters__alpha { gap: 4px; }
+
+.country-filters button {
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    color: var(--cw-color-text);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    transition: background var(--cw-transition), border-color var(--cw-transition), color var(--cw-transition);
+}
+
+.country-filters__alpha button { padding: 5px 9px; min-width: 30px; }
+
+.country-filters button:hover { border-color: var(--cw-color-accent); color: var(--cw-color-accent); }
+
+.country-filters button.is-active {
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+    border-color: var(--cw-color-accent);
+}
+
+.country-filters__empty { color: var(--cw-color-text-muted); padding: 20px 0; }
+
+.country-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 18px;
+}
+
+.country-card__link {
+    display: block;
+    text-decoration: none;
+    color: var(--cw-color-text);
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius);
+    padding: 16px;
+    height: 100%;
+    box-shadow: var(--cw-shadow-sm);
+    transition: transform var(--cw-transition), box-shadow var(--cw-transition), border-color var(--cw-transition);
+}
+
+.country-card__link:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--cw-shadow);
+    border-color: var(--cw-color-accent);
+}
+
+.country-card__flag {
+    width: 100%;
+    height: 92px;
+    object-fit: cover;
+    border-radius: var(--cw-radius-sm);
+    margin-bottom: 12px;
+}
+
+.country-card__name { display: block; font-weight: 700; font-size: 1.02rem; }
+
+.country-card__continent,
+.country-card__status {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--cw-color-text-muted);
+    margin-top: 4px;
+}
+
+.country-card__status { color: var(--cw-color-gold); font-weight: 600; }
+
+/* ==========================================================================
+   13. Schedule page
+   ========================================================================== */
+
+.schedule-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius);
+    overflow: hidden;
+    box-shadow: var(--cw-shadow-sm);
+}
+
+.schedule-list__item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--cw-color-border);
+}
+
+.schedule-list__item:last-child { border-bottom: none; }
+
+.schedule-list__item a {
+    text-decoration: none;
+    color: var(--cw-color-text);
+    font-weight: 600;
+}
+
+.schedule-list__item a:hover { color: var(--cw-color-accent); }
+
+.schedule-list__week {
+    flex: 0 0 240px;
+    color: var(--cw-color-text-muted);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.schedule-list__item--active {
+    background: var(--cw-color-accent-tint);
+}
+
+.schedule-list__item--past { opacity: 0.6; }
+
+.schedule-list__badge {
+    margin-left: auto;
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+    border-radius: 999px;
+    padding: 3px 11px;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+/* ==========================================================================
+   14. Footer
+   ========================================================================== */
+
+.site-footer {
+    padding: 40px 0 50px;
+    border-top: 1px solid var(--cw-color-border);
+    margin-top: 40px;
+}
+
+.site-footer__nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.site-footer__nav a {
+    color: var(--cw-color-text-muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.site-footer__nav a:hover { color: var(--cw-color-accent); }
+
+.site-footer__copyright {
+    color: var(--cw-color-text-muted);
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+/* ==========================================================================
+   15. Launch countdown (before rotation start)
+   ========================================================================== */
+
+.launch-countdown {
+    text-align: center;
+    padding: 80px 20px;
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius-lg);
+    box-shadow: var(--cw-shadow-sm);
+}
+
+.launch-countdown h1 {
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    margin-bottom: 10px;
+}
+
+.launch-countdown__notice {
+    color: var(--cw-color-text-muted);
+    font-size: 1.15rem;
+    margin-top: 14px;
+}
+
+.launch-countdown__notice strong { color: var(--cw-color-accent); }
+
+/* ==========================================================================
+   16. Adopt This Country CTA
+   ========================================================================== */
+
+.adopt-cta {
+    margin-top: 40px;
+    padding: 32px;
+    text-align: center;
+    background: var(--cw-color-accent-tint);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius-lg);
+}
+
+.adopt-cta h2 { margin-bottom: 8px; }
+
+.adopt-cta p {
+    color: var(--cw-color-text-muted);
+    max-width: 56ch;
+    margin: 0 auto 20px;
+}
+
+/* ==========================================================================
+   17. Signup popup
+   ========================================================================== */
+
+.signup-popup {
+    border: none;
+    border-radius: var(--cw-radius-lg);
+    padding: 40px;
+    max-width: 460px;
+    width: 92%;
+    color: var(--cw-color-text);
+    background: var(--cw-color-bg-card);
+    box-shadow: var(--cw-shadow-lg);
+    text-align: center;
+}
+
+.signup-popup::backdrop {
+    background: rgba(20, 20, 15, 0.6);
+    backdrop-filter: blur(3px);
+}
+
+.signup-popup__close-form { text-align: right; margin: 0 0 -12px; }
+
+.signup-popup__close {
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: var(--cw-color-text-muted);
+    padding: 4px;
+}
+
+.signup-popup__close:hover { color: var(--cw-color-text); }
+
+.signup-popup__eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--cw-color-accent);
+    margin: 4px 0 10px;
+}
+
+.signup-popup h2 {
+    font-size: 1.5rem;
+    margin: 0 0 14px;
+}
+
+.signup-popup__body {
+    color: var(--cw-color-text-muted);
+    margin: 0 0 18px;
+}
+
+.signup-popup__tagline {
+    font-family: var(--cw-font-heading);
+    font-style: italic;
+    color: var(--cw-color-gold);
+    font-size: 0.95rem;
+    margin: 0 0 26px;
+    padding-top: 18px;
+    border-top: 1px solid var(--cw-color-border);
+}
+
+.signup-popup__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.signup-popup__actions .country-actions__button {
+    width: 100%;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 1rem;
+}
+
+.signup-popup__login-link {
+    font-size: 0.88rem;
+    color: var(--cw-color-text-muted);
+    text-decoration: none;
+}
+
+.signup-popup__login-link:hover { color: var(--cw-color-accent); }
+
+/* ==========================================================================
+   18. Generic page content
+   ========================================================================== */
+
+.page-content { max-width: 72ch; }
+.page-content p:last-child { margin-bottom: 0; }

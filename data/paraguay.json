@@ -1,0 +1,38 @@
+{
+    "name": "Paraguay",
+    "excerpt": "Several Indigenous groups, principally belonging to the Guarani language family, inhabited the area of modern Paraguay before the arrival of the Spanish in the early 16th century, when the territory was incorporated into the Viceroyalty of Peru.",
+    "quick_facts": {
+        "capital": "Asunción",
+        "population": "7,604,044 (2025 est.)",
+        "area": "406,752 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Roman Catholic 80.4%, Protestant 7% (Evangelical (non-specific) 6.7%, Evangelical Pentecostal <0.1%, Adventist <0.1%, Protestant (non-specific) <0.1%), Believer (not belonging to the church) 5.7%, other 0.6%, agnostic <0.1%, none 0.2%, unspecified 6.2% (2023 est.)",
+        "ethnic_groups": "Mestizo (mixed Spanish and Indigenous ancestry) 95%, other 5%",
+        "currency": "guarani (PYG)",
+        "life_expectancy": "78.8 years (2024 est.)",
+        "internet_tld": ".py",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "subtropical to temperate; substantial rainfall in the eastern portions, becoming semiarid in the far west",
+        "terrain": "grassy plains and wooded hills east of Rio Paraguay; Gran Chaco region west of Rio Paraguay mostly low, marshy plain near the river, and dry forest and thorny scrub elsewhere",
+        "natural_resources": "hydropower, timber, iron ore, manganese, limestone",
+        "major_exports": "soybeans, beef, electricity, corn, soybean meal (2023)"
+    },
+    "summaries": {
+        "geography_summary": "landlocked; lies between Argentina, Bolivia, and Brazil; population concentrated in eastern and southern part of country",
+        "history_summary": "Several Indigenous groups, principally belonging to the Guarani language family, inhabited the area of modern Paraguay before the arrival of the Spanish in the early 16th century, when the territory was incorporated into the Viceroyalty of Peru. Paraguay achieved its independence from Spain in 1811 with the help of neighboring states. In the aftermath of independence, a series of military dictators ruled the country until 1870. During the disastrous War of the Triple Alliance (1864-70) -- fought against Argentina, Brazil, and Uruguay -- Paraguay lost two thirds of its adult males and much of its territory. The country stagnated economically for the next half-century and experienced a tumultuous series of political regimes. Following the Chaco War of 1932-35 with Bolivia, Paraguay gained a large part of the Chaco lowland region. The 35-year military dictatorship of Alfredo STROESSNER ended in 1989, and Paraguay has held relatively free and regular presidential elections since the country's return to democracy.",
+        "government_summary": "presidential republic. Independence: 14-15 May 1811 (from Spain)",
+        "economy_summary": "upper middle-income South American economy; COVID-19 hit while still recovering from 2019 Argentina-driven recession; global hydroelectricity leader; major corruption and money-laundering locale; highly agrarian economy; significant income inequality",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}

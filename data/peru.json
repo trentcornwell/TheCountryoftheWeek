@@ -1,0 +1,38 @@
+{
+    "name": "Peru",
+    "excerpt": "Ancient Peru was the seat of several prominent Andean civilizations, most notably that of the Incas whose empire was captured by Spanish conquistadors in 1533. Peru declared its independence in 1821, and remaining Spanish forces were defeated in 1824.",
+    "quick_facts": {
+        "capital": "Lima",
+        "population": "32,768,614 (2025 est.)",
+        "area": "1,285,216 sq km",
+        "government": "presidential republic",
+        "languages": "",
+        "religions": "Catholic 76%, Evangelical Christian 15.7%, no religion 5.1%, other religions 3.2% (2017 est.)",
+        "ethnic_groups": "Mestizo (mixed Indigenous and White) 60.2%, Indigenous 25.8%, White 5.9%, African descent 3.6%, other (includes Chinese and Japanese descent) 1.2%, unspecified 3.3% (2017 est.)",
+        "currency": "nuevo sol (PEN)",
+        "life_expectancy": "68.9 years (2024 est.)",
+        "internet_tld": ".pe",
+        "calling_code": "",
+        "driving_side": "",
+        "climate": "varies from tropical in east to dry desert in west; temperate to frigid in Andes",
+        "terrain": "western coastal plain (costa), high and rugged Andes in center (sierra), eastern lowland jungle of Amazon Basin (selva)",
+        "natural_resources": "copper, silver, gold, petroleum, timber, fish, iron ore, coal, phosphate, potash, hydropower, natural gas",
+        "major_exports": "copper ore, gold, refined copper, refined petroleum, grapes (2023)"
+    },
+    "summaries": {
+        "geography_summary": "note 1: shares control of Lago Titicaca, world's highest navigable lake, with Bolivia; a remote slope of Nevado Mismi, a 5,316-m (17,441-ft) peak, is the ultimate source of the Amazon River note 2: Peru is one of the countries along the Ring of Fire, which is a belt bordering the Pacific Ocean that contains about 75% of the world's volcanoes and up to 90% of the world's earthquakesnote 3: on 19 February 1600, Mount Huaynaputina in the southern Peruvian Andes erupted in the largest volcanic explosion in South America in historical times; intermittent eruptions lasted until 5 March 1600 and pumped an estimated 16 to 32 million metric tons of particulates into the atmosphere, reducing the amount of sunlight reaching the earth's surface and affecting weather worldwide; over the next two-and-a-half years, millions died around the globe in famines from bitterly cold winters, cool summers, and the loss of crops and animals",
+        "history_summary": "Ancient Peru was the seat of several prominent Andean civilizations, most notably that of the Incas whose empire was captured by Spanish conquistadors in 1533. Peru declared its independence in 1821, and remaining Spanish forces were defeated in 1824. After a dozen years of military rule, Peru returned to democratic leadership in 1980 but experienced economic problems and the growth of a violent insurgency. President Alberto FUJIMORI's election in 1990 ushered in a decade that saw a dramatic turnaround in the economy and significant progress in curtailing guerrilla activity. Nevertheless, an economic slump and the president's increasing reliance on authoritarian measures in the late 1990s generated mounting dissatisfaction with his regime, which led to his resignation in 2000. A caretaker government oversaw a new election in 2001 that installed Alejandro TOLEDO Manrique as the new head of government - Peru's first democratically elected president of indigenous ethnicity. The presidential election of 2006 saw the return of Alan GARCIA Perez who, after a disappointing presidential term from 1985 to 1990, presided over a robust economic rebound. Former army officer Ollanta HUMALA Tasso was elected president in 2011 and carried on the market-oriented economic policies of the three preceding administrations. Pedro Pablo KUCZYNSKI Godard won a very narrow runoff in the 2016 presidential election. Facing impeachment after evidence surfaced of his involvement in a vote-buying scandal, KUCZYNSKI offered his resignation in 2018, and First Vice President Martin Alberto VIZCARRA Cornejo was sworn in as president. In 2019, VIZCARRA invoked his constitutional authority to dissolve Peru's Congress after months of battling with the body over anticorruption reforms. New congressional elections in 2020 resulted in an opposition-led legislature. The Congress impeached VIZCARRA for a second time and removed him from office after accusations of corruption and mishandling of the COVID-19 pandemic. Because of vacancies in the vice-presidential positions, the President of the Peruvian Congress, Manuel MERINO, became the next president. His ascension to office was not well received, and large protests forced his resignation later in 2020. Francisco SAGASTI assumed the position of President of Peru after being appointed President of the Congress the previous day. Jose Pedro CASTILLO Terrones won presidential election in 2021 but was impeached and ousted the following year; his vice president, Dina BOLUARTE, assumed the presidency by constitutional succession in 2022.",
+        "government_summary": "presidential republic. Independence: 28 July 1821 (from Spain)",
+        "economy_summary": "upper-middle-income South American economy; strong post-COVID rebound tempered by political uncertainty and climate risks; exports driven by mineral extraction and agriculture; large informal sector and uneven access to public services; stable fiscal position and financial sector",
+        "people_summary": "",
+        "culture_section": ""
+    },
+    "facts_and_lists": {
+        "interesting_facts": [],
+        "did_you_know": [],
+        "suggested_reading": [
+            "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
+        ]
+    },
+    "prayer_and_mission": {}
+}
