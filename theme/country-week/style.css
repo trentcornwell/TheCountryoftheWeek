@@ -506,6 +506,26 @@ button {
     max-width: 100%;
 }
 
+/* Wraps the bundled SVG map (see country_week_get_map_url()) in a
+   fixed-ratio box so it never crops, never stretches, and never
+   causes layout shift while it loads — the image itself just fills
+   the box via object-fit. Admin-uploaded raster maps (the branch
+   above) keep their existing free-height behavior; only the bundled
+   square SVGs need this. */
+.country-map__frame {
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
+}
+
+.country-map__frame .country-map__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+}
+
 .country-map__source {
     font-size: 0.78rem;
     color: var(--cw-color-text-muted);

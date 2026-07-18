@@ -22,7 +22,6 @@ the_post();
 $country = get_post();
 $quick_facts = Country_Meta_Fields::groups()['quick_facts']['fields'];
 $flag_id = (int) get_post_meta($country->ID, 'flag_image_id', true);
-$map_id = (int) get_post_meta($country->ID, 'map_image_id', true);
 $qr_data_uri = Pdf_Service::qr_code_data_uri($country);
 ?>
 <!doctype html>
@@ -46,11 +45,9 @@ $qr_data_uri = Pdf_Service::qr_code_data_uri($country);
             <p class="print-sheet__tagline"><?php bloginfo('name'); ?></p>
         </header>
 
-        <?php if ($map_id) : ?>
-            <div class="print-sheet__map">
-                <?php echo wp_get_attachment_image($map_id, 'medium', false, ['alt' => '']); ?>
-            </div>
-        <?php endif; ?>
+        <div class="print-sheet__map">
+            <img src="<?php echo esc_url(country_week_get_map_url($country)); ?>" alt="" width="1000" height="1000">
+        </div>
 
         <section class="print-sheet__facts">
             <h2><?php esc_html_e('Quick Facts', 'country-week'); ?></h2>

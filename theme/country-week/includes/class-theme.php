@@ -58,6 +58,7 @@ class Theme
 
         require_once $includes . '/utilities/class-date-utility.php';
         require_once $includes . '/utilities/class-asset-loader.php';
+        require_once $includes . '/utilities/class-map-asset.php';
 
         require_once $includes . '/services/class-rotation-service.php';
         require_once $includes . '/services/class-country-manifest.php';

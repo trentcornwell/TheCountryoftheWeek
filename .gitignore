@@ -39,6 +39,9 @@ build/
 # Scratch cache used when re-importing CIA Factbook data (see scripts/)
 .import-tmp/
 
+# Cached source data for scripts/build-country-maps.py (re-downloadable)
+.cache/
+
 # Generated exports (retain documentation)
 exports/*
 !exports/README.md
