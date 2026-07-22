@@ -1042,6 +1042,16 @@ button {
     margin: 0 auto 20px;
 }
 
+.adopt-cta__adopter {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--cw-color-text);
+}
+
+.adopt-cta__bio {
+    font-style: italic;
+}
+
 /* ==========================================================================
    17. Signup popup
    ========================================================================== */
