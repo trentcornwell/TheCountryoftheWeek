@@ -14,8 +14,10 @@ require a successful cron event.
 The system has five layers, all implemented:
 
 1. **Canonical data** — `data/country-index.json` is the reviewed, versioned
-   manifest of eligible CIA World Factbook country names, each with a stable
-   `key` (independent of the editable post title) and deterministic order.
+   manifest of eligible country names, each with a stable `key` (independent
+   of the editable post title) and deterministic order. Continent/region
+   classification comes from the UN M49 standard; see
+   `docs/decisions/0003-multi-source-country-data-model.md`.
    The theme ships its own frozen copy at
    `theme/country-week/includes/data/country-manifest.json` so it can
    resolve rotation order without depending on anything outside the
@@ -111,8 +113,9 @@ stage into a working implementation. As of this document:
   model (`includes/cpt/`)
 - The manifest-driven, rename-safe rotation engine (`Rotation_Service`,
   `Country_Manifest`, `Country_Repository`) with unit tests
-- All 196 CIA World Factbook countries imported as published posts, with
-  Kiribati fully content-authored as the launch country — **Kiribati's
+- All 196 countries imported as published posts (continent/region classified
+  via UN M49, see ADR 0003), with Kiribati fully content-authored as the
+  launch country — **Kiribati's
   content is an unreviewed AI draft** (written from general knowledge, not
   fetched from a live source) and needs the fact-check/sourcing/cultural
   review documented in `prompts/kiribati-content-prompt.md` before it's

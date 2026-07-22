@@ -26,7 +26,7 @@
 - Anchor instant: `2026-07-19T04:00:00Z` (New York is on EDT at the anchor).
 - Anchor country: Kiribati.
 - Boundary: local Sunday midnight, including across daylight-saving transitions.
-- Sequence: reviewed CIA World Factbook country names in deterministic alphabetical order, rotated so Kiribati has index zero.
+- Sequence: reviewed country names in deterministic alphabetical order (unchanged since launch), rotated so Kiribati has index zero. Continent/region classification comes from the UN M49 standard, not the country list's naming source — see `docs/decisions/0003-multi-source-country-data-model.md`.
 - Wrap: modulo the manifest length, forever in both forward and historical calculations.
 
 Store both the IANA time-zone identifier and anchor local date. Do not model the zone as the permanent offset `-04:00`; New York changes between EST and EDT.

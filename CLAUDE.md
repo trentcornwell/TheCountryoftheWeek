@@ -4,7 +4,7 @@ Read `AGENTS.md` first; it is the repository-wide authority. Then read `PROJECT.
 
 ## Purpose
 
-TheCountryOfTheWeek.com is a custom, server-rendered WordPress publication. It deterministically features one country per local New York week, beginning with Kiribati at Sunday, July 19, 2026 12:00 AM, then following the approved CIA World Factbook name order and wrapping forever.
+TheCountryOfTheWeek.com is a custom, server-rendered WordPress publication. It deterministically features one country per local New York week, beginning with Kiribati at Sunday, July 19, 2026 12:00 AM, then proceeding alphabetically through the country manifest and wrapping forever. The manifest's country list and continent/region classification, the site's own weekly rotation order, and the two editorial content categories (Prayer & Mission vs. Quick Facts/Summaries) are each governed by a different named authority rather than one outside organization controlling the whole site — see `docs/decisions/0003-multi-source-country-data-model.md`.
 
 Phase 1 establishes architecture and documentation. Do not turn the starter theme into pages or production scheduler code until explicitly asked.
 

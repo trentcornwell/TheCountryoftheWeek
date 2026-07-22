@@ -45,8 +45,10 @@ original summaries or use explicitly licensed material only — see
 ## How rotation order works
 
 - `data/country-index.json` is the canonical, versioned manifest: every
-  country's official Factbook name, a stable `key` (e.g. `kiribati`,
-  `korea-north`), continent, and region, listed in alphabetical order.
+  country's established name (unchanged since launch), a stable `key` (e.g.
+  `kiribati`, `korea-north`), continent, and region, listed in alphabetical
+  order. Continent/region come from the UN M49 standard — see
+  `docs/decisions/0003-multi-source-country-data-model.md`.
 - Running the importer copies this file into
   `theme/country-week/includes/data/country-manifest.json` (the theme's own
   bundled copy — this is what the live site actually reads) and stamps each
@@ -86,14 +88,21 @@ formal review pipeline becomes worthwhile.
 Quick Facts and the Geography/History/Government/Economy summaries are
 labeled "Source: CIA World Factbook (public domain)" automatically whenever
 those fields have content — see `templates/parts/quick-facts.php` and
-`templates/parts/summaries.php`. Nothing to do there.
+`templates/parts/summaries.php`. The CIA World Factbook, World Bank, and
+other public factual sources are all acceptable for this content category
+(see `docs/decisions/0003-multi-source-country-data-model.md`); the
+automatic label currently always reads "CIA World Factbook" regardless of
+which of those was actually used for a given field — update it by hand (or
+file it as a template fix) if a country's facts were sourced elsewhere.
 
 The Prayer & Mission section only shows a source credit if you fill in the
-**Prayer Content Source** field (e.g. `Operation World`) in that country's
-meta boxes. Only set this when the prayer content is actually adapted or
-quoted from that specific source, kept brief, and properly attributed —
-never for original team-written content, and never as a way to bulk-copy a
-licensed source's full text. Leave it blank for original writing.
+**Prayer Content Source** field (e.g. `Joshua Project` or `Operation World`
+— the two expected sources for this content category, see ADR 0003) in
+that country's meta boxes. Only set this when the prayer content is
+actually adapted or quoted from that specific source, kept brief, and
+properly attributed — never for original team-written content, and never
+as a way to bulk-copy a licensed source's full text. Leave it blank for
+original writing.
 
 ## Moderating "Join Us in Prayer" signups
 

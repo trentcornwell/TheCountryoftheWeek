@@ -1,6 +1,6 @@
 # The Country of the Week
 
-TheCountryOfTheWeek.com is a custom WordPress publication that introduces one country each week. The sequence begins with Kiribati at `2026-07-19 00:00:00 America/New_York`, proceeds alphabetically by CIA World Factbook country name, and wraps forever without editorial intervention.
+TheCountryOfTheWeek.com is a custom WordPress publication that introduces one country each week. The sequence begins with Kiribati at `2026-07-19 00:00:00 America/New_York`, proceeds alphabetically by country name, and wraps forever without editorial intervention. No single outside organization controls the site's structure: the UN M49 standard determines which countries exist and their region classification, the site's own rotation logic determines the weekly order, and country content is sourced per category — see `docs/decisions/0003-multi-source-country-data-model.md`.
 
 **Status (2026-07-15):** past the original Phase 1 planning stage — the theme, the rotation scheduler, the country manifest/importer, and all 196 country posts (Kiribati fully content-authored, the rest as published stubs) are built and verified against a local WordPress install. See [PROJECT.md](PROJECT.md)'s "Status: what's built vs. what remains" section for the precise current state, and [docs/SETUP.md](docs/SETUP.md) for how to run it locally. CI and the production deployment pipeline described in `docs/DEPLOYMENT.md` are not yet built.
 

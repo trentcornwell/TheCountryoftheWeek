@@ -13,10 +13,14 @@ if (!defined('ABSPATH')) {
 
 /**
  * `continent` is hierarchical (behaves like categories) and holds the
- * seven continents. `region` is flat (behaves like tags) and holds
- * Factbook-style sub-regions (e.g. "Southeast Asia", "Caribbean").
- * Both drive the archive's filter controls and Country_Repository's
- * "related countries" lookup.
+ * five UN M49 Regions (Africa, Americas, Asia, Europe, Oceania —
+ * M49 does not split the Americas). `region` is flat (behaves like
+ * tags) and holds M49 Sub-region/Intermediate Region values (e.g.
+ * "South-eastern Asia", "Caribbean"). Term values come from UN M49,
+ * not the CIA Factbook — see
+ * docs/decisions/0003-multi-source-country-data-model.md. Both drive
+ * the archive's filter controls and Country_Repository's "related
+ * countries" lookup.
  */
 class Country_Taxonomies
 {

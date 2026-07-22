@@ -119,7 +119,7 @@ class Country_Meta_Fields
                     'prayer_source' => [
                         'label' => __('Prayer Content Source', 'country-week'),
                         'type' => self::TYPE_TEXT,
-                        'description' => __('Only fill this in if the prayer content above is actually adapted/quoted from a specific licensed source (e.g. "Operation World"), with proper attribution and staying brief. Leave blank for original team-written content — this determines whether a "Source: ..." credit line displays publicly, so it must stay accurate.', 'country-week'),
+                        'description' => __('Only fill this in if the prayer content above is actually adapted/quoted from a specific licensed source — Joshua Project and Operation World are this site\'s two expected sources for Prayer & Mission content (see docs/decisions/0003-multi-source-country-data-model.md) — with proper attribution and staying brief. Leave blank for original team-written content — this determines whether a "Source: ..." credit line displays publicly, so it must stay accurate.', 'country-week'),
                     ],
                 ],
             ],

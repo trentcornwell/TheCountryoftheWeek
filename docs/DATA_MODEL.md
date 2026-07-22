@@ -71,7 +71,7 @@ Do not use Advanced Custom Fields by default. Native registered meta plus a focu
 
 Recommended at launch only if their archive pages are intentionally designed:
 
-- `region`: hierarchical and curated; CIA/ISO regional systems must not be mixed implicitly.
+- `region`: curated; sourced entirely from the UN M49 standard (not mixed with any other regional system) — see `docs/decisions/0003-multi-source-country-data-model.md`. As implemented, `region` is a flat (non-hierarchical) taxonomy and `continent` is the hierarchical one; see `includes/cpt/class-country-taxonomies.php`.
 - `language`: non-hierarchical; canonical term identities and aliases required.
 - `currency`: non-hierarchical; key by ISO 4217 where applicable.
 - `religion`: hierarchical only if an editorially approved classification exists.
