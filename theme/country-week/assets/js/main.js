@@ -71,6 +71,33 @@
         }, 600);
     }
 
+    /**
+     * Progressive enhancement only: pre-selects the visitor's own
+     * detected time zone in the registration/preferences form's
+     * dropdown, if the browser supports detection and that exact zone
+     * is one of the dropdown's options. Both forms work perfectly well
+     * with JS disabled — the dropdown just keeps its server-rendered
+     * default selection (the site's own time zone) in that case.
+     */
+    function initTimezoneAutodetect() {
+        var select = document.getElementById('cw_reg_timezone') || document.getElementById('cw_timezone');
+
+        if (!select || typeof Intl === 'undefined' || typeof Intl.DateTimeFormat !== 'function') {
+            return;
+        }
+
+        try {
+            var detected = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            var option = detected && select.querySelector('option[value="' + detected + '"]');
+
+            if (option) {
+                select.value = detected;
+            }
+        } catch (e) {
+            // Detection unsupported/blocked — leave the default selection.
+        }
+    }
+
     function initNativeShare() {
         if (!navigator.share) {
             return;
@@ -101,5 +128,6 @@
         initSuggestEditDialogs();
         initSignupPopup();
         initNativeShare();
+        initTimezoneAutodetect();
     });
 })();

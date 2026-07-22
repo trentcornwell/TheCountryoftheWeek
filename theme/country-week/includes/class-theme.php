@@ -18,15 +18,18 @@ use CountryWeek\CPT\Country_Taxonomies;
 use CountryWeek\CPT\Edit_Suggestion_Post_Type;
 use CountryWeek\CPT\Prayer_Partner_Post_Type;
 use CountryWeek\Forms\Adoption_Form;
+use CountryWeek\Forms\Email_Preferences_Form;
 use CountryWeek\Forms\Prayer_Partner_Form;
 use CountryWeek\Forms\Registration_Form;
 use CountryWeek\Forms\Suggest_Edit_Form;
 use CountryWeek\Hooks\Performance_Hooks;
 use CountryWeek\Hooks\Rewrite_Hooks;
+use CountryWeek\Hooks\Weekly_Email_Hooks;
 use CountryWeek\Seo\Schema_Generator;
 use CountryWeek\Seo\Seo_Fields;
 use CountryWeek\Seo\Social_Meta;
 use CountryWeek\Services\Country_Manifest;
+use CountryWeek\Services\Subscriber_Meta_Fields;
 use CountryWeek\Shortcodes\Shortcodes;
 use CountryWeek\Utilities\Asset_Loader;
 
@@ -66,6 +69,11 @@ class Theme
         require_once $includes . '/services/class-qr-code-service.php';
         require_once $includes . '/services/class-pdf-service.php';
         require_once $includes . '/services/class-slide-service.php';
+        require_once $includes . '/services/class-subscriber-meta-fields.php';
+        require_once $includes . '/services/class-unsubscribe-token.php';
+        require_once $includes . '/services/class-subscriber-notification-schedule.php';
+        require_once $includes . '/services/class-weekly-preview-email.php';
+        require_once $includes . '/services/class-subscriber-notifier.php';
 
         require_once $includes . '/cpt/class-country-post-type.php';
         require_once $includes . '/cpt/class-country-taxonomies.php';
@@ -78,6 +86,7 @@ class Theme
         require_once $includes . '/forms/class-prayer-partner-form.php';
         require_once $includes . '/forms/class-registration-form.php';
         require_once $includes . '/forms/class-adoption-form.php';
+        require_once $includes . '/forms/class-email-preferences-form.php';
 
         require_once $includes . '/seo/class-seo-fields.php';
         require_once $includes . '/seo/class-social-meta.php';
@@ -92,6 +101,7 @@ class Theme
 
         require_once $includes . '/hooks/class-performance-hooks.php';
         require_once $includes . '/hooks/class-rewrite-hooks.php';
+        require_once $includes . '/hooks/class-weekly-email-hooks.php';
     }
 
     private static function register_modules(): void
@@ -108,6 +118,9 @@ class Theme
             new Registration_Form(),
             new Country_Adoption_Post_Type(),
             new Adoption_Form(),
+            new Subscriber_Meta_Fields(),
+            new Email_Preferences_Form(),
+            new Weekly_Email_Hooks(),
             new Seo_Fields(),
             new Social_Meta(),
             new Schema_Generator(),

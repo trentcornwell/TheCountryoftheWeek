@@ -10,6 +10,9 @@
 
 namespace CountryWeek\Forms;
 
+use CountryWeek\Services\Subscriber_Meta_Fields;
+use CountryWeek\Utilities\Date_Utility;
+
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -21,6 +24,15 @@ if (!defined('ABSPATH')) {
  * capabilities; it exists purely so is_user_logged_in() can gate
  * resource downloads. Same honeypot/timing/nonce spam protection as
  * the other forms on this site.
+ *
+ * Also captures a time zone (defaulting to the site's own, pre-selected
+ * automatically when JS can detect the visitor's real one — see
+ * assets/js/main.js's initTimezoneAutodetect()) so the weekly upcoming-
+ * country preview email (Services\Subscriber_Notifier) can be sent
+ * around local noon on Saturday rather than only the site's fixed
+ * America/New_York clock. New subscribers are opted into that email by
+ * default (Subscriber_Meta_Fields::OPT_IN_META_KEY's registered
+ * default) — see docs/decisions/0002-per-subscriber-timezone-weekly-email.md.
  */
 class Registration_Form
 {
@@ -44,6 +56,10 @@ class Registration_Form
 
         $action_url = admin_url('admin-post.php');
         $error = isset($_GET['register_error']) ? sanitize_key(wp_unslash($_GET['register_error'])) : '';
+
+        if (!function_exists('wp_timezone_choice')) {
+            require_once ABSPATH . 'wp-admin/includes/misc.php';
+        }
 
         ob_start();
         ?>
@@ -78,6 +94,14 @@ class Registration_Form
                 <p>
                     <label for="cw_reg_password"><?php esc_html_e('Password', 'country-week'); ?> <span aria-hidden="true">*</span></label>
                     <input type="password" id="cw_reg_password" name="cw_reg_password" minlength="8" required>
+                </p>
+
+                <p>
+                    <label for="cw_reg_timezone"><?php esc_html_e('Time Zone', 'country-week'); ?></label><br>
+                    <select id="cw_reg_timezone" name="cw_reg_timezone">
+                        <?php echo wp_timezone_choice(Date_Utility::SITE_TIMEZONE); ?>
+                    </select>
+                    <?php esc_html_e('(used to send the weekly upcoming-country email around midday Saturday)', 'country-week'); ?>
                 </p>
 
                 <p>
@@ -182,6 +206,12 @@ class Registration_Form
 
         if (is_wp_error($user_id)) {
             $this->redirect_with_error($register_page, $redirect_to, 'error');
+        }
+
+        $timezone = isset($_POST['cw_reg_timezone']) ? sanitize_text_field(wp_unslash($_POST['cw_reg_timezone'])) : '';
+
+        if ($timezone !== '') {
+            Subscriber_Meta_Fields::set_timezone($user_id, $timezone);
         }
 
         wp_set_current_user($user_id);
