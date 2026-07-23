@@ -169,19 +169,20 @@ class Theme
     /**
      * A sensible default navigation so the site is fully usable the
      * moment the theme is activated, before an administrator has built
-     * a menu in Appearance > Menus. Matches the Home / Countries /
-     * Schedule / About / Suggest an Edit structure in the project spec.
-     * Used as wp_nav_menu()'s fallback_cb in header.php.
+     * a menu in Appearance > Menus. Used as wp_nav_menu()'s fallback_cb
+     * in header.php. "Suggest an Edit" is intentionally not in the nav
+     * (still reachable at /suggest-an-edit/ and from the per-country
+     * suggest-edit dialog) and "About" sits right after "Home" per
+     * explicit direction.
      */
     public static function render_default_menu(): void
     {
         $links = [
             ['label' => __('Home', 'country-week'), 'url' => home_url('/')],
+            ['label' => __('About', 'country-week'), 'url' => home_url('/about/')],
             ['label' => __('Countries', 'country-week'), 'url' => get_post_type_archive_link('country')],
             ['label' => __('Schedule', 'country-week'), 'url' => home_url('/schedule/')],
-            ['label' => __('About', 'country-week'), 'url' => home_url('/about/')],
             ['label' => __('Join Us in Prayer', 'country-week'), 'url' => home_url('/join-us-in-prayer/')],
-            ['label' => __('Suggest an Edit', 'country-week'), 'url' => home_url('/suggest-an-edit/')],
         ];
 
         echo '<ul class="primary-menu">';
