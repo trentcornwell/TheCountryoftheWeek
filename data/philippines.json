@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The Philippines is the most Catholic nation in Asia, with the vast majority of Filipinos identifying as Roman Catholic. Alongside this, Iglesia ni Cristo — a homegrown, non-trinitarian movement — and a Muslim minority concentrated in the south add further complexity to the spiritual landscape. Pray for the clear gospel of salvation by grace through faith alone to take root in a culture where religious ritual and folk-Catholic tradition run deep.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches that baptize believers by immersion after a genuine profession of faith.",
+            "Pray for Filipino pastors to be trained in expository, Scripture-centered preaching rather than tradition or ritual.",
+            "Pray for open doors among Iglesia ni Cristo adherents, whose movement denies the deity of Christ, to hear and receive the true gospel.",
+            "Pray for gospel witness to reach the Muslim-majority regions of Mindanao, where evangelical access remains limited."
+        ],
+        "mission_emphasis": "With over 100 million people and the vast majority nominally Catholic, the Philippines represents one of the largest gospel opportunities in Asia. Ongoing needs include training national pastors to preach salvation by grace through faith alone, planting autonomous local churches where Catholic tradition remains the only religious expression most Filipinos have known, and reaching Iglesia ni Cristo communities with the biblical gospel of the true, triune God.",
+        "prayer_source": ""
+    }
 }

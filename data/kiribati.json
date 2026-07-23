@@ -34,5 +34,16 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Kiribati is a nation shaped by the ocean that surrounds it — both a source of daily livelihood and, increasingly, an existential threat as rising seas erode its low-lying coastline. As you pray this week, hold in mind both the physical vulnerability I-Kiribati families face and the deep communal faith that has sustained island life for generations.",
+        "prayer_points": [
+            "Pray for wisdom for Kiribati's leaders as they navigate the realities of climate change and plan for their people's long-term future.",
+            "Pray for families in outer island communities who face growing isolation as young people migrate to South Tarawa or overseas for work.",
+            "Pray for the health and safety of I-Kiribati seafarers who spend long months away from home crewing foreign merchant ships.",
+            "Pray for the churches of Kiribati to be a source of hope, unity, and practical care as communities face an uncertain future.",
+            "Pray for clean water, adequate sanitation, and strong health care access, particularly in the increasingly crowded capital area."
+        ],
+        "mission_emphasis": "While the majority of I-Kiribati identify as Roman Catholic, the islands still need the clear preaching of the biblical gospel — salvation by grace through personal faith in Jesus Christ alone, not through religious ritual or church tradition. The Kiribati Uniting Church and Kiribati Protestant Church carry a Congregationalist and evangelical heritage; strengthening these bodies through sound, Scripture-based teaching and training local pastors to preach the gospel clearly is a significant ongoing need. Pray for laborers willing to plant independent, autonomous local churches that baptize believers by immersion after a genuine profession of faith, and for open doors to reach outer-island communities with limited access to evangelical witness.",
+        "prayer_source": ""
+    }
 }

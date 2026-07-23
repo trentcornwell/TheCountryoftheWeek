@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Ireland's historic Catholic identity is rapidly loosening — nearly 15 percent now claim no religion at all, and much of the remaining Catholic identification is described as \"lapsed.\" Pray for genuine gospel faith to take root as inherited religious tradition fades, rather than the country simply trading nominal Catholicism for secularism.",
+        "prayer_points": [
+            "Pray for the very small evangelical and Protestant presence in Ireland to be strengthened and multiplied.",
+            "Pray for lapsed and nominal Catholics to encounter the actual gospel of salvation by grace through personal faith in Christ, not inherited religious identity.",
+            "Pray for young Irish people abandoning religious practice altogether to find truth in Scripture rather than settling into unbelief.",
+            "Pray for laborers to plant independent, Bible-believing local churches in a country with very few evangelical congregations."
+        ],
+        "mission_emphasis": "Ireland's Catholic majority is nominal and rapidly declining, with a growing share claiming no religion at all — a real door for the gospel in a culture moving away from inherited tradition without yet finding truth. Ongoing needs include planting autonomous local churches practicing believer's baptism by immersion, training national pastors, and reaching a generation leaving Catholic identity behind with the actual biblical gospel rather than secularism.",
+        "prayer_source": ""
+    }
 }

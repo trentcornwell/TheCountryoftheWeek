@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Paraguay has one of the highest Catholic percentages in South America, with evangelical and Protestant believers remaining a small minority. Pray for the clear gospel of salvation by grace through faith alone to break through generations of inherited Catholic tradition.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a country where evangelical presence remains very small.",
+            "Pray for Paraguayan pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for Paraguayans who identify as believers without formal church involvement to be connected to sound biblical teaching and genuine local church membership.",
+            "Pray for rural and Guaraní-speaking communities, often shaped strongly by folk-Catholic tradition, to hear the gospel in a way they can understand and receive."
+        ],
+        "mission_emphasis": "With over 80 percent of Paraguayans identifying as Roman Catholic and evangelical believers a small minority, Paraguay represents a significant gospel need in South America. Ongoing needs include training national pastors in sound biblical doctrine, planting autonomous local churches practicing believer's baptism by immersion, and reaching rural and Guaraní-speaking communities where folk-Catholic tradition remains deeply embedded.",
+        "prayer_source": ""
+    }
 }

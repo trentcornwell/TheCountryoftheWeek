@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Poland's Catholic identity runs deep, intertwined with national history and cultural pride — but a large and growing share of Poles now describe themselves as having no religion or decline to answer, suggesting nominal Catholic identity is loosening even as true gospel faith remains rare. Pray for genuine revival built on salvation by grace through faith alone, not inherited religious tradition.",
+        "prayer_points": [
+            "Pray for Polish believers to understand that salvation comes through personal faith in Christ, not infant baptism or church membership.",
+            "Pray for the small evangelical and Baptist Union of Poland churches to be strengthened and multiplied.",
+            "Pray for young Poles leaving Catholic religious practice to find genuine faith in Christ rather than settling into secularism.",
+            "Pray for laborers to plant independent, autonomous local churches across a country with very few evangelical congregations relative to its population."
+        ],
+        "mission_emphasis": "Poland's near-universal historical Catholic identity has begun to erode, with growing numbers claiming no religion — a shift that opens a door for the clear gospel where inherited tradition has not held. Ongoing needs include training pastors to preach salvation by grace through faith alone, planting local churches that practice believer's baptism by immersion, and reaching a generation stepping away from nominal Catholicism with the actual gospel rather than secularism.",
+        "prayer_source": ""
+    }
 }

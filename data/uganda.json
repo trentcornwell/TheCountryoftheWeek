@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Uganda has a strong existing Protestant and evangelical presence, including a small but present Baptist witness, alongside a substantial Catholic population and a significant Muslim minority. Pray for genuine, Bible-based faith to continue deepening across all these communities, distinct from nominal religious identity of any kind.",
+        "prayer_points": [
+            "Pray for Uganda's existing Baptist and evangelical churches to be strengthened, multiplied, and equipped with sound biblical teaching.",
+            "Pray for Anglican and Catholic Ugandans practicing inherited religious tradition to encounter genuine, personal salvation by grace through faith in Christ.",
+            "Pray for laborers to reach Uganda's Muslim minority with the gospel.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching across Uganda's remote rural areas."
+        ],
+        "mission_emphasis": "Uganda already has a meaningful evangelical and Baptist presence to build on, alongside large Anglican, Catholic, and Muslim populations. Ongoing needs include training national pastors in sound biblical doctrine, planting additional autonomous local churches that practice believer's baptism by immersion, and reaching Ugandans in Catholic, Anglican, and Muslim communities who have not yet received the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

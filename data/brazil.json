@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Brazil has seen remarkable evangelical growth in recent decades, with over a quarter of the population now identifying as Evangelical alongside a still-large Catholic majority. Pray for this movement to be marked by sound biblical doctrine and genuine gospel conversion, not merely a change in religious label.",
+        "prayer_points": [
+            "Pray for the continued, healthy growth of Bible-believing, autonomous local churches across Brazil's evangelical movement.",
+            "Pray for pastors to be trained in expository preaching so growth is matched by biblical depth.",
+            "Pray for Brazilians still practicing nominal or folk Catholicism, including syncretistic practices like Umbanda and Candomblé, to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for laborers to reach Brazil's vast interior and Amazon regions, where evangelical access remains limited."
+        ],
+        "mission_emphasis": "Brazil's evangelical movement is one of the largest and fastest-growing in the world — a significant gospel opportunity alongside the historically dominant Catholic Church. Ongoing needs include strengthening biblical literacy and expository preaching among existing evangelical churches, training national pastors, and reaching remaining strongholds of nominal Catholicism and syncretistic folk religion with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }
