@@ -69,6 +69,7 @@ class Theme
         require_once $includes . '/services/class-qr-code-service.php';
         require_once $includes . '/services/class-pdf-service.php';
         require_once $includes . '/services/class-slide-service.php';
+        require_once $includes . '/services/class-coloring-page-service.php';
         require_once $includes . '/services/class-subscriber-meta-fields.php';
         require_once $includes . '/services/class-unsubscribe-token.php';
         require_once $includes . '/services/class-subscriber-notification-schedule.php';

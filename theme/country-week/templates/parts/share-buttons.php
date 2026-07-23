@@ -10,6 +10,7 @@
  * @package CountryWeek
  */
 
+use CountryWeek\Services\Coloring_Page_Service;
 use CountryWeek\Services\Pdf_Service;
 use CountryWeek\Services\Slide_Service;
 
@@ -27,6 +28,7 @@ $url = get_permalink($country);
 $title = get_the_title($country);
 $print_url = Pdf_Service::print_url($country);
 $slide_url = Slide_Service::download_url($country);
+$coloring_url = Coloring_Page_Service::url($country);
 $account_required = !is_user_logged_in();
 $lock_hint = $account_required ? ' <span class="country-actions__lock" aria-hidden="true">&#128274;</span>' : '';
 ?>
@@ -37,6 +39,10 @@ $lock_hint = $account_required ? ' <span class="country-actions__lock" aria-hidd
 
     <a class="country-actions__button" href="<?php echo esc_url($slide_url); ?>">
         <?php esc_html_e('Slide', 'country-week'); ?><?php echo wp_kses_post($lock_hint); ?>
+    </a>
+
+    <a class="country-actions__button" href="<?php echo esc_url($coloring_url); ?>" target="_blank" rel="noopener">
+        <?php esc_html_e('Coloring Page', 'country-week'); ?>
     </a>
 
     <button type="button" class="country-actions__button country-actions__share-native" hidden>

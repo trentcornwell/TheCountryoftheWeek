@@ -44,6 +44,33 @@ class Map_Asset
         return get_theme_file_uri(self::PLACEHOLDER_PATH);
     }
 
+    /**
+     * The raw SVG markup itself (not a URL) — for callers that need to
+     * inline the map so CSS can restyle it (e.g. the coloring page
+     * template overriding fill/stroke to turn the silhouette into line
+     * art). Same fallback-to-placeholder behavior as url_for(). Safe to
+     * echo directly: these are our own build-pipeline SVGs
+     * (scripts/build-country-maps.py validates every one — well-formed
+     * XML, no <script>/on*= content — see MAP-SOURCES.md), not
+     * user-submitted input.
+     */
+    public static function inline_markup_for(?WP_Post $country): string
+    {
+        $key = self::manifest_key_for($country);
+
+        if ($key !== '') {
+            $path = get_theme_file_path(self::MAP_DIR . $key . '.svg');
+
+            if (file_exists($path)) {
+                return (string) file_get_contents($path);
+            }
+        }
+
+        $placeholder_path = get_theme_file_path(self::PLACEHOLDER_PATH);
+
+        return file_exists($placeholder_path) ? (string) file_get_contents($placeholder_path) : '';
+    }
+
     private static function manifest_key_for(?WP_Post $country): string
     {
         if (!$country instanceof WP_Post) {

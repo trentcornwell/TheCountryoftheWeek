@@ -1,7 +1,9 @@
 /*
- * Print-only country sheet. Loaded only by templates/print/country-print.php
+ * Print-only country sheet and coloring page. Loaded only by
+ * templates/print/country-print.php and templates/print/country-coloring.php
  * (never on normal page views), and formatted specifically for
- * letter-size printing / "Print to PDF" — see Services\Pdf_Service.
+ * letter-size printing / "Print to PDF" — see Services\Pdf_Service
+ * and Services\Coloring_Page_Service.
  */
 
 * { box-sizing: border-box; }
@@ -106,6 +108,43 @@ body {
 }
 
 .print-sheet__footer-text p { margin: 0; }
+
+.coloring-page {
+    text-align: center;
+}
+
+.coloring-page__title {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+.coloring-page__caption {
+    color: #555;
+    margin: 6px 0 30px;
+}
+
+.coloring-page__art {
+    width: 100%;
+    max-width: 6.5in;
+    margin: 0 auto;
+}
+
+/* The bundled map SVG ships as a solid currentColor silhouette (see
+   MAP-SOURCES.md); overriding fill/stroke here — rather than editing
+   the SVG files themselves — turns it into line art to color without
+   touching the same asset every other map display on the site uses. */
+.coloring-page__art svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.coloring-page__art svg path {
+    fill: #fff;
+    stroke: #1a1a1a;
+    stroke-width: 6;
+    stroke-linejoin: round;
+}
 
 @media print {
     .no-print,
