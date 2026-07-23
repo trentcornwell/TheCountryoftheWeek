@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Decades of enforced atheism under communism left Albania with weak religious institutions of every kind, including a Muslim majority that is largely secular in practice. Pray for the gospel to take root in a spiritual landscape without deep denominational loyalty to overcome.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a country with very little evangelical presence.",
+            "Pray for nominal Muslims and Catholics alike to hear and respond to the biblical gospel of salvation by grace through faith.",
+            "Pray for Albanian pastors to be trained in sound, Scripture-centered teaching.",
+            "Pray for the many Albanians who identify with no religion to find truth in Christ rather than continued unbelief."
+        ],
+        "mission_emphasis": "Albania's weak religious identity, a legacy of communist-era atheism, leaves real opportunity for the clear gospel. Ongoing needs include planting autonomous local churches, training national pastors, and reaching both nominal Muslims and unaffiliated Albanians with sound biblical teaching.",
+        "prayer_source": ""
+    }
 }

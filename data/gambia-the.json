@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The Gambia is almost entirely Muslim, with a small Christian minority. Pray for gospel witness to continue advancing in this small West African nation.",
+        "prayer_points": [
+            "Pray for the Gambia's small Christian community to be strengthened and to grow in sound biblical doctrine.",
+            "Pray for open doors for the gospel among the Muslim majority.",
+            "Pray for laborers willing to serve in West Africa."
+        ],
+        "mission_emphasis": "The Gambia's near-total Muslim population leaves the small Christian minority as the primary existing gospel witness. Ongoing needs include strengthening that witness and continued prayer for open doors among the Muslim majority.",
+        "prayer_source": ""
+    }
 }

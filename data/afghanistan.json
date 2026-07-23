@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Afghanistan is almost entirely Muslim, and open evangelism carries real risk for both Afghan believers and those who share the gospel with them. Pray with wisdom and discretion for a nation where the name of Christ is rarely heard.",
+        "prayer_points": [
+            "Pray for the small, largely hidden body of Afghan believers to be protected, encouraged, and rooted in Scripture.",
+            "Pray for open doors for the gospel to reach Afghans despite severe restrictions on open evangelism.",
+            "Pray for laborers willing to serve sacrificially among an unreached and historically closed population.",
+            "Pray for the Afghan diaspora abroad, who often have far greater access to the gospel than those still in-country."
+        ],
+        "mission_emphasis": "Afghanistan remains one of the most difficult nations in the world for open gospel witness. Ongoing needs include discreet support for the small underground church, gospel resources in Dari and Pashto, and laborers reaching the Afghan diaspora in places where open evangelism is possible.",
+        "prayer_source": ""
+    }
 }

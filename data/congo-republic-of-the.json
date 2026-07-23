@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The Republic of the Congo has a substantial Protestant and independent evangelical presence alongside its Catholic plurality. Pray for these churches to be strengthened in sound biblical doctrine.",
+        "prayer_points": [
+            "Pray for the Republic of the Congo's Protestant and independent evangelical churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for Catholics practicing inherited religious tradition to encounter genuine salvation by grace through faith in Christ."
+        ],
+        "mission_emphasis": "The Republic of the Congo's substantial Protestant and independent evangelical presence is real ground to build on. Ongoing needs include training national pastors in sound biblical doctrine and reaching the country's Catholic population with the clear gospel.",
+        "prayer_source": ""
+    }
 }

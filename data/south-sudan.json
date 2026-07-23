@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "South Sudan has a Christian majority alongside significant traditional folk religion, in the world's youngest nation, still recovering from civil war and ongoing instability. Pray for the church to be a source of genuine hope and reconciliation.",
+        "prayer_points": [
+            "Pray for South Sudan's Christian churches to be equipped with sound, Scripture-centered doctrine amid extreme hardship.",
+            "Pray for those practicing traditional folk religion to hear and receive the biblical gospel.",
+            "Pray for peace and stability following years of civil war.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "South Sudan's Christian majority offers real ground to build on in the world's youngest nation, though ongoing instability and folk religious practice complicate ministry. Ongoing needs include training national pastors and pursuing gospel-rooted peace and reconciliation.",
+        "prayer_source": ""
+    }
 }

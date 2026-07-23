@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Vanuatu has a Protestant plurality alongside a Catholic minority and, notably, ongoing customary and cargo-cult beliefs practiced by a small percentage. Pray for the clear, unmixed gospel to reach across these traditions.",
+        "prayer_points": [
+            "Pray for Vanuatu's Presbyterian and Protestant churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for those practicing customary beliefs and cargo-cult movements to hear and receive the unmixed biblical gospel.",
+            "Pray for Catholics practicing inherited tradition to encounter genuine faith in Christ."
+        ],
+        "mission_emphasis": "Vanuatu's Protestant plurality is real ground to build on, though customary beliefs and syncretistic movements remain present in parts of the country. Ongoing needs include training national pastors and reaching those practicing customary and cargo-cult beliefs with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

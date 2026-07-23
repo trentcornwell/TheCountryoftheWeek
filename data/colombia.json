@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Colombia has a substantial and growing evangelical population alongside its Catholic majority. Pray for this movement to be marked by sound biblical doctrine as it continues to grow.",
+        "prayer_points": [
+            "Pray for the continued, healthy growth of Bible-believing, autonomous local churches across Colombia.",
+            "Pray for pastors to be trained in expository preaching so growth is matched by biblical depth.",
+            "Pray for Colombians practicing nominal Catholicism to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for continued peace and stability following decades of internal conflict."
+        ],
+        "mission_emphasis": "Colombia's substantial evangelical population is a real and growing gospel foothold alongside the historically dominant Catholic Church. Ongoing needs include strengthening biblical literacy among existing evangelical churches, training national pastors, and reaching nominal Catholics with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

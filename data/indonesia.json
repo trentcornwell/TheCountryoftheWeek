@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Indonesia is the world's largest Muslim-majority nation, with meaningful Protestant and Catholic minorities concentrated in specific regions. Pray for the gospel to reach Indonesia's Muslim majority while strengthening existing Christian communities.",
+        "prayer_points": [
+            "Pray for Indonesia's Protestant churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for gospel witness to reach Indonesia's vast Muslim majority.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for continued religious freedom amid rising restrictions in some regions."
+        ],
+        "mission_emphasis": "As the world's largest Muslim-majority nation, Indonesia represents a significant unreached population despite meaningful existing Christian communities in regions like North Sumatra and Papua. Ongoing needs include training national pastors and reaching the Muslim majority with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

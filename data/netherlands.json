@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The Netherlands is one of the most secular nations in Western Europe, with over half the population claiming no religion at all. Pray for the clear gospel to reach a culture that has largely moved past even nominal Christian identity.",
+        "prayer_points": [
+            "Pray for the Netherlands' small evangelical presence to be strengthened and multiplied.",
+            "Pray for nominal Catholics and Protestants to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for the large secular population to find truth in Scripture rather than continued unbelief.",
+            "Pray for gospel witness among the Netherlands' Muslim population."
+        ],
+        "mission_emphasis": "With over half the population claiming no religion, the Netherlands represents one of the most secular fields in Western Europe. Ongoing needs include planting autonomous local churches, training national pastors, and reaching a largely post-Christian culture with the actual biblical gospel.",
+        "prayer_source": ""
+    }
 }

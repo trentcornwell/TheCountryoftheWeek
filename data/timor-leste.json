@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Timor-Leste is overwhelmingly Catholic, a legacy of Portuguese colonization, with very little evangelical presence. Pray for the clear gospel of salvation by grace through faith alone to reach this young Southeast Asian nation.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a nation with very little evangelical presence.",
+            "Pray for Timorese practicing inherited Catholic tradition to encounter genuine, personal faith in Christ.",
+            "Pray for pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "With over 90 percent of the population Roman Catholic and evangelical presence very small, Timor-Leste represents a significant gospel need in one of Asia's youngest nations. Ongoing needs include training national pastors and planting autonomous local churches practicing believer's baptism by immersion.",
+        "prayer_source": ""
+    }
 }

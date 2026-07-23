@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Mali is overwhelmingly Muslim, with a small Christian minority, amid ongoing conflict and instability in the country's north. Pray for gospel witness to continue advancing despite instability.",
+        "prayer_points": [
+            "Pray for Mali's small Christian community to be strengthened and protected.",
+            "Pray for open doors for the gospel among the Muslim majority.",
+            "Pray for safety and stability amid ongoing conflict."
+        ],
+        "mission_emphasis": "Mali's overwhelming Muslim population and ongoing regional conflict make it a genuinely difficult field. Ongoing needs include strengthening the small existing Christian community and continued prayer for stability and open doors.",
+        "prayer_source": ""
+    }
 }

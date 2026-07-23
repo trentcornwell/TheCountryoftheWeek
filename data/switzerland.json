@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Switzerland's Catholic and Protestant populations are both substantial but largely nominal, with nearly a third of the population non-religious. Pray for genuine gospel faith to take root as inherited church membership continues to decline.",
+        "prayer_points": [
+            "Pray for Switzerland's evangelical churches to be strengthened and equipped to reach an increasingly secular culture.",
+            "Pray for nominal Catholics and Protestants to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for gospel witness among Switzerland's Muslim population."
+        ],
+        "mission_emphasis": "Switzerland's historic Catholic and Protestant identities are both largely nominal, with a growing secular population alongside them. Ongoing needs include planting autonomous local churches, training national pastors, and reaching a population moving away from inherited religious tradition.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Solomon Islands has a strong Protestant majority, real ground to build on across these scattered Melanesian islands. Pray for these churches to be marked by sound biblical doctrine and genuine discipleship.",
+        "prayer_points": [
+            "Pray for Solomon Islands' Protestant and evangelical churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching across remote island communities.",
+            "Pray for Catholics practicing inherited tradition to encounter genuine faith in Christ.",
+            "Pray for genuine gospel conversion rather than nominal Christian identity."
+        ],
+        "mission_emphasis": "Solomon Islands' strong Protestant majority is real ground to build on. Ongoing needs include deepening biblical literacy among existing churches and reaching remote island communities with sound teaching.",
+        "prayer_source": ""
+    }
 }

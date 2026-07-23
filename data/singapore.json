@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Singapore is religiously diverse, with Buddhist, Christian, Muslim, Taoist, and Hindu communities alongside a substantial non-religious population. Pray for the clear gospel to reach across this multicultural, multiethnic nation.",
+        "prayer_points": [
+            "Pray for Singapore's Christian churches to be equipped with sound, Scripture-centered doctrine and to be a strong sending base for missions across Asia.",
+            "Pray for gospel witness to reach Singapore's Buddhist, Taoist, and Hindu communities.",
+            "Pray for gospel access among Singapore's Muslim Malay minority.",
+            "Pray for the substantial secular population to encounter genuine gospel truth."
+        ],
+        "mission_emphasis": "Singapore's religious diversity and existing, well-resourced Christian community position it as both a mission field and a strategic sending base for gospel work across Asia. Ongoing needs include reaching Singapore's Buddhist, Taoist, Hindu, and Muslim communities, and its growing secular population, with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

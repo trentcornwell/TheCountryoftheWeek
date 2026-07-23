@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Thailand is overwhelmingly Buddhist, with Buddhist identity deeply woven into national culture, and the Christian population remains under two percent despite a long history of missionary work. Pray for gospel breakthrough in this historically resistant field.",
+        "prayer_points": [
+            "Pray for Thailand's small Christian minority to be strengthened and equipped to share the gospel.",
+            "Pray for gospel breakthrough among a population shaped by Buddhist tradition and national identity.",
+            "Pray for laborers willing to serve long-term in a historically difficult field.",
+            "Pray for gospel witness to reach Thailand's Muslim minority in the south."
+        ],
+        "mission_emphasis": "Thailand remains one of the least-reached Buddhist-majority nations in the world despite a long missionary history. Ongoing needs include training national pastors, planting local churches, and reaching a population where Buddhist identity is deeply tied to national culture.",
+        "prayer_source": ""
+    }
 }

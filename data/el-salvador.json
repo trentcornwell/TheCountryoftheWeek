@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "El Salvador has a substantial evangelical population nearly equal to its Catholic majority. Pray for this movement to be marked by sound biblical doctrine and genuine discipleship.",
+        "prayer_points": [
+            "Pray for the continued strengthening of Bible-believing, autonomous local churches across El Salvador.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for Salvadorans practicing nominal Catholicism to hear the clear gospel of salvation by grace through faith alone."
+        ],
+        "mission_emphasis": "El Salvador's substantial evangelical population is real ground to build on alongside the Catholic majority. Ongoing needs include deepening biblical literacy among existing churches and reaching nominal Catholics with the clear gospel.",
+        "prayer_source": ""
+    }
 }

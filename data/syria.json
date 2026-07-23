@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Syria's ancient Christian communities, some of the oldest in the world, have been devastated by over a decade of civil war, while the Muslim majority remains largely unreached. Pray for the surviving Syrian church and for the nation's recovery.",
+        "prayer_points": [
+            "Pray for Syria's ancient Christian communities, significantly diminished by war, to be strengthened and protected.",
+            "Pray for gospel witness to reach Syria's Muslim majority.",
+            "Pray for peace, stability, and rebuilding following over a decade of devastating civil war.",
+            "Pray for laborers to train pastors in expository, Bible-centered preaching."
+        ],
+        "mission_emphasis": "Syria's historic Christian communities have been devastated by over a decade of civil war, even as the Muslim majority remains largely unreached with the biblical gospel. Ongoing needs include supporting the surviving Syrian church and reaching the Muslim majority amid the enormous task of national rebuilding.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Tonga has a strong Protestant majority, real ground to build on, alongside a very substantial Church of Jesus Christ (Latter-day Saint) presence. Pray for genuine, Scripture-centered gospel faith to be clearly distinguished from LDS teaching.",
+        "prayer_points": [
+            "Pray for Tonga's Protestant and Free Wesleyan churches to be strengthened in sound biblical doctrine.",
+            "Pray for those in the Church of Jesus Christ (Latter-day Saints), which teaches a different gospel, to encounter the true biblical gospel of salvation by grace through faith in Christ alone.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for Catholics practicing inherited tradition to encounter genuine faith in Christ."
+        ],
+        "mission_emphasis": "Tonga's strong Protestant majority is real ground to build on, though nearly one in five Tongans belong to the Church of Jesus Christ of Latter-day Saints, requiring clear biblical teaching distinguishing the true gospel from LDS doctrine. Ongoing needs include training national pastors and reaching Tongans in LDS and Catholic communities with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

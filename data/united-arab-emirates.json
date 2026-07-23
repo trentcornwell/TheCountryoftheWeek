@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The UAE's Muslim majority exists alongside a very large Christian and Hindu expatriate population, the great majority of the country's residents being foreign workers rather than Emirati citizens. Pray for gospel witness to reach both Emirati nationals and the enormous foreign community.",
+        "prayer_points": [
+            "Pray for open doors for the gospel among Emirati nationals.",
+            "Pray for gospel witness among the UAE's very large expatriate Christian and Hindu population.",
+            "Pray for laborers willing to serve in the Gulf region."
+        ],
+        "mission_emphasis": "The UAE's Muslim minority-majority citizenry alongside an enormous expatriate population creates a genuinely unique field. Ongoing needs include gospel witness among Emirati nationals and continued outreach to the large foreign worker community, many of whom have more open access to the gospel than citizens do.",
+        "prayer_source": ""
+    }
 }

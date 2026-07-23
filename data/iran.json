@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Iran is officially and almost entirely Muslim, yet reports of Iranians turning to Christ, often through underground house churches, continue to grow despite severe government restriction. Pray for the remarkable, largely hidden movement of Iranians coming to faith in Christ.",
+        "prayer_points": [
+            "Pray for protection and growth for Iran's underground house church movement.",
+            "Pray for continued boldness among Iranian believers facing real risk for their faith.",
+            "Pray for gospel access via media and digital resources reaching Iranians despite government restriction.",
+            "Pray for laborers willing to serve the Iranian diaspora, who often have far greater access to the gospel than those still in-country."
+        ],
+        "mission_emphasis": "Despite severe restriction, Iran has seen one of the more remarkable underground church movements in the Muslim world in recent decades. Ongoing needs include discreet support for house churches, gospel media in Farsi, and continued prayer for protection and growth.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Angola has a substantial Protestant population alongside its Catholic majority, offering real ground to build on after decades of civil war disrupted the country's spiritual and social life. Pray for existing evangelical churches to be strengthened with sound biblical teaching.",
+        "prayer_points": [
+            "Pray for Angola's existing Protestant and evangelical churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for Angolan pastors to be trained in expository preaching.",
+            "Pray for Catholics practicing inherited religious tradition to encounter genuine salvation by grace through faith in Christ.",
+            "Pray for continued healing and stability following decades of civil war."
+        ],
+        "mission_emphasis": "Angola's large Protestant population is real ground to build on. Ongoing needs include training national pastors in sound biblical doctrine, planting additional autonomous local churches, and reaching Angola's Catholic population with the clear gospel distinct from inherited religious tradition.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,13 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Monaco's official Catholic majority leaves very little room historically for evangelical witness in this small principality. Pray for the clear gospel of salvation by grace through faith alone to reach a wealthy nation where spiritual need is easily overlooked.",
+        "prayer_points": [
+            "Pray for laborers to plant an independent, Bible-believing witness in a nation with virtually no evangelical presence.",
+            "Pray for residents practicing inherited Catholic tradition, or no faith at all amid material wealth, to encounter genuine faith in Christ."
+        ],
+        "mission_emphasis": "Monaco's official Catholic identity and considerable wealth both leave spiritual need easily overlooked. Ongoing needs include establishing any autonomous evangelical local church at all.",
+        "prayer_source": ""
+    }
 }

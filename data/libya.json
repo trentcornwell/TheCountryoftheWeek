@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Libya is almost entirely Muslim, and ongoing political instability and conflict have made open Christian witness extremely difficult. Pray for the small Christian minority, mostly foreign-born, and for gospel access despite instability.",
+        "prayer_points": [
+            "Pray for the small Christian minority in Libya, largely foreign workers, to be protected.",
+            "Pray for open doors for the gospel among Libyan nationals.",
+            "Pray for stability amid ongoing political conflict and division."
+        ],
+        "mission_emphasis": "Libya's near-total Muslim population and ongoing political instability make it a genuinely difficult field. Ongoing needs include continued prayer for open doors and for stability that would allow greater gospel access.",
+        "prayer_source": ""
+    }
 }

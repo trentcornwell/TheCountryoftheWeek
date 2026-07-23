@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Bahrain is majority Muslim but relatively open by regional standards, with a significant expatriate population of other faiths. Pray for gospel witness to reach both Bahraini nationals and the large foreign worker community.",
+        "prayer_points": [
+            "Pray for open doors for the gospel among Bahraini nationals.",
+            "Pray for gospel witness among Bahrain's large expatriate and foreign worker population.",
+            "Pray for laborers willing to serve in the Gulf region."
+        ],
+        "mission_emphasis": "Bahrain's Muslim majority and significant expatriate population create a genuinely complex field. Ongoing needs include gospel witness among Bahraini nationals and continued outreach to the large foreign worker community, many of whom have more open access to the gospel than nationals do.",
+        "prayer_source": ""
+    }
 }

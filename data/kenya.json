@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Kenya has a large and vibrant Christian majority across Protestant, Catholic, and evangelical traditions, alongside a meaningful Muslim minority. Pray for Kenya's churches to be marked by sound biblical doctrine.",
+        "prayer_points": [
+            "Pray for Kenya's Protestant and evangelical churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for Kenya's Muslim minority, concentrated along the coast, to encounter the gospel.",
+            "Pray for genuine gospel conversion rather than nominal Christian identity."
+        ],
+        "mission_emphasis": "Kenya's large Christian majority is real ground to build on. Ongoing needs include strengthening biblical literacy among existing churches, training national pastors, and reaching Kenya's Muslim minority with the clear gospel.",
+        "prayer_source": ""
+    }
 }

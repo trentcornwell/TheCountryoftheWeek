@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Eswatini has a large Christian majority, though much of it blends Christian identity with traditional Zionist and African indigenous religious practice. Pray for genuine, biblically grounded faith to take root distinct from syncretistic blending.",
+        "prayer_points": [
+            "Pray for Eswatini's Christian churches to be equipped with sound, Scripture-centered teaching.",
+            "Pray for those practicing syncretistic Zionist and traditional religion to hear and receive the clear biblical gospel.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "Eswatini's Christian majority often blends biblical faith with traditional African religious practice, leaving significant need for clear biblical teaching. Ongoing needs include training national pastors in sound doctrine and reaching syncretistic movements with the unmixed biblical gospel.",
+        "prayer_source": ""
+    }
 }

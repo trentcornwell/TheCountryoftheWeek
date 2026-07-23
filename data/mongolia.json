@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Mongolia's Buddhist majority exists alongside a very large population claiming no religion at all, following decades of communist-era atheism. Pray for the clear gospel to reach both.",
+        "prayer_points": [
+            "Pray for Mongolia's small but growing Christian community to be strengthened and equipped to share the gospel.",
+            "Pray for gospel witness to reach the Buddhist majority.",
+            "Pray for the large non-religious population to encounter genuine gospel truth.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "Mongolia's Buddhist majority and large non-religious population, a legacy of communist-era atheism, both represent significant gospel opportunity. Ongoing needs include training national pastors and strengthening Mongolia's small but growing church.",
+        "prayer_source": ""
+    }
 }

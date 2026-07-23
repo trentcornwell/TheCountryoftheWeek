@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Hungary's Catholic plurality exists alongside a large population that declined to state a religion, suggesting inherited religious identity has weakened considerably. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where religious identity is uncertain for many.",
+        "prayer_points": [
+            "Pray for Hungary's small evangelical and Calvinist Reformed presence to be strengthened.",
+            "Pray for nominal Catholics to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for Hungarian pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "Hungary's Catholic plurality is largely nominal, and a very large share of the population did not state a religious identity at all. Ongoing needs include planting autonomous local churches practicing believer's baptism by immersion and training national pastors.",
+        "prayer_source": ""
+    }
 }

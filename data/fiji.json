@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Fiji has a substantial Protestant majority alongside a large Hindu minority descended from indentured laborers. Pray for Fiji's evangelical churches to be strengthened and for the gospel to reach the Hindu community.",
+        "prayer_points": [
+            "Pray for Fiji's Protestant churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for gospel witness to reach Fiji's Hindu minority.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for genuine gospel conversion rather than nominal Christian identity."
+        ],
+        "mission_emphasis": "Fiji's Protestant majority is real ground to build on, though a substantial Hindu minority remains largely unreached. Ongoing needs include training national pastors in sound biblical doctrine and reaching Fiji's Hindu community with the clear gospel.",
+        "prayer_source": ""
+    }
 }

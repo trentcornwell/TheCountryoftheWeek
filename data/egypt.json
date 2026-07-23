@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Egypt's ancient Coptic Orthodox church represents one of the oldest Christian communities in the world, alongside a large Sunni Muslim majority. Pray for genuine biblical faith to flourish among Egypt's historic Christian community and for the gospel to reach the Muslim majority.",
+        "prayer_points": [
+            "Pray for Egypt's Coptic and evangelical Christians, who have faced real persecution, to be strengthened and protected.",
+            "Pray for genuine, Scripture-centered discipleship to grow within Egypt's historic Christian community.",
+            "Pray for open doors for the gospel among Egypt's Muslim majority.",
+            "Pray for laborers to train pastors in expository, Bible-centered preaching."
+        ],
+        "mission_emphasis": "Egypt's ancient Coptic Christian minority faces real social and occasional violent persecution, while its Sunni Muslim majority remains largely unreached with the biblical gospel. Ongoing needs include strengthening biblical literacy among Egypt's historic Christian communities and reaching the Muslim majority with the clear gospel.",
+        "prayer_source": ""
+    }
 }

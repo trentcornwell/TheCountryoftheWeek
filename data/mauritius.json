@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Mauritius is religiously diverse, with a Hindu plurality alongside substantial Catholic and Muslim populations. Pray for the clear gospel to reach across all three communities.",
+        "prayer_points": [
+            "Pray for Mauritius' Christian churches to be equipped with sound, Scripture-centered teaching.",
+            "Pray for gospel witness to reach Mauritius' Hindu plurality.",
+            "Pray for gospel witness among Mauritius' Muslim population.",
+            "Pray for Catholics practicing inherited tradition to encounter genuine faith in Christ."
+        ],
+        "mission_emphasis": "Mauritius' religious diversity, with a Hindu plurality alongside Catholic and Muslim populations, makes it a genuinely complex field. Ongoing needs include training national pastors and reaching Mauritius' Hindu and Muslim communities with the clear gospel.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Tuvalu has an overwhelming Protestant majority, remarkable existing ground to build on across these low-lying Pacific atolls, which also face existential threat from rising seas. Pray for these churches to be marked by genuine, Scripture-centered discipleship.",
+        "prayer_points": [
+            "Pray for Tuvalu's Congregational Christian Church and other Protestant bodies to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be equipped in expository, Scripture-centered preaching.",
+            "Pray for genuine gospel conversion across a culture where church attendance is nearly universal.",
+            "Pray for wisdom and provision as Tuvalu faces the existential threat of rising sea levels."
+        ],
+        "mission_emphasis": "Tuvalu's overwhelming Protestant identity is remarkable existing ground, though depth of biblical teaching varies. Ongoing needs include deepening biblical literacy among existing churches, even as the nation faces the physical threat of climate-driven displacement.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Botswana has a large Christian majority, offering real ground to build on, alongside traditional Badimo ancestor veneration practiced by a minority. Pray for existing churches to be marked by sound biblical doctrine.",
+        "prayer_points": [
+            "Pray for Botswana's Christian churches to be equipped with sound, Scripture-centered teaching.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for those practicing traditional ancestor veneration to hear and receive the biblical gospel.",
+            "Pray for genuine gospel conversion rather than nominal Christian identity."
+        ],
+        "mission_emphasis": "Botswana's large Christian majority is real ground to build on. Ongoing needs include training national pastors in sound biblical doctrine, strengthening biblical literacy among existing churches, and reaching those still practicing traditional ancestor veneration with the clear gospel.",
+        "prayer_source": ""
+    }
 }

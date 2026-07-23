@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Russia's Orthodox majority is largely nominal and tied to national identity, and evangelical churches face increasing legal restriction. Pray for Russian believers to remain faithful amid growing government pressure on religious minorities.",
+        "prayer_points": [
+            "Pray for Russia's evangelical and Baptist churches, which face real legal restriction under anti-missionary laws, to remain faithful.",
+            "Pray for nominal Orthodox Russians to encounter genuine, personal faith in Christ.",
+            "Pray for gospel witness to reach Russia's Muslim minority.",
+            "Pray for open doors for the gospel amid an increasingly restrictive legal environment."
+        ],
+        "mission_emphasis": "Russia's evangelical minority faces growing legal restriction under laws limiting religious activity outside registered state-recognized bodies. Ongoing needs include support for existing Baptist and evangelical congregations and continued prayer for open doors amid restriction.",
+        "prayer_source": ""
+    }
 }

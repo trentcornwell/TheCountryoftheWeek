@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Mozambique's population is divided among Catholic, Muslim, and Pentecostal/independent Christian traditions, with a significant secular minority as well. Pray for the clear gospel to reach across these divides amid ongoing conflict in the north.",
+        "prayer_points": [
+            "Pray for Mozambique's Pentecostal and independent Christian churches to be equipped with sound biblical doctrine.",
+            "Pray for gospel witness to reach Mozambique's Muslim population, particularly amid ongoing insurgency in the north.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for safety and stability amid regional conflict."
+        ],
+        "mission_emphasis": "Mozambique's mix of Catholic, Muslim, and independent Christian traditions, complicated by an ongoing insurgency in the north, makes it a genuinely difficult field. Ongoing needs include training national pastors and reaching Mozambique's Muslim population with the clear gospel.",
+        "prayer_source": ""
+    }
 }

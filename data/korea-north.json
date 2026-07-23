@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "North Korea is widely regarded as one of the most difficult places in the world to be a Christian, with believers facing severe persecution including imprisonment for their faith. Pray for the underground church that persists despite this, and for the day the gospel can be freely proclaimed.",
+        "prayer_points": [
+            "Pray for protection, strength, and endurance for North Korea's underground believers.",
+            "Pray for those imprisoned for their faith in North Korea's labor camps.",
+            "Pray for the North Korean people to encounter the gospel despite near-total isolation from outside information.",
+            "Pray for the eventual opening of North Korea to the free proclamation of the gospel."
+        ],
+        "mission_emphasis": "North Korea's underground church persists under some of the most severe persecution in the world today. Ongoing needs include intercession for imprisoned believers, gospel resources reaching North Koreans through available channels, and continued prayer for the nation's eventual openness to the gospel.",
+        "prayer_source": ""
+    }
 }

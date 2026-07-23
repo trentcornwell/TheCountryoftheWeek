@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Honduras has an evangelical majority larger than its Catholic population — strong ground to build on in Central America. Pray for this evangelical movement to be marked by sound biblical doctrine and genuine discipleship.",
+        "prayer_points": [
+            "Pray for the continued strengthening of Bible-believing, autonomous local churches across Honduras.",
+            "Pray for pastors to be trained in expository preaching so the movement's size is matched by biblical depth.",
+            "Pray for Hondurans still practicing nominal Catholicism to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for safety amid significant gang violence and instability."
+        ],
+        "mission_emphasis": "With over half the population evangelical, Honduras represents a strong evangelical foothold in Central America. Ongoing needs include deepening biblical literacy and expository preaching among existing churches amid significant social instability.",
+        "prayer_source": ""
+    }
 }

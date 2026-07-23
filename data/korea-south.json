@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "South Korea has one of the largest and most historically significant evangelical movements in Asia, alongside a large secular majority. Pray for the Korean church's continued strength and outward mission focus.",
+        "prayer_points": [
+            "Pray for South Korea's strong evangelical churches to remain marked by sound biblical doctrine and continued missionary sending.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for the large secular majority to encounter the gospel rather than remain unaffiliated.",
+            "Pray for the church's continued unity and health amid a rapidly secularizing younger generation."
+        ],
+        "mission_emphasis": "South Korea's substantial evangelical church, one of the largest missionary-sending movements in the world, is real strength to build on, even as a majority of South Koreans claim no religion. Ongoing needs include reaching the secular majority and strengthening the next generation's biblical grounding.",
+        "prayer_source": ""
+    }
 }

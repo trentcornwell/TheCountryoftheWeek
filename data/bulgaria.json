@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Bulgaria's Christian majority is largely nominal Orthodox identity rather than active biblical faith, alongside a significant Muslim minority. Pray for the clear gospel of salvation by grace through faith alone to break through inherited religious tradition.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a country with very little evangelical presence.",
+            "Pray for nominal Orthodox Bulgarians to encounter genuine, personal faith in Christ.",
+            "Pray for gospel witness to reach Bulgaria's Muslim minority.",
+            "Pray for Bulgarian pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "Bulgaria's nominal Orthodox majority and significant unspecified/secular population leave real need for the clear gospel. Ongoing needs include planting autonomous local churches, training national pastors, and reaching both nominal Christians and Bulgaria's Muslim minority with sound biblical teaching.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "New Zealand's Christian population has fallen below 40 percent, with nearly half the country now claiming no religion. Pray for gospel clarity to reach a rapidly secularizing culture.",
+        "prayer_points": [
+            "Pray for New Zealand's evangelical churches to be strengthened and equipped to reach an increasingly secular culture.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for the nearly half of New Zealanders with no religious affiliation to encounter the gospel rather than settle into secularism.",
+            "Pray for gospel witness among New Zealand's Maori and growing immigrant communities."
+        ],
+        "mission_emphasis": "New Zealand's Christian population has fallen below 40 percent, with a nearly equal share claiming no religion at all. Ongoing needs include equipping churches to engage a secularizing culture and reaching Maori and immigrant communities with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Lithuania's Catholic identity is deeply tied to national heritage, leaving very little room historically for evangelical witness. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where Catholic tradition runs deep.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a country with very little evangelical presence.",
+            "Pray for Lithuanians practicing inherited Catholic tradition to encounter genuine, personal faith in Christ.",
+            "Pray for Lithuanian pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "With nearly three-quarters of the population Roman Catholic and evangelical presence very small, Lithuania represents a significant gospel need. Ongoing needs include training national pastors and planting autonomous local churches practicing believer's baptism by immersion.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Italy's Catholic identity is deeply woven into national heritage as the historic seat of the Roman Catholic Church. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where Catholic tradition and institutional authority run especially deep.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a nation with very little evangelical presence.",
+            "Pray for Italians practicing inherited Catholic tradition to encounter genuine, personal faith in Christ.",
+            "Pray for Italian pastors to be trained in sound, Scripture-centered teaching.",
+            "Pray for gospel witness among Italy's growing Muslim immigrant population."
+        ],
+        "mission_emphasis": "As the historic seat of the Roman Catholic Church, Italy's Catholic identity runs especially deep, leaving very little evangelical presence. Ongoing needs include training national pastors in sound biblical doctrine and planting autonomous local churches practicing believer's baptism by immersion.",
+        "prayer_source": ""
+    }
 }

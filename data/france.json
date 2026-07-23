@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "France's Catholic identity is largely nominal, with a third of the population claiming no religion at all. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where secularism runs as deep as inherited Catholic tradition.",
+        "prayer_points": [
+            "Pray for France's small evangelical presence to be strengthened and multiplied.",
+            "Pray for nominal Catholics to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for the large secular population to find truth in Scripture rather than continued unbelief.",
+            "Pray for gospel witness among France's significant Muslim population."
+        ],
+        "mission_emphasis": "France's Catholic majority is largely nominal, and secularism runs deep across French culture. Ongoing needs include planting autonomous local churches, training national pastors, and reaching both nominal Catholics and France's secular and Muslim populations with the biblical gospel.",
+        "prayer_source": ""
+    }
 }

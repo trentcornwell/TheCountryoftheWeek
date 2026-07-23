@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Niger is overwhelmingly Muslim, with a very small Christian minority, in one of the poorest nations in the world. Pray for gospel witness to continue advancing despite deep poverty and Islamic religious dominance.",
+        "prayer_points": [
+            "Pray for Niger's very small Christian community to be strengthened and protected.",
+            "Pray for open doors for the gospel among the Muslim majority.",
+            "Pray for provision amid extreme poverty."
+        ],
+        "mission_emphasis": "Niger's overwhelming Muslim population and extreme poverty make it a genuinely difficult field. Ongoing needs include strengthening the very small existing Christian community and continued prayer for open doors.",
+        "prayer_source": ""
+    }
 }

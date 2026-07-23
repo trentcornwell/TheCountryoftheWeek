@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The United Kingdom's historic Christian identity has weakened considerably, with a quarter of the population now claiming no religion at all. Pray for genuine gospel faith to take root as inherited Anglican and Christian tradition continues to fade.",
+        "prayer_points": [
+            "Pray for the UK's evangelical and Baptist churches to be strengthened and equipped to reach an increasingly secular culture.",
+            "Pray for nominal Anglicans and Christians to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for the growing secular population to find truth in Scripture rather than continued unbelief.",
+            "Pray for gospel witness among the UK's significant Muslim and Hindu immigrant communities."
+        ],
+        "mission_emphasis": "The UK's historic Christian identity is increasingly nominal, with a quarter of the population claiming no religion. Ongoing needs include strengthening existing evangelical and Baptist churches, training pastors, and reaching a population moving away from inherited religious tradition with the actual biblical gospel.",
+        "prayer_source": ""
+    }
 }

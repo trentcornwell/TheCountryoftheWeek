@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Estonia is among the most secular nations in the world, with well over half the population claiming no religion. Pray for the clear gospel to reach a culture with very little inherited religious framework.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches in one of the world's most secular nations.",
+            "Pray for Estonian pastors to be trained in sound, Scripture-centered teaching.",
+            "Pray for the large secular population to encounter genuine gospel truth."
+        ],
+        "mission_emphasis": "Estonia's deep secularization leaves very little inherited Christian identity to build on. Ongoing needs include planting autonomous local churches from a very small base and reaching a largely unchurched population with the gospel.",
+        "prayer_source": ""
+    }
 }

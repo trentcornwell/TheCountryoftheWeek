@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Togo's population is divided among Christian, traditional folk religion, and Muslim communities. Pray for the clear gospel to reach across these divides.",
+        "prayer_points": [
+            "Pray for Togo's Christian churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for those practicing traditional folk religion to hear and receive the biblical gospel.",
+            "Pray for gospel witness to reach Togo's Muslim minority.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "Togo's mix of Christian identity, widespread traditional folk religion, and a Muslim minority makes it a genuinely complex field. Ongoing needs include training national pastors and reaching those practicing folk religion with the clear, unmixed biblical gospel.",
+        "prayer_source": ""
+    }
 }

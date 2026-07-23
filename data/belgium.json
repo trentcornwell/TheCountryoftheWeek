@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Belgium's historic Catholic identity has weakened considerably, with nearly a third of the population non-religious or agnostic. Pray for genuine gospel faith to take root as inherited Catholic tradition continues to fade.",
+        "prayer_points": [
+            "Pray for Belgium's small evangelical presence to be strengthened and multiplied.",
+            "Pray for nominal Catholics to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for the large secular population to find truth in Scripture rather than continued unbelief.",
+            "Pray for gospel witness among Belgium's Muslim population."
+        ],
+        "mission_emphasis": "Belgium's Catholic majority is largely nominal, with a substantial secular population alongside it — a real door for the gospel. Ongoing needs include planting autonomous local churches, training national pastors, and reaching a population moving away from inherited religious tradition with the actual biblical gospel.",
+        "prayer_source": ""
+    }
 }

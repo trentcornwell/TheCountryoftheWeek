@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Guatemala has an evangelical population nearly equal to its Catholic population — substantial ground to build on in Central America. Pray for this movement to be marked by sound biblical doctrine and genuine discipleship.",
+        "prayer_points": [
+            "Pray for the continued strengthening of Bible-believing, autonomous local churches across Guatemala.",
+            "Pray for pastors to be trained in expository preaching so the movement's size is matched by biblical depth.",
+            "Pray for Guatemalans practicing nominal or folk Catholicism, especially in indigenous Maya communities, to hear the clear gospel."
+        ],
+        "mission_emphasis": "Guatemala's substantial evangelical population is real ground to build on. Ongoing needs include deepening biblical literacy among existing churches and reaching Guatemala's indigenous Maya communities, where folk-Catholic tradition remains deeply embedded, with the clear gospel.",
+        "prayer_source": ""
+    }
 }

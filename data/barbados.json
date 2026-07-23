@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Barbados has a strong Protestant majority, giving real ground to build on. Pray for existing churches to pursue genuine biblical depth rather than nominal religious identity.",
+        "prayer_points": [
+            "Pray for Barbados' existing Protestant and Baptist churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for genuine gospel conversion across a culture where church attendance is common."
+        ],
+        "mission_emphasis": "Barbados' strong Protestant majority is real ground to build on. Ongoing needs include deepening biblical literacy and expository preaching among existing churches, and reaching the roughly one in five Barbadians with no religious affiliation.",
+        "prayer_source": ""
+    }
 }

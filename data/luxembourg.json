@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Luxembourg's Catholic majority exists alongside a large unaffiliated population. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where both inherited tradition and secularism compete for the same ground.",
+        "prayer_points": [
+            "Pray for laborers to plant an independent, Bible-believing witness in a nation with very little evangelical presence.",
+            "Pray for nominal Catholics to encounter genuine, personal faith in Christ.",
+            "Pray for the large unaffiliated population to find truth in Scripture."
+        ],
+        "mission_emphasis": "Luxembourg's Catholic majority is largely nominal, with over a quarter of the population unaffiliated with any religion. Ongoing needs include establishing a stronger evangelical presence and training national pastors.",
+        "prayer_source": ""
+    }
 }

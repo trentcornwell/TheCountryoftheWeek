@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Argentina has a substantial and growing evangelical minority alongside its historic Catholic majority. Pray for this evangelical movement to be marked by sound biblical doctrine as it continues to grow.",
+        "prayer_points": [
+            "Pray for the continued, healthy growth of Bible-believing, autonomous local churches across Argentina.",
+            "Pray for pastors to be trained in expository preaching so growth is matched by biblical depth.",
+            "Pray for Argentines practicing nominal Catholicism to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for the nearly one in five Argentines with no religious affiliation to find truth in Christ."
+        ],
+        "mission_emphasis": "Argentina's evangelical minority is a real and growing gospel foothold alongside the historically dominant Catholic Church. Ongoing needs include strengthening biblical literacy among existing evangelical churches, training national pastors, and reaching nominal Catholics and the religiously unaffiliated with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

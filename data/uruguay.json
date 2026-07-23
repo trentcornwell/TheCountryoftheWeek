@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Uruguay is one of the most secular nations in Latin America, with nearly half the population claiming no religion. Pray for the clear gospel to reach a culture that has moved further from inherited Catholic identity than almost anywhere else in the region.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches in one of Latin America's most secular nations.",
+            "Pray for nominal Catholics to encounter genuine, personal faith in Christ.",
+            "Pray for the large secular population to find truth in Scripture rather than continued unbelief."
+        ],
+        "mission_emphasis": "Uruguay's deep secularization sets it apart from most of Catholic-majority Latin America, leaving very little inherited religious identity to build on. Ongoing needs include planting autonomous local churches from a small base and training national pastors.",
+        "prayer_source": ""
+    }
 }

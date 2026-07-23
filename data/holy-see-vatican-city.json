@@ -34,5 +34,13 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The Holy See is the seat of the Roman Catholic Church's institutional authority. Pray for genuine gospel clarity — salvation by grace through personal faith in Christ alone, not through religious office, sacrament, or church hierarchy — to reach even those closest to the center of Catholic institutional power.",
+        "prayer_points": [
+            "Pray for those within Catholic clergy and institutional leadership to encounter the biblical gospel of salvation by grace through faith alone.",
+            "Pray for gospel clarity regarding salvation to reach beyond ritual and religious office."
+        ],
+        "mission_emphasis": "As the institutional center of the Roman Catholic Church, the Holy See represents a unique call to pray for gospel clarity to reach even religious leadership itself — that salvation is by grace through personal faith in Christ, not through office, sacrament, or church tradition.",
+        "prayer_source": ""
+    }
 }

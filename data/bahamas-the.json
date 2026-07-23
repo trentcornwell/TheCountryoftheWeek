@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The Bahamas already has a strong Baptist and Protestant majority — real ground to build on rather than a field starting from nothing. Pray for these churches to be marked by genuine, Scripture-centered discipleship rather than nominal church membership.",
+        "prayer_points": [
+            "Pray for the Bahamas' extensive Baptist and Protestant churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be equipped in expository, Scripture-centered preaching.",
+            "Pray for genuine gospel conversion and discipleship across a culture where church attendance is common but depth of faith varies."
+        ],
+        "mission_emphasis": "With over a third of the population identifying as Baptist, the Bahamas has a substantial existing evangelical foundation. Ongoing needs include deepening biblical literacy and expository preaching among existing churches, and ensuring widespread church attendance reflects genuine gospel conversion.",
+        "prayer_source": ""
+    }
 }

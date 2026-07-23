@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Mexico has a significant and growing evangelical population alongside its large Catholic majority. Pray for this movement to be marked by sound biblical doctrine as it continues to grow.",
+        "prayer_points": [
+            "Pray for the continued, healthy growth of Bible-believing, autonomous local churches across Mexico.",
+            "Pray for pastors to be trained in expository preaching so growth is matched by biblical depth.",
+            "Pray for Mexicans practicing nominal or folk Catholicism to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for safety amid significant drug-related violence in parts of the country."
+        ],
+        "mission_emphasis": "Mexico's growing evangelical population is a real gospel foothold alongside the historically dominant Catholic Church. Ongoing needs include strengthening biblical literacy among existing evangelical churches, training national pastors, and reaching nominal and folk Catholics with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

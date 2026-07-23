@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Jordan is almost entirely Muslim, with a small but historic Christian minority. Pray for Jordan's Christian community to be strengthened and for the gospel to reach the Muslim majority, including the significant refugee population Jordan hosts.",
+        "prayer_points": [
+            "Pray for Jordan's small Christian minority to be strengthened and equipped to share the gospel.",
+            "Pray for open doors for the gospel among Jordan's Muslim majority.",
+            "Pray for gospel witness among the large refugee population Jordan hosts.",
+            "Pray for laborers willing to serve in the region."
+        ],
+        "mission_emphasis": "Jordan's small but historic Christian minority remains a meaningful witness in a nation that is otherwise almost entirely Muslim. Ongoing needs include strengthening that witness and reaching both Jordanian nationals and the large refugee population with the clear gospel.",
+        "prayer_source": ""
+    }
 }

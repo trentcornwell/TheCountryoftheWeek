@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Comoros is almost entirely Muslim, and Christian conversion faces significant social and legal restriction in this small Indian Ocean nation. Pray for the tiny Christian minority to remain faithful and for the gospel to continue quietly advancing.",
+        "prayer_points": [
+            "Pray for protection and endurance for Comoros' very small Christian community.",
+            "Pray for open doors for the gospel despite significant restrictions on religious conversion.",
+            "Pray for laborers willing to serve in a historically closed nation."
+        ],
+        "mission_emphasis": "Comoros' near-total Muslim population and restrictions on conversion make it a genuinely difficult field. Ongoing needs include discreet support for the tiny existing Christian community and continued prayer for open doors for the gospel.",
+        "prayer_source": ""
+    }
 }

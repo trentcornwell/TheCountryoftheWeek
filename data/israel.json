@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Israel's Jewish majority and Muslim minority live amid deep and ongoing regional conflict. Pray for the gospel of the Messiah to be received among the Jewish people, \"to the Jew first,\" and for gospel witness to reach Israel's Muslim and Druze communities as well.",
+        "prayer_points": [
+            "Pray for Messianic Jewish congregations in Israel to be strengthened and to grow.",
+            "Pray for the Jewish people to recognize Yeshua (Jesus) as the promised Messiah.",
+            "Pray for gospel witness to reach Israel's Muslim and Druze communities.",
+            "Pray for genuine peace amid ongoing regional conflict."
+        ],
+        "mission_emphasis": "Israel's small but growing Messianic Jewish movement is a significant sign of gospel hope for the Jewish people. Ongoing needs include strengthening Messianic congregations, translating gospel resources into Hebrew and Arabic, and continued prayer for peace amid deep regional conflict.",
+        "prayer_source": ""
+    }
 }

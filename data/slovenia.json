@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Slovenia's Catholic majority exists alongside one of Eastern Europe's larger populations of atheists and non-believers. Pray for the clear gospel of salvation by grace through faith alone to reach both.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a country with very little evangelical presence.",
+            "Pray for Slovenians practicing inherited Catholic tradition to encounter genuine, personal faith in Christ.",
+            "Pray for the substantial atheist and non-believing population to find truth in Scripture."
+        ],
+        "mission_emphasis": "Slovenia's Catholic majority is largely nominal, with a substantial atheist and non-believing population alongside it. Ongoing needs include planting autonomous local churches and training national pastors.",
+        "prayer_source": ""
+    }
 }

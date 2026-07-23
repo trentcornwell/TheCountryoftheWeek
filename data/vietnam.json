@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Vietnam is overwhelmingly non-religious under a communist government, with small Catholic and Buddhist minorities and a very small Protestant presence. Pray for gospel witness to advance despite government restriction on religious activity.",
+        "prayer_points": [
+            "Pray for Vietnam's small Protestant and evangelical community to be strengthened and protected.",
+            "Pray for the vast non-religious population to encounter the gospel rather than continue in unbelief.",
+            "Pray for open doors for the gospel despite government restrictions on religious activity, particularly among ethnic minority groups in the highlands.",
+            "Pray for laborers willing to serve in a historically restricted field."
+        ],
+        "mission_emphasis": "Vietnam's overwhelming non-religious population under a restrictive communist government leaves enormous need for the clear gospel. Ongoing needs include discreet support for the small existing Protestant community and continued prayer for open doors, especially among highland ethnic minority groups.",
+        "prayer_source": ""
+    }
 }

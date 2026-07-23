@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Lebanon has one of the largest Christian populations in the Middle East, led by the Maronite Catholic community, alongside a Muslim majority split between Sunni and Shia. Pray for genuine biblical faith to grow within Lebanon's historic Christian community and for the gospel to reach its Muslim population.",
+        "prayer_points": [
+            "Pray for Lebanon's historic Christian communities to grow in genuine, Scripture-centered discipleship.",
+            "Pray for gospel witness to reach Lebanon's Sunni and Shia Muslim communities.",
+            "Pray for stability amid Lebanon's ongoing economic and political crisis.",
+            "Pray for laborers to train pastors in expository, Bible-centered preaching."
+        ],
+        "mission_emphasis": "Lebanon's substantial Christian population, though largely Maronite Catholic and Orthodox in tradition, is real ground for biblical teaching to grow, while the Muslim majority remains largely unreached. Ongoing needs include strengthening biblical literacy among existing Christian communities and reaching Lebanon's Muslim population with the clear gospel.",
+        "prayer_source": ""
+    }
 }

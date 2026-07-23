@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Canada's Christian majority includes an existing Baptist and evangelical presence, but over a third of Canadians now claim no religion at all. Pray for gospel clarity to reach a culture drifting from Christian identity.",
+        "prayer_points": [
+            "Pray for Canada's existing Baptist and evangelical churches to be strengthened and equipped to reach an increasingly secular culture.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for the many Canadians with no religious affiliation to encounter the gospel rather than settle into secularism.",
+            "Pray for gospel witness among Canada's growing Muslim, Hindu, and Sikh immigrant communities."
+        ],
+        "mission_emphasis": "Canada's existing evangelical presence is real ground to build on, but over a third of the population claims no religion. Ongoing needs include equipping churches to engage a secularizing culture and reaching growing immigrant religious communities with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

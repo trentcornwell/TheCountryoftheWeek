@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Portugal's Catholic identity is deeply tied to national heritage, though a growing share of the population claims no religion. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where Catholic tradition still runs deep.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a nation with very little evangelical presence.",
+            "Pray for Portuguese practicing inherited Catholic tradition to encounter genuine, personal faith in Christ.",
+            "Pray for Portuguese pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "With over two-thirds of the population Roman Catholic and evangelical presence very small, Portugal represents a significant gospel need in Western Europe. Ongoing needs include training national pastors and planting autonomous local churches practicing believer's baptism by immersion.",
+        "prayer_source": ""
+    }
 }

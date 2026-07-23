@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Sri Lanka's Buddhist majority exists alongside significant Hindu, Muslim, and Christian minorities, largely along ethnic lines following decades of civil conflict. Pray for the clear gospel to bring genuine hope across these divides.",
+        "prayer_points": [
+            "Pray for Sri Lanka's Christian minority to be strengthened and equipped to share the gospel.",
+            "Pray for gospel witness to reach Sri Lanka's Buddhist majority.",
+            "Pray for gospel witness among Sri Lanka's Hindu and Muslim communities.",
+            "Pray for continued healing following decades of ethnic civil conflict."
+        ],
+        "mission_emphasis": "Sri Lanka's Buddhist majority, alongside meaningful Hindu, Muslim, and Christian minorities largely divided along ethnic lines, leaves significant need for the clear gospel. Ongoing needs include training national pastors and reaching the Buddhist majority with the biblical gospel.",
+        "prayer_source": ""
+    }
 }

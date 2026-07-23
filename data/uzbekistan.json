@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Uzbekistan is overwhelmingly Muslim, and the government maintains significant restrictions on religious activity outside state-registered bodies. Pray for the small Uzbek church to remain faithful under restriction.",
+        "prayer_points": [
+            "Pray for protection and growth for Uzbekistan's small body of believers.",
+            "Pray for open doors for the gospel despite significant government restriction.",
+            "Pray for laborers willing to serve in Central Asia."
+        ],
+        "mission_emphasis": "Uzbekistan's overwhelming Muslim population and restrictive government make it a genuinely difficult field. Ongoing needs include discreet support for existing believers and continued prayer for open doors.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Somalia is almost entirely Muslim, and decades of conflict and extremist activity have made it one of the most difficult and dangerous nations in the world for open Christian witness. Pray for the tiny, largely hidden body of Somali believers.",
+        "prayer_points": [
+            "Pray for protection for the very small number of known Somali believers, who face severe risk.",
+            "Pray for open doors for the gospel despite extremist violence and instability.",
+            "Pray for the Somali diaspora abroad, who often have far greater access to the gospel than those still in-country."
+        ],
+        "mission_emphasis": "Somalia's near-total Muslim population and decades of conflict make it one of the most difficult nations in the world for open gospel witness. Ongoing needs include discreet support for the tiny existing body of believers and gospel outreach to the Somali diaspora.",
+        "prayer_source": ""
+    }
 }

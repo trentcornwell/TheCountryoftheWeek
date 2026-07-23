@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Qatar's Muslim majority exists alongside a large expatriate population of Christians, Hindus, and Buddhists, most of whom are foreign workers rather than Qatari nationals. Pray for gospel witness to reach both communities.",
+        "prayer_points": [
+            "Pray for open doors for the gospel among Qatari nationals.",
+            "Pray for gospel witness among Qatar's large expatriate worker population.",
+            "Pray for laborers willing to serve in the Gulf region."
+        ],
+        "mission_emphasis": "Qatar's Muslim majority and enormous expatriate workforce create a genuinely complex field. Ongoing needs include gospel witness among Qatari nationals and continued outreach to the large foreign worker community.",
+        "prayer_source": ""
+    }
 }

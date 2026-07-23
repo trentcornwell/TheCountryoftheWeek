@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Eritrea's Orthodox, Catholic, Lutheran, and Muslim communities all operate under one of the most restrictive religious environments in the world, with unregistered churches facing severe persecution. Pray for Eritrean believers enduring real hardship for their faith.",
+        "prayer_points": [
+            "Pray for protection and endurance for Eritrean believers, including many currently imprisoned for their faith.",
+            "Pray for open doors for unregistered evangelical churches facing severe government restriction.",
+            "Pray for laborers and gospel resources to reach a nation largely closed to outside witness."
+        ],
+        "mission_emphasis": "Eritrea's severe restrictions on religious practice, including imprisonment of believers from unregistered churches, make it one of the most difficult nations in the world for the gospel. Ongoing needs include intercession for imprisoned believers and continued prayer for greater freedom.",
+        "prayer_source": ""
+    }
 }

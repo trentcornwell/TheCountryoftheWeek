@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Benin's spiritual landscape is genuinely mixed — significant Muslim and Catholic populations alongside a real Protestant presence and the traditional Vodoun religion, from which the modern practice of voodoo originated. Pray for the clear gospel to break through in a nation shaped by spiritual syncretism.",
+        "prayer_points": [
+            "Pray for Benin's Protestant churches to be strengthened and equipped with sound biblical teaching.",
+            "Pray for those practicing Vodoun and syncretistic folk religion to hear and receive the biblical gospel.",
+            "Pray for Benin's Muslim and Catholic populations to encounter genuine, personal faith in Christ.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching."
+        ],
+        "mission_emphasis": "Benin's mix of Islam, Catholicism, Protestantism, and traditional Vodoun religion makes it a genuinely complex field. Ongoing needs include strengthening existing Protestant churches, training national pastors, and reaching those practicing syncretistic folk religion with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

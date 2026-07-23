@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Mauritania is constitutionally and entirely Muslim, with no legal provision for any other religion. Pray for gospel access in one of the most religiously closed nations in the world.",
+        "prayer_points": [
+            "Pray for any Mauritanians who have come to faith in Christ, who must worship in complete secrecy, to be protected.",
+            "Pray for open doors for the gospel in a nation where conversion is effectively illegal.",
+            "Pray for laborers and gospel resources able to reach Mauritanians despite severe restriction."
+        ],
+        "mission_emphasis": "Mauritania's constitutional establishment of Islam as the sole religion makes it one of the most closed nations in the world to the gospel. Ongoing needs include discreet prayer for any hidden believers and continued intercession for greater openness.",
+        "prayer_source": ""
+    }
 }

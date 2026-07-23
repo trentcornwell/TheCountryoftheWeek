@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Liberia has a large Christian majority, real ground to build on, alongside a meaningful Muslim minority, in a nation still recovering from civil war. Pray for existing churches to be marked by sound biblical doctrine.",
+        "prayer_points": [
+            "Pray for Liberia's Christian churches to be equipped with sound, Scripture-centered teaching.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for gospel witness to reach Liberia's Muslim minority.",
+            "Pray for continued healing and stability following civil war."
+        ],
+        "mission_emphasis": "Liberia's large Christian majority is real ground to build on. Ongoing needs include training national pastors in sound biblical doctrine and reaching Liberia's Muslim minority with the clear gospel.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Sweden's Lutheran state church claims a majority, but active biblical faith is rare, with well over a third of the population non-religious or unspecified. Pray for genuine gospel conversion to take root in one of the most secular societies in the world.",
+        "prayer_points": [
+            "Pray for Sweden's small evangelical presence to be strengthened and multiplied.",
+            "Pray for nominal Lutheran Swedes to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for gospel witness among Sweden's Muslim population."
+        ],
+        "mission_emphasis": "Sweden's Lutheran state-church majority is largely nominal, and the country is regularly counted among the most secular in the world. Ongoing needs include planting autonomous local churches practicing believer's baptism by immersion and training national pastors.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Austria's historic Catholic identity has weakened considerably, with nearly a quarter of the population claiming no religion. Pray for genuine gospel faith to take root as inherited Catholic tradition continues to fade.",
+        "prayer_points": [
+            "Pray for Austria's small evangelical presence to be strengthened and multiplied.",
+            "Pray for nominal Catholics to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for the growing number of religiously unaffiliated Austrians to find truth in Scripture rather than secularism.",
+            "Pray for gospel witness among Austria's Muslim immigrant population."
+        ],
+        "mission_emphasis": "Austria's Catholic majority is nominal and declining, with a growing secular population — a real door for the gospel. Ongoing needs include planting autonomous local churches, training national pastors, and reaching a population moving away from inherited religious tradition with the actual biblical gospel rather than secularism.",
+        "prayer_source": ""
+    }
 }

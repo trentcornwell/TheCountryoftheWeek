@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Haiti has a large Protestant population alongside its Catholic majority, though Vodou practice remains widespread and often blended with nominal Christian identity. Pray for genuine, biblically grounded faith to take root distinct from syncretistic Vodou practice, especially amid the nation's ongoing crisis.",
+        "prayer_points": [
+            "Pray for Haiti's Protestant churches to be strengthened and equipped with sound biblical doctrine.",
+            "Pray for those practicing Vodou, often blended with nominal Christian identity, to hear and receive the unmixed biblical gospel.",
+            "Pray for safety, stability, and provision amid Haiti's severe ongoing crisis.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "Haiti's substantial Protestant population is real ground to build on, though widespread Vodou practice, often syncretized with nominal Christianity, remains a significant spiritual stronghold. Ongoing needs include training national pastors and reaching those practicing Vodou with the clear, unmixed biblical gospel, all amid an extremely difficult humanitarian situation.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Yemen is almost entirely Muslim and, amid years of devastating civil war and humanitarian crisis, is one of the most difficult and dangerous nations in the world for open Christian witness. Pray for the tiny, largely hidden body of Yemeni believers and for the nation's suffering people.",
+        "prayer_points": [
+            "Pray for protection for the very small number of known Yemeni believers, who face severe risk.",
+            "Pray for relief and provision amid one of the world's worst humanitarian crises.",
+            "Pray for open doors for the gospel despite war, extremism, and instability."
+        ],
+        "mission_emphasis": "Yemen's near-total Muslim population, combined with years of devastating war, make it one of the most difficult nations in the world for open gospel witness. Ongoing needs include discreet support for any hidden believers and prayer for relief amid catastrophic humanitarian need.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,13 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Malta's Catholic identity is nearly universal and constitutionally established, leaving very little room historically for evangelical witness. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where Catholic tradition runs deep.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a nation with very little evangelical presence.",
+            "Pray for Maltese practicing inherited Catholic tradition to encounter genuine, personal faith in Christ."
+        ],
+        "mission_emphasis": "With over 90 percent of the population Roman Catholic by official identity, Malta represents a significant gospel need with very little existing evangelical presence. Ongoing needs include training national pastors and planting autonomous local churches practicing believer's baptism by immersion.",
+        "prayer_source": ""
+    }
 }

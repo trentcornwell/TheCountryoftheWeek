@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Romania's Orthodox majority is deeply tied to national identity, though the country also has one of Eastern Europe's more established evangelical minorities. Pray for Romania's evangelical churches to be strengthened and for nominal Orthodox believers to encounter genuine faith.",
+        "prayer_points": [
+            "Pray for Romania's evangelical and Pentecostal churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for nominal Orthodox Romanians to encounter genuine, personal salvation by grace through faith in Christ."
+        ],
+        "mission_emphasis": "Romania's meaningful evangelical minority, more established than in many neighboring countries, is real ground to build on alongside the historically dominant Orthodox Church. Ongoing needs include training national pastors and reaching nominal Orthodox believers with the clear gospel.",
+        "prayer_source": ""
+    }
 }

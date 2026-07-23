@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Burkina Faso's Muslim majority exists alongside a real Catholic and Protestant presence and traditional animist practice. Pray for the clear gospel to advance amid growing instability and conflict in the region.",
+        "prayer_points": [
+            "Pray for Burkina Faso's Protestant churches to be strengthened and equipped with sound biblical teaching.",
+            "Pray for gospel witness to reach the Muslim majority.",
+            "Pray for those practicing traditional animist religion to hear and receive the biblical gospel.",
+            "Pray for safety and stability amid ongoing regional conflict and displacement."
+        ],
+        "mission_emphasis": "Burkina Faso's Muslim majority, real Protestant presence, and traditional animist practice make it a genuinely complex field, further complicated by regional instability. Ongoing needs include strengthening existing Protestant churches, training national pastors, and reaching displaced populations with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

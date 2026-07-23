@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Australia has an existing Baptist and Protestant presence, but nearly two in five Australians claim no religion at all — a substantial and growing secular population. Pray for gospel clarity to reach a culture drifting from Christian identity altogether.",
+        "prayer_points": [
+            "Pray for Australia's existing Baptist and evangelical churches to be strengthened and equipped to reach a increasingly secular culture.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for the many Australians with no religious affiliation to encounter the gospel rather than settle into secularism.",
+            "Pray for gospel witness among Australia's growing Muslim, Hindu, and Buddhist immigrant communities."
+        ],
+        "mission_emphasis": "Australia's existing evangelical presence is real ground to build on, but nearly 40 percent of the population claims no religion. Ongoing needs include equipping churches to engage a secularizing culture, training national pastors, and reaching growing immigrant religious communities with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Madagascar's population is largely Christian across Protestant and Catholic traditions, though traditional ancestor veneration remains widespread and often blended with Christian practice. Pray for genuine, biblically grounded faith to take root distinct from syncretistic blending.",
+        "prayer_points": [
+            "Pray for Madagascar's Protestant churches to be equipped with sound, Scripture-centered teaching.",
+            "Pray for those blending Christian identity with traditional ancestor veneration to embrace the unmixed biblical gospel.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "Madagascar's Christian majority often blends biblical faith with traditional ancestor veneration, leaving significant need for clear biblical teaching. Ongoing needs include training national pastors in sound doctrine and reaching syncretistic practice with the unmixed gospel.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Malawi has a substantial Protestant population, real ground to build on, alongside a meaningful Muslim minority. Pray for existing churches to be strengthened with sound biblical teaching.",
+        "prayer_points": [
+            "Pray for Malawi's Protestant churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for gospel witness to reach Malawi's Muslim minority.",
+            "Pray for Catholics practicing inherited tradition to encounter genuine faith in Christ."
+        ],
+        "mission_emphasis": "Malawi's substantial Protestant population is real ground to build on. Ongoing needs include training national pastors in sound biblical doctrine and reaching Malawi's Muslim minority with the clear gospel.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Malaysia's Muslim majority coexists with substantial Buddhist, Christian, and Hindu minorities along ethnic lines, though conversion from Islam is legally restricted for ethnic Malays. Pray for gospel witness to reach across Malaysia's diverse communities.",
+        "prayer_points": [
+            "Pray for Malaysia's Christian minority, largely among Chinese and indigenous communities, to be strengthened.",
+            "Pray for gospel access among ethnic Malay Muslims despite legal restrictions on conversion.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "Malaysia's legal restrictions on conversion from Islam make ethnic Malays a particularly unreached population despite meaningful Christian presence among other ethnic communities. Ongoing needs include strengthening existing churches and continued prayer for gospel access among Malay Muslims.",
+        "prayer_source": ""
+    }
 }

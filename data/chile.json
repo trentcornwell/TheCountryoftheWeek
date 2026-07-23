@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Chile has a real and substantial evangelical population alongside its Catholic majority, along with a large and growing secular minority. Pray for evangelical churches to be strengthened while reaching Chile's growing unaffiliated population.",
+        "prayer_points": [
+            "Pray for the continued, healthy growth of Bible-believing, autonomous local churches across Chile.",
+            "Pray for pastors to be trained in expository preaching so growth is matched by biblical depth.",
+            "Pray for Chileans practicing nominal Catholicism to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for the roughly one in four Chileans with no religious affiliation to find truth in Christ."
+        ],
+        "mission_emphasis": "Chile's substantial evangelical population is a real gospel foothold, but a growing share of the population claims no religion at all. Ongoing needs include strengthening biblical literacy among existing evangelical churches and reaching both nominal Catholics and the religiously unaffiliated with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

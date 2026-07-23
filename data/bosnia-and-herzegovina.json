@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Bosnia and Herzegovina's population is split between Muslim, Orthodox, and Catholic identity, largely along ethnic lines shaped by a painful recent history of conflict. Pray for the clear gospel to bring genuine reconciliation and truth across these divides.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches in a nation with very little evangelical presence.",
+            "Pray for Bosnia's Muslim, Orthodox, and Catholic communities to encounter genuine, personal faith in Christ.",
+            "Pray for healing across ethnic and religious lines still marked by the legacy of war."
+        ],
+        "mission_emphasis": "Bosnia and Herzegovina's religious identity runs largely along ethnic lines, with very little evangelical presence cutting across those divides. Ongoing needs include planting autonomous local churches and training national pastors able to bring the clear gospel across the country's Muslim, Orthodox, and Catholic communities.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Ukraine's Orthodox majority is divided across several church bodies, alongside a meaningful evangelical minority, all set against the backdrop of ongoing war. Pray for the Ukrainian church to be a source of genuine hope and gospel witness amid devastating conflict.",
+        "prayer_points": [
+            "Pray for Ukraine's evangelical and Baptist churches to be strengthened and to minister effectively amid war.",
+            "Pray for nominal Orthodox Ukrainians to encounter genuine, personal faith in Christ.",
+            "Pray for peace, protection, and provision for the Ukrainian people amid the ongoing war.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching."
+        ],
+        "mission_emphasis": "Ukraine's meaningful evangelical and Baptist presence, one of the more established in the former Soviet region, is real ground to build on, now ministering under the weight of devastating war. Ongoing needs include support for churches serving displaced and wounded populations, and continued prayer for peace.",
+        "prayer_source": ""
+    }
 }

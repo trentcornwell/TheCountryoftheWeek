@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Turkmenistan is overwhelmingly Muslim under one of the most restrictive governments in the world, with very little religious freedom of any kind. Pray for the small Turkmen church to remain faithful under severe restriction.",
+        "prayer_points": [
+            "Pray for protection and endurance for Turkmenistan's small body of believers.",
+            "Pray for open doors for the gospel despite extremely severe government restriction.",
+            "Pray for laborers and gospel resources able to reach Turkmen despite near-total isolation."
+        ],
+        "mission_emphasis": "Turkmenistan's combination of an overwhelming Muslim population and one of the world's most repressive governments makes it a genuinely closed field. Ongoing needs include discreet prayer for any hidden believers and continued intercession for greater openness.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Cote d'Ivoire's population is divided between a Muslim plurality and Christian communities of several traditions. Pray for Cote d'Ivoire's evangelical churches to be strengthened and for the gospel to reach across religious and regional divides.",
+        "prayer_points": [
+            "Pray for Cote d'Ivoire's evangelical churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for gospel witness to reach the Muslim plurality.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for continued national stability and reconciliation."
+        ],
+        "mission_emphasis": "Cote d'Ivoire's Muslim plurality alongside meaningful Catholic and evangelical populations makes it a genuinely complex field. Ongoing needs include strengthening existing evangelical churches, training national pastors, and reaching the Muslim plurality with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

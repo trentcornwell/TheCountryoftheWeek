@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Germany's Catholic and Protestant populations are both largely nominal, with over 40 percent of the country claiming no religion. Pray for genuine gospel faith to take root as inherited church membership continues to decline.",
+        "prayer_points": [
+            "Pray for Germany's evangelical churches to be strengthened and equipped to reach an increasingly secular culture.",
+            "Pray for nominal Catholics and Protestants to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for the large secular population to find truth in Scripture rather than continued unbelief.",
+            "Pray for gospel witness among Germany's significant Muslim population."
+        ],
+        "mission_emphasis": "Germany's historic Catholic and Protestant identities are both largely nominal, with a growing secular population alongside them. Ongoing needs include planting autonomous local churches, training national pastors, and reaching a population moving away from inherited religious tradition with the actual biblical gospel.",
+        "prayer_source": ""
+    }
 }

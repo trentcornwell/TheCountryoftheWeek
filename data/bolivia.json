@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Bolivia has a real evangelical and Baptist presence alongside its Catholic majority, offering ground to build on. Pray for this movement to grow in sound biblical doctrine.",
+        "prayer_points": [
+            "Pray for Bolivia's existing evangelical and Baptist churches to be strengthened and multiplied.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for Bolivians practicing nominal or folk Catholicism to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for gospel witness to reach Bolivia's indigenous Quechua and Aymara communities in their own languages."
+        ],
+        "mission_emphasis": "Bolivia's real evangelical presence, including a Baptist witness, is meaningful ground to build on. Ongoing needs include training national pastors in sound biblical doctrine, planting additional autonomous local churches, and reaching indigenous communities where folk-Catholic tradition remains deeply embedded.",
+        "prayer_source": ""
+    }
 }

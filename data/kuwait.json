@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Kuwait is majority Muslim with a substantial Christian expatriate population, most of whom are foreign workers rather than Kuwaiti nationals. Pray for gospel witness to reach both Kuwaiti citizens and the large foreign community.",
+        "prayer_points": [
+            "Pray for open doors for the gospel among Kuwaiti nationals.",
+            "Pray for gospel witness among Kuwait's large expatriate Christian and foreign worker population.",
+            "Pray for laborers willing to serve in the Gulf region."
+        ],
+        "mission_emphasis": "Kuwait's Muslim majority and significant expatriate population create a genuinely complex field. Ongoing needs include gospel witness among Kuwaiti nationals and continued outreach to the large foreign worker community.",
+        "prayer_source": ""
+    }
 }

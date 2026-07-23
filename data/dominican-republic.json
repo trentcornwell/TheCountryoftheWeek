@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The Dominican Republic has an evangelical majority larger than its Catholic population — remarkable ground to build on in the Caribbean. Pray for this evangelical movement to be marked by sound biblical doctrine and genuine discipleship.",
+        "prayer_points": [
+            "Pray for the continued strengthening of Bible-believing, autonomous local churches across the Dominican Republic.",
+            "Pray for pastors to be trained in expository preaching so the movement's size is matched by biblical depth.",
+            "Pray for Dominicans still practicing nominal Catholicism to hear the clear gospel of salvation by grace through faith alone."
+        ],
+        "mission_emphasis": "With over half the population evangelical, the Dominican Republic represents one of the strongest evangelical footholds in the Caribbean. Ongoing needs include deepening biblical literacy and expository preaching among existing churches and reaching the remaining Catholic population with the clear gospel.",
+        "prayer_source": ""
+    }
 }

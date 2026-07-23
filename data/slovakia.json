@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Slovakia's Catholic majority exists alongside a substantial population claiming no religion. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where both inherited tradition and secularism compete for the same ground.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a country with very little evangelical presence.",
+            "Pray for Slovaks practicing inherited Catholic tradition to encounter genuine, personal faith in Christ.",
+            "Pray for the growing secular population to find truth in Scripture."
+        ],
+        "mission_emphasis": "Slovakia's Catholic majority is largely nominal, with a substantial secular population alongside it. Ongoing needs include planting autonomous local churches, training national pastors, and reaching both nominal Catholics and the non-religious with the biblical gospel.",
+        "prayer_source": ""
+    }
 }

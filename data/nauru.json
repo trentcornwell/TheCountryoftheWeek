@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Nauru has a strong Protestant majority, including a small existing Baptist witness, real ground to build on in this tiny Pacific nation. Pray for these churches to be marked by genuine, Scripture-centered discipleship.",
+        "prayer_points": [
+            "Pray for Nauru's Protestant and Congregational churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be equipped in expository, Scripture-centered preaching.",
+            "Pray for genuine gospel conversion across a culture where church attendance is common."
+        ],
+        "mission_emphasis": "Nauru's strong Protestant majority is real ground to build on. Ongoing needs include deepening biblical literacy and expository preaching among existing churches on this small Pacific island.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,13 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "San Marino's Catholic identity leaves very little room historically for evangelical witness in this tiny microstate. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where Catholic tradition runs largely unchallenged.",
+        "prayer_points": [
+            "Pray for laborers to plant an independent, Bible-believing witness in a nation with virtually no evangelical presence.",
+            "Pray for residents practicing inherited Catholic tradition to encounter genuine, personal faith in Christ."
+        ],
+        "mission_emphasis": "San Marino's Catholic identity and tiny population leave very little evangelical presence to build on. Ongoing needs include establishing any autonomous local church at all.",
+        "prayer_source": ""
+    }
 }

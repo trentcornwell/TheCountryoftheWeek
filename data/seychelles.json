@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Seychelles has a strong Catholic majority alongside a meaningful Protestant minority. Pray for the clear gospel of salvation by grace through faith alone to reach these Indian Ocean islands.",
+        "prayer_points": [
+            "Pray for Seychelles' Protestant and Anglican churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for Catholics practicing inherited religious tradition to encounter genuine salvation by grace through faith in Christ."
+        ],
+        "mission_emphasis": "With over three-quarters of the population Roman Catholic, Seychelles represents a significant gospel need despite a meaningful Protestant minority. Ongoing needs include training national pastors and reaching the Catholic majority with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

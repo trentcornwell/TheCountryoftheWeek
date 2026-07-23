@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Papua New Guinea has a strong Protestant majority, including an existing Baptist witness, real ground to build on across this linguistically diverse nation. Pray for these churches to reach the country's many remote and unreached tribal groups.",
+        "prayer_points": [
+            "Pray for Papua New Guinea's Protestant and Baptist churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for laborers and Bible translators to reach Papua New Guinea's hundreds of distinct language groups.",
+            "Pray for those in remote highland communities still practicing traditional religion to hear the gospel."
+        ],
+        "mission_emphasis": "Papua New Guinea's strong Protestant majority is real ground to build on, though the nation's extraordinary linguistic diversity, over 800 languages, leaves many groups still without Scripture in their own tongue. Ongoing needs include Bible translation, training national pastors, and reaching remote tribal communities with the clear gospel.",
+        "prayer_source": ""
+    }
 }

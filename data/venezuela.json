@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Venezuela has a substantial evangelical population alongside its Catholic majority, ministering amid an extremely severe humanitarian and economic crisis. Pray for the church to be a source of genuine hope and practical care.",
+        "prayer_points": [
+            "Pray for the continued strengthening of Bible-believing, autonomous local churches across Venezuela.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for Venezuelans practicing nominal Catholicism to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for provision and stability amid Venezuela's severe humanitarian and economic crisis."
+        ],
+        "mission_emphasis": "Venezuela's substantial evangelical population is real ground to build on, now ministering amid one of the most severe humanitarian crises in the Western Hemisphere. Ongoing needs include supporting churches providing practical relief and reaching nominal Catholics with the clear gospel.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Trinidad and Tobago is remarkably religiously diverse, with substantial Protestant, Catholic, and Hindu communities alongside a Muslim minority. Pray for the clear gospel to reach across this multiethnic nation.",
+        "prayer_points": [
+            "Pray for Trinidad and Tobago's Protestant and evangelical churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for gospel witness to reach the substantial Hindu community.",
+            "Pray for gospel witness among Trinidad and Tobago's Muslim community.",
+            "Pray for Catholics practicing inherited tradition to encounter genuine faith in Christ."
+        ],
+        "mission_emphasis": "Trinidad and Tobago's remarkable religious diversity, with substantial Protestant, Catholic, Hindu, and Muslim communities side by side, makes it a genuinely complex field. Ongoing needs include training national pastors and reaching the Hindu and Muslim communities with the clear gospel.",
+        "prayer_source": ""
+    }
 }

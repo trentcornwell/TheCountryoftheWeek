@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Tanzania has a Christian majority alongside a substantial Muslim minority, generally with a strong tradition of religious tolerance. Pray for Tanzania's churches to be marked by sound biblical doctrine.",
+        "prayer_points": [
+            "Pray for Tanzania's Christian churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for gospel witness to reach Tanzania's Muslim minority, particularly along the coast and in Zanzibar.",
+            "Pray for genuine gospel conversion rather than nominal Christian identity."
+        ],
+        "mission_emphasis": "Tanzania's Christian majority is real ground to build on. Ongoing needs include training national pastors in sound biblical doctrine and reaching Tanzania's Muslim minority, especially in coastal and Zanzibar communities, with the clear gospel.",
+        "prayer_source": ""
+    }
 }

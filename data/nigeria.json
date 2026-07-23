@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Nigeria is nearly evenly split between a Muslim north and Christian south, with significant Christian persecution occurring in parts of the country. Pray for Nigeria's substantial Christian population to be strengthened and protected, and for the gospel to reach the Muslim north.",
+        "prayer_points": [
+            "Pray for Nigeria's Christian churches, including a substantial Catholic and evangelical population, to be equipped with sound biblical doctrine.",
+            "Pray for protection for Christians in northern Nigeria facing persecution and violence from extremist groups.",
+            "Pray for gospel witness to reach Nigeria's Muslim north.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "Nigeria's near-even split between a largely Muslim north and Christian south, combined with real persecution of Christians by extremist groups in parts of the country, makes it one of the most significant and difficult mission fields in Africa. Ongoing needs include protection and support for persecuted believers and continued gospel witness to the Muslim north.",
+        "prayer_source": ""
+    }
 }

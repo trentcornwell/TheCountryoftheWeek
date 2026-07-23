@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Ghana has a large and vibrant Christian majority, including substantial Pentecostal, Protestant, and Catholic communities, alongside a meaningful Muslim minority. Pray for Ghana's churches to be marked by sound biblical doctrine amid rapid growth.",
+        "prayer_points": [
+            "Pray for Ghana's Pentecostal and Protestant churches to be equipped with sound, Scripture-centered doctrine amid rapid growth.",
+            "Pray for pastors to be trained in expository preaching so growth is matched by biblical depth.",
+            "Pray for Ghana's Muslim minority to encounter the gospel.",
+            "Pray for genuine gospel conversion rather than nominal Christian identity."
+        ],
+        "mission_emphasis": "Ghana's large and rapidly growing Christian population is real ground to build on. Ongoing needs include strengthening biblical literacy and expository preaching amid rapid growth and reaching Ghana's Muslim minority with the clear gospel.",
+        "prayer_source": ""
+    }
 }

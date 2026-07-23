@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Peru has a substantial and growing evangelical population alongside its large Catholic majority. Pray for this movement to be marked by sound biblical doctrine as it continues to grow.",
+        "prayer_points": [
+            "Pray for the continued, healthy growth of Bible-believing, autonomous local churches across Peru.",
+            "Pray for pastors to be trained in expository preaching so growth is matched by biblical depth.",
+            "Pray for Peruvians practicing nominal or folk Catholicism to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for gospel witness to reach Peru's indigenous Quechua and Amazonian communities in their own languages."
+        ],
+        "mission_emphasis": "Peru's substantial evangelical population is a real gospel foothold alongside the historically dominant Catholic Church. Ongoing needs include training national pastors, strengthening biblical literacy, and reaching indigenous communities with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

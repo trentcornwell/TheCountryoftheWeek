@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Cabo Verde's Catholic majority leaves very little room historically for evangelical witness on these Atlantic islands. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where Catholic tradition runs deep.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a nation with very little evangelical presence.",
+            "Pray for Cabo Verdeans practicing inherited Catholic tradition to encounter genuine, personal faith in Christ.",
+            "Pray for Cabo Verdean pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "With nearly three-quarters of the population Roman Catholic and evangelical presence very small, Cabo Verde represents a significant gospel need. Ongoing needs include training national pastors in sound biblical doctrine and planting autonomous local churches practicing believer's baptism by immersion.",
+        "prayer_source": ""
+    }
 }

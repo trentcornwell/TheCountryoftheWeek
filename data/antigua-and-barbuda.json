@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Antigua and Barbuda already has a strong Protestant presence, including an existing Baptist witness, giving real ground to build on rather than start from nothing. Pray for these churches to be strengthened in sound biblical doctrine.",
+        "prayer_points": [
+            "Pray for Antigua and Barbuda's existing Baptist and Protestant churches to be strengthened and multiplied.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for genuine gospel conversion rather than inherited church membership across the islands."
+        ],
+        "mission_emphasis": "With a substantial Protestant majority including an existing Baptist presence, Antigua and Barbuda has real ground to build on. Ongoing needs include strengthening biblical literacy among existing churches and ensuring church membership reflects genuine, personal faith in Christ rather than inherited tradition.",
+        "prayer_source": ""
+    }
 }

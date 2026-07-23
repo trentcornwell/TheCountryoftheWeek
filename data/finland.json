@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Finland's Lutheran majority is a matter of national heritage more than active biblical faith for most, with nearly a third claiming no religion. Pray for genuine gospel conversion to take root in a culturally Christian but largely secular society.",
+        "prayer_points": [
+            "Pray for Finland's small evangelical presence to be strengthened and multiplied.",
+            "Pray for nominal Lutheran Finns to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for the growing secular population to find truth in Scripture."
+        ],
+        "mission_emphasis": "Finland's Lutheran majority is largely nominal, with a substantial secular population alongside it. Ongoing needs include planting autonomous local churches practicing believer's baptism by immersion and training national pastors.",
+        "prayer_source": ""
+    }
 }

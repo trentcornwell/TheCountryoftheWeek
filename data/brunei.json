@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Brunei is an Islamic sultanate where Sharia law is enforced and Christian witness faces real legal restriction. Pray for the small Christian minority to remain faithful and for the gospel to continue quietly advancing.",
+        "prayer_points": [
+            "Pray for protection and endurance for Brunei's small Christian community.",
+            "Pray for open doors for gospel witness despite significant legal restrictions on evangelism.",
+            "Pray for laborers willing to serve in a historically closed nation."
+        ],
+        "mission_emphasis": "Brunei's status as an Islamic sultanate with enforced Sharia law makes it a genuinely difficult field for open gospel witness. Ongoing needs include discreet support for the small existing Christian community and continued prayer for open doors.",
+        "prayer_source": ""
+    }
 }

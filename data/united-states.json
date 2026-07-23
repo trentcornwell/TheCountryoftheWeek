@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The United States has a substantial Protestant and evangelical population, real ground to build on, alongside a large Catholic population and a rapidly growing unaffiliated segment. Pray for genuine biblical faith and continued gospel clarity across the country.",
+        "prayer_points": [
+            "Pray for evangelical and Baptist churches across the US to remain grounded in sound, Scripture-centered doctrine.",
+            "Pray for pastors to be trained in expository preaching amid cultural pressure toward theological compromise.",
+            "Pray for Americans practicing nominal Catholic or Christian identity to encounter genuine, personal faith in Christ.",
+            "Pray for the rapidly growing unaffiliated population, now nearly a quarter of the country, to find truth in Christ."
+        ],
+        "mission_emphasis": "The United States' substantial evangelical population remains a significant sending base for global missions, even as religious unaffiliation grows rapidly. Ongoing needs include maintaining sound biblical doctrine amid cultural pressure and reaching the growing unaffiliated population with the clear gospel.",
+        "prayer_source": ""
+    }
 }

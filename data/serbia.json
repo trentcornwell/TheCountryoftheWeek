@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Serbia's Orthodox majority is deeply tied to national identity, alongside a Muslim minority largely concentrated in specific regions. Pray for the clear gospel of salvation by grace through personal faith to reach a nation where Christian identity is largely inherited.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches in a nation with very little evangelical presence.",
+            "Pray for Serbians to understand that salvation comes through personal faith in Christ, not inherited church membership.",
+            "Pray for gospel witness to reach Serbia's Muslim minority."
+        ],
+        "mission_emphasis": "Serbia's near-universal Orthodox identity is a matter of national heritage more than personal faith for most, leaving significant need for the clear gospel. Ongoing needs include planting autonomous local churches and training national pastors.",
+        "prayer_source": ""
+    }
 }

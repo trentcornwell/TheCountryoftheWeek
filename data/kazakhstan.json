@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Kazakhstan's Muslim majority exists alongside a substantial Orthodox Christian minority, a legacy of Soviet-era Russian settlement. Pray for the clear gospel to reach across both communities.",
+        "prayer_points": [
+            "Pray for Kazakhstan's small evangelical presence to be strengthened and multiplied.",
+            "Pray for gospel witness to reach the Muslim majority.",
+            "Pray for nominal Orthodox believers to encounter genuine, personal faith in Christ.",
+            "Pray for Kazakh pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "Kazakhstan's Muslim majority and nominal Orthodox minority both represent significant need for the clear gospel. Ongoing needs include planting autonomous local churches and training national pastors in sound biblical doctrine.",
+        "prayer_source": ""
+    }
 }

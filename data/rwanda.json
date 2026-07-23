@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Rwanda has a large Christian majority, including a substantial Pentecostal and Protestant presence, real ground to build on in a nation still healing from genocide a generation ago. Pray for existing churches to be marked by sound biblical doctrine and genuine reconciliation.",
+        "prayer_points": [
+            "Pray for Rwanda's Pentecostal and Protestant churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for continued healing and genuine reconciliation rooted in the gospel following the 1994 genocide.",
+            "Pray for Catholics practicing inherited tradition to encounter genuine faith in Christ."
+        ],
+        "mission_emphasis": "Rwanda's large Christian majority, including a substantial Pentecostal and Protestant presence, is real ground to build on. Ongoing needs include training national pastors in sound biblical doctrine and continuing gospel-rooted reconciliation work following the 1994 genocide.",
+        "prayer_source": ""
+    }
 }

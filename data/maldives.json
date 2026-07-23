@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The Maldives is officially and exclusively Sunni Muslim, with no legal provision for any other religion and citizenship itself tied to Islamic identity. Pray for gospel access in one of the most religiously restricted nations in the world.",
+        "prayer_points": [
+            "Pray for any Maldivians who have come to faith in Christ, who must worship in complete secrecy, to be protected.",
+            "Pray for open doors for the gospel in a nation where conversion is effectively illegal.",
+            "Pray for gospel witness among the large foreign tourism workforce, who have freedoms Maldivian citizens do not."
+        ],
+        "mission_emphasis": "The Maldives' constitutional requirement that citizens be Muslim makes it one of the most closed nations in the world to the gospel. Ongoing needs include discreet prayer for any hidden believers and continued intercession for greater openness.",
+        "prayer_source": ""
+    }
 }

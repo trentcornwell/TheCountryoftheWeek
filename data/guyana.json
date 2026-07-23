@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Guyana has a substantial Protestant population alongside a large Hindu minority and a smaller Muslim community — one of the most religiously diverse nations in the Caribbean/South American region. Pray for Guyana's evangelical churches to be strengthened and for the gospel to reach across these communities.",
+        "prayer_points": [
+            "Pray for Guyana's Protestant churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for gospel witness to reach Guyana's large Hindu minority.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for gospel witness among Guyana's Muslim community."
+        ],
+        "mission_emphasis": "Guyana's substantial Protestant population is real ground to build on, though its large Hindu minority remains largely unreached. Ongoing needs include training national pastors and reaching Guyana's Hindu and Muslim communities with the clear gospel.",
+        "prayer_source": ""
+    }
 }

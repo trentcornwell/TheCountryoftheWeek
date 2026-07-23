@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Cyprus' Orthodox identity is deeply tied to national and cultural heritage, leaving very little room historically for evangelical witness. Pray for the clear gospel of salvation by grace through personal faith to reach a nation where Christian identity is almost entirely inherited.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches in a nation with very little evangelical presence.",
+            "Pray for Cypriots to understand that salvation comes through personal faith in Christ, not inherited church membership.",
+            "Pray for Cypriot pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "Cyprus' near-universal Orthodox identity is a matter of national heritage more than personal faith for most, leaving significant need for the clear gospel. Ongoing needs include planting autonomous local churches practicing believer's baptism by immersion and training national pastors in sound biblical doctrine.",
+        "prayer_source": ""
+    }
 }

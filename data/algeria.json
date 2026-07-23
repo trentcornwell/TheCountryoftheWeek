@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Algeria is almost entirely Muslim, and Christian witness operates under significant legal and social restriction. Pray for the small Algerian church to remain faithful and for the gospel to continue quietly advancing.",
+        "prayer_points": [
+            "Pray for protection and endurance for Algerian believers who face real social and legal pressure.",
+            "Pray for open doors for the gospel despite restrictions on evangelism and church registration.",
+            "Pray for laborers willing to serve in a historically closed North African nation.",
+            "Pray for gospel resources in Arabic and Amazigh (Berber) languages to reach Algerians in their own tongues."
+        ],
+        "mission_emphasis": "Algeria's near-total Muslim population and restrictive legal environment make it a genuinely difficult field. Ongoing needs include discreet support for existing Algerian believers, gospel literature in Arabic and Berber languages, and continued prayer for open doors in a historically closed nation.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Bangladesh is overwhelmingly Muslim with a significant Hindu minority, and the evangelical presence remains very small relative to the population. Pray for gospel witness to advance among both communities.",
+        "prayer_points": [
+            "Pray for the small body of Bangladeshi believers to be strengthened and protected.",
+            "Pray for open doors for the gospel among Bangladesh's Muslim majority.",
+            "Pray for gospel witness to reach Bangladesh's Hindu minority.",
+            "Pray for laborers willing to serve among one of the world's largest unreached populations."
+        ],
+        "mission_emphasis": "With over 170 million people and a Christian population under one percent, Bangladesh represents one of the largest unreached populations in the world. Ongoing needs include discreet support for existing believers, gospel literature in Bengali, and laborers willing to serve among both the Muslim majority and Hindu minority.",
+        "prayer_source": ""
+    }
 }

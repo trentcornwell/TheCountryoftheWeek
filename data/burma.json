@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Burma (Myanmar) is overwhelmingly Buddhist, with a Christian minority concentrated among ethnic minority groups and ongoing political instability complicating gospel access. Pray for the church to remain faithful amid conflict and restriction.",
+        "prayer_points": [
+            "Pray for Burma's existing Christian minority, especially among the Chin, Kachin, and Karen peoples, to be strengthened.",
+            "Pray for gospel witness to reach the Buddhist majority.",
+            "Pray for safety amid ongoing civil conflict and political instability.",
+            "Pray for laborers willing to serve among Burma's many unreached ethnic groups."
+        ],
+        "mission_emphasis": "Burma's Christian minority is concentrated among specific ethnic groups, leaving the Buddhist majority largely unreached, and ongoing civil conflict complicates access further. Ongoing needs include supporting the existing ethnic-minority church, training national pastors, and reaching the Buddhist majority with the clear gospel.",
+        "prayer_source": ""
+    }
 }

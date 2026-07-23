@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Cuba's Christian majority exists alongside significant folk religion (often blended with nominal Christian identity) and a large secular population, all shaped by decades of communist rule. Pray for the gospel to advance despite continued government restriction.",
+        "prayer_points": [
+            "Pray for Cuba's existing evangelical churches, which have grown significantly in recent decades, to be strengthened in sound biblical doctrine.",
+            "Pray for those practicing syncretistic folk religion to hear and receive the clear biblical gospel.",
+            "Pray for the many Cubans with no religious affiliation to find truth in Christ.",
+            "Pray for continued openness despite government restrictions on religious activity."
+        ],
+        "mission_emphasis": "Cuba's growing evangelical movement, despite decades of communist restriction, is real ground to build on. Ongoing needs include training national pastors, strengthening biblical literacy, and reaching those practicing syncretistic folk religion with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

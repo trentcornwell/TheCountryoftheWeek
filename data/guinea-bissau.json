@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Guinea-Bissau's population is divided between a Muslim plurality, traditional folk religion, and a Christian minority. Pray for the clear gospel to reach across these divides.",
+        "prayer_points": [
+            "Pray for Guinea-Bissau's small Christian community to be strengthened and equipped with sound biblical teaching.",
+            "Pray for those practicing traditional folk religion to hear and receive the biblical gospel.",
+            "Pray for open doors for the gospel among the Muslim plurality."
+        ],
+        "mission_emphasis": "Guinea-Bissau's mix of Islam, traditional folk religion, and a small Christian minority makes it a genuinely complex field. Ongoing needs include strengthening the existing Christian community and reaching those practicing folk religion and Islam with the clear gospel.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "The Central African Republic has a substantial Christian population across several traditions, alongside a Muslim minority, in a nation devastated by ongoing conflict between armed groups often described in religious terms. Pray for the true gospel to bring genuine peace where violence has been falsely justified by religious identity.",
+        "prayer_points": [
+            "Pray for the Central African Republic's Protestant churches to be strengthened and equipped with sound biblical teaching.",
+            "Pray for genuine reconciliation between Christian and Muslim communities, distinct from the violence of armed militias claiming religious identity.",
+            "Pray for safety and provision amid ongoing conflict and displacement.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching."
+        ],
+        "mission_emphasis": "Ongoing conflict, often framed in religious terms by armed groups, makes the Central African Republic a genuinely difficult field despite its substantial Christian population. Ongoing needs include strengthening existing Protestant churches, training national pastors, and pursuing genuine gospel-centered reconciliation distinct from the violence claiming religious justification.",
+        "prayer_source": ""
+    }
 }

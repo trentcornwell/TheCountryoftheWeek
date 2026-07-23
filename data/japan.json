@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Japan's Shinto and Buddhist traditions dominate religious life, and the Christian population remains under two percent despite over a century of missionary work. Pray for gospel breakthrough in one of the most historically resistant fields to evangelical Christianity.",
+        "prayer_points": [
+            "Pray for Japan's small Christian minority to be strengthened and equipped to share the gospel.",
+            "Pray for gospel breakthrough among a population shaped by Shinto and Buddhist tradition.",
+            "Pray for laborers willing to serve long-term in a historically difficult field.",
+            "Pray for Japanese pastors to be trained in expository, Scripture-centered preaching."
+        ],
+        "mission_emphasis": "Japan remains one of the least-reached developed nations in the world, with Christian identity under two percent despite extensive missionary history. Ongoing needs include training national pastors, planting local churches, and reaching a population shaped by Shinto and Buddhist tradition with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

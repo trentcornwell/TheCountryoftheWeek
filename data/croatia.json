@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Croatia's Catholic identity is deeply tied to national heritage, leaving very little room historically for evangelical witness. Pray for the clear gospel of salvation by grace through faith alone to reach a nation where Catholic tradition runs deep.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a country with very little evangelical presence.",
+            "Pray for Croatians practicing inherited Catholic tradition to encounter genuine, personal faith in Christ.",
+            "Pray for Croatian pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "With nearly four in five Croatians identifying as Roman Catholic and evangelical presence very small, Croatia represents a significant gospel need in Southern Europe. Ongoing needs include training national pastors in sound biblical doctrine and planting autonomous local churches practicing believer's baptism by immersion.",
+        "prayer_source": ""
+    }
 }

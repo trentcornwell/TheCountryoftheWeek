@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "India's vast Hindu majority, alongside significant Muslim, Christian, and Sikh minorities, represents one of the largest unreached populations in the world. Pray for the gospel to advance despite growing restrictions on religious conversion in some states.",
+        "prayer_points": [
+            "Pray for India's growing Christian minority to be strengthened, protected, and equipped to share the gospel.",
+            "Pray for gospel witness to reach India's vast Hindu majority.",
+            "Pray for laborers to reach India's many unreached people groups and languages.",
+            "Pray for continued gospel access amid growing anti-conversion legislation in some Indian states."
+        ],
+        "mission_emphasis": "With over a billion people and a Christian population under 3 percent, India represents one of the largest gospel opportunities in the world. Ongoing needs include training national pastors, translating Scripture into India's many languages, and reaching Hindu, Muslim, and Sikh communities with the clear biblical gospel amid growing legal restrictions in some regions.",
+        "prayer_source": ""
+    }
 }

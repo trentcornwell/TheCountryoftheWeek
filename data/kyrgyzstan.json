@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Kyrgyzstan's Muslim majority exists alongside a Russian Orthodox minority, a legacy of Soviet-era settlement. Pray for the clear gospel to reach across both communities.",
+        "prayer_points": [
+            "Pray for Kyrgyzstan's small evangelical presence to be strengthened and multiplied.",
+            "Pray for gospel witness to reach the Muslim majority.",
+            "Pray for nominal Orthodox believers to encounter genuine, personal faith in Christ."
+        ],
+        "mission_emphasis": "Kyrgyzstan's Muslim majority and nominal Orthodox minority both represent significant need for the clear gospel. Ongoing needs include planting autonomous local churches and training national pastors.",
+        "prayer_source": ""
+    }
 }

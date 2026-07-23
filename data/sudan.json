@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Sudan's Sunni Muslim majority exists alongside a small Christian minority that has faced real persecution, particularly amid the country's ongoing civil conflict. Pray for Sudanese believers to remain faithful and for the gospel to continue advancing despite severe hardship.",
+        "prayer_points": [
+            "Pray for Sudan's small Christian minority, who have faced real persecution, to be protected and strengthened.",
+            "Pray for open doors for the gospel among Sudan's Muslim majority.",
+            "Pray for safety and provision amid Sudan's severe ongoing civil conflict and humanitarian crisis."
+        ],
+        "mission_emphasis": "Sudan's small Christian minority faces real persecution amid one of the world's most severe ongoing humanitarian crises. Ongoing needs include protection and support for Sudanese believers and continued prayer for peace and gospel access.",
+        "prayer_source": ""
+    }
 }

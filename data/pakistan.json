@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Pakistan is overwhelmingly Muslim, and its Christian minority, though small, faces real and sometimes severe persecution, including under the country's blasphemy laws. Pray for protection and boldness for Pakistani believers.",
+        "prayer_points": [
+            "Pray for protection for Pakistani Christians, who face real risk under blasphemy laws and social persecution.",
+            "Pray for open doors for the gospel among Pakistan's Muslim majority.",
+            "Pray for laborers willing to serve among one of the world's largest unreached populations.",
+            "Pray for gospel resources in Urdu and Pakistan's many regional languages."
+        ],
+        "mission_emphasis": "Pakistan's Christian minority faces real and sometimes severe persecution, including under blasphemy laws that have led to imprisonment and violence. Ongoing needs include protection and legal support for persecuted believers and continued gospel witness to the Muslim majority.",
+        "prayer_source": ""
+    }
 }

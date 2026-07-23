@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Ethiopia's ancient Orthodox church exists alongside a large Muslim population and a substantial and growing Protestant/evangelical movement. Pray for Ethiopia's evangelical churches to be strengthened and for the gospel to reach across religious lines.",
+        "prayer_points": [
+            "Pray for Ethiopia's growing Protestant and evangelical churches to be equipped with sound biblical doctrine.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for nominal Orthodox Ethiopians and Muslims alike to encounter genuine, personal faith in Christ.",
+            "Pray for stability amid ongoing ethnic and regional conflict."
+        ],
+        "mission_emphasis": "Ethiopia's growing evangelical movement is real ground to build on, alongside its ancient Orthodox church and large Muslim population. Ongoing needs include training national pastors, strengthening biblical literacy, and reaching Ethiopia's Orthodox and Muslim communities with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

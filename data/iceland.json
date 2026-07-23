@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Iceland's Lutheran state church claims a majority, but active biblical faith is rare, and a notable minority practices revived pagan worship. Pray for genuine gospel conversion to take root in a nation drifting from its Christian heritage.",
+        "prayer_points": [
+            "Pray for Iceland's very small evangelical presence to be strengthened.",
+            "Pray for nominal Lutheran Icelanders to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for those turning to revived pagan worship to instead find truth in the biblical gospel."
+        ],
+        "mission_emphasis": "Iceland's Lutheran state-church majority is largely nominal, and a growing minority has turned to revived pagan religion. Ongoing needs include establishing a stronger evangelical presence and training national pastors in sound biblical doctrine.",
+        "prayer_source": ""
+    }
 }

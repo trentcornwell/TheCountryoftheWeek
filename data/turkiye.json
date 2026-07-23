@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Turkiye is almost entirely Muslim, the historic birthplace of much of the early Christian church, yet the Christian population today is a tiny fraction of one percent. Pray for gospel renewal in a land once central to Christian history.",
+        "prayer_points": [
+            "Pray for Turkiye's very small Christian minority to be strengthened and protected.",
+            "Pray for open doors for the gospel among Turkiye's Muslim majority.",
+            "Pray for laborers willing to serve in a land historically central to Christianity but now almost entirely unreached."
+        ],
+        "mission_emphasis": "Turkiye, home to many sites of the early church including several churches addressed directly in the New Testament, is today almost entirely Muslim with a Christian population under one percent. Ongoing needs include strengthening the tiny existing church and reaching Turkiye's Muslim majority with the gospel.",
+        "prayer_source": ""
+    }
 }

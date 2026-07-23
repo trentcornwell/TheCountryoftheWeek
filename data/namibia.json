@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Namibia has an overwhelming Christian majority, real ground to build on. Pray for existing churches to be marked by sound, Scripture-centered doctrine rather than nominal identity.",
+        "prayer_points": [
+            "Pray for Namibia's Christian churches to be equipped with sound, Scripture-centered teaching.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for genuine gospel conversion rather than nominal Christian identity."
+        ],
+        "mission_emphasis": "Namibia's overwhelming Christian majority is real ground to build on. Ongoing needs include training national pastors in sound biblical doctrine and deepening biblical literacy across existing churches.",
+        "prayer_source": ""
+    }
 }

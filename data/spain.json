@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Spain's Catholic identity has weakened considerably, with over a quarter of the population now atheist, agnostic, or non-believing. Pray for genuine gospel faith to take root as inherited Catholic tradition continues to fade.",
+        "prayer_points": [
+            "Pray for Spain's small evangelical presence to be strengthened and multiplied.",
+            "Pray for nominal Catholics to encounter the actual gospel of salvation by grace through personal faith in Christ.",
+            "Pray for the large secular population to find truth in Scripture rather than continued unbelief."
+        ],
+        "mission_emphasis": "Spain's Catholic majority is nominal and declining, with over a quarter of the population now non-religious. Ongoing needs include planting autonomous local churches, training national pastors, and reaching a population moving away from inherited religious tradition with the actual biblical gospel.",
+        "prayer_source": ""
+    }
 }

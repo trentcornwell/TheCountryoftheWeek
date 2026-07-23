@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Oman is majority Muslim with meaningful Christian and Hindu expatriate populations, most of whom are foreign workers. Pray for gospel witness to reach both Omani nationals and the large foreign community.",
+        "prayer_points": [
+            "Pray for open doors for the gospel among Omani nationals.",
+            "Pray for gospel witness among Oman's Christian and Hindu expatriate populations.",
+            "Pray for laborers willing to serve in the Gulf region."
+        ],
+        "mission_emphasis": "Oman's Muslim majority and significant expatriate population create a genuinely complex field. Ongoing needs include gospel witness among Omani nationals and continued outreach to the large foreign worker community.",
+        "prayer_source": ""
+    }
 }

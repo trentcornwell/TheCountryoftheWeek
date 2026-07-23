@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Micronesia has a substantial Protestant population, including an existing Baptist witness, alongside its Catholic majority. Pray for these evangelical churches to be strengthened across these scattered Pacific islands.",
+        "prayer_points": [
+            "Pray for Micronesia's Protestant and Congregational churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching.",
+            "Pray for Catholics practicing inherited religious tradition to encounter genuine salvation by grace through faith in Christ."
+        ],
+        "mission_emphasis": "Micronesia's substantial Protestant population, including an existing Baptist presence, is real ground to build on. Ongoing needs include strengthening biblical literacy among existing churches and reaching the Catholic population with the clear gospel across scattered island communities.",
+        "prayer_source": ""
+    }
 }

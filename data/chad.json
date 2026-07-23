@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Chad's Muslim majority exists alongside a substantial Protestant population, real ground to build on in one of the world's poorest nations. Pray for existing evangelical churches to be strengthened and for the gospel to reach the Muslim majority.",
+        "prayer_points": [
+            "Pray for Chad's Protestant churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for gospel witness to reach Chad's Muslim majority.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for provision amid deep poverty and regional instability."
+        ],
+        "mission_emphasis": "Chad's substantial Protestant population is real ground to build on despite the country's Muslim majority. Ongoing needs include training national pastors in sound biblical doctrine and reaching Chad's Muslim population with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

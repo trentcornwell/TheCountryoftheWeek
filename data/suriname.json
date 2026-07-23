@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Suriname is remarkably religiously diverse, with substantial Protestant, Hindu, Catholic, and Muslim communities. Pray for the clear gospel to reach across this multiethnic, multireligious nation.",
+        "prayer_points": [
+            "Pray for Suriname's Protestant and Evangelical churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for gospel witness to reach Suriname's Hindu community.",
+            "Pray for gospel witness among Suriname's Muslim community.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "Suriname's remarkable religious diversity, with substantial Protestant, Hindu, Catholic, and Muslim communities side by side, makes it a genuinely complex field. Ongoing needs include training national pastors and reaching Suriname's Hindu and Muslim communities with the clear gospel.",
+        "prayer_source": ""
+    }
 }

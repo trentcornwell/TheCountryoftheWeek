@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Nepal's Hindu majority, alongside meaningful Buddhist and Muslim minorities, remains largely unreached, though the small Christian minority has grown notably in recent decades. Pray for continued gospel growth in this Himalayan nation.",
+        "prayer_points": [
+            "Pray for Nepal's growing Christian community to be strengthened and equipped with sound biblical doctrine.",
+            "Pray for gospel witness to reach Nepal's Hindu majority.",
+            "Pray for laborers to reach Nepal's many unreached ethnic groups and remote mountain communities.",
+            "Pray for pastors to be trained in expository preaching."
+        ],
+        "mission_emphasis": "Nepal's Christian minority, though still small, has grown notably in recent decades, real gospel fruit in a historically Hindu kingdom. Ongoing needs include training national pastors and reaching Nepal's many unreached ethnic groups with the clear gospel.",
+        "prayer_source": ""
+    }
 }

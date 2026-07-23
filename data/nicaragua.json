@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Nicaragua has a substantial evangelical population nearly equal to its Catholic majority. Pray for this movement to be marked by sound biblical doctrine and genuine discipleship.",
+        "prayer_points": [
+            "Pray for the continued strengthening of Bible-believing, autonomous local churches across Nicaragua.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for Nicaraguans practicing nominal Catholicism to hear the clear gospel of salvation by grace through faith alone.",
+            "Pray for political stability amid ongoing government restriction."
+        ],
+        "mission_emphasis": "Nicaragua's substantial evangelical population is real ground to build on, though increasing government restriction on religious activity complicates ministry. Ongoing needs include deepening biblical literacy among existing churches and continued prayer for religious freedom.",
+        "prayer_source": ""
+    }
 }

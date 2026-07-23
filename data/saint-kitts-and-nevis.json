@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Saint Kitts and Nevis, like much of the Eastern Caribbean, has a strong historic Protestant presence. Pray for these churches to be marked by genuine, Scripture-centered discipleship rather than nominal church membership.",
+        "prayer_points": [
+            "Pray for Saint Kitts and Nevis' Protestant and Baptist churches to be strengthened in sound biblical doctrine.",
+            "Pray for pastors to be equipped in expository, Scripture-centered preaching.",
+            "Pray for genuine gospel conversion across a culture where church attendance is common."
+        ],
+        "mission_emphasis": "Saint Kitts and Nevis' historic Protestant presence, consistent with the broader Eastern Caribbean, is real ground to build on. Ongoing needs include deepening biblical literacy and expository preaching among existing churches.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Djibouti is almost entirely Sunni Muslim, and Christian witness remains very limited. Pray for the small Christian minority, mostly foreign-born, and for gospel access among native Djiboutians.",
+        "prayer_points": [
+            "Pray for the very small body of Djiboutian believers to be strengthened and protected.",
+            "Pray for open doors for the gospel among Djibouti's Muslim majority.",
+            "Pray for laborers willing to serve in the Horn of Africa."
+        ],
+        "mission_emphasis": "Djibouti's near-total Muslim population leaves very little existing gospel witness among native Djiboutians. Ongoing needs include discreet support for the small existing Christian community and continued prayer for open doors.",
+        "prayer_source": ""
+    }
 }

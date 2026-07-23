@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Cameroon's population is nearly evenly split between Catholic, Muslim, and Protestant identity. Pray for Cameroon's substantial Protestant churches to be strengthened and for the gospel to reach across these divides.",
+        "prayer_points": [
+            "Pray for Cameroon's Protestant churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for Cameroon's Muslim and Catholic populations to encounter genuine, personal faith in Christ.",
+            "Pray for stability amid regional conflict in the country's Anglophone regions."
+        ],
+        "mission_emphasis": "Cameroon's near-even split between Catholic, Muslim, and Protestant identity makes it a genuinely complex field. Ongoing needs include strengthening the substantial existing Protestant presence, training national pastors, and reaching Cameroon's Muslim and Catholic populations with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

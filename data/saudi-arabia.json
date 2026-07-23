@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Saudi Arabia is officially and almost entirely Muslim, with no legal provision for public non-Muslim worship and conversion from Islam carrying severe risk. Pray for gospel access in one of the most religiously restricted nations in the world.",
+        "prayer_points": [
+            "Pray for any Saudi believers, who must worship in complete secrecy, to be protected and strengthened.",
+            "Pray for open doors for the gospel in a nation where conversion from Islam carries severe risk.",
+            "Pray for gospel witness among Saudi Arabia's large expatriate foreign worker population."
+        ],
+        "mission_emphasis": "Saudi Arabia's strict enforcement of Islamic law and severe risk for converts make it one of the most closed nations in the world to the gospel. Ongoing needs include discreet prayer for any hidden believers and continued intercession for greater openness.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Zimbabwe's largest religious group, the Apostolic Sect, blends Christian identity with traditional African practices distinct from biblical Christianity, alongside substantial Pentecostal, Protestant, and Catholic communities. Pray for genuine, biblically grounded faith to be clearly distinguished from syncretistic movements.",
+        "prayer_points": [
+            "Pray for Zimbabwe's Pentecostal and Protestant churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for those in the Apostolic Sect and other syncretistic movements to encounter the true, unmixed biblical gospel.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for provision and stability amid Zimbabwe's ongoing economic hardship."
+        ],
+        "mission_emphasis": "Zimbabwe's largest religious movement, the Apostolic Sect, blends Christian identity with traditional African practices, leaving significant need for clear biblical teaching. Ongoing needs include training national pastors in sound doctrine and reaching syncretistic movements with the unmixed biblical gospel.",
+        "prayer_source": ""
+    }
 }

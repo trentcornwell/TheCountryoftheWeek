@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Kosovo's Muslim majority is largely a matter of ethnic and cultural identity following decades of communist-era secularization, leaving weak religious institutions of any kind. Pray for the clear gospel to take root in a spiritual landscape with little deep denominational loyalty to overcome.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a country with very little evangelical presence.",
+            "Pray for nominal Muslims and Catholics alike to hear and respond to the biblical gospel of salvation by grace through faith.",
+            "Pray for Kosovar pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "Kosovo's largely nominal, ethnically-defined Muslim majority leaves real opportunity for the clear gospel. Ongoing needs include planting autonomous local churches and training national pastors in sound biblical doctrine.",
+        "prayer_source": ""
+    }
 }

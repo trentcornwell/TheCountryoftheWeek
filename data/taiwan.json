@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Taiwan's Buddhist and Taoist traditions dominate religious life, with a small Christian minority. Pray for the clear gospel to reach a population shaped by these traditions and by folk religious practice.",
+        "prayer_points": [
+            "Pray for Taiwan's small Christian minority to be strengthened and equipped to share the gospel.",
+            "Pray for gospel witness to reach those practicing Buddhism, Taoism, and folk religion.",
+            "Pray for pastors to be trained in expository, Scripture-centered preaching."
+        ],
+        "mission_emphasis": "Taiwan's Buddhist, Taoist, and folk religious majority leaves significant need for the clear gospel despite a longstanding but small Christian minority. Ongoing needs include training national pastors and reaching a population shaped by these traditions.",
+        "prayer_source": ""
+    }
 }

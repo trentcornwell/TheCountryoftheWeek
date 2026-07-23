@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Cambodia is almost entirely Buddhist, a nation still healing from the trauma of the Khmer Rouge genocide a generation ago. Pray for the clear gospel to bring genuine hope and healing where Buddhist tradition offers none.",
+        "prayer_points": [
+            "Pray for Cambodia's small Christian minority to be strengthened and equipped to share the gospel.",
+            "Pray for gospel witness to reach the Buddhist majority.",
+            "Pray for continued healing from the trauma of the Khmer Rouge era.",
+            "Pray for laborers willing to serve among an overwhelmingly unreached population."
+        ],
+        "mission_emphasis": "Cambodia's near-total Buddhist population and history of genocide-era trauma create both a significant need and a genuine opening for the gospel of hope. Ongoing needs include training national pastors, planting local churches, and reaching the Buddhist majority with the clear biblical gospel.",
+        "prayer_source": ""
+    }
 }

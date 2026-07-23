@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Decades of Soviet-era atheism left Belarus with a large non-believing population alongside a nominal Orthodox majority. Pray for the clear gospel to reach a nation where genuine faith of any kind remains rare.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches in a country with very little evangelical presence.",
+            "Pray for nominal Orthodox believers to encounter genuine, personal salvation by grace through faith in Christ.",
+            "Pray for the large non-believing population to find truth in Scripture rather than continued unbelief.",
+            "Pray for gospel access amid political and religious restrictions."
+        ],
+        "mission_emphasis": "Belarus' large non-believing population and nominal Orthodox majority leave significant need for the clear gospel. Ongoing needs include planting autonomous local churches, training national pastors, and reaching both nominal Orthodox believers and the non-religious with sound biblical teaching.",
+        "prayer_source": ""
+    }
 }

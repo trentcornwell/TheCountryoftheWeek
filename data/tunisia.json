@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Tunisia is almost entirely Muslim, and while relatively more open than some of its regional neighbors, Christian conversion still carries real social risk. Pray for the small Tunisian church to remain faithful and for the gospel to continue advancing.",
+        "prayer_points": [
+            "Pray for protection and growth for Tunisia's small body of believers.",
+            "Pray for open doors for the gospel among Tunisia's Muslim majority.",
+            "Pray for laborers willing to serve in North Africa."
+        ],
+        "mission_emphasis": "Tunisia's near-total Muslim population and social risk for converts make it a genuinely difficult field, though relatively more open than some regional neighbors. Ongoing needs include discreet support for existing believers and continued prayer for open doors.",
+        "prayer_source": ""
+    }
 }

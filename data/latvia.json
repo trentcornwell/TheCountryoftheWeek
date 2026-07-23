@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Latvia's religious identity is split across Lutheran, Catholic, and Orthodox traditions, with nearly a quarter claiming no religion — reflecting weak inherited faith of any kind after Soviet-era atheism. Pray for the clear gospel of salvation by grace through faith alone to break through.",
+        "prayer_points": [
+            "Pray for laborers to plant independent, Bible-believing local churches across a country with very little evangelical presence.",
+            "Pray for nominal Lutherans, Catholics, and Orthodox believers alike to encounter genuine, personal faith in Christ.",
+            "Pray for Latvian pastors to be trained in sound, Scripture-centered teaching."
+        ],
+        "mission_emphasis": "Latvia's fragmented, largely nominal religious identity leaves real opportunity for the clear gospel. Ongoing needs include planting autonomous local churches and training national pastors in sound biblical doctrine.",
+        "prayer_source": ""
+    }
 }

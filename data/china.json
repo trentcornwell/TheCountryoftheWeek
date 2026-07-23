@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Over half of China's population claims no religious affiliation, and the government maintains significant restrictions on Christian practice outside state-sanctioned churches. Pray for the substantial unregistered house church movement to remain faithful and for the gospel to continue advancing despite restriction.",
+        "prayer_points": [
+            "Pray for protection and growth for China's house church movement.",
+            "Pray for gospel access despite ongoing government restriction on religious practice.",
+            "Pray for the vast unaffiliated population to encounter the gospel rather than continue in folk religion or unbelief.",
+            "Pray for laborers and gospel resources to reach China's more than 1.4 billion people."
+        ],
+        "mission_emphasis": "China's enormous population, largely unaffiliated with any religion, and significant government restriction on Christian practice make it a genuinely complex field. Ongoing needs include support for the unregistered house church movement, gospel literature in Mandarin and regional languages, and continued prayer for open doors.",
+        "prayer_source": ""
+    }
 }

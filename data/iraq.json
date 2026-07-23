@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Iraq's ancient Christian communities, some of the oldest in the world, have been devastated by decades of war and persecution, while the Muslim majority remains largely unreached. Pray for the surviving Iraqi church and for gospel witness to continue advancing.",
+        "prayer_points": [
+            "Pray for Iraq's ancient Christian communities, significantly diminished by war and persecution, to be strengthened and protected.",
+            "Pray for gospel witness to reach Iraq's Muslim majority.",
+            "Pray for continued stability and safety for religious minorities.",
+            "Pray for laborers to train pastors in expository, Bible-centered preaching."
+        ],
+        "mission_emphasis": "Iraq's historic Christian communities have been devastated by decades of conflict, even as the Muslim majority remains largely unreached with the biblical gospel. Ongoing needs include supporting the surviving Iraqi church and reaching the Muslim majority with clear gospel witness.",
+        "prayer_source": ""
+    }
 }

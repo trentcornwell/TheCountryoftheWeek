@@ -34,5 +34,15 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "South Africa has a large Christian majority across many traditions, real ground to build on, alongside meaningful traditional African religious practice and a Muslim minority. Pray for existing churches to be marked by sound biblical doctrine.",
+        "prayer_points": [
+            "Pray for South Africa's evangelical and Protestant churches to be equipped with sound, Scripture-centered doctrine.",
+            "Pray for pastors to be trained in expository preaching.",
+            "Pray for those practicing traditional African religion to hear and receive the biblical gospel.",
+            "Pray for continued healing across South Africa's racial and economic divides."
+        ],
+        "mission_emphasis": "South Africa's large Christian majority is real ground to build on and a strong potential sending base for missions across the continent. Ongoing needs include training national pastors in sound biblical doctrine and reaching those practicing traditional African religion with the clear gospel.",
+        "prayer_source": ""
+    }
 }

@@ -34,5 +34,14 @@
             "CIA World Factbook data (archived via factbook.json) | https://github.com/factbook/factbook.json"
         ]
     },
-    "prayer_and_mission": {}
+    "prayer_and_mission": {
+        "prayer_intro": "Laos is majority Buddhist under a communist government that restricts religious activity, with a small but present Christian minority. Pray for Laotian believers to remain faithful amid restriction.",
+        "prayer_points": [
+            "Pray for Laos' small Christian minority to be strengthened and protected.",
+            "Pray for gospel witness to reach the Buddhist majority despite government restriction.",
+            "Pray for laborers willing to serve among Laos' many unreached ethnic groups."
+        ],
+        "mission_emphasis": "Laos' Buddhist majority and restrictive communist government make it a genuinely difficult field. Ongoing needs include discreet support for the existing Christian minority and continued prayer for open doors among Laos' many ethnic groups.",
+        "prayer_source": ""
+    }
 }
