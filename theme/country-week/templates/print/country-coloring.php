@@ -35,6 +35,7 @@ $map_markup = Map_Asset::inline_markup_for($country);
         ?>
          — <?php bloginfo('name'); ?>
     </title>
+    <?php // phpcs:ignore WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet -- standalone document with no wp_head()/wp_footer(), so wp_enqueue_style() has nothing to print into; a raw link tag is the correct choice here (same as templates/print/country-print.php). ?>
     <link rel="stylesheet" href="<?php echo esc_url(Asset_Loader::print_stylesheet_url()); ?>">
 </head>
 <body class="print-sheet">
@@ -48,8 +49,10 @@ $map_markup = Map_Asset::inline_markup_for($country);
         <div class="coloring-page__art">
             <?php
             // Trusted, pipeline-generated markup — see
-            // Map_Asset::inline_markup_for()'s docblock.
-            echo $map_markup;
+            // Map_Asset::inline_markup_for()'s docblock. Deliberately not
+            // escaped: it's our own build-pipeline SVG, and escaping would
+            // print the markup as text instead of rendering the map.
+            echo $map_markup; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
             ?>
         </div>
     </main>

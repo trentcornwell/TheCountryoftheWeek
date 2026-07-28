@@ -1,0 +1,55 @@
+name: CI
+
+# Runs the checks docs/DEPLOYMENT.md requires before code is deployable:
+# PHP syntax, WordPress Coding Standards, manifest/schema validation, and
+# the PHPUnit suite. See phpcs.xml.dist for why the WPCS step only covers
+# WordPress-specific correctness/security sniffs rather than the full
+# WordPress-Extra formatting layer, and why it's currently report-only
+# (deploy.yml re-runs this workflow's other steps as its own gate; WPCS
+# is expected to become blocking once the pre-existing findings it
+# surfaced are triaged as a follow-up).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_call: {}
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          tools: composer
+          coverage: none
+
+      - name: Cache Composer dependencies
+        uses: actions/cache@v4
+        with:
+          path: vendor
+          key: composer-${{ hashFiles('composer.lock') }}
+
+      - name: Install Composer dependencies
+        run: composer install --prefer-dist --no-progress --no-interaction
+
+      - name: PHP syntax check
+        run: |
+          find theme/country-week scripts -name '*.php' -print0 \
+            | xargs -0 -n1 -P4 php -l
+
+      - name: Validate country manifest and content files
+        run: php scripts/validate-manifest.php
+
+      - name: PHPUnit
+        run: vendor/bin/phpunit
+
+      - name: WordPress Coding Standards (report-only, see phpcs.xml.dist)
+        continue-on-error: true
+        run: vendor/bin/phpcs --standard=phpcs.xml.dist

@@ -1,0 +1,153 @@
+name: Deploy to DreamHost
+
+# Implements the release procedure in docs/DEPLOYMENT.md: build once from
+# a tagged, CI-verified commit, upload to a new release directory, run
+# smoke checks, then atomically flip the wp-content/themes/country-week
+# symlink to promote it. Requires one-time DreamHost-side setup (SSH
+# deploy user/key, release directory layout, the symlink itself) — see
+# the "One-time DreamHost setup" section of docs/DEPLOYMENT.md. Not
+# invoked by this workflow: none of it runs unless a tag is pushed or
+# someone manually dispatches it, and the `production` GitHub Environment
+# requires manual approval before the ssh/promote job runs — that
+# approval step *is* the "explicit authorization" AGENTS.md requires
+# before deploying.
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      rollback_to:
+        description: 'Existing release folder name to roll back to (e.g. v0.3.0). Leave blank for a normal build-and-deploy of the selected ref/tag.'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && github.event.inputs.rollback_to == '') }}
+    uses: ./.github/workflows/ci.yml
+
+  build:
+    if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && github.event.inputs.rollback_to == '') }}
+    needs: verify
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.value }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Determine version
+        id: version
+        run: echo "value=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+
+      - name: Build release artifact
+        run: bash scripts/build-release.sh "${{ steps.version.outputs.value }}"
+
+      - name: Upload release artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: country-week-${{ steps.version.outputs.value }}
+          path: dist/country-week-${{ steps.version.outputs.value }}
+          retention-days: 90
+
+  promote:
+    needs: [build]
+    if: ${{ needs.build.result == 'success' }}
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      VERSION: ${{ needs.build.outputs.version }}
+    steps:
+      - name: Download release artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: country-week-${{ env.VERSION }}
+          path: release
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DREAMHOST_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          echo "${{ secrets.DREAMHOST_HOST_KEY }}" > ~/.ssh/known_hosts
+
+      - name: Upload release to a new release directory
+        run: |
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key -o UserKnownHostsFile=~/.ssh/known_hosts" \
+            release/ \
+            "${{ secrets.DREAMHOST_USER }}@${{ secrets.DREAMHOST_HOST }}:${{ secrets.DREAMHOST_RELEASES_PATH }}/${VERSION}/"
+
+      - name: Remote smoke checks on the uploaded release
+        run: |
+          ssh -i ~/.ssh/deploy_key -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "${{ secrets.DREAMHOST_USER }}@${{ secrets.DREAMHOST_HOST }}" \
+            "find '${{ secrets.DREAMHOST_RELEASES_PATH }}/${VERSION}' -name '*.php' -print0 | xargs -0 -n1 -P4 php -l && \
+             (command -v wp >/dev/null 2>&1 && wp theme status country-week --path='${{ secrets.DREAMHOST_WP_PATH }}' || echo 'wp-cli not available on host, skipping theme status check')"
+
+      - name: Capture current release for rollback, then promote
+        run: |
+          ssh -i ~/.ssh/deploy_key -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "${{ secrets.DREAMHOST_USER }}@${{ secrets.DREAMHOST_HOST }}" \
+            "readlink '${{ secrets.DREAMHOST_THEME_LINK }}' > /tmp/country-week-previous-release.txt || true; \
+             ln -sfn '${{ secrets.DREAMHOST_RELEASES_PATH }}/${VERSION}' '${{ secrets.DREAMHOST_THEME_LINK }}'"
+
+      - name: HTTP smoke checks against the live site
+        id: http_checks
+        run: |
+          set -e
+          for path in "/" "/countries/kiribati/" "/robots.txt"; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "${{ secrets.SITE_URL }}${path}")
+            echo "GET ${path} -> ${code}"
+            if [[ "$code" != "200" ]]; then
+              echo "Smoke check failed for ${path}"
+              exit 1
+            fi
+          done
+
+      - name: Auto-rollback on failed smoke checks
+        if: failure() && steps.http_checks.outcome == 'failure'
+        run: |
+          ssh -i ~/.ssh/deploy_key -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "${{ secrets.DREAMHOST_USER }}@${{ secrets.DREAMHOST_HOST }}" \
+            "prev=\$(cat /tmp/country-week-previous-release.txt 2>/dev/null || true); \
+             if [ -n \"\$prev\" ]; then ln -sfn \"\$prev\" '${{ secrets.DREAMHOST_THEME_LINK }}'; echo \"Rolled back to \$prev\"; \
+             else echo 'No previous release captured; symlink left pointing at the failed release for manual investigation.'; fi"
+
+  rollback:
+    if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.rollback_to != '' }}
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      ROLLBACK_TO: ${{ github.event.inputs.rollback_to }}
+    steps:
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DREAMHOST_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          echo "${{ secrets.DREAMHOST_HOST_KEY }}" > ~/.ssh/known_hosts
+
+      - name: Point the symlink at the requested release
+        run: |
+          ssh -i ~/.ssh/deploy_key -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "${{ secrets.DREAMHOST_USER }}@${{ secrets.DREAMHOST_HOST }}" \
+            "test -d '${{ secrets.DREAMHOST_RELEASES_PATH }}/${ROLLBACK_TO}' && \
+             ln -sfn '${{ secrets.DREAMHOST_RELEASES_PATH }}/${ROLLBACK_TO}' '${{ secrets.DREAMHOST_THEME_LINK }}'"
+
+      - name: HTTP smoke checks against the live site
+        run: |
+          set -e
+          for path in "/" "/countries/kiribati/" "/robots.txt"; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "${{ secrets.SITE_URL }}${path}")
+            echo "GET ${path} -> ${code}"
+            if [[ "$code" != "200" ]]; then
+              echo "Smoke check failed for ${path} after rollback to ${ROLLBACK_TO}"
+              exit 1
+            fi
+          done

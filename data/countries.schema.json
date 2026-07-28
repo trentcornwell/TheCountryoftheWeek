@@ -1,9 +1,10 @@
 {
     "$comment": "Documents the shape of data/country-index.json and per-country content files like data/kiribati.json. Not machine-enforced — scripts/import-countries.php reads these files directly — but kept here as the single reference for anyone adding new country content files.",
     "country_index_entry": {
+        "key": "string — stable, immutable identifier (lowercase, digits, hyphens only). Rotation order and post lookup are keyed off this, never off name or title — see docs/decisions/0001-deterministic-weekly-schedule.md.",
         "name": "string — official CIA World Factbook name, using Factbook's own alphabetization convention (e.g. 'Bahamas, The', 'Korea, North'). This becomes the WordPress post_title verbatim.",
-        "continent": "string — one of: Africa, Asia, Europe, North America, South America, Oceania.",
-        "region": "string — a Factbook-style sub-region, e.g. 'Southeast Asia', 'Caribbean'."
+        "continent": "string — one of the UN M49 Regions: Africa, Americas, Asia, Europe, Oceania. Sourced from the UN M49 standard, not the Factbook — see docs/decisions/0003-multi-source-country-data-model.md.",
+        "region": "string — a UN M49 Sub-region or Intermediate Region, e.g. 'South-eastern Asia', 'Caribbean'."
     },
     "country_content_file": {
         "name": "string — must exactly match a 'name' in country-index.json.",

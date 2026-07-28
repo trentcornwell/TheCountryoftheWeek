@@ -29,6 +29,7 @@ $qr_data_uri = Pdf_Service::qr_code_data_uri($country);
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <title><?php echo esc_html(get_the_title($country)); ?> — <?php bloginfo('name'); ?></title>
+    <?php // phpcs:ignore WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet -- standalone document with no wp_head()/wp_footer(), so wp_enqueue_style() has nothing to print into; a raw link tag is the correct choice here. ?>
     <link rel="stylesheet" href="<?php echo esc_url(Asset_Loader::print_stylesheet_url()); ?>">
 </head>
 <body class="print-sheet">

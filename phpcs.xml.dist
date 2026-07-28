@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<ruleset name="CountryWeek">
+    <description>
+        WordPress-specific correctness/security checks for the theme and
+        release/import scripts. Deliberately does NOT extend the full
+        WordPress-Extra/WordPress-Core ruleset: this codebase has
+        consistently used PSR-12-style formatting (4-space indent, short
+        array syntax, braces on their own line) in every file since before
+        this ruleset existed — see e.g.
+        includes/services/class-rotation-service.php. WordPress-Core bakes
+        in the older tabs/Kernighan-Ritchie-brace/long-array formatting
+        convention, which would conflict wholesale rather than catch
+        anything real. This file
+        cherry-picks the WordPress sniff categories that check actual
+        correctness and safety (escaping, nonces, $wpdb->prepare, i18n
+        domain, discouraged/deprecated APIs) and skips the purely
+        stylistic Arrays/WhiteSpace ones. Reformat the theme deliberately,
+        as its own reviewed change, if the formatting convention itself is
+        ever revisited.
+    </description>
+
+    <file>theme/country-week</file>
+    <file>scripts</file>
+
+    <arg name="basepath" value="."/>
+    <arg name="colors"/>
+    <arg name="extensions" value="php"/>
+    <arg value="sp"/>
+
+    <exclude-pattern>*/assets/*</exclude-pattern>
+    <exclude-pattern>*/includes/vendor/*</exclude-pattern>
+    <!--
+         Unlike import-countries.php/import-media.php (which run via
+         `wp eval-file`, inside a real WordPress bootstrap, where the
+         WordPress-specific sniffs above are meaningful), validate-manifest.php
+         is deliberately a standalone script with no WP bootstrap at all
+         (see its own docblock) — run as plain `php scripts/validate-manifest.php`.
+         WordPress.WP.GlobalVariablesOverride, WordPress.Security.EscapeOutput,
+         etc. don't apply to a script that never loads WordPress.
+    -->
+    <exclude-pattern>*/scripts/validate-manifest.php</exclude-pattern>
+
+    <rule ref="WordPress.Security"/>
+    <rule ref="WordPress.DB"/>
+    <rule ref="WordPress.DateTime"/>
+    <rule ref="WordPress.CodeAnalysis"/>
+
+    <rule ref="WordPress.WP.AlternativeFunctions"/>
+    <rule ref="WordPress.WP.DiscouragedFunctions"/>
+    <rule ref="WordPress.WP.DiscouragedConstants"/>
+    <rule ref="WordPress.WP.DeprecatedClasses"/>
+    <rule ref="WordPress.WP.DeprecatedFunctions"/>
+    <rule ref="WordPress.WP.DeprecatedParameters"/>
+    <rule ref="WordPress.WP.DeprecatedParameterValues"/>
+    <rule ref="WordPress.WP.GlobalVariablesOverride"/>
+    <rule ref="WordPress.WP.CapitalPDangit"/>
+    <rule ref="WordPress.WP.CronInterval"/>
+    <rule ref="WordPress.WP.PostsPerPage"/>
+    <rule ref="WordPress.WP.EnqueuedResources"/>
+    <rule ref="WordPress.WP.EnqueuedResourceParameters"/>
+    <rule ref="WordPress.WP.GetMetaSingle"/>
+    <rule ref="WordPress.WP.I18n">
+        <properties>
+            <property name="text_domain" type="array">
+                <element value="country-week"/>
+            </property>
+        </properties>
+    </rule>
+
+    <rule ref="WordPress.PHP.DevelopmentFunctions"/>
+    <rule ref="WordPress.PHP.DiscouragedPHPFunctions"/>
+    <rule ref="WordPress.PHP.DontExtract"/>
+    <rule ref="WordPress.PHP.IniSet"/>
+    <rule ref="WordPress.PHP.NoSilencedErrors"/>
+    <!-- WordPress.PHP.POSIXFunctions is deprecated as of WPCS 3.3 in favor of the PHPCompatibility standard, which isn't part of this ruleset. -->
+    <rule ref="WordPress.PHP.PregQuoteDelimiter"/>
+    <rule ref="WordPress.PHP.RestrictedPHPFunctions"/>
+    <rule ref="WordPress.PHP.StrictInArray"/>
+    <!--
+         Yoda conditions (`if ( true === $foo )`) are a legacy WP-core
+         convention this codebase has never used — every comparison so far
+         reads left-to-right (`if (!$country instanceof WP_Post)`). The
+         accidental-assignment risk it guards against isn't a live concern
+         given consistent use of strict comparison operators throughout.
+    -->
+
+    <rule ref="WordPress.NamingConventions.ValidHookName"/>
+    <rule ref="WordPress.NamingConventions.ValidPostTypeSlug"/>
+</ruleset>
