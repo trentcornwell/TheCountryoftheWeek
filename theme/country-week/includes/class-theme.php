@@ -16,6 +16,9 @@ use CountryWeek\CPT\Country_Meta_Fields;
 use CountryWeek\CPT\Country_Post_Type;
 use CountryWeek\CPT\Country_Taxonomies;
 use CountryWeek\CPT\Edit_Suggestion_Post_Type;
+use CountryWeek\CPT\Mrw_Issue_Post_Type;
+use CountryWeek\CPT\Mrw_Meta_Fields;
+use CountryWeek\CPT\Mrw_Taxonomies;
 use CountryWeek\CPT\Prayer_Partner_Post_Type;
 use CountryWeek\Forms\Adoption_Form;
 use CountryWeek\Forms\Email_Preferences_Form;
@@ -75,6 +78,7 @@ class Theme
         require_once $includes . '/services/class-subscriber-notification-schedule.php';
         require_once $includes . '/services/class-weekly-preview-email.php';
         require_once $includes . '/services/class-subscriber-notifier.php';
+        require_once $includes . '/services/class-mrw-repository.php';
 
         require_once $includes . '/cpt/class-country-post-type.php';
         require_once $includes . '/cpt/class-country-taxonomies.php';
@@ -82,6 +86,9 @@ class Theme
         require_once $includes . '/cpt/class-edit-suggestion-post-type.php';
         require_once $includes . '/cpt/class-prayer-partner-post-type.php';
         require_once $includes . '/cpt/class-country-adoption-post-type.php';
+        require_once $includes . '/cpt/class-mrw-issue-post-type.php';
+        require_once $includes . '/cpt/class-mrw-taxonomies.php';
+        require_once $includes . '/cpt/class-mrw-meta-fields.php';
 
         require_once $includes . '/forms/class-suggest-edit-form.php';
         require_once $includes . '/forms/class-prayer-partner-form.php';
@@ -119,6 +126,9 @@ class Theme
             new Registration_Form(),
             new Country_Adoption_Post_Type(),
             new Adoption_Form(),
+            new Mrw_Issue_Post_Type(),
+            new Mrw_Taxonomies(),
+            new Mrw_Meta_Fields(),
             new Subscriber_Meta_Fields(),
             new Email_Preferences_Form(),
             new Weekly_Email_Hooks(),
@@ -182,6 +192,7 @@ class Theme
             ['label' => __('Home', 'country-week'), 'url' => home_url('/')],
             ['label' => __('About', 'country-week'), 'url' => home_url('/about/')],
             ['label' => __('Countries', 'country-week'), 'url' => get_post_type_archive_link('country')],
+            ['label' => __('Missionary Review Archive', 'country-week'), 'url' => get_post_type_archive_link('mrw_issue')],
             ['label' => __('Schedule', 'country-week'), 'url' => home_url('/schedule/')],
             ['label' => __('Join Us in Prayer', 'country-week'), 'url' => home_url('/join-us-in-prayer/')],
         ];
