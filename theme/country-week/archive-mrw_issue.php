@@ -50,9 +50,9 @@ $year_to_value = isset($request['mrw_year_to']) ? absint($request['mrw_year_to']
             <label for="mrw-country"><?php esc_html_e('Country mentioned', 'country-week'); ?></label>
             <select id="mrw-country" name="mrw_country">
                 <option value=""><?php esc_html_e('Any country', 'country-week'); ?></option>
-                <?php foreach ($country_options as $term) : ?>
-                    <option value="<?php echo esc_attr($term->slug); ?>" <?php selected($selected_country, $term->slug); ?>>
-                        <?php echo esc_html($term->name); ?>
+                <?php foreach ($country_options as $country_term) : ?>
+                    <option value="<?php echo esc_attr($country_term->slug); ?>" <?php selected($selected_country, $country_term->slug); ?>>
+                        <?php echo esc_html($country_term->name); ?>
                     </option>
                 <?php endforeach; ?>
             </select>
@@ -62,8 +62,8 @@ $year_to_value = isset($request['mrw_year_to']) ? absint($request['mrw_year_to']
             <label for="mrw-person"><?php esc_html_e('Person mentioned', 'country-week'); ?></label>
             <input type="text" id="mrw-person" name="mrw_person" list="mrw-person-options" value="<?php echo esc_attr($selected_person); ?>" placeholder="<?php esc_attr_e('Start typing a name&hellip;', 'country-week'); ?>">
             <datalist id="mrw-person-options">
-                <?php foreach ($person_options as $term) : ?>
-                    <option value="<?php echo esc_attr($term->name); ?>"></option>
+                <?php foreach ($person_options as $person_term) : ?>
+                    <option value="<?php echo esc_attr($person_term->name); ?>"></option>
                 <?php endforeach; ?>
             </datalist>
         </p>

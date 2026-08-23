@@ -45,16 +45,16 @@ $persons = is_wp_error($persons) || !$persons ? [] : $persons;
 
         <?php if (!empty($countries)) : ?>
             <span class="mrw-issue-card__chips">
-                <?php foreach (array_slice($countries, 0, 6) as $term) : ?>
-                    <span class="mrw-chip mrw-chip--country"><?php echo esc_html($term->name); ?></span>
+                <?php foreach (array_slice($countries, 0, 6) as $country_term) : ?>
+                    <span class="mrw-chip mrw-chip--country"><?php echo esc_html($country_term->name); ?></span>
                 <?php endforeach; ?>
             </span>
         <?php endif; ?>
 
         <?php if (!empty($persons)) : ?>
             <span class="mrw-issue-card__chips">
-                <?php foreach (array_slice($persons, 0, 4) as $term) : ?>
-                    <span class="mrw-chip mrw-chip--person"><?php echo esc_html($term->name); ?></span>
+                <?php foreach (array_slice($persons, 0, 4) as $person_term) : ?>
+                    <span class="mrw-chip mrw-chip--person"><?php echo esc_html($person_term->name); ?></span>
                 <?php endforeach; ?>
             </span>
         <?php endif; ?>

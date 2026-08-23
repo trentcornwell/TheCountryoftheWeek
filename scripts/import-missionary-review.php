@@ -69,12 +69,12 @@ foreach ($files as $file) {
         continue;
     }
 
-    $title = mrw_issue_title($record);
+    $issue_title = mrw_issue_title($record);
     $post_date = mrw_issue_date($record);
     $existing = find_mrw_post_by_key($record['key']);
 
     if (!$write) {
-        WP_CLI::log(sprintf('%s  %-16s %s', $existing ? 'update' : 'create', $record['key'], $title));
+        WP_CLI::log(sprintf('%s  %-16s %s', $existing ? 'update' : 'create', $record['key'], $issue_title));
 
         $existing ? $updated++ : $created++;
 
@@ -82,27 +82,27 @@ foreach ($files as $file) {
     }
 
     if ($existing) {
-        $post_id = $existing->ID;
+        $issue_post_id = $existing->ID;
         wp_update_post([
-            'ID' => $post_id,
-            'post_title' => $title,
+            'ID' => $issue_post_id,
+            'post_title' => $issue_title,
             'post_excerpt' => $record['excerpt'] ?? '',
             'post_date' => $post_date,
             'post_date_gmt' => get_gmt_from_date($post_date),
         ]);
         $updated++;
     } else {
-        $post_id = wp_insert_post([
+        $issue_post_id = wp_insert_post([
             'post_type' => 'mrw_issue',
-            'post_title' => $title,
+            'post_title' => $issue_title,
             'post_excerpt' => $record['excerpt'] ?? '',
             'post_status' => 'publish',
             'post_date' => $post_date,
             'post_date_gmt' => get_gmt_from_date($post_date),
         ], true);
 
-        if (is_wp_error($post_id)) {
-            WP_CLI::warning(sprintf('Failed to create "%s": %s', $title, $post_id->get_error_message()));
+        if (is_wp_error($issue_post_id)) {
+            WP_CLI::warning(sprintf('Failed to create "%s": %s', $issue_title, $issue_post_id->get_error_message()));
             $skipped++;
 
             continue;
@@ -111,10 +111,10 @@ foreach ($files as $file) {
         $created++;
     }
 
-    update_post_meta($post_id, 'mrw_issue_key', $record['key']);
-    update_post_meta($post_id, 'source_pdf_url', $record['source_pdf_url'] ?? '');
-    update_post_meta($post_id, 'volume_label', $record['volume_label'] ?? '');
-    update_post_meta($post_id, 'issue_kind', $record['kind']);
+    update_post_meta($issue_post_id, 'mrw_issue_key', $record['key']);
+    update_post_meta($issue_post_id, 'source_pdf_url', $record['source_pdf_url'] ?? '');
+    update_post_meta($issue_post_id, 'volume_label', $record['volume_label'] ?? '');
+    update_post_meta($issue_post_id, 'issue_kind', $record['kind']);
 
     $term_ids = [];
 
@@ -134,8 +134,8 @@ foreach ($files as $file) {
         }
     }
 
-    wp_set_object_terms($post_id, $term_ids, 'mrw_country', false);
-    wp_set_object_terms($post_id, is_array($record['persons'] ?? null) ? $record['persons'] : [], 'mrw_person', false);
+    wp_set_object_terms($issue_post_id, $term_ids, 'mrw_country', false);
+    wp_set_object_terms($issue_post_id, is_array($record['persons'] ?? null) ? $record['persons'] : [], 'mrw_person', false);
 }
 
 WP_CLI::success(sprintf(
@@ -153,7 +153,7 @@ function mrw_issue_title(array $record): string
         return sprintf('The Missionary Review of the World — %d Index', (int) $record['year']);
     }
 
-    $month_name = $record['month'] ? date('F', mktime(0, 0, 0, (int) $record['month'], 1)) : '';
+    $month_name = $record['month'] ? gmdate('F', mktime(0, 0, 0, (int) $record['month'], 1)) : '';
 
     return trim(sprintf('The Missionary Review of the World — %s %d', $month_name, (int) $record['year']));
 }

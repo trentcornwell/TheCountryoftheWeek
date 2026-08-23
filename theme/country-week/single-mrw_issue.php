@@ -61,8 +61,8 @@ while (have_posts()) :
                 <section class="mrw-issue__tags">
                     <h2><?php esc_html_e('Countries mentioned', 'country-week'); ?></h2>
                     <p class="mrw-issue-card__chips">
-                        <?php foreach ($countries as $term) : ?>
-                            <a href="<?php echo esc_url(get_term_link($term)); ?>" class="mrw-chip mrw-chip--country"><?php echo esc_html($term->name); ?></a>
+                        <?php foreach ($countries as $country_term) : ?>
+                            <a href="<?php echo esc_url(get_term_link($country_term)); ?>" class="mrw-chip mrw-chip--country"><?php echo esc_html($country_term->name); ?></a>
                         <?php endforeach; ?>
                     </p>
                 </section>
@@ -72,8 +72,8 @@ while (have_posts()) :
                 <section class="mrw-issue__tags">
                     <h2><?php esc_html_e('People mentioned', 'country-week'); ?></h2>
                     <p class="mrw-issue-card__chips">
-                        <?php foreach ($persons as $term) : ?>
-                            <a href="<?php echo esc_url(get_term_link($term)); ?>" class="mrw-chip mrw-chip--person"><?php echo esc_html($term->name); ?></a>
+                        <?php foreach ($persons as $person_term) : ?>
+                            <a href="<?php echo esc_url(get_term_link($person_term)); ?>" class="mrw-chip mrw-chip--person"><?php echo esc_html($person_term->name); ?></a>
                         <?php endforeach; ?>
                     </p>
                 </section>

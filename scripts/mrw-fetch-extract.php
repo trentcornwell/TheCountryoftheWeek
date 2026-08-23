@@ -167,7 +167,7 @@ foreach ($entries as $entry) {
 
 file_put_contents(
     $reports_dir . '/mrw-ingest-progress.json',
-    json_encode(['generated_at' => date('c'), 'selected' => count($entries), 'stats' => $stats], JSON_PRETTY_PRINT) . "\n"
+    json_encode(['generated_at' => gmdate('c'), 'selected' => count($entries), 'stats' => $stats], JSON_PRETTY_PRINT) . "\n"
 );
 
 fwrite(STDOUT, "\nDone. " . json_encode($stats) . "\n");
