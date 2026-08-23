@@ -61,6 +61,8 @@ runtime_top_level_files=(
     search.php
     searchform.php
     single-country.php
+    archive-mrw_issue.php
+    single-mrw_issue.php
     style.css
 )
 runtime_dirs=(
