@@ -217,18 +217,59 @@ function build_post_content(array $record): string
             $html[] = sprintf('<h2 id="%s">%s</h2>', esc_attr(article_anchor_id($index)), esc_html($title));
         }
 
-        foreach (preg_split('/\n{2,}/', trim($text)) as $paragraph) {
-            $paragraph = trim($paragraph);
-
-            if ($paragraph === '') {
-                continue;
-            }
-
+        foreach (consolidate_paragraphs(preg_split('/\n{2,}/', trim($text))) as $paragraph) {
             $html[] = '<p>' . esc_html($paragraph) . '</p>';
         }
     }
 
     return implode("\n", $html);
+}
+
+/**
+ * Narrow-column/centered typesetting (mastheads, editor bylines, lists
+ * of section titles) leaves a blank line after nearly every physical
+ * line, and splitting on blank lines alone (the naive approach) turns
+ * each of those lines into its own one-line paragraph — one real
+ * issue produced 845 separate <p> tags this way, most of them single
+ * lines, alongside genuinely long flowing paragraphs. That reads as
+ * choppy and inconsistent rather than "sentences fitting the screen."
+ *
+ * This merges consecutive fragments (joined by a single space, so
+ * they reflow normally) until one ends in real sentence-terminal
+ * punctuation, then commits that as one paragraph — a heading or list
+ * line ending in a period still stands alone (reasonably, since it
+ * usually is one complete thought), but a body paragraph broken across
+ * several blank-line-separated physical lines is correctly
+ * reassembled into one flowing paragraph instead of several stubs.
+ *
+ * @param string[] $chunks
+ * @return string[]
+ */
+function consolidate_paragraphs(array $chunks): array
+{
+    $paragraphs = [];
+    $buffer = '';
+
+    foreach ($chunks as $chunk) {
+        $chunk = trim((string) preg_replace('/\s+/', ' ', $chunk));
+
+        if ($chunk === '') {
+            continue;
+        }
+
+        $buffer = $buffer === '' ? $chunk : $buffer . ' ' . $chunk;
+
+        if (preg_match('/[.!?"\']$/', $buffer) === 1) {
+            $paragraphs[] = $buffer;
+            $buffer = '';
+        }
+    }
+
+    if ($buffer !== '') {
+        $paragraphs[] = $buffer;
+    }
+
+    return $paragraphs;
 }
 
 /**
