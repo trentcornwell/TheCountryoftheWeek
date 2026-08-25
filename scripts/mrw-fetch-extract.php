@@ -342,7 +342,10 @@ function detect_countries(string $text, array $name_to_key): array
  * Mr. followed by 1-4 capitalized tokens). Explicitly best-effort
  * OCR-era name extraction, not verified identification — kept as the
  * full "Rev. J. M. Sherwood" style match (honorific included) since
- * that is what makes an entry citable back to the source text.
+ * that is what makes an entry citable back to the source text. The
+ * one exception is "Bishop" (explicit site-owner request): it's still
+ * used to trigger detection, but stripped from the stored name, e.g.
+ * "Bishop William Taylor" -> "William Taylor".
  *
  * The honorific alternation is case-insensitive (scoped with `(?i:`,
  * not a blanket `/i` flag) because period magazine text is frequently
@@ -354,7 +357,7 @@ function detect_countries(string $text, array $name_to_key): array
  */
 function detect_persons(string $text): array
 {
-    $pattern = '/\b(?i:Rev|Miss|Mrs|Dr|Bishop|Mr)\b[\s.,]{0,4}((?:[A-Z][A-Za-z.\'-]{0,20}\s*){1,4})/u';
+    $pattern = '/\b(?i:(Rev|Miss|Mrs|Dr|Bishop|Mr))\b[\s.,]{0,4}((?:[A-Z][A-Za-z.\'-]{0,20}\s*){1,4})/u';
 
     if (preg_match_all($pattern, $text, $matches) === false) {
         return [];
@@ -362,7 +365,9 @@ function detect_persons(string $text): array
 
     $names = [];
 
-    foreach ($matches[0] as $full) {
+    foreach ($matches[0] as $index => $full) {
+        $is_bishop = strtolower($matches[1][$index]) === 'bishop';
+        $full = $is_bishop ? $matches[2][$index] : $full;
         $clean = preg_replace('/\s+/', ' ', trim($full));
         $clean = rtrim((string) $clean, ",.;:");
         // A trailing "'s" possessive (e.g. "Dr. Judson's") is the same
@@ -370,7 +375,22 @@ function detect_persons(string $text): array
         // so the two collapse into one tag instead of two near-duplicates.
         $clean = preg_replace("/'s$/i", '', $clean);
 
-        if ($clean === null || mb_strlen($clean) < 6 || mb_strlen($clean) > 60) {
+        // Case-insensitive matching can trigger on "bishop" used as an
+        // ordinary noun (e.g. "the new bishop, Bishop Tozer") rather
+        // than the real title, letting the actual capitalized "Bishop
+        // <Name>" get swept into the captured name group instead of
+        // being stripped above. Catch that residue here regardless of
+        // which word technically triggered the match. Surname usages
+        // (e.g. "Mrs. Isabella Bird Bishop") are unaffected since
+        // "Bishop" is the LAST word there, not the first.
+        if (str_starts_with((string) $clean, 'Bishop ')) {
+            $clean = substr((string) $clean, 7);
+        }
+
+        // Lowered from 6: stripping "Bishop " can leave a bare 5-letter
+        // surname (e.g. "Tozer") that's a perfectly real, short name,
+        // not noise to discard.
+        if ($clean === null || mb_strlen($clean) < 4 || mb_strlen($clean) > 60) {
             continue;
         }
 
