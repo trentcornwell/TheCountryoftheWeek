@@ -457,6 +457,12 @@ function split_into_articles(string $text): array
 
     $runs = [];
     $prev_key = null;
+    // Body pages seen before any page yielded a real (>=4 char) title —
+    // typically the masthead/cover page, whose own "header" is often
+    // just a fragment like "THE". Buffered here rather than locked in
+    // as a bogus first article; once a real title is found, these
+    // pages are prepended to that first genuine article instead.
+    $pending_pages = [];
 
     foreach ($pages as $page) {
         $lines = preg_split('/\r\n|\r|\n/', $page);
@@ -476,6 +482,12 @@ function split_into_articles(string $text): array
         $body = trim(implode("\n", $body_lines));
         $key = mb_strlen($title) >= 4 ? header_comparison_key($title) : null;
 
+        if ($runs === [] && $key === null) {
+            $pending_pages[] = $body;
+
+            continue;
+        }
+
         $similarity = 0;
 
         if ($key !== null && $prev_key !== null) {
@@ -485,7 +497,9 @@ function split_into_articles(string $text): array
         $starts_new_article = $key !== null && ($prev_key === null || $similarity < 55);
 
         if ($starts_new_article) {
-            $runs[] = ['title' => $title, 'pages' => [$body]];
+            $pages_for_run = $pending_pages === [] ? [$body] : [...$pending_pages, $body];
+            $pending_pages = [];
+            $runs[] = ['title' => $title, 'pages' => $pages_for_run];
             $prev_key = $key;
         } else {
             if ($runs === []) {
@@ -498,6 +512,13 @@ function split_into_articles(string $text): array
                 $prev_key = $key;
             }
         }
+    }
+
+    // The whole issue's page headers were all too short/junk to ever
+    // yield a real title — fall back to one untitled article rather
+    // than silently dropping every page's text.
+    if ($runs === [] && $pending_pages !== []) {
+        $runs[] = ['title' => 'Untitled', 'pages' => $pending_pages];
     }
 
     $articles = [];
@@ -525,11 +546,21 @@ function split_into_articles(string $text): array
  */
 function normalize_header_title(string $line): string
 {
-    $furniture = '[\[{]?(?:\d{1,4}|[A-Za-z]{2,12})\.?[\]}]?';
+    // The closing bracket is often OCR'd as one or two stray
+    // punctuation marks or dropped entirely (e.g. "[JUNE,", "[JAN.,",
+    // or just "[JUNE"), so a short run of trailing punctuation is
+    // accepted here rather than only a clean "]"/"}" — otherwise the
+    // trailing "$"-anchored match below fails outright and leaves the
+    // whole dangling fragment in the title.
+    $furniture = '[\[{(]?(?:\d{1,4}|[A-Za-z]{2,12})[.,]{0,3}[\]})]?';
     $line = preg_replace('/^' . $furniture . '\s+/', '', $line, 1);
     $line = preg_replace('/\s+' . $furniture . '$/', '', (string) $line, 1);
+    // Column-justified typesetting leaves long runs of internal spaces
+    // (e.g. "TITLE.                                [JUNE"); collapse
+    // to single spaces for a readable table of contents.
+    $line = preg_replace('/\s+/', ' ', (string) $line);
 
-    return trim((string) $line, " \t.,;:[]{}");
+    return trim((string) $line, " \t.,;:[]{}()");
 }
 
 /**
