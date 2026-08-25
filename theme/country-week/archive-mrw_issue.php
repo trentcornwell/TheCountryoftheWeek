@@ -24,7 +24,7 @@ $person_options = Mrw_Repository::person_options();
 
 $selected_country = isset($request['mrw_country']) ? sanitize_title($request['mrw_country']) : '';
 $selected_person = isset($request['mrw_person']) ? sanitize_text_field($request['mrw_person']) : '';
-$search_value = isset($request['s']) ? sanitize_text_field($request['s']) : '';
+$search_value = isset($request['mrw_search']) ? sanitize_text_field($request['mrw_search']) : '';
 $year_from_value = isset($request['mrw_year_from']) ? absint($request['mrw_year_from']) : '';
 $year_to_value = isset($request['mrw_year_to']) ? absint($request['mrw_year_to']) : '';
 ?>
@@ -43,7 +43,7 @@ $year_to_value = isset($request['mrw_year_to']) ? absint($request['mrw_year_to']
     <form method="get" class="mrw-filters" action="<?php echo esc_url(get_post_type_archive_link('mrw_issue')); ?>">
         <p>
             <label for="mrw-search"><?php esc_html_e('Search text', 'country-week'); ?></label>
-            <input type="search" id="mrw-search" name="s" value="<?php echo esc_attr($search_value); ?>" placeholder="<?php esc_attr_e('Keyword&hellip;', 'country-week'); ?>">
+            <input type="search" id="mrw-search" name="mrw_search" value="<?php echo esc_attr($search_value); ?>" placeholder="<?php esc_attr_e('Keyword&hellip;', 'country-week'); ?>">
         </p>
 
         <p>

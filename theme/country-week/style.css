@@ -1326,4 +1326,35 @@ button {
 .mrw-issue__excerpt { max-width: 72ch; }
 .mrw-issue__tags { margin: 22px 0; }
 .mrw-issue__tags h2 { font-size: 1rem; margin-bottom: 8px; }
+
+.mrw-toc {
+    margin: 22px 0;
+    padding: 16px 20px;
+    background: var(--cw-color-bg-alt);
+    border-radius: var(--cw-radius);
+}
+
+.mrw-toc h2 { font-size: 1rem; margin: 0 0 10px; }
+.mrw-toc ol { margin: 0; padding-left: 1.3em; }
+.mrw-toc li { margin-bottom: 4px; }
+.mrw-toc a { color: var(--cw-color-accent); text-decoration: none; }
+.mrw-toc a:hover { text-decoration: underline; }
+
+.mrw-issue__content {
+    max-width: 72ch;
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid var(--cw-color-border);
+}
+
+.mrw-issue__content h2 {
+    font-family: var(--cw-font-heading);
+    font-size: 1.3rem;
+    margin: 2em 0 0.6em;
+    scroll-margin-top: 20px;
+}
+
+.mrw-issue__content h2:first-child { margin-top: 0; }
+.mrw-issue__content p { margin: 0 0 1em; }
+
 .page-content p:last-child { margin-bottom: 0; }

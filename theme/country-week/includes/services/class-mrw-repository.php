@@ -44,7 +44,17 @@ class Mrw_Repository
             'ignore_sticky_posts' => true,
         ];
 
-        $search = isset($get['s']) ? sanitize_text_field(wp_unslash($get['s'])) : '';
+        // Deliberately NOT WordPress's reserved `s` query var: any `?s=`
+        // anywhere on this site makes `is_search()` true, and WordPress's
+        // template hierarchy always loads the generic search.php for
+        // that regardless of post_type — silently bypassing this
+        // archive's own template and Rewrite_Hooks::restrict_search_to_countries()'s
+        // country-only default (caught by hand: the archive's own
+        // search box was returning country search results instead of
+        // missionary-review results). `mrw_search` avoids the whole
+        // collision while still using WP_Query's native `s` search
+        // internally.
+        $search = isset($get['mrw_search']) ? sanitize_text_field(wp_unslash($get['mrw_search'])) : '';
 
         if ($search !== '') {
             $args['s'] = $search;

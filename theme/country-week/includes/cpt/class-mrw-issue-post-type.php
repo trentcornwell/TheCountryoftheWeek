@@ -15,10 +15,12 @@ if (!defined('ABSPATH')) {
  * One `mrw_issue` post per scanned issue (or yearly index) of The
  * Missionary Review of the World, 1888-1939, sourced from cafis.org's
  * public archive (see docs/decisions/0004-missionary-review-archive-ingestion.md
- * and scripts/mrw-fetch-extract.php). The post_content editor is
- * intentionally unused, same reasoning as `country`: the PDF itself is
- * never rehosted (see `source_pdf_url` in Mrw_Meta_Fields), and the
- * excerpt plus Mrw_Taxonomies terms are all a template needs to render.
+ * and scripts/mrw-fetch-extract.php). post_content holds the full,
+ * automatically cleaned OCR text, split into per-article <h2> sections
+ * (docs/decisions/0005-mrw-full-text-articles.md) — the original PDF
+ * is still never rehosted (see `source_pdf_url` in Mrw_Meta_Fields),
+ * but the readable text itself now lives on this site, not just a link
+ * out to cafis.org.
  */
 class Mrw_Issue_Post_Type
 {
@@ -38,7 +40,7 @@ class Mrw_Issue_Post_Type
             'show_in_rest' => true,
             'menu_icon' => 'dashicons-book-alt',
             'menu_position' => 6,
-            'supports' => ['title', 'excerpt', 'custom-fields'],
+            'supports' => ['title', 'editor', 'excerpt', 'custom-fields'],
             'has_archive' => 'missionary-review',
             'rewrite' => [
                 'slug' => 'missionary-review',

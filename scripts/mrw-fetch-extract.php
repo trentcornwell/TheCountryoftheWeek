@@ -154,6 +154,7 @@ foreach ($entries as $entry) {
         'persons' => $persons,
         'excerpt' => make_excerpt($text),
         'word_count' => str_word_count($text),
+        'articles' => split_into_articles($text),
     ];
 
     file_put_contents(
@@ -416,6 +417,130 @@ function make_excerpt(string $text): string
     $clean = preg_replace('/\s+/', ' ', trim($text));
 
     return mb_substr((string) $clean, 0, 600);
+}
+
+/**
+ * Splits one issue's full OCR text into articles using this magazine's
+ * own typesetting convention: the running header repeats the CURRENT
+ * article's title on every page (verified by hand against real scans
+ * before building this — see docs/decisions/0005-mrw-full-text-articles.md).
+ * pdftotext (run without -nopgbrk) inserts a form-feed between pages,
+ * so splitting on "\f" recovers real page boundaries; the first
+ * non-blank line of each page is that page's header, and consecutive
+ * pages are grouped into one article while their (OCR-noise-tolerant)
+ * header titles stay similar.
+ *
+ * Explicitly best-effort: OCR noise varies page to page even within
+ * the same physical running head, so this sometimes over- or
+ * under-splits. Nothing is lost either way — every word of every page
+ * ends up in some article — so a bad split just means a messier table
+ * of contents, never missing or broken content (this is why article
+ * splitting was deliberately scoped to same-page sections rather than
+ * separate posts/URLs — see the ADR).
+ *
+ * @return array<array{title: string, text: string}>
+ */
+function split_into_articles(string $text): array
+{
+    // A literal watermark cafis.org stamps into the OCR layer of every
+    // page — noise, not part of the original magazine.
+    $text = str_ireplace('electronic file created by cafis.org', '', $text);
+    // A raw "\" is always OCR misreading some stray mark/ligature, never
+    // real 1888-1939 magazine prose — and critically, WordPress's own
+    // meta-storage layer silently corrupts an entire stored value to
+    // "[]" if a literal backslash appears anywhere in it (confirmed by
+    // hand: reproduced with a two-item test array, isolated to the
+    // backslash specifically, not a size limit). Stripped here, at the
+    // source, rather than special-cased in the WordPress import layer.
+    $text = str_replace('\\', '', $text);
+    $pages = explode("\f", $text);
+
+    $runs = [];
+    $prev_key = null;
+
+    foreach ($pages as $page) {
+        $lines = preg_split('/\r\n|\r|\n/', $page);
+        $header_index = null;
+        $title = '';
+
+        foreach ($lines as $i => $line) {
+            if (trim($line) !== '') {
+                $title = normalize_header_title(trim($line));
+                $header_index = $i;
+
+                break;
+            }
+        }
+
+        $body_lines = $header_index === null ? $lines : array_slice($lines, $header_index + 1);
+        $body = trim(implode("\n", $body_lines));
+        $key = mb_strlen($title) >= 4 ? header_comparison_key($title) : null;
+
+        $similarity = 0;
+
+        if ($key !== null && $prev_key !== null) {
+            similar_text($key, $prev_key, $similarity);
+        }
+
+        $starts_new_article = $key !== null && ($prev_key === null || $similarity < 55);
+
+        if ($starts_new_article) {
+            $runs[] = ['title' => $title, 'pages' => [$body]];
+            $prev_key = $key;
+        } else {
+            if ($runs === []) {
+                $runs[] = ['title' => $title !== '' ? $title : 'Untitled', 'pages' => []];
+            }
+
+            $runs[count($runs) - 1]['pages'][] = $body;
+
+            if ($key !== null) {
+                $prev_key = $key;
+            }
+        }
+    }
+
+    $articles = [];
+
+    foreach ($runs as $run) {
+        $joined = implode("\n", $run['pages']);
+        // Rejoin a word hyphenated across a line/page break (e.g.
+        // "recon-\nstruct"); only when the next line starts lowercase,
+        // so a real new sentence/heading right after isn't merged in.
+        $joined = preg_replace('/(\w)-\n(?=[a-z])/', '$1', $joined);
+        $joined = preg_replace('/[ \t]+/', ' ', (string) $joined);
+        $joined = preg_replace('/\n{3,}/', "\n\n", (string) $joined);
+
+        $articles[] = ['title' => $run['title'], 'text' => trim((string) $joined)];
+    }
+
+    return $articles;
+}
+
+/**
+ * Strips a leading/trailing page-number and/or bracketed year-month
+ * token from a running-header line, leaving just the article title
+ * ("242  THE DEPARTURE...  [April" -> "THE DEPARTURE..."). OCR
+ * sometimes renders "]" as "}", so both are accepted.
+ */
+function normalize_header_title(string $line): string
+{
+    $furniture = '[\[{]?(?:\d{1,4}|[A-Za-z]{2,12})\.?[\]}]?';
+    $line = preg_replace('/^' . $furniture . '\s+/', '', $line, 1);
+    $line = preg_replace('/\s+' . $furniture . '$/', '', (string) $line, 1);
+
+    return trim((string) $line, " \t.,;:[]{}");
+}
+
+/**
+ * Uppercase, letters-only form of a header title, used only to compare
+ * whether two pages' headers are "the same article" via similar_text()
+ * — tolerant of the OCR noise that makes exact string equality
+ * unreliable across pages of the same physical running head.
+ */
+function header_comparison_key(string $title): string
+{
+    return strtoupper((string) preg_replace('/[^A-Za-z]/', '', $title));
 }
 
 /**

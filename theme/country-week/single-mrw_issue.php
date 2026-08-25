@@ -6,6 +6,7 @@
  * @package CountryWeek
  */
 
+use CountryWeek\CPT\Mrw_Meta_Fields;
 use CountryWeek\CPT\Mrw_Taxonomies;
 
 if (!defined('ABSPATH')) {
@@ -25,6 +26,7 @@ while (have_posts()) :
     $persons = get_the_terms(get_the_ID(), Mrw_Taxonomies::PERSON);
     $countries = is_wp_error($countries) || !$countries ? [] : $countries;
     $persons = is_wp_error($persons) || !$persons ? [] : $persons;
+    $article_headings = Mrw_Meta_Fields::article_headings(get_the_ID());
     ?>
 
     <main class="site-main" id="main">
@@ -41,9 +43,20 @@ while (have_posts()) :
                     <p class="mrw-issue__volume"><?php echo esc_html($volume_label); ?></p>
                 <?php endif; ?>
                 <p class="mrw-disclaimer">
-                    <?php esc_html_e('Country and person tags below are detected automatically from OCR text and may be incomplete or inaccurate.', 'country-week'); ?>
+                    <?php esc_html_e('Country and person tags, and the article breakdown below, are all detected automatically from OCR text and may be incomplete or inaccurate.', 'country-week'); ?>
                 </p>
             </header>
+
+            <?php if (count($article_headings) > 1) : ?>
+                <nav class="mrw-toc" aria-label="<?php esc_attr_e('Articles in this issue', 'country-week'); ?>">
+                    <h2><?php esc_html_e('In this issue', 'country-week'); ?></h2>
+                    <ol>
+                        <?php foreach ($article_headings as $heading) : ?>
+                            <li><a href="#<?php echo esc_attr($heading['id']); ?>"><?php echo esc_html($heading['title']); ?></a></li>
+                        <?php endforeach; ?>
+                    </ol>
+                </nav>
+            <?php endif; ?>
 
             <?php if (get_the_excerpt() !== '') : ?>
                 <p class="mrw-issue__excerpt"><?php echo esc_html(get_the_excerpt()); ?></p>
@@ -77,6 +90,12 @@ while (have_posts()) :
                         <?php endforeach; ?>
                     </p>
                 </section>
+            <?php endif; ?>
+
+            <?php if (get_the_content() !== '') : ?>
+                <div class="mrw-issue__content">
+                    <?php the_content(); ?>
+                </div>
             <?php endif; ?>
 
             <p>

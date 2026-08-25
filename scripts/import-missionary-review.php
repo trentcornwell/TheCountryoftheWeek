@@ -81,12 +81,16 @@ foreach ($files as $file) {
         continue;
     }
 
+    $post_content = build_post_content($record);
+    $article_headings = build_article_headings($record);
+
     if ($existing) {
         $issue_post_id = $existing->ID;
         wp_update_post([
             'ID' => $issue_post_id,
             'post_title' => $issue_title,
             'post_excerpt' => $record['excerpt'] ?? '',
+            'post_content' => $post_content,
             'post_date' => $post_date,
             'post_date_gmt' => get_gmt_from_date($post_date),
         ]);
@@ -96,6 +100,7 @@ foreach ($files as $file) {
             'post_type' => 'mrw_issue',
             'post_title' => $issue_title,
             'post_excerpt' => $record['excerpt'] ?? '',
+            'post_content' => $post_content,
             'post_status' => 'publish',
             'post_date' => $post_date,
             'post_date_gmt' => get_gmt_from_date($post_date),
@@ -115,6 +120,18 @@ foreach ($files as $file) {
     update_post_meta($issue_post_id, 'source_pdf_url', $record['source_pdf_url'] ?? '');
     update_post_meta($issue_post_id, 'volume_label', $record['volume_label'] ?? '');
     update_post_meta($issue_post_id, 'issue_kind', $record['kind']);
+    // wp_slash() is required here, not optional: update_post_meta()
+    // unslashes its value internally (WordPress's long-standing magic-
+    // quotes-style convention — storage functions assume "slashed"
+    // input and reverse it), so raw JSON without a matching wp_slash()
+    // gets silently corrupted — reproduced by hand as a full wipe to
+    // "[]" on the local SQLite dev database and as a subtler
+    // JSON-breaking partial corruption on production's real MySQL.
+    // JSON_UNESCAPED_UNICODE avoids "\uXXXX" escapes that would
+    // otherwise compound the same problem (see
+    // Mrw_Meta_Fields::sanitize_article_headings()).
+    $headings_json = wp_json_encode($article_headings, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    update_post_meta($issue_post_id, 'article_headings', wp_slash($headings_json));
 
     $term_ids = [];
 
@@ -170,6 +187,71 @@ function mrw_issue_date(array $record): string
     }
 
     return sprintf('%04d-%02d-01 00:00:00', (int) $record['year'], (int) $record['month']);
+}
+
+/**
+ * One <h2 id="article-N"> plus one <p> per paragraph for each detected
+ * article (see scripts/mrw-fetch-extract.php's split_into_articles()).
+ * esc_html() throughout since the underlying text is OCR output from a
+ * third-party scan, not trusted markup — any literal "<"/">" in the
+ * original typesetting must render as text, never as an HTML tag.
+ * Single newlines within a paragraph are left as-is (browsers collapse
+ * them to whitespace when rendering <p>, same as the original line-
+ * wrapped column text reflows correctly with no extra processing).
+ */
+function build_post_content(array $record): string
+{
+    $articles = is_array($record['articles'] ?? null) ? $record['articles'] : [];
+
+    if ($articles === []) {
+        return '';
+    }
+
+    $html = [];
+
+    foreach ($articles as $index => $article) {
+        $title = is_string($article['title'] ?? null) ? $article['title'] : '';
+        $text = is_string($article['text'] ?? null) ? $article['text'] : '';
+
+        if ($title !== '') {
+            $html[] = sprintf('<h2 id="%s">%s</h2>', esc_attr(article_anchor_id($index)), esc_html($title));
+        }
+
+        foreach (preg_split('/\n{2,}/', trim($text)) as $paragraph) {
+            $paragraph = trim($paragraph);
+
+            if ($paragraph === '') {
+                continue;
+            }
+
+            $html[] = '<p>' . esc_html($paragraph) . '</p>';
+        }
+    }
+
+    return implode("\n", $html);
+}
+
+/**
+ * @return array<array{id: string, title: string}>
+ */
+function build_article_headings(array $record): array
+{
+    $headings = [];
+
+    foreach (($record['articles'] ?? []) as $index => $article) {
+        if (empty($article['title'])) {
+            continue;
+        }
+
+        $headings[] = ['id' => article_anchor_id($index), 'title' => $article['title']];
+    }
+
+    return $headings;
+}
+
+function article_anchor_id(int $index): string
+{
+    return sprintf('article-%d', $index + 1);
 }
 
 function find_mrw_post_by_key(string $key): ?WP_Post

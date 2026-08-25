@@ -61,13 +61,21 @@ class Rewrite_Hooks
     }
 
     /**
-     * The site's entire purpose is browsing countries, so the front-end
-     * search box (see searchform.php) searches only the `country` post
-     * type rather than mixing in Pages/etc.
+     * The site's primary purpose is browsing countries, so the sitewide
+     * header search box (see header.php, which submits to home_url('/'))
+     * searches only the `country` post type rather than mixing in
+     * Pages/etc. Only applies when nothing else has already picked a
+     * post type for this request: the Missionary Review archive's own
+     * search box (archive-mrw_issue.php, which submits to its own
+     * archive URL) resolves `post_type=mrw_issue` from that URL before
+     * this hook ever runs, and must keep searching mrw_issue, not be
+     * silently overridden to country (a real bug caught by hand: typing
+     * into the archive's search box was returning country search
+     * results instead of missionary-review results).
      */
     public function restrict_search_to_countries(\WP_Query $query): void
     {
-        if (!is_admin() && $query->is_main_query() && $query->is_search()) {
+        if (!is_admin() && $query->is_main_query() && $query->is_search() && empty($query->get('post_type'))) {
             $query->set('post_type', Country_Post_Type::POST_TYPE);
         }
     }
