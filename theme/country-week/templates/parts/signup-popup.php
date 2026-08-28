@@ -4,6 +4,9 @@
  * create a free account. Rendered site-wide from footer.php, but the
  * markup is only output at all when the visitor isn't logged in —
  * logged-in visitors never receive it, not even hidden in the DOM.
+ * Also hidden while Hooks\Rewrite_Hooks::RESOURCES_REQUIRE_ACCOUNT is
+ * off, since its whole pitch ("Get Access to Slides, PDFs, and More")
+ * would be false in that state — an account isn't actually required.
  *
  * Shown/dismissed logic lives in assets/js/main.js (sessionStorage-based,
  * so it reappears on a visitor's next visit but not on every page view
@@ -12,11 +15,13 @@
  * @package CountryWeek
  */
 
+use CountryWeek\Hooks\Rewrite_Hooks;
+
 if (!defined('ABSPATH')) {
     exit;
 }
 
-if (is_user_logged_in()) {
+if (!Rewrite_Hooks::RESOURCES_REQUIRE_ACCOUNT || is_user_logged_in()) {
     return;
 }
 ?>
