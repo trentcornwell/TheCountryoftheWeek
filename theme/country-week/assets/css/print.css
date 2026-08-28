@@ -195,18 +195,115 @@ body {
 /* The bundled map SVG ships as a solid currentColor silhouette (see
    MAP-SOURCES.md); overriding fill/stroke here — rather than editing
    the SVG files themselves — turns it into line art to color without
-   touching the same asset every other map display on the site uses. */
-.coloring-page__art svg {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
+   touching the same asset every other map display on the site uses.
+   (Sizing for .coloring-page__art svg itself lives with the rest of
+   .coloring-page__art above — this is fill/stroke only.) */
 .coloring-page__art svg path {
     fill: #fff;
     stroke: #1a1a1a;
     stroke-width: 6;
     stroke-linejoin: round;
+}
+
+/* One-off Lebanon scene — see templates/print/parts/coloring-scene-lebanon.php */
+
+.coloring-page__kicker--big {
+    font-size: 4.2rem;
+}
+
+.coloring-page--lebanon .coloring-page__name--xl {
+    font-size: 6.2rem;
+    margin-top: 8px;
+}
+
+.coloring-page__caption--bottom {
+    margin: 10px 0 0;
+}
+
+.lebanon-scene {
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px auto 0;
+}
+
+.lebanon-scene__stage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lebanon-scene__stage .coloring-page__art {
+    flex: 0 1 auto;
+    margin: 0;
+    max-width: 78%;
+    max-height: 88%;
+}
+
+/* Sun, flag, and trees share the map's line-art look: white fill,
+   thick dark stroke, rounded joins — decoration, not photographic
+   detail, so a child's crayon has somewhere to go. */
+.lebanon-scene__sun,
+.lebanon-scene__flag,
+.lebanon-scene__tree {
+    position: absolute;
+}
+
+.lebanon-scene__sun circle,
+.lebanon-scene__tree circle,
+.lebanon-scene__tree rect,
+.lebanon-scene__flag rect,
+.lebanon-scene__flag polygon,
+.lebanon-scene__flag rect {
+    fill: #fff;
+}
+
+.lebanon-scene__sun circle,
+.lebanon-scene__sun line,
+.lebanon-scene__flag line,
+.lebanon-scene__flag rect,
+.lebanon-scene__flag polygon,
+.lebanon-scene__tree circle,
+.lebanon-scene__tree rect {
+    stroke: #1a1a1a;
+    stroke-width: 4;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.lebanon-scene__sun {
+    top: 0;
+    right: 4%;
+    width: 15%;
+    height: auto;
+}
+
+.lebanon-scene__flag {
+    top: -4%;
+    left: 50%;
+    width: 26%;
+    height: auto;
+    transform: translateX(-18%);
+}
+
+.lebanon-scene__tree {
+    bottom: 0;
+    width: 16%;
+    height: auto;
+}
+
+.lebanon-scene__tree--left {
+    left: 2%;
+}
+
+.lebanon-scene__tree--right {
+    right: 2%;
 }
 
 @media print {
