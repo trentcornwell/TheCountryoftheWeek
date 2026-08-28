@@ -36,6 +36,10 @@ class Country_Repository
 
     private static ?int $launch_offset_cache = null;
 
+    private static bool $active_computed = false;
+
+    private static ?WP_Post $active_cache = null;
+
     /**
      * Every published country with a manifest_key, ordered to match
      * Country_Manifest::entries() (the frozen, versioned order) —
@@ -90,11 +94,54 @@ class Country_Repository
     /**
      * The currently-active country, or null if the rotation has not
      * started yet or no countries are published.
+     *
+     * Checks Services\Schedule_Override first: a bounded, explicit,
+     * git-tracked exception list (see docs/decisions/0006) that can pin
+     * a specific week to a specific country regardless of what the
+     * alphabetical schedule would otherwise select, without touching
+     * Rotation_Service's pure math or the manifest itself. Cached for
+     * the request since this is called from templates in a loop (see
+     * templates/parts/country-card.php) and, when an override is
+     * active, resolving it costs a query.
      */
     public static function get_active(): ?WP_Post
     {
+        if (self::$active_computed) {
+            return self::$active_cache;
+        }
+
+        self::$active_computed = true;
+        self::$active_cache = self::resolve_active();
+
+        return self::$active_cache;
+    }
+
+    private static function resolve_active(): ?WP_Post
+    {
         if (!Rotation_Service::has_started()) {
             return null;
+        }
+
+        $week_start = Rotation_Service::current_week_start();
+        $override_key = Schedule_Override::key_for_week($week_start);
+
+        if ($override_key !== null) {
+            $overridden = self::find_by_key($override_key);
+
+            if ($overridden instanceof WP_Post) {
+                return $overridden;
+            }
+
+            // The override points at a country/key whose post isn't
+            // published yet (e.g. content not authored yet for a
+            // one-off feature week). Never invent a substitute — but
+            // don't take the whole homepage down either; fall back to
+            // the natural schedule and make the gap loggable.
+            error_log(sprintf(
+                '[country-week] schedule override for week of %s ("%s") has no published Country post; falling back to the natural rotation.',
+                $week_start->format('Y-m-d'),
+                $override_key
+            ));
         }
 
         $countries = self::get_all_ordered();
@@ -108,6 +155,29 @@ class Country_Repository
         $index = (self::launch_offset() + $cycle_position) % $count;
 
         return $countries[$index] ?? null;
+    }
+
+    /**
+     * A published Country post by its manifest_key meta, independent of
+     * manifest membership — resolves both ordinary rotation countries
+     * and one-off, non-manifest posts like Martinique/Mayotte (see
+     * data/one-off-features.json) the same way. Not cached beyond
+     * get_active()'s own cache, since it's currently only used to
+     * resolve schedule overrides (at most one lookup per request).
+     */
+    public static function find_by_key(string $key): ?WP_Post
+    {
+        $query = new WP_Query([
+            'post_type' => Country_Post_Type::POST_TYPE,
+            'post_status' => 'publish',
+            'posts_per_page' => 1,
+            'no_found_rows' => true,
+            'ignore_sticky_posts' => true,
+            'meta_key' => Country_Manifest::meta_key(),
+            'meta_value' => $key,
+        ]);
+
+        return $query->posts[0] ?? null;
     }
 
     /**
@@ -184,9 +254,7 @@ class Country_Repository
      */
     public static function next_scheduled_date(WP_Post $post): ?\DateTimeImmutable
     {
-        $position = self::cycle_position_of($post->ID);
-
-        return $position === null ? null : Rotation_Service::date_for_index($position, self::count());
+        return self::schedule_date_for($post, false);
     }
 
     /**
@@ -195,9 +263,51 @@ class Country_Repository
      */
     public static function most_recent_date(WP_Post $post): ?\DateTimeImmutable
     {
+        return self::schedule_date_for($post, true);
+    }
+
+    /**
+     * Override-aware version of the plain position math above. Three
+     * cases, in order:
+     *
+     * 1. This country itself has a schedule override (see
+     *    Services\Schedule_Override) — that date is authoritative for
+     *    this cycle, whether it lands earlier or later than the
+     *    country's natural alphabetical slot.
+     * 2. This country has no override, but its natural slot this cycle
+     *    was handed to a different country — its own turn is pushed
+     *    back exactly one full rotation length (it is never dropped,
+     *    just delayed to its next natural occurrence).
+     * 3. No override touches this country at all — unchanged natural
+     *    math, exactly as before Schedule_Override existed.
+     */
+    private static function schedule_date_for(WP_Post $post, bool $most_recent): ?\DateTimeImmutable
+    {
+        $key = get_post_meta($post->ID, Country_Manifest::meta_key(), true);
+        $own_override = is_string($key) && $key !== '' ? Schedule_Override::week_for_key($key) : null;
+
+        if ($own_override !== null) {
+            return $own_override;
+        }
+
         $position = self::cycle_position_of($post->ID);
 
-        return $position === null ? null : Rotation_Service::most_recent_date_for_index($position, self::count());
+        if ($position === null) {
+            return null;
+        }
+
+        $count = self::count();
+        $natural = $most_recent
+            ? Rotation_Service::most_recent_date_for_index($position, $count)
+            : Rotation_Service::date_for_index($position, $count);
+
+        if (Schedule_Override::key_for_week($natural) !== null) {
+            $shift = new \DateInterval('P' . ($count * 7) . 'D');
+
+            return $most_recent ? $natural->sub($shift) : $natural->add($shift);
+        }
+
+        return $natural;
     }
 
     /**
@@ -287,5 +397,7 @@ class Country_Repository
     {
         self::$ordered_cache = null;
         self::$launch_offset_cache = null;
+        self::$active_computed = false;
+        self::$active_cache = null;
     }
 }

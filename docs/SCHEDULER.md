@@ -19,6 +19,15 @@
 > exists yet (the "Countdown strategy" and per-week canonical route
 > sections below are not implemented); `page-schedule.php` lists the full
 > rotation instead.
+>
+> **Update (2026-08-28):** `Services\Schedule_Override` adds a bounded,
+> explicit, git-tracked exception list (`data/schedule-overrides.json`)
+> that can pin a specific local week to a specific country regardless of
+> what the pure calculation below would otherwise select. This class
+> sits above `Rotation_Service`, which remains exactly as pure and
+> unaware of overrides as this document originally specified — see
+> `docs/decisions/0006-temporary-schedule-overrides.md` for why this
+> exists and how it differs from a manifest reorder.
 
 ## Invariants
 

@@ -160,6 +160,21 @@ class Rotation_Service
     }
 
     /**
+     * The local Sunday 00:00:00 that starts the schedule week containing
+     * $now. Used as the lookup key into Services\Schedule_Override,
+     * which is keyed by this same "which week is this" concept rather
+     * than by list position, so it stays meaningful even for a week
+     * whose displayed country differs from what the plain alphabetical
+     * index would select.
+     */
+    public static function current_week_start(?DateTimeImmutable $now = null): DateTimeImmutable
+    {
+        $now = $now ?? Date_Utility::now();
+
+        return self::start_date()->add(new DateInterval('P' . (self::weeks_elapsed($now) * 7) . 'D'));
+    }
+
+    /**
      * Whole days between two moments, ignoring any partial-day
      * remainder caused by DST transitions within the range.
      */

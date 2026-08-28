@@ -11,6 +11,7 @@ use CountryWeek\CPT\Country_Post_Type;
 use CountryWeek\Services\Country_Repository;
 use CountryWeek\Services\Rotation_Service;
 use CountryWeek\Utilities\Date_Utility;
+use WP_Post;
 
 if (!defined('ABSPATH')) {
     exit;
@@ -62,35 +63,43 @@ class Admin_Columns
 
     private function rotation_status_label(int $post_id): string
     {
-        $index = Country_Repository::index_of($post_id);
-        $count = Country_Repository::count();
+        $post = get_post($post_id);
 
-        if ($index === null || $count === 0) {
+        // A published post with no manifest_key at all (e.g. a one-off
+        // feature like Martinique/Mayotte outside its single active
+        // week — see data/one-off-features.json) has no cycle position
+        // of its own, so it's only "in rotation" if a schedule override
+        // gives it a date directly.
+        if (!$post instanceof WP_Post || (Country_Repository::cycle_position_of($post_id) === null && Country_Repository::next_scheduled_date($post) === null)) {
             return __('Not in rotation (unpublished)', 'country-week');
         }
 
         if (!Rotation_Service::has_started()) {
-            $date = Rotation_Service::date_for_index($index, $count);
+            $date = Country_Repository::next_scheduled_date($post) ?? Rotation_Service::start_date();
 
             /* translators: %s: date. */
             return sprintf(__('Scheduled: %s', 'country-week'), Date_Utility::format_human($date));
         }
 
-        $active_index = Rotation_Service::active_index($count);
+        $active = Country_Repository::get_active();
 
-        if ($index === $active_index) {
+        if ($active instanceof WP_Post && $active->ID === $post_id) {
             return __('Active this week', 'country-week');
         }
 
-        $date = Rotation_Service::date_for_index($index, $count);
+        $next = Country_Repository::next_scheduled_date($post);
         $now = Date_Utility::now();
 
-        if ($date > $now) {
+        if ($next && $next > $now) {
             /* translators: %s: date. */
-            return sprintf(__('Upcoming: %s', 'country-week'), Date_Utility::format_human($date));
+            return sprintf(__('Upcoming: %s', 'country-week'), Date_Utility::format_human($next));
         }
 
-        $recent = Rotation_Service::most_recent_date_for_index($index, $count);
+        $recent = Country_Repository::most_recent_date($post);
+
+        if ($recent === null) {
+            return __('Not yet scheduled', 'country-week');
+        }
 
         /* translators: %s: date. */
         return sprintf(__('Last featured: %s', 'country-week'), Date_Utility::format_human($recent));

@@ -31,10 +31,9 @@ $continent_name = (!is_wp_error($continents) && !empty($continents)) ? $continen
 $status = '';
 
 if (Rotation_Service::has_started()) {
-    $cycle_position = Country_Repository::cycle_position_of($country->ID);
-    $count = Country_Repository::count();
+    $active = Country_Repository::get_active();
 
-    if ($cycle_position !== null && $cycle_position === Rotation_Service::active_index($count)) {
+    if ($active instanceof WP_Post && $active->ID === $country->ID) {
         $status = __('Featured this week', 'country-week');
     } else {
         $next = Country_Repository::next_scheduled_date($country);

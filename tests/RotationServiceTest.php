@@ -119,4 +119,42 @@ final class RotationServiceTest extends TestCase
 
         $this->assertTrue($mostRecent <= $now);
     }
+
+    public function test_current_week_start_is_launch_day_at_launch(): void
+    {
+        $this->assertSame(
+            '2026-07-19',
+            Rotation_Service::current_week_start($this->ny('2026-07-19 00:00:00'))->format('Y-m-d')
+        );
+    }
+
+    public function test_current_week_start_stays_on_sunday_all_week(): void
+    {
+        // Same Sunday's date is returned for every moment through the
+        // following Saturday night — it never drifts to the day of $now.
+        $this->assertSame(
+            '2026-07-19',
+            Rotation_Service::current_week_start($this->ny('2026-07-25 23:59:59'))->format('Y-m-d')
+        );
+    }
+
+    public function test_current_week_start_advances_on_the_next_sunday(): void
+    {
+        $this->assertSame(
+            '2026-07-26',
+            Rotation_Service::current_week_start($this->ny('2026-07-26 00:00:00'))->format('Y-m-d')
+        );
+    }
+
+    public function test_current_week_start_matches_the_override_dates_given(): void
+    {
+        // Sanity check against the real schedule-overrides.json window:
+        // a moment during the week of August 30, 2026 must resolve to
+        // that exact Sunday so Schedule_Override::key_for_week() (keyed
+        // by this same value) actually matches.
+        $this->assertSame(
+            '2026-08-30',
+            Rotation_Service::current_week_start($this->ny('2026-09-02 12:00:00'))->format('Y-m-d')
+        );
+    }
 }

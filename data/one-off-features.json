@@ -1,0 +1,7 @@
+{
+    "description": "Country posts created for a specific one-off featured week but deliberately excluded from data/country-index.json: they are not part of the perpetual alphabetical rotation manifest, so Country_Manifest::entries() never includes them and they never affect rotation order, count, or any other country's schedule (Country_Repository::get_all_ordered(), count(), cycle_position_of(), etc. all stay exactly as if this file didn't exist). scripts/import-countries.php imports these the same way it imports manifest countries (post + manifest_key meta + continent/region terms), but each only ever actually appears on the site because data/schedule-overrides.json pins one specific date to its key. See docs/decisions/0006-temporary-schedule-overrides.md. As with the manifest's own stub countries, these posts get only name/continent/region here — full quick facts, summaries, and prayer & mission content still need to be authored and applied the same way any data/<key>.json content file is.",
+    "countries": [
+        { "key": "martinique", "name": "Martinique", "continent": "Americas", "region": "Caribbean" },
+        { "key": "mayotte", "name": "Mayotte", "continent": "Africa", "region": "Eastern Africa" }
+    ]
+}
