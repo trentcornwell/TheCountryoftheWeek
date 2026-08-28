@@ -20,6 +20,30 @@ if (!defined('ABSPATH')) {
 the_post();
 $country = get_post();
 $map_markup = Map_Asset::inline_markup_for($country);
+$country_name = get_the_title($country);
+
+/**
+ * The country name's bubble-letter size has to work for both "Chad"
+ * and "Congo, Democratic Republic of the" (4 to 33 characters across
+ * the manifest) with no client-side JS to measure/auto-fit it — see
+ * MAP-SOURCES.md's sibling docs for why this theme avoids JS on
+ * content pages. A simple length-tiered class, with a CSS word-wrap
+ * safety net regardless of tier, covers every real country name
+ * without needing real text measurement.
+ */
+$name_length = mb_strlen($country_name);
+
+if ($name_length <= 6) {
+    $name_size_class = 'coloring-page__name--xl';
+} elseif ($name_length <= 10) {
+    $name_size_class = 'coloring-page__name--lg';
+} elseif ($name_length <= 16) {
+    $name_size_class = 'coloring-page__name--md';
+} elseif ($name_length <= 24) {
+    $name_size_class = 'coloring-page__name--sm';
+} else {
+    $name_size_class = 'coloring-page__name--xs';
+}
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -30,7 +54,7 @@ $map_markup = Map_Asset::inline_markup_for($country);
         printf(
             /* translators: %s: country name. */
             esc_html__('%s Coloring Page', 'country-week'),
-            esc_html(get_the_title($country))
+            esc_html($country_name)
         );
         ?>
          — <?php bloginfo('name'); ?>
@@ -44,8 +68,21 @@ $map_markup = Map_Asset::inline_markup_for($country);
     </button>
 
     <main class="print-sheet__page coloring-page">
-        <h1 class="coloring-page__title"><?php echo esc_html(get_the_title($country)); ?></h1>
-        <p class="coloring-page__caption"><?php esc_html_e('Color in the shape of this country!', 'country-week'); ?></p>
+        <h1 class="coloring-page__bubble-text coloring-page__kicker">
+            <?php esc_html_e('The Country', 'country-week'); ?><br>
+            <?php esc_html_e('of the Week', 'country-week'); ?>
+        </h1>
+
+        <p class="coloring-page__caption">
+            <?php
+            printf(
+                /* translators: %s: country name. */
+                esc_html__('Color me in, then stick me on the fridge to remember to pray for %s!', 'country-week'),
+                esc_html($country_name)
+            );
+            ?>
+        </p>
+
         <div class="coloring-page__art">
             <?php
             // Trusted, pipeline-generated markup — see
@@ -55,6 +92,12 @@ $map_markup = Map_Asset::inline_markup_for($country);
             echo $map_markup; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
             ?>
         </div>
+
+        <p class="coloring-page__bubble-text coloring-page__name <?php echo esc_attr($name_size_class); ?>">
+            <?php echo esc_html($country_name); ?>
+        </p>
+
+        <p class="coloring-page__footer"><?php bloginfo('name'); ?> &middot; <?php echo esc_html(home_url('/')); ?></p>
     </main>
 </body>
 </html>
