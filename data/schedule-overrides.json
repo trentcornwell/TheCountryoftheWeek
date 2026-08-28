@@ -1,0 +1,23 @@
+{
+    "description": "Temporary, bounded exceptions to the perpetual alphabetical rotation for specific calendar weeks (local America/New_York Sundays). Each entry pins one week's featured country to a specific manifest key, regardless of what the alphabetical schedule would otherwise show that week. The country that would have naturally aired that week is not lost or reordered anywhere else — it simply airs on its own next natural occurrence, one full rotation cycle later. martinique and mayotte are not sovereign countries and are intentionally absent from country-index.json; their posts are imported separately from data/one-off-features.json and only ever appear via the two entries below. See docs/decisions/0006-temporary-schedule-overrides.md. This file is for bounded, near-term editorial exceptions only — it must never be used to permanently reorder the rotation; that requires a new manifest_version and migration ADR per country-index.json's own change policy.",
+    "overrides": [
+        { "date": "2026-08-30", "country_key": "lebanon" },
+        { "date": "2026-09-06", "country_key": "lesotho" },
+        { "date": "2026-09-13", "country_key": "liberia" },
+        { "date": "2026-09-20", "country_key": "libya" },
+        { "date": "2026-09-27", "country_key": "liechtenstein" },
+        { "date": "2026-10-04", "country_key": "lithuania" },
+        { "date": "2026-10-11", "country_key": "luxembourg" },
+        { "date": "2026-10-18", "country_key": "madagascar" },
+        { "date": "2026-10-25", "country_key": "malawi" },
+        { "date": "2026-11-01", "country_key": "malaysia" },
+        { "date": "2026-11-08", "country_key": "maldives" },
+        { "date": "2026-11-15", "country_key": "mali" },
+        { "date": "2026-11-22", "country_key": "malta" },
+        { "date": "2026-11-29", "country_key": "marshall-islands" },
+        { "date": "2026-12-06", "country_key": "martinique" },
+        { "date": "2026-12-13", "country_key": "mauritania" },
+        { "date": "2026-12-20", "country_key": "mauritius" },
+        { "date": "2026-12-27", "country_key": "mayotte" }
+    ]
+}

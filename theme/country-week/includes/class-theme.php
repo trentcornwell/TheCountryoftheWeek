@@ -68,6 +68,7 @@ class Theme
 
         require_once $includes . '/services/class-rotation-service.php';
         require_once $includes . '/services/class-country-manifest.php';
+        require_once $includes . '/services/class-schedule-override.php';
         require_once $includes . '/services/class-country-repository.php';
         require_once $includes . '/services/class-qr-code-service.php';
         require_once $includes . '/services/class-pdf-service.php';

@@ -23,16 +23,20 @@ while (have_posts()) :
     the_post();
 
     $country = get_post();
-    $count = Country_Repository::count();
-    $cycle_position = Country_Repository::cycle_position_of($country->ID);
-    $active_position = Rotation_Service::has_started() ? Rotation_Service::active_index($count) : null;
-    $is_active = $cycle_position !== null && $active_position !== null && $cycle_position === $active_position;
+    $active = Country_Repository::get_active();
+    $is_active = $active instanceof WP_Post && $active->ID === $country->ID;
 
     $banner = '';
 
     if ($is_active) {
         $banner = '<p class="country-hero__status country-hero__status--active">' . esc_html__('Featured This Week', 'country-week') . '</p>';
-    } elseif ($cycle_position !== null) {
+    } else {
+        // next_scheduled_date()/most_recent_date() return null for a
+        // post with neither a rotation position nor a schedule
+        // override (see Services\Schedule_Override) — e.g. a one-off
+        // feature post before its data/schedule-overrides.json entry
+        // exists yet — so no explicit "is this country in the
+        // rotation" gate is needed here.
         $next = Country_Repository::next_scheduled_date($country);
         $now = Date_Utility::now();
 

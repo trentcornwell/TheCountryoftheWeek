@@ -9,8 +9,10 @@
  * @package CountryWeek
  */
 
+use CountryWeek\Services\Country_Manifest;
 use CountryWeek\Services\Country_Repository;
 use CountryWeek\Services\Rotation_Service;
+use CountryWeek\Services\Schedule_Override;
 use CountryWeek\Utilities\Date_Utility;
 
 if (!defined('ABSPATH')) {
@@ -22,19 +24,50 @@ get_header();
 $countries = Country_Repository::get_all_ordered();
 $count = count($countries);
 $has_started = Rotation_Service::has_started();
-$active_position = $has_started ? Rotation_Service::active_index($count) : -1;
 $launch_offset = Country_Repository::launch_offset();
+$current_week_start = Rotation_Service::current_week_start();
 
 /**
  * Build the rotation-ordered list (starting at the launch country) so
  * "previous weeks" and "future weeks" read in the actual order they
- * occur, not plain alphabetical order.
+ * occur, not plain alphabetical order. Each position's date/country is
+ * override-aware (see Services\Schedule_Override / docs/decisions/0006):
+ * a week with an override shows that override's country instead of the
+ * natural one, and the natural country whose slot was taken this cycle
+ * is simply omitted here rather than shown at a wrong date — it still
+ * has its own row at its own (possibly much later, next-cycle)
+ * occurrence, which is outside this one-cycle-long listing.
  */
 $rotation_sequence = [];
 
 for ($position = 0; $position < $count; $position++) {
-    $index = ($launch_offset + $position) % $count;
-    $rotation_sequence[] = ['country' => $countries[$index], 'position' => $position];
+    $date = Rotation_Service::date_for_index($position, $count);
+    $override_key = Schedule_Override::key_for_week($date);
+
+    if ($override_key !== null) {
+        $country = Country_Repository::find_by_key($override_key);
+
+        if (!$country instanceof WP_Post) {
+            // Content for this one-off week isn't published yet —
+            // never claim a country for it.
+            continue;
+        }
+    } else {
+        $natural_country = $countries[($launch_offset + $position) % $count];
+        $natural_key = get_post_meta($natural_country->ID, Country_Manifest::meta_key(), true);
+        $own_override = Schedule_Override::week_for_key($natural_key);
+
+        if ($own_override !== null && $own_override->format('Y-m-d') !== $date->format('Y-m-d')) {
+            // This country's natural slot was handed to someone else
+            // this cycle; it already has (or will have) its own row at
+            // its own overridden date instead of here.
+            continue;
+        }
+
+        $country = $natural_country;
+    }
+
+    $rotation_sequence[] = ['country' => $country, 'date' => $date];
 }
 ?>
 
@@ -58,9 +91,8 @@ for ($position = 0; $position < $count; $position++) {
     <ol class="schedule-list">
         <?php foreach ($rotation_sequence as $entry) :
             $country = $entry['country'];
-            $position = $entry['position'];
-            $date = Rotation_Service::date_for_index($position, $count);
-            $is_active = $has_started && $position === $active_position;
+            $date = $entry['date'];
+            $is_active = $has_started && $date->format('Y-m-d') === $current_week_start->format('Y-m-d');
             $is_past = $has_started && $date < Date_Utility::now() && !$is_active;
             ?>
             <li class="schedule-list__item<?php echo $is_active ? ' schedule-list__item--active' : ''; ?><?php echo $is_past ? ' schedule-list__item--past' : ''; ?>">

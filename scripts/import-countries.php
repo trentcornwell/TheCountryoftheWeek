@@ -14,9 +14,17 @@
  * the rotation — see docs/decisions/0001-deterministic-weekly-schedule.md.
  *
  * Also copies data/country-index.json into the theme's bundled
- * includes/data/country-manifest.json, since the theme must ship its
- * own copy of the manifest to resolve rotation order at runtime
- * without depending on anything outside theme/country-week/.
+ * includes/data/country-manifest.json, and data/schedule-overrides.json
+ * into includes/data/schedule-overrides.json, since the theme must ship
+ * its own copy of both to resolve rotation order and any active
+ * schedule overrides at runtime without depending on anything outside
+ * theme/country-week/.
+ *
+ * Also imports data/one-off-features.json — Country posts for one-off
+ * featured weeks (see docs/decisions/0006-temporary-schedule-overrides.md)
+ * that are deliberately NOT part of data/country-index.json and so never
+ * participate in the perpetual rotation itself; they only ever surface
+ * via a matching entry in data/schedule-overrides.json.
  *
  * @package CountryWeek
  */
@@ -30,12 +38,22 @@ $repo_root = dirname(__DIR__);
 $data_dir = $repo_root . '/data';
 $manifest_source = $data_dir . '/country-index.json';
 $manifest_bundled = $repo_root . '/theme/country-week/includes/data/country-manifest.json';
+$overrides_source = $data_dir . '/schedule-overrides.json';
+$overrides_bundled = $repo_root . '/theme/country-week/includes/data/schedule-overrides.json';
 
 if (!copy($manifest_source, $manifest_bundled)) {
     WP_CLI::error('Could not copy the manifest into the theme bundle.');
 }
 
 WP_CLI::log('Synced data/country-index.json to theme/country-week/includes/data/country-manifest.json.');
+
+if (file_exists($overrides_source)) {
+    if (!copy($overrides_source, $overrides_bundled)) {
+        WP_CLI::error('Could not copy schedule-overrides.json into the theme bundle.');
+    }
+
+    WP_CLI::log('Synced data/schedule-overrides.json to theme/country-week/includes/data/schedule-overrides.json.');
+}
 
 $index = json_decode((string) file_get_contents($manifest_source), true);
 
@@ -49,14 +67,50 @@ $created = 0;
 $updated = 0;
 
 foreach ($index['countries'] as $entry) {
+    [$created, $updated] = import_country_stub($entry, $created, $updated);
+}
+
+WP_CLI::success(sprintf('Countries: %d created, %d already existed (updated).', $created, $updated));
+
+// One-off, non-manifest posts (see the file docblock above). Imported
+// with the exact same idempotent, rename-safe logic as manifest
+// countries, just from a separate file that country-index.json/
+// Country_Manifest never reads, so these can never affect rotation
+// order, count, or any other country's schedule.
+$one_off_source = $data_dir . '/one-off-features.json';
+
+if (file_exists($one_off_source)) {
+    $one_off = json_decode((string) file_get_contents($one_off_source), true);
+
+    if (is_array($one_off) && !empty($one_off['countries'])) {
+        $one_off_created = 0;
+        $one_off_updated = 0;
+
+        foreach ($one_off['countries'] as $entry) {
+            [$one_off_created, $one_off_updated] = import_country_stub($entry, $one_off_created, $one_off_updated);
+        }
+
+        WP_CLI::success(sprintf('One-off features: %d created, %d already existed (updated).', $one_off_created, $one_off_updated));
+    }
+}
+
+/**
+ * Create or update one Country post from a manifest-shaped entry
+ * (key/name/continent/region), matched idempotently by manifest_key
+ * (falling back to title for a one-time pre-manifest-key migration).
+ * Shared by both the country-index.json loop and the
+ * one-off-features.json loop above — used to create posts, but never to
+ * decide rotation order, which comes solely from Country_Manifest.
+ *
+ * @return array{0:int,1:int} updated [$created, $updated] counters.
+ */
+function import_country_stub(array $entry, int $created, int $updated): array
+{
     $manifest_key = $entry['key'];
     $name = $entry['name'];
 
     $existing = find_country_post_by_manifest_key($manifest_key);
 
-    // Migration path: a post created before manifest keys existed (or
-    // before this entry had one) is matched by its title once, then
-    // pinned to this manifest_key from now on.
     if (!$existing) {
         $existing = find_country_post_by_title($name);
     }
@@ -74,7 +128,7 @@ foreach ($index['countries'] as $entry) {
         if (is_wp_error($post_id)) {
             WP_CLI::warning(sprintf('Failed to create "%s": %s', $name, $post_id->get_error_message()));
 
-            continue;
+            return [$created, $updated];
         }
 
         $created++;
@@ -89,16 +143,18 @@ foreach ($index['countries'] as $entry) {
     if (!empty($entry['region'])) {
         wp_set_object_terms($post_id, $entry['region'], 'region', false);
     }
-}
 
-WP_CLI::success(sprintf('Countries: %d created, %d already existed (updated).', $created, $updated));
+    return [$created, $updated];
+}
 
 // Layer on full content files. Any data/*.json file other than
 // country-index.json and countries.schema.json is treated as a
 // per-country content file, matched to a post via its "name" field
-// (slugified into the same manifest key format).
+// (slugified into the same manifest key format). A martinique.json or
+// mayotte.json added later will be picked up here exactly like any
+// other country's content file — no further script changes needed.
 $content_files = glob($data_dir . '/*.json');
-$skip = ['country-index.json', 'countries.schema.json'];
+$skip = ['country-index.json', 'countries.schema.json', 'schedule-overrides.json', 'one-off-features.json'];
 
 foreach ($content_files as $file) {
     $filename = basename($file);
