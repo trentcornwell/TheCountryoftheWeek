@@ -111,22 +111,85 @@ body {
 
 .coloring-page {
     text-align: center;
+    border: 5px dashed #1a1a1a;
+    border-radius: 28px;
+    padding: 0.35in 0.3in;
+    /* .print-sheet__page already sets min-height: 11in on this same
+       element; stretching as a flex column and letting the map grow
+       into whatever's left (instead of only shrink-wrapping content)
+       is what makes the frame reach the bottom of the printed page
+       instead of leaving a dead white gap under it. */
+    display: flex;
+    flex-direction: column;
 }
 
-.coloring-page__title {
+/* Shared "bubble letter" treatment: a hollow, thick-outlined word a
+   kid can color in themselves, not just the map. A heavy rounded
+   system font (no web-font download — see Slide_Service's own
+   reasoning for staying local-only) gives the stroke enough room to
+   read clearly at coloring-book thickness. color/plain black text is
+   the fallback for the rare browser without -webkit-text-stroke
+   support; browsers that do support it override to the hollow look. */
+.coloring-page__bubble-text {
+    font-family: 'Arial Rounded MT Bold', 'Arial Black', Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.05;
+    letter-spacing: 0.01em;
     margin: 0;
-    font-size: 2.2rem;
+    color: #1a1a1a;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: 3px #1a1a1a;
+    paint-order: stroke fill;
+}
+
+.coloring-page__kicker {
+    font-size: 3.4rem;
 }
 
 .coloring-page__caption {
     color: #555;
-    margin: 6px 0 30px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    margin: 10px 0 24px;
+    padding: 0 0.3in;
 }
 
 .coloring-page__art {
+    flex: 1 1 auto;
+    min-height: 0; /* let a flex item actually shrink to its content in Safari/print engines */
     width: 100%;
-    max-width: 6.5in;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px auto;
+}
+
+.coloring-page__art svg {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.coloring-page__name {
+    -webkit-text-stroke-width: 4px;
+    margin-top: 24px;
+    overflow-wrap: break-word;
+}
+
+.coloring-page__name--xl { font-size: 5.4rem; }
+.coloring-page__name--lg { font-size: 4.2rem; }
+.coloring-page__name--md { font-size: 3.2rem; }
+.coloring-page__name--sm { font-size: 2.4rem; }
+.coloring-page__name--xs { font-size: 1.8rem; }
+
+.coloring-page__footer {
+    margin-top: 28px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.75rem;
+    color: #999;
 }
 
 /* The bundled map SVG ships as a solid currentColor silhouette (see
