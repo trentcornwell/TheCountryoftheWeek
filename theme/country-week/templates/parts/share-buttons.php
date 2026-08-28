@@ -1,9 +1,9 @@
 <?php
 /**
- * Share + Download PDF action bar. The share buttons are plain links
- * to each network's public share-intent URL (no SDK/embed script), plus
- * a "Share" button that progressively enhances into the native Web
- * Share API on devices that support it (see assets/js/main.js).
+ * Share + Download PDF action bar. A single "Share" button: the native
+ * Web Share API on devices that support it, falling back to copying
+ * the link to the clipboard everywhere else (see assets/js/main.js) —
+ * no per-network share links.
  *
  * Expects $args['country'] (WP_Post).
  *
@@ -46,19 +46,11 @@ $lock_hint = $account_required ? ' <span class="country-actions__lock" aria-hidd
         <?php esc_html_e('Coloring Page', 'country-week'); ?>
     </a>
 
-    <button type="button" class="country-actions__button country-actions__share-native" hidden>
+    <button
+        type="button"
+        class="country-actions__button country-actions__share-native"
+        data-copied-label="<?php esc_attr_e('Link Copied!', 'country-week'); ?>"
+    >
         <?php esc_html_e('Share', 'country-week'); ?>
     </button>
-
-    <a class="country-actions__button" href="<?php echo esc_url('https://www.facebook.com/sharer/sharer.php?u=' . rawurlencode($url)); ?>" target="_blank" rel="noopener">
-        <?php esc_html_e('Share on Facebook', 'country-week'); ?>
-    </a>
-
-    <a class="country-actions__button" href="<?php echo esc_url('https://twitter.com/intent/tweet?url=' . rawurlencode($url) . '&text=' . rawurlencode($title)); ?>" target="_blank" rel="noopener">
-        <?php esc_html_e('Share on X', 'country-week'); ?>
-    </a>
-
-    <a class="country-actions__button" href="<?php echo esc_url('mailto:?subject=' . rawurlencode($title) . '&body=' . rawurlencode($url)); ?>">
-        <?php esc_html_e('Share by Email', 'country-week'); ?>
-    </a>
 </div>
