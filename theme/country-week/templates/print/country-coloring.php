@@ -78,7 +78,7 @@ if ($name_length <= 6) {
     </button>
 
     <?php if ($is_lebanon) : ?>
-        <?php get_template_part('templates/print/parts/coloring-scene-lebanon', null, ['country' => $country, 'map_markup' => $map_markup, 'country_name' => $country_name]); ?>
+        <?php get_template_part('templates/print/parts/coloring-scene-lebanon', null, ['country_name' => $country_name]); ?>
     <?php else : ?>
         <main class="print-sheet__page coloring-page">
             <h1 class="coloring-page__bubble-text coloring-page__kicker">

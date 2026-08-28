@@ -205,105 +205,29 @@ body {
     stroke-linejoin: round;
 }
 
-/* One-off Lebanon scene — see templates/print/parts/coloring-scene-lebanon.php */
+/* One-off Lebanon coloring page — see
+   templates/print/parts/coloring-scene-lebanon.php. Prints a single
+   custom illustration supplied by the site owner (already a complete
+   coloring page: title, labeled map, decorative border) plus the
+   fridge/pray caption, which isn't part of the artwork itself. */
 
-.coloring-page__kicker--big {
-    font-size: 4.2rem;
+.coloring-page--photo {
+    /* The artwork already has its own decorative border baked in —
+       this page's usual dashed frame/padding would just double up on
+       that, so both are turned off for this variant only. */
+    border: none;
+    padding: 0.1in 0.05in 0.2in;
 }
 
-.coloring-page--lebanon .coloring-page__name--xl {
-    font-size: 6.2rem;
-    margin-top: 8px;
+.coloring-page__custom-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .coloring-page__caption--bottom {
-    margin: 10px 0 0;
-}
-
-.lebanon-scene {
-    position: relative;
-    flex: 1 1 auto;
-    min-height: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 12px auto 0;
-}
-
-.lebanon-scene__stage {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.lebanon-scene__stage .coloring-page__art {
-    flex: 0 1 auto;
-    margin: 0;
-    max-width: 78%;
-    max-height: 88%;
-}
-
-/* Sun, flag, and trees share the map's line-art look: white fill,
-   thick dark stroke, rounded joins — decoration, not photographic
-   detail, so a child's crayon has somewhere to go. */
-.lebanon-scene__sun,
-.lebanon-scene__flag,
-.lebanon-scene__tree {
-    position: absolute;
-}
-
-.lebanon-scene__sun circle,
-.lebanon-scene__tree circle,
-.lebanon-scene__tree rect,
-.lebanon-scene__flag rect,
-.lebanon-scene__flag polygon,
-.lebanon-scene__flag rect {
-    fill: #fff;
-}
-
-.lebanon-scene__sun circle,
-.lebanon-scene__sun line,
-.lebanon-scene__flag line,
-.lebanon-scene__flag rect,
-.lebanon-scene__flag polygon,
-.lebanon-scene__tree circle,
-.lebanon-scene__tree rect {
-    stroke: #1a1a1a;
-    stroke-width: 4;
-    stroke-linejoin: round;
-    stroke-linecap: round;
-}
-
-.lebanon-scene__sun {
-    top: 0;
-    right: 4%;
-    width: 15%;
-    height: auto;
-}
-
-.lebanon-scene__flag {
-    top: -4%;
-    left: 50%;
-    width: 26%;
-    height: auto;
-    transform: translateX(-18%);
-}
-
-.lebanon-scene__tree {
-    bottom: 0;
-    width: 16%;
-    height: auto;
-}
-
-.lebanon-scene__tree--left {
-    left: 2%;
-}
-
-.lebanon-scene__tree--right {
-    right: 2%;
+    margin: 12px 0 0;
 }
 
 @media print {
