@@ -23,8 +23,16 @@ wp-content/backup*/
 *.sql
 *.sql.gz
 
-# Dependencies and build output
-vendor/
+# Dependencies and build output. Anchored to the repo root (leading
+# slash) so this only matches the root Composer vendor/ directory, not
+# theme/country-week/includes/vendor/ — that one is hand-vendored,
+# committed library code (the QR generator, bundled fonts), not a
+# regenerable dependency install. An unanchored rule here previously
+# made it invisible to git entirely, so every deployed release has been
+# silently shipping without it (breaking the PDF download and leaving
+# the presentation slide's text unrendered) since whichever commit
+# first added those features.
+/vendor/
 node_modules/
 coverage/
 dist/
