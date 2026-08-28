@@ -10,6 +10,7 @@
  * @package CountryWeek
  */
 
+use CountryWeek\Hooks\Rewrite_Hooks;
 use CountryWeek\Services\Coloring_Page_Service;
 use CountryWeek\Services\Pdf_Service;
 use CountryWeek\Services\Slide_Service;
@@ -29,7 +30,7 @@ $title = get_the_title($country);
 $print_url = Pdf_Service::print_url($country);
 $slide_url = Slide_Service::download_url($country);
 $coloring_url = Coloring_Page_Service::url($country);
-$account_required = !is_user_logged_in();
+$account_required = Rewrite_Hooks::RESOURCES_REQUIRE_ACCOUNT && !is_user_logged_in();
 $lock_hint = $account_required ? ' <span class="country-actions__lock" aria-hidden="true">&#128274;</span>' : '';
 ?>
 <div class="country-actions" data-share-url="<?php echo esc_url($url); ?>" data-share-title="<?php echo esc_attr($title); ?>">

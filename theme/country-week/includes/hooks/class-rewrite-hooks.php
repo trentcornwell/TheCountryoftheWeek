@@ -18,6 +18,16 @@ if (!defined('ABSPATH')) {
 
 class Rewrite_Hooks
 {
+    /**
+     * Single toggle for the "free account required to download the
+     * PDF/Slide" gate below. Temporarily set to false at the site
+     * owner's request (2026-08-28) — flip back to true to require an
+     * account again. Also consulted by templates/parts/share-buttons.php
+     * (lock icon) and templates/parts/signup-popup.php (which advertises
+     * exactly this gate, so it stays hidden while this is off).
+     */
+    public const RESOURCES_REQUIRE_ACCOUNT = false;
+
     public function register(): void
     {
         add_action('init', [$this, 'register_print_endpoint']);
@@ -42,6 +52,10 @@ class Rewrite_Hooks
      */
     public function maybe_require_login_for_resource(): void
     {
+        if (!self::RESOURCES_REQUIRE_ACCOUNT) {
+            return;
+        }
+
         $is_print_request = get_query_var('print', null) !== null;
         $is_slide_request = get_query_var('slide', null) !== null;
 
