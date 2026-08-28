@@ -52,12 +52,26 @@ class Asset_Loader
     }
 
     /**
-     * Enqueue the print-only stylesheet. Called directly from
-     * templates/print/country-print.php, which renders its own
-     * minimal <head> and does not run the normal wp_head asset queue.
+     * The print-only stylesheet's URL. Called directly from
+     * templates/print/country-print.php and
+     * templates/print/country-coloring.php, which render their own
+     * minimal <head> and don't run the normal wp_head asset queue —
+     * so unlike enqueue_site_assets() above, there's no wp_enqueue_style()
+     * call here to attach WordPress's automatic cache-busting `?ver=`
+     * query string. filemtime() stands in for that: it changes on every
+     * deploy that touches this file, which is what actually matters
+     * (the theme's style.css Version header isn't bumped on every
+     * release) and forces browsers holding a long-cached copy — this
+     * file is served with a 30-day max-age — to fetch the new one
+     * instead of silently rendering new template markup against old
+     * CSS. Falls back to the theme version if the file can't be stat'd.
      */
     public static function print_stylesheet_url(): string
     {
-        return get_theme_file_uri('assets/css/print.css');
+        $relative_path = 'assets/css/print.css';
+        $mtime = filemtime(get_theme_file_path($relative_path));
+        $version = $mtime !== false ? (string) $mtime : wp_get_theme()->get('Version');
+
+        return add_query_arg('ver', $version, get_theme_file_uri($relative_path));
     }
 }
