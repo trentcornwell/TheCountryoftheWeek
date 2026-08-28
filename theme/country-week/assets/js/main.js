@@ -1,7 +1,8 @@
 /**
  * Site-wide progressive enhancement: mobile nav toggle, the native
- * <dialog>-based Suggest an Edit modal, and the Web Share API button.
- * Vanilla JS only — no framework, no build step.
+ * <dialog>-based Suggest an Edit modal, and the single Share button
+ * (Web Share API, falling back to copy-to-clipboard). Vanilla JS
+ * only — no framework, no build step.
  */
 (function () {
     'use strict';
@@ -98,11 +99,16 @@
         }
     }
 
-    function initNativeShare() {
-        if (!navigator.share) {
-            return;
-        }
-
+    /**
+     * The one "Share" button (see templates/parts/share-buttons.php):
+     * the native OS share sheet where available, otherwise copying the
+     * link to the clipboard — so every visitor has a working share
+     * action from a single button, not just devices with
+     * navigator.share. Both branches degrade gracefully to "do
+     * nothing" on very old/locked-down browsers with neither API,
+     * rather than throwing.
+     */
+    function initShareButton() {
         document.querySelectorAll('.country-actions__share-native').forEach(function (button) {
             var wrapper = button.closest('.country-actions');
 
@@ -110,15 +116,34 @@
                 return;
             }
 
-            button.hidden = false;
+            var defaultLabel = button.textContent;
+            var copiedLabel = button.getAttribute('data-copied-label') || defaultLabel;
 
             button.addEventListener('click', function () {
-                navigator.share({
-                    title: wrapper.getAttribute('data-share-title') || document.title,
-                    url: wrapper.getAttribute('data-share-url') || window.location.href,
-                }).catch(function () {
-                    // User cancelled the share sheet — nothing to do.
-                });
+                var shareUrl = wrapper.getAttribute('data-share-url') || window.location.href;
+
+                if (navigator.share) {
+                    navigator.share({
+                        title: wrapper.getAttribute('data-share-title') || document.title,
+                        url: shareUrl,
+                    }).catch(function () {
+                        // User cancelled the share sheet — nothing to do.
+                    });
+
+                    return;
+                }
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(shareUrl).then(function () {
+                        button.textContent = copiedLabel;
+
+                        window.setTimeout(function () {
+                            button.textContent = defaultLabel;
+                        }, 2000);
+                    }).catch(function () {
+                        // Clipboard write blocked (permissions/insecure context) — nothing more to do.
+                    });
+                }
             });
         });
     }
@@ -127,7 +152,7 @@
         initMenuToggle();
         initSuggestEditDialogs();
         initSignupPopup();
-        initNativeShare();
+        initShareButton();
         initTimezoneAutodetect();
     });
 })();

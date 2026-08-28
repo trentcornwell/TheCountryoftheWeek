@@ -193,7 +193,6 @@ class Theme
             ['label' => __('Home', 'country-week'), 'url' => home_url('/')],
             ['label' => __('About', 'country-week'), 'url' => home_url('/about/')],
             ['label' => __('Countries', 'country-week'), 'url' => get_post_type_archive_link('country')],
-            ['label' => __('Missionary Review Archive', 'country-week'), 'url' => get_post_type_archive_link('mrw_issue')],
             ['label' => __('Schedule', 'country-week'), 'url' => home_url('/schedule/')],
             ['label' => __('Join Us in Prayer', 'country-week'), 'url' => home_url('/join-us-in-prayer/')],
         ];
