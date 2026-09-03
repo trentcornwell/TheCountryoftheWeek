@@ -42,6 +42,14 @@ get_header();
                 );
                 ?>
             </p>
+            <p class="resource-page__description">
+                <?php
+                esc_html_e(
+                    'We would encourage your church to take time in a service to walk through these facts. It is a worthy use of time to inform ourselves of the needs around the world. Please, allow this website to be a helpful resource as you work to learn more about our world.',
+                    'country-week'
+                );
+                ?>
+            </p>
         </header>
 
         <section class="resource-page__downloads" aria-labelledby="resource-downloads-heading">
