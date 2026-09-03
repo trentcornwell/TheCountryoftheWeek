@@ -23,6 +23,14 @@ get_header();
             <p class="resource-page__meta">
                 <?php esc_html_e('Presented September 2, 2026 by Travis Snode, Director of Vision Baptist Missions', 'country-week'); ?>
             </p>
+            <p class="resource-page__description">
+                <?php
+                esc_html_e(
+                    'At the beginning of Vision Baptist Church\'s annual Missions Conference in 2026, Travis Snode presented "The State of the World in Our Generation." Below is the video and the resources used. We encourage you to take time to see the need and pray.',
+                    'country-week'
+                );
+                ?>
+            </p>
         </header>
 
         <div class="resource-page__video">
@@ -37,7 +45,18 @@ get_header();
 
         <section class="resource-page__downloads" aria-labelledby="resource-downloads-heading">
             <h2 id="resource-downloads-heading"><?php esc_html_e('Handouts & Slides', 'country-week'); ?></h2>
-            <p><?php esc_html_e('Coming soon.', 'country-week'); ?></p>
+            <ul class="resource-page__downloads-list">
+                <li>
+                    <a href="<?php echo esc_url(get_theme_file_uri('assets/pdf/state-of-the-world-handout.pdf')); ?>" target="_blank" rel="noopener">
+                        <?php esc_html_e('Download the 8-page handout (PDF)', 'country-week'); ?>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo esc_url(get_theme_file_uri('assets/pdf/state-of-the-world-slides.pdf')); ?>" target="_blank" rel="noopener">
+                        <?php esc_html_e('Download the presentation slides (PDF)', 'country-week'); ?>
+                    </a>
+                </li>
+            </ul>
         </section>
     </article>
 </main>

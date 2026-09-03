@@ -1435,6 +1435,11 @@ button {
     margin-top: 6px;
 }
 
+.resource-page__description {
+    max-width: 65ch;
+    margin-top: 14px;
+}
+
 .resource-page__video {
     position: relative;
     width: 100%;
@@ -1466,4 +1471,32 @@ button {
     font-family: var(--cw-font-heading);
     font-size: 1.2rem;
     margin: 0 0 10px;
+}
+
+.resource-page__downloads-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resource-page__downloads-list a {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--cw-color-border);
+    background: var(--cw-color-bg-alt);
+    color: var(--cw-color-text);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+
+.resource-page__downloads-list a:hover,
+.resource-page__downloads-list a:focus {
+    border-color: var(--cw-color-accent);
+    color: var(--cw-color-accent-dark);
 }
