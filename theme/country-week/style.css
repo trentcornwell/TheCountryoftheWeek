@@ -1413,7 +1413,7 @@ button {
    ========================================================================== */
 
 .resource-page__header {
-    margin-bottom: 24px;
+    margin: 28px 0 24px;
 }
 
 .resource-page__eyebrow {
@@ -1426,7 +1426,7 @@ button {
     letter-spacing: 0.04em;
     padding: 3px 9px;
     border-radius: 999px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 .resource-page__meta {
@@ -1436,7 +1436,7 @@ button {
 }
 
 .resource-page__description {
-    max-width: 65ch;
+    width: 100%;
     margin-top: 14px;
 }
 
