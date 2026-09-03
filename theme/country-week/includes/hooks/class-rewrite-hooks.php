@@ -51,6 +51,7 @@ class Rewrite_Hooks
         add_filter('template_include', [$this, 'maybe_load_print_template']);
         add_filter('template_include', [$this, 'maybe_load_coloring_template']);
         add_filter('template_include', [$this, 'maybe_load_state_of_the_world_template']);
+        add_action('parse_query', [$this, 'unmark_resource_route_as_home']);
         add_action('template_redirect', [$this, 'maybe_require_login_for_resource'], 5);
         add_action('template_redirect', [$this, 'maybe_output_slide']);
         add_action('pre_get_posts', [$this, 'restrict_search_to_countries']);
@@ -219,6 +220,27 @@ class Rewrite_Hooks
         }
 
         return $template;
+    }
+
+    /**
+     * WordPress's query parser defaults an "empty" main query — no
+     * recognized content-selecting var, and country_week_resource
+     * (from register_state_of_the_world_route()) isn't one WordPress
+     * knows about — to is_home = true, the classic "nothing else
+     * matched, this must be the blog index" fallback. That silently
+     * made is_front_page() true for this route too, which fed the
+     * *homepage's* title, meta description, schema.org markup, and
+     * Open Graph tags (Seo\Seo_Fields, Seo\Schema_Generator,
+     * Seo\Social_Meta all branch on is_front_page()) into this page
+     * instead of their own generic handling — caught by hand, checking
+     * this page's actual <title> tag after shipping it. Un-marks it
+     * here, before any of those hooks run.
+     */
+    public function unmark_resource_route_as_home(\WP_Query $query): void
+    {
+        if ($query->is_main_query() && $query->get('country_week_resource') !== '') {
+            $query->is_home = false;
+        }
     }
 
     /**

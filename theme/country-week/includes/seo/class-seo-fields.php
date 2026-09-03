@@ -39,6 +39,8 @@ class Seo_Fields
                 __('%s — Facts, Prayer & Culture', 'country-week'),
                 get_the_title($country)
             );
+        } elseif (get_query_var('country_week_resource') === 'state-of-the-world') {
+            $title['title'] = __('The State of the World', 'country-week');
         } elseif (is_front_page()) {
             $active = Country_Repository::get_active();
 
@@ -56,7 +58,7 @@ class Seo_Fields
 
     public function output_meta_description(): void
     {
-        $description = $this->build_description();
+        $description = self::build_description();
 
         if ($description === '') {
             return;
@@ -68,17 +70,22 @@ class Seo_Fields
         );
     }
 
-    private function build_description(): string
+    /**
+     * Also called directly by Social_Meta so og:description/
+     * twitter:description stay in sync with the plain meta description
+     * instead of maintaining a second, separately-drifting copy.
+     */
+    public static function build_description(): string
     {
         if (is_singular(Country_Post_Type::POST_TYPE)) {
-            return $this->description_for_country(get_queried_object());
+            return self::description_for_country(get_queried_object());
         }
 
         if (is_front_page()) {
             $active = Country_Repository::get_active();
 
             if ($active) {
-                return $this->description_for_country($active);
+                return self::description_for_country($active);
             }
 
             return __('A new country is featured every week. Learn about its people, culture, and how to pray for it.', 'country-week');
@@ -88,10 +95,14 @@ class Seo_Fields
             return __('Browse every country ever featured on The Country of the Week, searchable and filterable by continent.', 'country-week');
         }
 
+        if (get_query_var('country_week_resource') === 'state-of-the-world') {
+            return __('Travis Snode, Director of Vision Baptist Missions, presents "The State of the World in Our Generation" — video, handout, and slides.', 'country-week');
+        }
+
         return '';
     }
 
-    private function description_for_country(\WP_Post $country): string
+    private static function description_for_country(\WP_Post $country): string
     {
         $excerpt = has_excerpt($country) ? get_the_excerpt($country) : '';
 
