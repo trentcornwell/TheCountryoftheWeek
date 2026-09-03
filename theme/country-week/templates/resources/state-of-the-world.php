@@ -50,6 +50,10 @@ get_header();
                 );
                 ?>
             </p>
+            <blockquote class="resource-page__quote">
+                <p>&ldquo;<?php esc_html_e('How are we going to pray fervently without knowing intelligently?', 'country-week'); ?>&rdquo;</p>
+                <cite><?php esc_html_e('Robert E. Speer', 'country-week'); ?></cite>
+            </blockquote>
         </header>
 
         <section class="resource-page__downloads" aria-labelledby="resource-downloads-heading">

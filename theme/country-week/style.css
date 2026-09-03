@@ -1440,6 +1440,30 @@ button {
     margin-top: 14px;
 }
 
+.resource-page__quote {
+    border-left: 4px solid var(--cw-color-accent);
+    background: var(--cw-color-accent-tint);
+    border-radius: 0 var(--cw-radius-sm) var(--cw-radius-sm) 0;
+    padding: 16px 20px;
+    margin: 20px 0 0;
+}
+
+.resource-page__quote p {
+    font-family: var(--cw-font-heading);
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--cw-color-accent-dark);
+    margin: 0;
+}
+
+.resource-page__quote cite {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.85rem;
+    font-style: normal;
+    color: var(--cw-color-text-muted);
+}
+
 .resource-page__video {
     position: relative;
     width: 100%;
