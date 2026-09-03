@@ -1,8 +1,10 @@
 <?php
 /**
  * URL structure: the /print/, /slide/, and /coloring/ endpoints on
- * every country page, and a one-time rewrite flush when the theme is
- * activated.
+ * every country page, the standalone top-level resource pages under
+ * /resources/ (see maybe_flush_rewrite_rules() for why those don't
+ * need a WordPress Page in the database to work), and a rewrite flush
+ * whenever new rules are added.
  *
  * @package CountryWeek
  */
@@ -28,14 +30,27 @@ class Rewrite_Hooks
      */
     public const RESOURCES_REQUIRE_ACCOUNT = false;
 
+    /**
+     * Bump this whenever a new rewrite rule is added anywhere in this
+     * class (e.g. register_state_of_the_world_route()) so
+     * maybe_flush_rewrite_rules() knows to flush again — see that
+     * method's docblock for why this exists instead of the more usual
+     * "flush once on theme activation" approach.
+     */
+    private const REWRITE_VERSION = 2;
+
     public function register(): void
     {
         add_action('init', [$this, 'register_print_endpoint']);
         add_action('init', [$this, 'register_slide_endpoint']);
         add_action('init', [$this, 'register_coloring_endpoint']);
+        add_action('init', [$this, 'register_state_of_the_world_route']);
+        add_action('init', [$this, 'maybe_flush_rewrite_rules'], 20);
+        add_filter('query_vars', [$this, 'register_query_vars']);
         add_action('after_switch_theme', [$this, 'flush_rewrite_rules']);
         add_filter('template_include', [$this, 'maybe_load_print_template']);
         add_filter('template_include', [$this, 'maybe_load_coloring_template']);
+        add_filter('template_include', [$this, 'maybe_load_state_of_the_world_template']);
         add_action('template_redirect', [$this, 'maybe_require_login_for_resource'], 5);
         add_action('template_redirect', [$this, 'maybe_output_slide']);
         add_action('pre_get_posts', [$this, 'restrict_search_to_countries']);
@@ -126,12 +141,84 @@ class Rewrite_Hooks
         add_rewrite_endpoint('coloring', EP_PERMALINK);
     }
 
+    /**
+     * A standalone top-level page at /resources/state-of-the-world/ —
+     * deliberately not a WordPress Page (which would need creating
+     * through wp-admin, i.e. a database write on whichever environment
+     * needs it) but a plain rewrite rule the theme's own code deploy
+     * ships everywhere automatically, same idea as the per-country
+     * /print/, /slide/, /coloring/ endpoints above. See
+     * templates/resources/state-of-the-world.php.
+     */
+    public function register_state_of_the_world_route(): void
+    {
+        add_rewrite_rule('^resources/state-of-the-world/?$', 'index.php?country_week_resource=state-of-the-world', 'top');
+    }
+
+    /**
+     * Whitelists the query var register_state_of_the_world_route()
+     * feeds through the rewrite rule — WordPress silently drops any
+     * query var not explicitly registered here, even one supplied by
+     * a rule's own replacement string.
+     *
+     * @param string[] $vars
+     * @return string[]
+     */
+    public function register_query_vars(array $vars): array
+    {
+        $vars[] = 'country_week_resource';
+
+        return $vars;
+    }
+
     public function flush_rewrite_rules(): void
     {
         $this->register_print_endpoint();
         $this->register_slide_endpoint();
         $this->register_coloring_endpoint();
+        $this->register_state_of_the_world_route();
         flush_rewrite_rules();
+    }
+
+    /**
+     * A normal "flush once on theme activation" (the pattern
+     * flush_rewrite_rules() above exists for) never fires for a code-
+     * only deploy: DreamHost promotion just re-points a symlink at a
+     * new release directory, it doesn't call switch_theme() through
+     * WordPress, so after_switch_theme never runs and a brand new
+     * rewrite rule like register_state_of_the_world_route()'s 404s
+     * until *something* flushes the cached rewrite_rules option. This
+     * self-heals on the next real request instead of requiring a
+     * manual wp-admin "Save Permalinks" click or WP-CLI access after
+     * every deploy that adds a rule: cheap to check (one option read)
+     * on every request, and only actually flushes once per bump of
+     * REWRITE_VERSION.
+     */
+    public function maybe_flush_rewrite_rules(): void
+    {
+        if ((int) get_option('country_week_rewrite_version') !== self::REWRITE_VERSION) {
+            flush_rewrite_rules();
+            update_option('country_week_rewrite_version', self::REWRITE_VERSION);
+        }
+    }
+
+    /**
+     * Swap in the resource page template (with normal header.php/
+     * footer.php chrome, unlike the standalone print/coloring
+     * templates) when register_state_of_the_world_route()'s query var
+     * is present.
+     */
+    public function maybe_load_state_of_the_world_template(string $template): string
+    {
+        if (get_query_var('country_week_resource') === 'state-of-the-world') {
+            $custom_template = get_theme_file_path('templates/resources/state-of-the-world.php');
+
+            if (file_exists($custom_template)) {
+                return $custom_template;
+            }
+        }
+
+        return $template;
     }
 
     /**

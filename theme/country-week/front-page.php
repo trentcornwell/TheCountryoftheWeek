@@ -44,6 +44,7 @@ if (!$active_country instanceof WP_Post) {
 
 <main class="site-main" id="main">
     <?php if ($active_country instanceof WP_Post) : ?>
+        <?php get_template_part('templates/parts/resource-banner'); ?>
         <p class="site-main__tagline"><?php esc_html_e('Explore the world one country at a time.', 'country-week'); ?></p>
         <?php get_template_part('templates/parts/country-display', null, ['country' => $active_country, 'banner' => $banner]); ?>
     <?php else : ?>
