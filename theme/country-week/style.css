@@ -336,6 +336,55 @@ button {
     margin: 0 0 18px;
 }
 
+.site-banner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    background: var(--cw-color-accent-tint);
+    border: 1px solid var(--cw-color-accent);
+    border-radius: var(--cw-radius);
+    padding: 12px 16px;
+    margin: 0 0 18px;
+    color: var(--cw-color-accent-dark);
+    text-decoration: none;
+}
+
+.site-banner:hover,
+.site-banner:focus {
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+}
+
+.site-banner__label {
+    flex: 0 0 auto;
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 3px 9px;
+    border-radius: 999px;
+}
+
+.site-banner:hover .site-banner__label,
+.site-banner:focus .site-banner__label {
+    background: var(--cw-color-accent-contrast);
+    color: var(--cw-color-accent-dark);
+}
+
+.site-banner__text {
+    flex: 1 1 260px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.site-banner__arrow {
+    flex: 0 0 auto;
+    font-size: 1.1rem;
+}
+
 .country-hero { margin-bottom: 32px; }
 
 .country-hero__banner {
@@ -1358,3 +1407,96 @@ button {
 .mrw-issue__content p { margin: 0 0 1em; }
 
 .page-content p:last-child { margin-bottom: 0; }
+
+/* ==========================================================================
+   20. Resource page (templates/resources/state-of-the-world.php)
+   ========================================================================== */
+
+.resource-page__header {
+    margin-bottom: 24px;
+}
+
+.resource-page__eyebrow {
+    display: inline-block;
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 3px 9px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+}
+
+.resource-page__meta {
+    color: var(--cw-color-text-muted);
+    font-size: 0.95rem;
+    margin-top: 6px;
+}
+
+.resource-page__description {
+    max-width: 65ch;
+    margin-top: 14px;
+}
+
+.resource-page__video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: var(--cw-radius);
+    overflow: hidden;
+    box-shadow: var(--cw-shadow);
+    margin-bottom: 32px;
+}
+
+.resource-page__video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.resource-page__downloads {
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius);
+    padding: 20px;
+    box-shadow: var(--cw-shadow-sm);
+}
+
+.resource-page__downloads h2 {
+    font-family: var(--cw-font-heading);
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+}
+
+.resource-page__downloads-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resource-page__downloads-list a {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--cw-color-border);
+    background: var(--cw-color-bg-alt);
+    color: var(--cw-color-text);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+
+.resource-page__downloads-list a:hover,
+.resource-page__downloads-list a:focus {
+    border-color: var(--cw-color-accent);
+    color: var(--cw-color-accent-dark);
+}
