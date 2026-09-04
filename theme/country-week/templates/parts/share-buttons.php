@@ -14,6 +14,7 @@ use CountryWeek\Hooks\Rewrite_Hooks;
 use CountryWeek\Services\Coloring_Page_Service;
 use CountryWeek\Services\Pdf_Service;
 use CountryWeek\Services\Slide_Service;
+use CountryWeek\Services\Slideshow_Service;
 
 if (!defined('ABSPATH')) {
     exit;
@@ -45,6 +46,12 @@ $lock_hint = $account_required ? ' <span class="country-actions__lock" aria-hidd
     <a class="country-actions__button" href="<?php echo esc_url($coloring_url); ?>" target="_blank" rel="noopener">
         <?php esc_html_e('Coloring Page', 'country-week'); ?>
     </a>
+
+    <?php if (Slideshow_Service::has_slideshow($country)) : ?>
+        <a class="country-actions__button" href="<?php echo esc_url(Slideshow_Service::viewer_url($country)); ?>">
+            <?php esc_html_e('Slideshow', 'country-week'); ?>
+        </a>
+    <?php endif; ?>
 
     <button
         type="button"

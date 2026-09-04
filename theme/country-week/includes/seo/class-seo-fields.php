@@ -10,6 +10,8 @@ namespace CountryWeek\Seo;
 
 use CountryWeek\CPT\Country_Post_Type;
 use CountryWeek\Services\Country_Repository;
+use CountryWeek\Services\Slideshow_Service;
+use WP_Post;
 
 if (!defined('ABSPATH')) {
     exit;
@@ -32,12 +34,22 @@ class Seo_Fields
 
     public function filter_title_parts(array $title): array
     {
-        if (is_singular(Country_Post_Type::POST_TYPE)) {
-            $country = get_queried_object();
+        $queried_country = is_singular(Country_Post_Type::POST_TYPE) ? get_queried_object() : null;
+        $is_slideshow_request = $queried_country instanceof WP_Post
+            && get_query_var('slideshow', null) !== null
+            && Slideshow_Service::has_slideshow($queried_country);
+
+        if ($is_slideshow_request) {
+            $title['title'] = sprintf(
+                /* translators: %s: country name. */
+                __('%s Slideshow', 'country-week'),
+                get_the_title($queried_country)
+            );
+        } elseif ($queried_country instanceof WP_Post) {
             $title['title'] = sprintf(
                 /* translators: %s: country name. */
                 __('%s — Facts, Prayer & Culture', 'country-week'),
-                get_the_title($country)
+                get_the_title($queried_country)
             );
         } elseif (get_query_var('country_week_resource') === 'state-of-the-world') {
             $title['title'] = __('The State of the World', 'country-week');
