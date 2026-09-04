@@ -1524,3 +1524,88 @@ button {
     border-color: var(--cw-color-accent);
     color: var(--cw-color-accent-dark);
 }
+
+/* ==========================================================================
+   21. Country slideshow (templates/country/country-slideshow.php)
+   ========================================================================== */
+
+.country-slideshow__header {
+    margin-bottom: 20px;
+}
+
+.country-slideshow__eyebrow {
+    display: inline-block;
+    background: var(--cw-color-accent);
+    color: var(--cw-color-accent-contrast);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 3px 9px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+}
+
+.country-slideshow__back {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 0.9rem;
+    color: var(--cw-color-accent);
+    text-decoration: none;
+}
+
+.country-slideshow__back:hover {
+    text-decoration: underline;
+}
+
+.country-slideshow__stage {
+    background: var(--cw-color-bg-card);
+    border: 1px solid var(--cw-color-border);
+    border-radius: var(--cw-radius);
+    box-shadow: var(--cw-shadow-sm);
+    padding: 12px;
+}
+
+.country-slideshow__stage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--cw-radius-sm);
+    margin: 0 auto;
+}
+
+.country-slideshow__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.country-slideshow__nav-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--cw-color-border);
+    background: var(--cw-color-bg-card);
+    color: var(--cw-color-text);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+
+.country-slideshow__nav-link:hover {
+    border-color: var(--cw-color-accent);
+    color: var(--cw-color-accent-dark);
+}
+
+.country-slideshow__nav-link--disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.country-slideshow__count {
+    color: var(--cw-color-text-muted);
+    font-size: 0.85rem;
+}

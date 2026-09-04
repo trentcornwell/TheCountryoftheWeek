@@ -13,6 +13,7 @@ namespace CountryWeek\Hooks;
 
 use CountryWeek\CPT\Country_Post_Type;
 use CountryWeek\Services\Slide_Service;
+use CountryWeek\Services\Slideshow_Service;
 
 if (!defined('ABSPATH')) {
     exit;
@@ -37,19 +38,21 @@ class Rewrite_Hooks
      * method's docblock for why this exists instead of the more usual
      * "flush once on theme activation" approach.
      */
-    private const REWRITE_VERSION = 2;
+    private const REWRITE_VERSION = 3;
 
     public function register(): void
     {
         add_action('init', [$this, 'register_print_endpoint']);
         add_action('init', [$this, 'register_slide_endpoint']);
         add_action('init', [$this, 'register_coloring_endpoint']);
+        add_action('init', [$this, 'register_slideshow_endpoint']);
         add_action('init', [$this, 'register_state_of_the_world_route']);
         add_action('init', [$this, 'maybe_flush_rewrite_rules'], 20);
         add_filter('query_vars', [$this, 'register_query_vars']);
         add_action('after_switch_theme', [$this, 'flush_rewrite_rules']);
         add_filter('template_include', [$this, 'maybe_load_print_template']);
         add_filter('template_include', [$this, 'maybe_load_coloring_template']);
+        add_filter('template_include', [$this, 'maybe_load_slideshow_template']);
         add_filter('template_include', [$this, 'maybe_load_state_of_the_world_template']);
         add_action('parse_query', [$this, 'unmark_resource_route_as_home']);
         add_action('template_redirect', [$this, 'maybe_require_login_for_resource'], 5);
@@ -143,6 +146,17 @@ class Rewrite_Hooks
     }
 
     /**
+     * Adds a /slideshow/ endpoint to every permalink, e.g.
+     * /countries/india/slideshow/ — a photo slideshow viewer for
+     * countries that have one (see Services\Slideshow_Service), handled
+     * via a template swap (see maybe_load_slideshow_template()).
+     */
+    public function register_slideshow_endpoint(): void
+    {
+        add_rewrite_endpoint('slideshow', EP_PERMALINK);
+    }
+
+    /**
      * A standalone top-level page at /resources/state-of-the-world/ —
      * deliberately not a WordPress Page (which would need creating
      * through wp-admin, i.e. a database write on whichever environment
@@ -177,6 +191,7 @@ class Rewrite_Hooks
         $this->register_print_endpoint();
         $this->register_slide_endpoint();
         $this->register_coloring_endpoint();
+        $this->register_slideshow_endpoint();
         $this->register_state_of_the_world_route();
         flush_rewrite_rules();
     }
@@ -280,6 +295,34 @@ class Rewrite_Hooks
         }
 
         return $template;
+    }
+
+    /**
+     * Swap in the slideshow viewer template — normal header.php/
+     * footer.php chrome, unlike print/coloring, since this is for
+     * casual on-site viewing/sharing rather than printing — when the
+     * /slideshow/ endpoint is present on a country's permalink and that
+     * country actually has one (Services\Slideshow_Service). A country
+     * with no slideshow falls through to the normal single-country
+     * template, which 404s the same way any other bad sub-path would.
+     */
+    public function maybe_load_slideshow_template(string $template): string
+    {
+        $is_slideshow_request = get_query_var('slideshow', null) !== null;
+
+        if (!$is_slideshow_request || !is_singular(Country_Post_Type::POST_TYPE)) {
+            return $template;
+        }
+
+        $country = get_queried_object();
+
+        if (!$country instanceof \WP_Post || !Slideshow_Service::has_slideshow($country)) {
+            return $template;
+        }
+
+        $custom_template = get_theme_file_path('templates/country/country-slideshow.php');
+
+        return file_exists($custom_template) ? $custom_template : $template;
     }
 
     /**
