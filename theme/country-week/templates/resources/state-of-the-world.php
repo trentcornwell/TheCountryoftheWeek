@@ -71,6 +71,25 @@ get_header();
                 </li>
             </ul>
         </section>
+
+        <section class="resource-page__downloads resource-page__downloads--lessons" aria-labelledby="resource-lessons-heading">
+            <h2 id="resource-lessons-heading"><?php esc_html_e('World Christian Lessons', 'country-week'); ?></h2>
+            <p class="resource-page__description">
+                <?php
+                esc_html_e(
+                    'A 10-lesson Bible study series by Travis Snode on being a World Christian — readiness, the lostness of humanity, the call to go, discipleship, funding missions, and finding your own place in ministry. Each lesson includes a key scripture, teaching, closing challenge, and truth to remember.',
+                    'country-week'
+                );
+                ?>
+            </p>
+            <ul class="resource-page__downloads-list">
+                <li>
+                    <a href="<?php echo esc_url(get_theme_file_uri('assets/pdf/world-christian-lessons.pdf')); ?>" target="_blank" rel="noopener">
+                        <?php esc_html_e('Download the World Christian Lessons (PDF)', 'country-week'); ?>
+                    </a>
+                </li>
+            </ul>
+        </section>
     </article>
 </main>
 <?php get_footer(); ?>
