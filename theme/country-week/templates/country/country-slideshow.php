@@ -30,19 +30,26 @@ while (have_posts()) :
         break;
     }
 
-    // Deliberately not named "slide": Hooks\Rewrite_Hooks already
-    // registers a `slide` rewrite endpoint/query var for the
-    // presentation-PNG download feature, and its handler treats *any*
-    // request carrying a `slide` query var (this pagination link
-    // included) as a request for that binary PNG — caught by hand when
-    // ?slide=5 returned raw PNG bytes instead of the fifth photo.
-    $current = isset($_GET['photo']) ? absint($_GET['photo']) : 1; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only pagination, no state change.
-    $current = max(1, min($total, $current));
+    // Pagination lives in the URL *path* (/slideshow/8/), using the
+    // slideshow endpoint's own captured value, not a query string
+    // (?photo=8) — deliberately: this page is cached (see
+    // Cache-Control on the response), and that cache turned out to key
+    // on path only, ignoring query strings entirely, so every ?photo=N
+    // variant silently served whatever was first cached for the bare
+    // /slideshow/ URL. A path segment can't have that problem — a
+    // different path is unambiguously a different page to any cache.
+    // (Earlier still, ?slide=N collided outright with Hooks\Rewrite_Hooks's
+    // own `slide` endpoint for the unrelated presentation-PNG download,
+    // which exits with raw PNG bytes for any request carrying that
+    // query var — both bugs caught by hand, testing against production.)
+    $current = absint(get_query_var('slideshow'));
+    $current = max(1, min($total, $current === 0 ? 1 : $current));
     $index = $current - 1;
 
+    // Slideshow_Service::viewer_url() already ends in a trailing slash.
     $base_url = Slideshow_Service::viewer_url($country);
-    $prev_url = $current > 1 ? add_query_arg('photo', $current - 1, $base_url) : '';
-    $next_url = $current < $total ? add_query_arg('photo', $current + 1, $base_url) : '';
+    $prev_url = $current > 1 ? $base_url . ($current - 1) . '/' : '';
+    $next_url = $current < $total ? $base_url . ($current + 1) . '/' : '';
     ?>
 
     <main class="site-main" id="main">
